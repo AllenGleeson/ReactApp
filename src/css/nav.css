@@ -1,0 +1,14 @@
+.navbar-collapse {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.8s ease-in-out;
+  }
+  
+  .navbar-collapse.show {
+    height: auto;
+    transition: height 0.8s ease-in-out;
+  }
+  
+  .navbar-brand img{
+    width: 100px;
+  }
