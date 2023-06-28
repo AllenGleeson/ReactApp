@@ -19,17 +19,17 @@ const Greeting = () => {
         </Navbar.Brand>
         <Nav className="mr-auto">
           <NavItem>
-            <NavLink className="nav-link text-center active" aria-current="page" href="#">
+            <NavLink className="nav-link text-center active" aria-current="page" href="/about">
               SHOP
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink className="nav-link text-center" href="#">
+            <NavLink className="nav-link text-center" href="/about">
               ABOUT
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink className="nav-link text-center" href="#">
+            <NavLink className="nav-link text-center" href="/content">
               CONTACT
             </NavLink>
           </NavItem>
