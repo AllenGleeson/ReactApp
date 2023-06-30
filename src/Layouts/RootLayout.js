@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
-import { Navbar, Nav, NavItem, NavLink, NavDropdown } from 'react-bootstrap';
-import { Outlet } from 'react-router-dom';
-import '../css/nav.css';
+import { Navbar, Nav, NavItem, NavDropdown } from 'react-bootstrap';
+import { NavLink , Outlet } from 'react-router-dom';
 import Footer from '../Components/Footer';
+import '../css/nav.css';
+
 
 export default function RootLayout(){
-  const [isCollapsed, setIsCollapsed] = useState(true);
+  const [isCollapsed, setIsCollapsed] = useState(false);
 
   const toggleCollapse = () => {
     setIsCollapsed(!isCollapsed);
@@ -22,17 +23,17 @@ export default function RootLayout(){
                 </Navbar.Brand>
                 <Nav className="mr-auto">
                 <NavItem>
-                    <NavLink className="nav-link text-center active" aria-current="page" to="about">
+                    <NavLink className="nav-link text-center active" aria-current="page" to="/about">
                     SHOP
                     </NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink className="nav-link text-center" to="about">
+                    <NavLink className="nav-link text-center" to="/about">
                     ABOUT
                     </NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink className="nav-link text-center" to="content">
+                    <NavLink className="nav-link text-center" to="/content">
                     CONTACT
                     </NavLink>
                 </NavItem>
@@ -57,7 +58,6 @@ export default function RootLayout(){
         <main>
             <Outlet />
         </main>
-
         <Footer />
     </div>
     
