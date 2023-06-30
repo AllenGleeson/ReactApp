@@ -11,7 +11,7 @@ const Shop = () => {
         React.createElement('div', { className: 'col-12 col-md-6 position-relative about-me-content' },
             React.createElement('article', { className: 'text-dark text-center' },
             React.createElement('h2', null, 'Lorem Ipsum'),
-            React.createElement('p', null, articleContent)
+            React.createElement('p', null, "articleContent")
             ),
             React.createElement('div', { className: 'bg-image' })
         )

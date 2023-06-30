@@ -18,12 +18,12 @@ export default function RootLayout(){
         <Navbar bg="light" expand="lg">
             <Navbar.Toggle onClick={toggleCollapse} aria-controls="navbarTogglerDemo03" aria-expanded={!isCollapsed} aria-label="Toggle navigation" />
             <Navbar.Collapse in={!isCollapsed}>
-                <Navbar.Brand href="#">
+                <Navbar.Brand href="/">
                 <img id="logo" src="https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png" alt="logo" />
                 </Navbar.Brand>
                 <Nav className="mr-auto">
                 <NavItem>
-                    <NavLink className="nav-link text-center active" aria-current="page" to="/about">
+                    <NavLink className="nav-link text-center active" aria-current="page" to="/shop">
                     SHOP
                     </NavLink>
                 </NavItem>
@@ -33,7 +33,7 @@ export default function RootLayout(){
                     </NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink className="nav-link text-center" to="/content">
+                    <NavLink className="nav-link text-center" to="/">
                     CONTACT
                     </NavLink>
                 </NavItem>
