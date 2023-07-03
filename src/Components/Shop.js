@@ -9,7 +9,7 @@ const Shop = () => {
             <motion.div className='inner-carousel'>
                 {images.map((image) => {
                     return(
-                        <motion.div drag="x" className='item'>
+                        <motion.div drag="x" dragConstraints={{ left: 0, right: 300 }} className='item'>
                             <img src={image}></img>
                             <aside>
                                 <h2>Project</h2>
