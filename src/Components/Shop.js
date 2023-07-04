@@ -2,6 +2,9 @@ import React from 'react'
 import { motion } from 'framer-motion';
 import images from './images';
 import '../css/FeaturedProjects.css';
+import { faCircleInfo } from '@fortawesome/free-regular-svg-icons';
+
+
 
 const Shop = () => {
     return (
@@ -10,8 +13,10 @@ const Shop = () => {
                 {images.map((image) => {
                     return(
                         <motion.div drag="x" dragConstraints={{ left: 0, right: 300 }} className='item'>
-                            <img src={image}></img>
-                            <aside>
+                            <img src={image}>
+                            <FontAwesomeIcon icon="fa-regular fa-circle-info" beat size="2xs" />
+                            </img>
+                            <aside className='project-information'>
                                 <h2>Project</h2>
                                 <a href='#'>GitHub</a>
                                 <a href='#'>Live</a>
