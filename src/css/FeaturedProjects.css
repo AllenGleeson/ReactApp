@@ -4,6 +4,7 @@
 
 .item img{
     width: 100%;
+    pointer-events: none;
 }
 
 .inner-carousel{
@@ -13,8 +14,15 @@
 
 .carousel{
     cursor: grab;
+    overflow: hidden;
 }
 
 .project-information{
     height: 250px;
+}
+
+.test{
+    position: absolute;
+    top: 0;
+    right: 0;
 }
