@@ -15,6 +15,7 @@
 .carousel{
     cursor: grab;
     overflow: hidden;
+    display: flex;
 }
 
 .project-information{
