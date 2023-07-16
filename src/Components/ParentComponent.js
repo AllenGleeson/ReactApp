@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import AboutMe from './AboutMe';
-import Content from './Content';
+import AboutMe from '../features/home/components/aboutMe';
+import Content from '../features/home/components/content';
 
 function ParentComponent() {
   const [showComponent, setShowComponent] = useState(true);

@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
-import './App.css';
+import './assets/css/app.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Home from './Components/Home';
-import Temp from './Components/Temp';
-import RootLayout from './Layouts/RootLayout';
+import Home from './pages/home';
+import Temp from './features/projects/components/temp';
+import RootLayout from './layouts/rootLayout';
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
-import ParentComponent from './Components/ParentComponent';
+import ParentComponent from './components/parentComponent';
 
 
 function App(){

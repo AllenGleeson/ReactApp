@@ -1,12 +1,10 @@
 import React from 'react'
 import { motion } from 'framer-motion';
-import images from './images';
-import '../css/FeaturedProjects.css';
+import images from '../../../components/images';
+import '../../../assets/css/featuredProjects.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAddressBook, faFaceKiss } from '@fortawesome/free-regular-svg-icons';
 import { useState } from 'react';
-
-
 
 const Shop = () => {
     const [isOpen, setIsOpen] = useState(false);

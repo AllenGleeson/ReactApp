@@ -1,6 +1,6 @@
 import React from 'react'
-import Content from './Content';
-import AboutMe from './AboutMe';
+import Content from '../features/home/components/content';
+import AboutMe from '../features/home/components/aboutMe';
 
 
 const Home = () => {

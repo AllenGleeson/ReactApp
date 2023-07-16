@@ -1,5 +1,5 @@
 import React from 'react'
-import '../css/AboutMe.css';
+import '../../../assets/css/aboutMe.css';
 
 let articleContent = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam venenatis erat id felis porttitor,'+
  'et vestibulum dui euismod. Aenean in velit et urna mollis volutpat nec quis urna. Sed eu lorem nisl.'+

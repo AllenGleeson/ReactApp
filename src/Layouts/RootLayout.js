@@ -2,9 +2,8 @@ import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Navbar, Nav, NavItem, NavDropdown } from 'react-bootstrap';
 import { NavLink , Outlet } from 'react-router-dom';
-import Footer from '../Components/Footer';
-import '../css/nav.css';
-
+import Footer from './footer';
+import '../assets/css/nav.css';
 
 export default function RootLayout(){
   const [isCollapsed, setIsCollapsed] = useState(false);

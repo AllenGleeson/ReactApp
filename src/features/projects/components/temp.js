@@ -1,7 +1,7 @@
-import AboutMe from './AboutMe';
+import AboutMe from '../../home/components/aboutMe';
 import React, { useState, useEffect } from 'react';
-import Shop from './Shop';
-import '../css/Temp.css';
+import Shop from './shop';
+import '../../../assets/css/temp.css';
 
 function Temp() {
     const [showComponent, setShowComponent] = useState(false);
