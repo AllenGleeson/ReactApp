@@ -2,6 +2,7 @@ import AboutMe from '../../home/components/aboutMe';
 import React, { useState, useEffect } from 'react';
 import Shop from './shop';
 import '../../../assets/css/temp.css';
+import Card from './card';
 
 function Temp() {
     const [showComponent, setShowComponent] = useState(false);
@@ -24,6 +25,7 @@ function Temp() {
 
     return (
         <div>
+            <Card />
             <h1>Scroll down to trigger component:</h1>
             <AboutMe />
             <div className={`fade ${showComponent ? 'show' : 'hide'}`}>
