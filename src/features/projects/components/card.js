@@ -7,18 +7,25 @@ let articleContent = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. A
    'Quisque quis ligula vehicula, auctor metus tristique, eleifend velit. Duis ac magna magna.'+
     'Nulla sed commodo magna, et feugiat libero. Cras bibendum luctus justo. Nulla at suscipit neque.'
 
-const Card = () => {
+const Card = ({ index, title, description, technologies }) => {
+    const isEven = (index+1) % 2 === 0;
+    const cardClassName = `card mb-3 col-sm-12 col-md-4 ${isEven ? "offset-md-2" : "offset-md-1"}`;
+
     return (
-        <div class="card mb-3">
+        <div class={cardClassName}>
             <div class="row no-gutters">
                 <div class="col-md-4">
                     <img src="https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd" class="card-img" alt="Project One" />
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <h5 class="card-title">{title}</h5>
+                        <p class="card-text">{description}</p>
+                        {technologies.map((tech, index) => (
+                            <span key={index} className="tag">
+                                {tech}
+                            </span>
+                        ))}
                     </div>
                 </div>
             </div>
