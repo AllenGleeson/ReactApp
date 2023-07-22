@@ -9,27 +9,30 @@ let articleContent = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. A
 
 const Card = ({ index, title, description, technologies }) => {
     const isEven = (index+1) % 2 === 0;
-    const cardClassName = `card mb-3 col-sm-12 col-md-4 ${isEven ? "offset-md-2" : "offset-md-1"}`;
+    const cardClassName = `mb-3 col-sm-10 col-md-4 p-2 ${isEven ? "offset-md-2" : "offset-md-1"}`;
 
     return (
-        <div class={cardClassName}>
-            <div class="row no-gutters">
-                <div class="col-md-4">
-                    <img src="https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd" class="card-img" alt="Project One" />
-                </div>
-                <div class="col-md-8">
-                    <div class="card-body">
-                        <h5 class="card-title">{title}</h5>
-                        <p class="card-text">{description}</p>
-                        {technologies.map((tech, index) => (
-                            <span key={index} className="tag">
-                                {tech}
-                            </span>
-                        ))}
+        <div className={cardClassName}>
+            <div class="card">
+                <div class="row no-gutters">
+                    <div class="col-md-4 p-0">
+                        <img src="https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd" class="card-img" alt="Project One" />
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">{title}</h5>
+                            <p class="card-text">{description}</p>
+                            {technologies.map((tech, index) => (
+                                <span key={index} className="tag">
+                                    {tech}
+                                </span>
+                            ))}
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        
     )
 }
       

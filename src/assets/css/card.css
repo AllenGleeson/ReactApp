@@ -3,6 +3,10 @@
     height: 100%;
 }
 
+.cards{
+    margin: 1rem !important;
+}
+
 .tag {
     display: inline-block;
     padding: 4px 8px;
