@@ -38,23 +38,9 @@ export default function RootLayout(){
                 </NavItem>
                 </Nav>
             </Navbar.Collapse>
-            <Nav className="ml-auto">
-                <NavDropdown title="My Account" id="user-options">
-                <NavDropdown.Item href="#">Register</NavDropdown.Item>
-                <NavDropdown.Item href="#">Login</NavDropdown.Item>
-                </NavDropdown>
-                <NavItem>
-                <NavLink className="text-info font-weight-bold text-black nav-link" href="#">
-                    <div className="text-center">
-                    <i className="fas fa-shopping-bag fa-lg"></i>
-                    <p className="my-0">€0.00</p>
-                    </div>
-                </NavLink>
-                </NavItem>
-            </Nav>
         </Navbar>
 
-        <main>
+        <main className='container'>
             <Outlet />
         </main>
         <Footer />

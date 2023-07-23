@@ -14,11 +14,31 @@ const Cards = () => {
           description: "Description of Project 2",
           technologies: ["React", "Node.js", "Express"],
         },
+        {
+          name: "Project 3",
+          description: "Description of Project 2",
+          technologies: ["React", "Node.js", "Express"],
+        },
+        {
+          name: "Project 4",
+          description: "Description of Project 2",
+          technologies: ["React", "Node.js", "Express"],
+        },
+        {
+          name: "Project 5",
+          description: "Description of Project 2",
+          technologies: ["React", "Node.js", "Express"],
+        },
+        {
+          name: "Project 6",
+          description: "Description of Project 2",
+          technologies: ["React", "Node.js", "Express"],
+        }
       ];
     
     
     return(
-        <div className='row cards'>
+        <section className='row cards'>
             {projects.map((project, index) => (
                 <Card
                 key={index}
@@ -28,7 +48,7 @@ const Cards = () => {
                 technologies={project.technologies}
                 />
             ))}
-        </div>
+        </section>
     );
 }
       

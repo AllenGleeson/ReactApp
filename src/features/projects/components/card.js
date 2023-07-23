@@ -9,11 +9,12 @@ let articleContent = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. A
 
 const Card = ({ index, title, description, technologies }) => {
     const isEven = (index+1) % 2 === 0;
-    const cardClassName = `mb-3 col-sm-10 col-md-4 p-2 ${isEven ? "offset-md-2" : "offset-md-1"}`;
+    const cardClassName = `mb-3 col-sm-10 col-md-5 p-2 ${isEven ? "offset-md-1" : "offset-md-1"}`;
+
 
     return (
         <div className={cardClassName}>
-            <div class="card">
+            <div class="card container">
                 <div class="row no-gutters">
                     <div class="col-md-4 p-0">
                         <img src="https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd" class="card-img" alt="Project One" />
@@ -31,6 +32,16 @@ const Card = ({ index, title, description, technologies }) => {
                     </div>
                 </div>
             </div>
+            {index % 1 === 0 ? (
+            <div className="col-12 d-sm-none mb-5">
+                <hr />
+            </div>
+            ) : null}
+            {index % 2 === 0 ? (
+            <div className="col-12 d-none d-sm-block d-md-block d-lg-none mb-5">
+                <hr />
+            </div>
+            ) : null}
         </div>
         
     )

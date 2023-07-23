@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Navbar, Nav, NavItem, NavLink, NavDropdown } from 'react-bootstrap';
-import '../css/nav.css';
+import '../assets/css/nav.css';
 
 const Greeting = () => {
   const [isCollapsed, setIsCollapsed] = useState(true);

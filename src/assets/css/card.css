@@ -5,15 +5,7 @@
 
 .cards{
     margin: 1rem !important;
-}
-
-.tag {
-    display: inline-block;
-    padding: 4px 8px;
-    background-color: #f0f0f0;
-    color: #333;
-    border-radius: 4px;
-    margin-right: 8px;
+    min-height: 400px;
 }
 
 .row{
