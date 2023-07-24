@@ -13,6 +13,10 @@
   width: 100px;
 }
 
-nav{
-  background-color: #ffc228 !important;
+.bg-nav{
+  background-color: #333333 !important;
+}
+
+.nav-item{
+  text-shadow: 1px 0px 1px #000000 !important;
 }

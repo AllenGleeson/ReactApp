@@ -6,7 +6,7 @@ const Card = ({ index, title, description, technologies }) => {
 
     return (
         <div className="mb-3 col-sm-10 col-md-5 p-2 offset-md-1">
-            <div class="card container">
+            <div class="border border-bottom-0 border-end-0 card container tr-border-radius shadow-lg">
                 <div class="row">
                     <div class="col-md-4 p-0">
                         <img src="https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd" class="card-img" alt="Project One" />

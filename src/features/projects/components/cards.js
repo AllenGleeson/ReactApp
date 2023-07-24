@@ -38,7 +38,7 @@ const Cards = () => {
     
     
     return(
-        <section className='row cards'>
+        <section className='row cards justify-content-center'>
             {projects.map((project, index) => (
                 <Card
                 key={index}

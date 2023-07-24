@@ -11,3 +11,12 @@
 .row{
     margin: 0;
 }
+
+.card{
+    background-color: #535353 !important;
+    color: white !important;
+}
+
+.tr-border-radius{
+    border-top-right-radius: 60px !important;
+}
