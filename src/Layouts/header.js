@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Navbar, Nav, NavItem, NavLink } from 'react-bootstrap';
 import '../assets/css/nav.css';
+import logo from '../assets/images/Logo.png';
 
 const Header = () => {
   const [isCollapsed, setIsCollapsed] = useState(true);
@@ -15,7 +16,7 @@ const Header = () => {
         <Navbar.Toggle onClick={toggleCollapse} aria-controls="navbarTogglerDemo03" aria-expanded={!isCollapsed} aria-label="Toggle navigation" />
         <Navbar.Collapse in={!isCollapsed}>
             <Navbar.Brand href="/">
-            <img id="logo" src="https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png" alt="logo" />
+            <img id="logo" src={logo} alt="logo" />
             </Navbar.Brand>
             <Nav className="mr-auto">
             <NavItem className='tag'>
