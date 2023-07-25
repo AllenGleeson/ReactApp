@@ -1,6 +1,10 @@
+.about-me-section{
+  min-height: 850px;
+}
+
 .about-me-content {
     overflow: hidden;
-  }
+}
   
 .about-me-content .bg-image {
     position: absolute;

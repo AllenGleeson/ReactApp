@@ -12,6 +12,28 @@ code {
     monospace;
 }
 
+/* Back to top  */
+.fixed-bottom-right {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.backToTopSpan{
+  font-size: 20px;
+  margin: 5px;
+}
+
+.backToTop{
+  text-decoration: none;
+  color: inherit;
+  animation: 1s ease-out 0s 1 slideInRight;
+}
+
+.icon{
+  margin: 5px;
+}
+
 
 .tag {
   display: inline-block;
@@ -20,10 +42,27 @@ code {
   color: #333;
   border-radius: 4px;
   margin: 8px;
-  font-size: 14px;
   text-shadow: 1px 0px 1px #000000 !important;
 }
 
 .tag:hover{
   background-color: #919191;
+}
+
+@keyframes slideInLeft {
+  0% {
+      transform: translateX(-200%);
+  }
+  100% {
+      transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  0% {
+      transform: translateX(+100%);
+  }
+  100% {
+      transform: translateX(0);
+  }
 }

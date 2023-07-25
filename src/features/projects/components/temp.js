@@ -1,8 +1,8 @@
 import AboutMe from '../../home/components/aboutMe';
 import React, { useState, useEffect } from 'react';
-import Shop from './shop';
 import '../../../assets/css/temp.css';
 import Cards from './cards';
+import BackToTop from '../../../components/backToTop';
 
 function Temp() {
     const [showComponent, setShowComponent] = useState(false);
@@ -25,11 +25,15 @@ function Temp() {
 
     return (
         <div>
-            <Cards />
             <h1>Scroll down to trigger component:</h1>
             <AboutMe />
             <div className={`fade ${showComponent ? 'show' : 'hide'}`}>
-                {showComponent && <Shop />}
+                {showComponent && (
+                <div>
+                    <Cards />
+                    <BackToTop />
+                </div>
+                )}
             </div>
         </div>
     );
