@@ -17,6 +17,35 @@
   background-color: #333333 !important;
 }
 
+.navbar-brand{
+  z-index: 1;
+  background-color: #333333;
+}
+
 .nav-item{
   text-shadow: 1px 0px 1px #000000 !important;
+  animation: 1s ease-out 0s 1 slide;
+}
+
+#logo{
+  animation: 1s ease-out 0s 1 spin;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-200%);
+      
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }

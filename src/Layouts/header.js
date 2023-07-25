@@ -5,7 +5,7 @@ import '../assets/css/nav.css';
 import logo from '../assets/images/Logo.png';
 
 const Header = () => {
-  const [isCollapsed, setIsCollapsed] = useState(true);
+  const [isCollapsed, setIsCollapsed] = useState(false);
 
   const toggleCollapse = () => {
     setIsCollapsed(!isCollapsed);
