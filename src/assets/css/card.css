@@ -8,6 +8,14 @@
     min-height: 400px;
 }
 
+.card-title{
+    font-size: 16px;
+}
+
+.card-text{
+    font-size: 11px;
+}
+
 .row{
     margin: 0;
 }
@@ -20,6 +28,7 @@
 .card:hover{
     background-color: #b4b4b4 !important;
     color: rgb(51, 51, 51) !important;
+    text-shadow: 1px 0px 1px #000000 !important;
 }
 
 .card-body{
@@ -28,12 +37,20 @@
     margin: 8px;
 }
 
+.card:hover .card-body{
+    background-color: #b4b4b4 !important;
+}
+
+.card-body span{
+    font-size: 10px;
+}
+
 .slideLeft{
-    animation: 1.5s ease-out 0s 1 slideInLeft;
+    animation: 2s ease-out 0s 1 slideInLeft;
 }
 
 .slideRight{
-    animation: 1.5s ease-out 0s 1 slideInRight;
+    animation: 1s ease-out 0s 1 slideInRight;
 }
 
 .tr-border-radius{
