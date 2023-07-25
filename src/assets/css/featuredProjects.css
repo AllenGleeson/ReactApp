@@ -1,29 +1,45 @@
-.item{
-    min-height: 40rem;
+.carousel-item{
+    height: 500px;
 }
 
-.item img{
+.carousel-item img{
     width: 100%;
-    pointer-events: none;
-}
-
-.inner-carousel{
-    display: flex;
-    background: goldenrod;
+    height: 100%;
 }
 
 .carousel{
-    cursor: grab;
-    overflow: hidden;
-    display: flex;
+    background-color: #333333;
 }
 
-.project-information{
-    height: 250px;
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: #ffc228;
 }
 
-.test{
+.featuredProjectDescription{
+    background-color: #ffc228;
+    right: 0 !important;
+    top: 0px !important;
+    width: 200px;
     position: absolute;
-    top: 0;
-    right: 0;
+    z-index: 2;
+    margin: 8px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.featuredProjectDescription span{
+    margin-right: 20px;
+}
+
+.featuredProjectDescription:hover{
+    background-color: #919191;
+}
+
+.featuredProjectDescription span{
+    font-size: 22px;
+    text-shadow: 1px 0px 1px #000000 !important;
+}
+
+.featuredProjects{
+    min-height: 860px;
 }

@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import '../../../assets/css/temp.css';
 import Cards from './cards';
 import BackToTop from '../../../components/backToTop';
+import FeaturedProjects from './featuredProjects';
 
 function Temp() {
     const [showComponent, setShowComponent] = useState(false);
@@ -26,7 +27,7 @@ function Temp() {
     return (
         <div>
             <h1>Scroll down to trigger component:</h1>
-            <AboutMe />
+            <FeaturedProjects />
             <div className={`fade ${showComponent ? 'show' : 'hide'}`}>
                 {showComponent && (
                 <div>
