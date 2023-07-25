@@ -13,7 +13,7 @@
 }
 
 .card-text{
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .row{
@@ -43,7 +43,7 @@
 }
 
 .card-body span{
-    font-size: 10px;
+    font-size: 11px;
 }
 
 .slideLeft{
@@ -73,20 +73,3 @@
     background-color: #919191;
 }
 
-@keyframes slideInLeft {
-    0% {
-        transform: translateX(-200%);
-    }
-    100% {
-        transform: translateX(0);
-    }
-}
-
-@keyframes slideInRight {
-    0% {
-        transform: translateX(+100%);
-    }
-    100% {
-        transform: translateX(0);
-    }
-}
