@@ -1,0 +1,20 @@
+section{
+    min-height: 80vh;
+}
+
+.contactSubmit{
+    animation: 1s ease-out 0s 1 slideInRight;
+}
+
+.contactForm{
+    background-color: #b4b4b4;
+    border-top-right-radius: 60px;
+    text-shadow: 1px 0px 1px #000000;
+}
+
+.form-label{
+    background-color: #333333;
+    color: #fefefe;
+    padding: 15px;
+    border-top-right-radius: 60px;
+}

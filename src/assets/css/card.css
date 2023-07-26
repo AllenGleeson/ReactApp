@@ -58,4 +58,7 @@
     border-top-right-radius: 60px !important;
 }
 
-
+.card a{
+    text-decoration: none;
+    color: #ffffff;
+}

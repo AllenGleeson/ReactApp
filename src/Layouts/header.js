@@ -16,24 +16,19 @@ const Header = () => {
         <Navbar.Toggle onClick={toggleCollapse} aria-controls="navbarTogglerDemo03" aria-expanded={!isCollapsed} aria-label="Toggle navigation" />
         <Navbar.Collapse in={!isCollapsed}>
             <Navbar.Brand href="/">
-            <img id="logo" src={logo} alt="logo" />
+              <img id="logo" src={logo} alt="logo" />
             </Navbar.Brand>
             <Nav className="mr-auto">
-            <NavItem className='tag'>
-                <NavLink className="nav-link text-center active" aria-current="page" to="/shop">
-                HOME
-                </NavLink>
-            </NavItem>
-            <NavItem className='tag'>
-                <NavLink className="nav-link text-center" to="/about">
-                PROJECTS
-                </NavLink>
-            </NavItem>
-            <NavItem className='tag'>
-                <NavLink className="nav-link text-center" to="/">
-                CONTACT
-                </NavLink>
-            </NavItem>
+              <NavItem className='tag'>
+                  <NavLink className="nav-link text-center" href="/projects">
+                  PROJECTS
+                  </NavLink>
+              </NavItem>
+              <NavItem className='tag'>
+                  <NavLink className="nav-link text-center" href="/contact">
+                  CONTACT
+                  </NavLink>
+              </NavItem>
             </Nav>
         </Navbar.Collapse>
     </Navbar>

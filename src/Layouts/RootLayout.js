@@ -3,7 +3,6 @@ import 'bootstrap/dist/css/bootstrap.css';
 import { Outlet } from 'react-router-dom';
 import Header from './header';
 import Footer from './footer';
-import '../assets/css/nav.css';
 
 export default function RootLayout(){
   const [isCollapsed, setIsCollapsed] = useState(false);
