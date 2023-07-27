@@ -9,15 +9,15 @@ const Card = ({ index, title, description, technologies }) => {
 
     return (
         <div className="mb-3 col-sm-10 col-md-5 p-2 offset-md-1">
-            <div class={cardClass}>
-                <a href='https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd' class="row">
+            <div className={cardClass}>
+                <a href='https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd' className="row">
                     <div class="col-md-4 p-0">
-                        <img src="https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd" class="card-img" alt="Project One" />
+                        <img src="https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd" className="card-img" alt="Project One" />
                     </div>
-                    <div class="col-md-8">
-                        <div class="card-body tr-border-radius">
-                            <h5 class="card-title">{title}</h5>
-                            <p class="card-text">{description}</p>
+                    <div className="col-md-8">
+                        <div className="card-body tr-border-radius">
+                            <h5 className="card-title">{title}</h5>
+                            <p className="card-text">{description}</p>
                             {technologies.map((tech, index) => (
                                 <span key={index} className="tag">
                                     {tech}

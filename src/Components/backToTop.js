@@ -17,7 +17,7 @@ const BackToTop = () => {
   }, [footerHeight]);
 
   return (
-    <a href='#nav' class="fixed-bottom-right tag backToTop slideInLeft border">
+    <a href='#nav' className="fixed-bottom-right tag backToTop slideInLeft border">
         <FontAwesomeIcon icon={faArrowAltCircleUp} beat size="lg" className='icon'/>
         <span className='backToTopSpan'>Back to top</span>
     </a>

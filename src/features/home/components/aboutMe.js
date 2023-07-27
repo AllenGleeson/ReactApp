@@ -27,13 +27,13 @@ const AboutMe = () => {
                     <span>Ireland</span>
                 </div>
             </div>
-            <hr />
-            <feature className='col-6 profileImg'>
+            
+            <div className='col-6 profileImg'>
                 <img src='https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd'/>
-            </feature>
-            <caption className='col-6'>
+            </div>
+            <div className='col-6'>
                 <p>{articleContent}</p>
-            </caption>
+            </div>
         </div>
     </section>
     );

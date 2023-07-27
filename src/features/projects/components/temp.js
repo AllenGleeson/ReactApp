@@ -26,7 +26,6 @@ function Temp() {
 
     return (
         <div>
-            <h1>Scroll down to trigger component:</h1>
             <FeaturedProjects />
             <div className={`fade ${showComponent ? 'show' : 'hide'}`}>
                 {showComponent && (
