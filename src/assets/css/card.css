@@ -46,14 +46,6 @@
     font-size: 11px;
 }
 
-.slideLeft{
-    animation: 2s ease-out 0s 1 slideInLeft;
-}
-
-.slideRight{
-    animation: 1s ease-out 0s 1 slideInRight;
-}
-
 .tr-border-radius{
     border-top-right-radius: 60px !important;
 }

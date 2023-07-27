@@ -22,7 +22,7 @@ const AboutMe = () => {
                     <FontAwesomeIcon icon={faFolder} className='icon'/>
                     <span>Full Stack Developer</span>
                 </div>
-                <div className='tag slideRight'>
+                <div className='tag slideInFarRight'>
                     <FontAwesomeIcon icon={faFolder} className='icon'/>
                     <span>Ireland</span>
                 </div>

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Content from '../features/home/components/content';
 import AboutMe from '../features/home/components/aboutMe';
+import Timeline from '../features/home/components/timeline';
 import BackToTop from '../components/backToTop';
 import FeaturedProjects from '../features/projects/components/featuredProjects';
 
@@ -26,6 +27,7 @@ const Home = () => {
 
     return(
         <div>
+            <Timeline />
             <AboutMe />
             <hr />
             <Content />
