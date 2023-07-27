@@ -1,28 +1,25 @@
 import React from 'react'
 import '../../../assets/css/aboutMe.css';
 
-let articleContent = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam venenatis erat id felis porttitor,'+
- 'et vestibulum dui euismod. Aenean in velit et urna mollis volutpat nec quis urna. Sed eu lorem nisl.'+
-  'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.'+
-   'Quisque quis ligula vehicula, auctor metus tristique, eleifend velit. Duis ac magna magna.'+
-    'Nulla sed commodo magna, et feugiat libero. Cras bibendum luctus justo. Nulla at suscipit neque.'
 
 const Content = () => {
-    return React.createElement('section', { className: 'about-me-section' },
-        React.createElement('ul', { className: 'row text-center' },
-            React.createElement('li', { className: 'col-4' }, 
-                React.createElement('h3', null, 'Lorem Ipsum'),
-                React.createElement('p', null, articleContent)
-            ),
-            React.createElement('li', { className: 'col-4' }, 
-                React.createElement('h3', null, 'Lorem Ipsum'),
-                React.createElement('p', null, articleContent)
-            ),
-            React.createElement('li', { className: 'col-4' }, 
-                React.createElement('h3', null, 'Lorem Ipsum'),
-                React.createElement('p', null, articleContent)
-            )
-        )
+    return (
+        <section className='row'>
+            <div className='col-12'>
+                <div className='m-sm-3 mt-2 p-1 rounded shadow techWrapper'>
+                    <h4 className='tag'>Technologies:</h4>
+                    <div className='techSkills'>
+                        <span className='tag'>HTML</span>
+                        <span className='tag'>CSS</span>
+                        <span className='tag'>JS</span>
+                        <span className='tag'>Python</span>
+                        <span className='tag'>Java</span>
+                        <span className='tag'>C#</span>
+                        <span className='tag'>SQL</span>
+                    </div>
+                </div>
+            </div>
+        </section>
     );
 }
       

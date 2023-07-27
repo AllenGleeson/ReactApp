@@ -1,10 +1,29 @@
-import React from 'react';
+import React,{ useState, useEffect } from 'react';
 import Form from 'react-bootstrap/Form';
 import '../assets/css/contact.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFolder } from '@fortawesome/free-regular-svg-icons';
+import BackToTop from '../components/backToTop';
 
 const Contact = () => {
+    const [showComponent, setShowComponent] = useState(false);
+
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+        window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
+    const handleScroll = () => {
+        const scrollY = window.scrollY;
+        if (scrollY > 20) {
+        setShowComponent(true);
+        } else {
+        setShowComponent(false);
+        }
+    };
+
     return(
         <section className='p-sm-5'>
             <div className='row'>
@@ -52,6 +71,9 @@ const Contact = () => {
                         </ul>
                     </div>
                 </div>
+            </div>
+            <div className={`fade ${showComponent ? 'show' : 'hide'}`}>
+                {showComponent && (<BackToTop />)}
             </div>
         </section>
     );

@@ -1,20 +1,11 @@
-.about-me-section{
-  min-height: 400px;
+.profileImg img{
+  width: 100%;
 }
 
-.about-me-content {
-    overflow: hidden;
+.techWrapper{
+  background-color: #333333;
 }
-  
-.about-me-content .bg-image {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-image: url('https://cdn.dribbble.com/userupload/3158902/file/original-7c71bfa677e61dea61bc2acd59158d32.jpg?resize=400x0');
-    background-size: cover;
-    background-position: center;
-    opacity: 0.5; /* Adjust the opacity as needed */
-    z-index: -1;
+
+.techSkills{
+  font-size: 12px;
 }
