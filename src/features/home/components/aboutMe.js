@@ -11,9 +11,9 @@ let articleContent = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. A
 
 const AboutMe = () => {
     return (
-    <section className='mt-3'>
-        <div className='aboutMe m-sm-1 row'>
-            <div>
+    <section className='aboutMeSection mt-3'>
+        <div className='pb-3 m-sm-1 row'>
+            <div className='mb-1 mt-2'>
                 <div className='tag slideLeft'>
                     <FontAwesomeIcon icon={faFolder} className='icon'/>
                     <span>Allen Gleeson</span>
@@ -28,11 +28,20 @@ const AboutMe = () => {
                 </div>
             </div>
             
-            <div className='col-6 profileImg'>
-                <img src='https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd'/>
+            <div className='col-sm-12 col-md-6 profileImg'>
+                <img className='p-3' src='https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd'/>
             </div>
-            <div className='col-6'>
-                <p>{articleContent}</p>
+            <div className='col-sm-12 col-md-6'>
+                <div className='aboutMe h-100 p-3'>
+                    <p className='p-3'>{articleContent}</p>
+                    <hr />
+                    <div>
+                        <h5>Links:</h5>
+                        <span className='tag'>GitHub</span>
+                        <span className='tag'>LinkedIn</span>
+                        <span className='tag'>CV</span>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

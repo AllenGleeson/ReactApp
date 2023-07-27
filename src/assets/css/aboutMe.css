@@ -23,3 +23,14 @@
 .vertical-timeline-element-date{
   color: #333333;
 }
+
+.aboutMe p{
+  background-color: #b4b4b4;
+  color: #333333;
+  text-shadow: 1px 0px 1px #000000 !important;
+}
+
+.aboutMeSection{
+  background-color: #333333;
+  color: white;
+}
