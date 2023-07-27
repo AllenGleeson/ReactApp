@@ -18,3 +18,14 @@ section{
     padding: 15px;
     border-top-right-radius: 60px;
 }
+
+.personalLinks{
+    background-color: #333333;
+    border-bottom-left-radius: 60px;
+    text-shadow: 1px 0px 1px #000000;
+    color: #fefefe;
+}
+
+.personalLinks ul{
+    list-style: none;
+}

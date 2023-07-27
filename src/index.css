@@ -1,5 +1,6 @@
 :root {
   --footer-height: 0;
+  --contactForm-height: 0;
 }
 
 body {
@@ -21,6 +22,10 @@ code {
   position: fixed;
   bottom: var(--footer-height, 0);
   right: 0;
+}
+
+.personalLinks-height{
+  height: var(--contactForm-height, 0);;
 }
 
 .backToTopSpan{
