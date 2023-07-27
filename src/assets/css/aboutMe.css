@@ -9,3 +9,17 @@
 .techSkills{
   font-size: 12px;
 }
+
+
+.vertical-timeline-element--work .vertical-timeline-element-content{
+  background-color: #ffc228;
+}
+
+.vertical-timeline-element--education .vertical-timeline-element-content{
+  background-color: #333333;
+  color: rgb(255, 255, 255);
+}
+
+.vertical-timeline-element-date{
+  color: #333333;
+}

@@ -27,14 +27,19 @@ const Home = () => {
 
     return(
         <div>
-            <Timeline />
             <AboutMe />
             <hr />
             <Content />
             <hr />
             <FeaturedProjects />
             <div className={`fade ${showComponent ? 'show' : 'hide'}`}>
-                {showComponent && (<BackToTop />)}
+                {showComponent && (
+                <div>
+                    <hr />
+                    <Timeline />
+                    <BackToTop />
+                </div>
+                )}
             </div>
         </div>
     );
