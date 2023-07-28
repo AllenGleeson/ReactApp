@@ -6,7 +6,7 @@ import '../../../assets/css/aboutMe.css';
 const Timeline = () => {
 
     return(
-        <div>
+        <section>
             <h3 className='text-center tag'>My History:</h3>
             <VerticalTimeline>
                 <VerticalTimelineElement
@@ -91,8 +91,7 @@ const Timeline = () => {
                     </p>
                 </VerticalTimelineElement>
             </VerticalTimeline>
-        </div>
-        
+        </section>
     );
 }
 
