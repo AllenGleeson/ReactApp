@@ -11,21 +11,21 @@ const Project = () => {
         const selectedProject = projectsData.find((project) => project.pk === parseInt(id));
         setProject(selectedProject);
       }, [id]);
-      
+
     if (!project) {
         return <div>2</div>;
       }
 
     return(
-        <section>
+        <section className='container'>
             <div className='row'>
-                <div className='col-12'>
+                <div className='col-12 row'>
                     <div className='col-6'>
                         <h1>{project.fields.title}</h1>
-                        <p>{project.fields.description}</p>
+                        <p>{project.fields.overviewDescription}</p>
                     </div>
                     <div className='col-6'>
-                        <img className='w-100' src='' />
+                        <img className='w-100' src='https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd' />
                     </div>
                 </div>
                 <div className='col-12'>
@@ -42,28 +42,35 @@ const Project = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col-12'>
+                <div className='col-12 row'>
                     <div className='col-6'>
-                        <h1>{project.fields.title}</h1>
-                        <p>{project.fields.description}</p>
-                    </div>
-                    <div className='col-6'>
-                        <img className='w-100' src='' />
-                    </div>
-                </div>
-                <div className='col-12'>
-                    <div className='col-6'>
-                        <img className='w-100' src='' />
+                        <img className='w-100' src='https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd' />
                     </div>
                     <div className='col-6'>
                         <h1>{project.fields.title}</h1>
-                        <p>{project.fields.description}</p>
+                        <p>{project.fields.overviewDescription}</p>
                     </div>
                 </div>
-                <div className='col-12'>
+                <div className='col-12 row'>
                     <div className='col-6'>
-                        <h3>Challenge</h3>
-                        <p></p>
+                        <h1>{project.fields.title}</h1>
+                        <p>{project.fields.overviewDescription}</p>
+                    </div>
+                    <div className='col-6'>
+                        <img className='w-100' src='https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd' />
+                    </div>
+                </div>
+                <div className='col-12 row'>
+                    <div className='col-12'>
+                        <h3 className='text-center'>Challenge</h3>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                             when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                             It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+                             It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with 
+                             desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                        </p>
                     </div>
                 </div>
             </div>
