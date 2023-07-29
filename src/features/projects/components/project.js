@@ -4,28 +4,44 @@ import projectsData from '../../../data/projects.json';
 
 const Project = () => {
     const { id } = useParams();
-    const [project, setProject] = useState(null);
+    var [project, setProject] = useState(null);
+
+    //project = projectsData[0];
 
     useEffect(() => {
         // Find the selected project based on the "id" parameter
         const selectedProject = projectsData.find((project) => project.pk === parseInt(id));
         setProject(selectedProject);
       }, [id]);
-
+    
+    
+    
     if (!project) {
         return <div>2</div>;
+    }
+    const dynamicStyles = `
+      .customClass {
+        background-color: ${project.fields.colorTheme[0]};
+        color: ${project.fields.colorTheme[1]};
       }
-
+    `;
+    
     return(
         <section className='container'>
+            <style>{dynamicStyles}</style>
             <div className='row'>
-                <div className='col-12 row'>
-                    <div className='col-6'>
-                        <h1>{project.fields.title}</h1>
-                        <p>{project.fields.overviewDescription}</p>
-                    </div>
-                    <div className='col-6'>
-                        <img className='w-100' src='https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd' />
+                <div className='col-12'>
+                    <div className='customClass'>
+                        <div className='row'>
+                            <div className='col-6'>
+                                <h1>{project.fields.title}</h1>
+                                <p>{project.fields.overviewDescription}</p>
+                                <span>Created: {project.fields.date}</span>
+                            </div>
+                            <div className='col-6'>
+                                <img className='w-100' src='https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd' />
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div className='col-12'>
@@ -47,8 +63,8 @@ const Project = () => {
                         <img className='w-100' src='https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd' />
                     </div>
                     <div className='col-6'>
-                        <h1>{project.fields.title}</h1>
-                        <p>{project.fields.overviewDescription}</p>
+                        <h1>{project.fields.fields.sectionTitle[0]}</h1>
+                        <p>{project.fields.fields.descriptions[0]}</p>
                     </div>
                 </div>
                 <div className='col-12 row'>

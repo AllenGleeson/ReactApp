@@ -6,8 +6,8 @@ import '../../../assets/css/aboutMe.css';
 const Timeline = () => {
 
     return(
-        <section>
-            <h3 className='text-center tag'>My History:</h3>
+        <section className='timelineSection'>
+            <h3 className='border border-light tag text-center'>My History:</h3>
             <VerticalTimeline>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"

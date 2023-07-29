@@ -6,9 +6,10 @@
             "overviewDescription": "Scarf made out of faux silk material, soft and shiney with a fun.",
             "overviewImage": "product_images/117200155_756449061780934_3351135847113631500_n.jpg",
             "featured": true,
+            "mobileVersion": true,
+            "date": "2022",
+            "colorTheme": ["Red","White"],
             "fields": {
-                "mobileVersion": true,
-                "date": "2022",
                 "sectionTitle": [
                     "Home Page",
                     "Products Page",
@@ -20,7 +21,7 @@
                     "About Page"
                 ],
                 "descriptions": [
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
+                    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
                     "Scarf made out of faux silk material, soft and shiney with a fun.",
                     "Scarf made out of faux silk material, soft and shiney with a fun.",
                     "Scarf made out of faux silk material, soft and shiney with a fun.",
@@ -49,9 +50,10 @@
             "overviewDescription": "Scarf made out of faux silk material, soft and shiney with a fun.",
             "overviewImage": "product_images/117200155_756449061780934_3351135847113631500_n.jpg",
             "featured": true,
+            "mobileVersion": true,
+            "date": "2022",
+            "colorTheme": ["Red","White"],
             "fields": {
-                "mobileVersion": true,
-                "date": "2022",
                 "sectionTitle": [
                     "Home Page",
                     "Products Page",
@@ -92,9 +94,10 @@
             "overviewDescription": "Scarf made out of faux silk material, soft and shiney with a fun.",
             "overviewImage": "product_images/117200155_756449061780934_3351135847113631500_n.jpg",
             "featured": true,
+            "mobileVersion": true,
+            "date": "2022",
+            "colorTheme": ["Red","White"],
             "fields": {
-                "mobileVersion": true,
-                "date": "2022",
                 "sectionTitle": [
                     "Home Page",
                     "Products Page",
@@ -135,9 +138,10 @@
             "overviewDescription": "Scarf made out of faux silk material, soft and shiney with a fun.",
             "overviewImage": "product_images/117200155_756449061780934_3351135847113631500_n.jpg",
             "featured": true,
+            "mobileVersion": true,
+            "date": "2022",
+            "colorTheme": ["Red","White"],
             "fields": {
-                "mobileVersion": true,
-                "date": "2022",
                 "sectionTitle": [
                     "Home Page",
                     "Products Page",
@@ -178,9 +182,10 @@
             "overviewDescription": "Scarf made out of faux silk material, soft and shiney with a fun.",
             "overviewImage": "product_images/117200155_756449061780934_3351135847113631500_n.jpg",
             "featured": false,
+            "mobileVersion": true,
+            "date": "2022",
+            "colorTheme": ["Red","White"],
             "fields": {
-                "mobileVersion": true,
-                "date": "2022",
                 "sectionTitle": [
                     "Home Page",
                     "Products Page",
@@ -221,9 +226,10 @@
             "overviewDescription": "Scarf made out of faux silk material, soft and shiney with a fun.",
             "overviewImage": "product_images/117200155_756449061780934_3351135847113631500_n.jpg",
             "featured": false,
+            "mobileVersion": true,
+            "date": "2022",
+            "colorTheme": ["Red","White"],
             "fields": {
-                "mobileVersion": true,
-                "date": "2022",
                 "sectionTitle": [
                     "Home Page",
                     "Products Page",
@@ -264,9 +270,10 @@
             "overviewDescription": "Scarf made out of faux silk material, soft and shiney with a fun.",
             "overviewImage": "product_images/117200155_756449061780934_3351135847113631500_n.jpg",
             "featured": false,
+            "mobileVersion": true,
+            "date": "2022",
+            "colorTheme": ["Red","White"],
             "fields": {
-                "mobileVersion": true,
-                "date": "2022",
                 "sectionTitle": [
                     "Home Page",
                     "Products Page",
@@ -307,9 +314,10 @@
             "overviewDescription": "A Webscraper using Selenium to gather data from a given company and some reviews and store them in an excel file and on MongoDB.",
             "overviewImage": "product_images/117200155_756449061780934_3351135847113631500_n.jpg",
             "featured": false,
+            "mobileVersion": true,
+            "date": "2022",
+            "colorTheme": ["Red","White"],
             "fields": {
-                "mobileVersion": true,
-                "date": "2022",
                 "sectionTitle": [
                     "Home Page",
                     "Products Page",
@@ -350,9 +358,10 @@
             "overviewDescription": "A Webscraper using Selenium to gather data from a given company and some reviews and store them in an excel file and on MongoDB.",
             "overviewImage": "product_images/117200155_756449061780934_3351135847113631500_n.jpg",
             "featured": false,
+            "mobileVersion": true,
+            "date": "2022",
+            "colorTheme": ["Red","White"],
             "fields": {
-                "mobileVersion": true,
-                "date": "2022",
                 "sectionTitle": [
                     "Home Page",
                     "Products Page",
@@ -393,9 +402,10 @@
             "overviewDescription": "A Webscraper using Selenium to gather data from a given company and some reviews and store them in an excel file and on MongoDB.",
             "overviewImage": "product_images/117200155_756449061780934_3351135847113631500_n.jpg",
             "featured": false,
+            "mobileVersion": true,
+            "date": "2022",
+            "colorTheme": ["Red","White"],
             "fields": {
-                "mobileVersion": true,
-                "date": "2022",
                 "sectionTitle": [
                     "Home Page",
                     "Products Page",
@@ -436,9 +446,10 @@
             "overviewDescription": "A Webscraper using Selenium to gather data from a given company and some reviews and store them in an excel file and on MongoDB.",
             "overviewImage": "product_images/117200155_756449061780934_3351135847113631500_n.jpg",
             "featured": false,
+            "mobileVersion": true,
+            "date": "2022",
+            "colorTheme": ["Red","White"],
             "fields": {
-                "mobileVersion": true,
-                "date": "2022",
                 "sectionTitle": [
                     "Home Page",
                     "Products Page",
@@ -450,7 +461,7 @@
                     "About Page"
                 ],
                 "descriptions": [
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
+                    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
                     "Scarf made out of faux silk material, soft and shiney with a fun.",
                     "Scarf made out of faux silk material, soft and shiney with a fun.",
                     "Scarf made out of faux silk material, soft and shiney with a fun.",

@@ -7,7 +7,7 @@ const Footer = () => {
       <div className='container'>
         <div className="footer-content pt-3 row">
           <p className="footer-text col-3">© 2023 Your Company. All rights reserved.</p>
-          <ul className="footer-links col-3 offset-6">
+          <ul className="col-4 footer-links offset-5">
             <li className='tag'><a to="#">HOME</a></li>
             <li className='tag'><a to="#">PROJECTS</a></li>
             <li className='tag'><a to="#">CONTACT</a></li>

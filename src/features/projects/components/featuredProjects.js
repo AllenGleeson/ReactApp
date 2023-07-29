@@ -11,7 +11,7 @@ const FeaturedProjects = () => {
     };
 
     return (
-        <section className="featuredProjects mt-5">
+        <section className="featuredProjects mt-2">
             <h2 className="text-center tag hoverWhite m-sm-3">Featured Projects</h2>
             <Carousel className="rounded m-sm-3">
                 <Carousel.Item className="rounded-2 p-1">

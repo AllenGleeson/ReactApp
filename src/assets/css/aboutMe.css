@@ -10,6 +10,11 @@
   font-size: 12px;
 }
 
+.timelineSection{
+  background-color: #abababad;
+  margin-left: 20px;
+  margin-right: 20px;
+}
 
 .vertical-timeline-element--work .vertical-timeline-element-content{
   background-color: #ffc228;
@@ -21,7 +26,9 @@
 }
 
 .vertical-timeline-element-date{
-  color: #333333;
+  color: #ffffff;
+  text-shadow: 2px 0px 1px #ffffff !important;
+  text-shadow: 2px 3px 4px #000000 !important;
 }
 
 .aboutMe p{

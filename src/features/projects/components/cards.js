@@ -44,16 +44,19 @@ const Cards = () => {
     
     
     return(
-        <section className='row cards justify-content-center'>
-            {projects.map((project, index) => (
-                <Card
-                key={index}
-                index={index}
-                title={project.name}
-                description={project.description}
-                technologies={project.technologies}
-                />
-            ))}
+        <section className='cards justify-content-center'>
+          <h3 className='text-center tag'>Other Code:</h3>
+          <div className='row'>
+              {projects.map((project, index) => (
+                  <Card
+                  key={index}
+                  index={index}
+                  title={project.name}
+                  description={project.description}
+                  technologies={project.technologies}
+                  />
+              ))}
+          </div>
         </section>
     );
 }
