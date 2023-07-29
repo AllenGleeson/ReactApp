@@ -36,7 +36,6 @@ const AboutMe = () => {
                     <p className='p-3'>{articleContent}</p>
                     <hr />
                     <div>
-                        <h5>Links:</h5>
                         <span className='tag'>GitHub</span>
                         <span className='tag'>LinkedIn</span>
                         <span className='tag'>CV</span>
