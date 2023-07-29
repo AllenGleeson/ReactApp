@@ -1,21 +1,28 @@
-import React from 'react'
-
+import React,{ useState, useEffect } from 'react';
+import { useParams } from 'react-router-dom';
+import projectsData from '../../../data/projects.json';
 
 const Project = () => {
-    const projects =
-        {
-            name: "Project 1",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."+""+
-            "Morbi et ultricies lectus. Proin vel maximus est. Aliquam sollicitudin mauris quis mauris venenatis, a sagittis elit volutpat.",
-            technologies: ["React", "JavaScript", "CSS"],
-        }
+    const { id } = useParams();
+    const [project, setProject] = useState(null);
+
+    useEffect(() => {
+        // Find the selected project based on the "id" parameter
+        const selectedProject = projectsData.find((project) => project.pk === parseInt(id));
+        setProject(selectedProject);
+      }, [id]);
+      
+    if (!project) {
+        return <div>2</div>;
+      }
+
     return(
         <section>
             <div className='row'>
                 <div className='col-12'>
                     <div className='col-6'>
-                        <h1>{projects.name}</h1>
-                        <p>{projects.description}</p>
+                        <h1>{project.fields.title}</h1>
+                        <p>{project.fields.description}</p>
                     </div>
                     <div className='col-6'>
                         <img className='w-100' src='' />
@@ -37,8 +44,8 @@ const Project = () => {
                 </div>
                 <div className='col-12'>
                     <div className='col-6'>
-                        <h1>{projects.name}</h1>
-                        <p>{projects.description}</p>
+                        <h1>{project.fields.title}</h1>
+                        <p>{project.fields.description}</p>
                     </div>
                     <div className='col-6'>
                         <img className='w-100' src='' />
@@ -49,8 +56,8 @@ const Project = () => {
                         <img className='w-100' src='' />
                     </div>
                     <div className='col-6'>
-                        <h1>{projects.name}</h1>
-                        <p>{projects.description}</p>
+                        <h1>{project.fields.title}</h1>
+                        <p>{project.fields.description}</p>
                     </div>
                 </div>
                 <div className='col-12'>

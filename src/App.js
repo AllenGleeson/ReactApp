@@ -6,8 +6,7 @@ import Contact from './pages/contact';
 import Temp from './features/projects/components/temp';
 import RootLayout from './layouts/rootLayout';
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
-import ParentComponent from './components/parentComponent';
-
+import Project from './features/projects/components/project';
 
 function App(){
   return(
@@ -16,6 +15,7 @@ function App(){
         <Route path="/" element={<RootLayout />}>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Temp />} />
+          <Route path="/projects/:id" element={<Project />} />
           <Route path="/contact" element={<Contact />} />
         </Route>
       </Routes>
