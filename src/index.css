@@ -43,6 +43,9 @@ code {
   margin: 5px;
 }
 
+.defaultCursor{
+  cursor: default;
+}
 
 .tag {
   display: inline-block;

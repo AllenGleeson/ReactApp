@@ -11,9 +11,9 @@ let articleContent = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. A
 
 const AboutMe = () => {
     return (
-    <section className='aboutMeSection mt-3'>
+    <section className='aboutMeSection mt-3 rounded-1'>
         <div className='pb-3 m-sm-1 row'>
-            <div className='mb-1 mt-2'>
+            <div className='mb-1 mt-2 defaultCursor'>
                 <div className='tag slideLeft'>
                     <FontAwesomeIcon icon={faFolder} className='icon'/>
                     <span>Allen Gleeson</span>
@@ -29,16 +29,24 @@ const AboutMe = () => {
             </div>
             
             <div className='col-sm-12 col-md-6 profileImg'>
-                <img className='p-3' src='https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd'/>
+                <div className='p-2'>
+                    <img className='rounded-circle' src='https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd'/>
+                </div>
             </div>
             <div className='col-sm-12 col-md-6'>
                 <div className='aboutMe h-100 p-3'>
-                    <p className='p-3'>{articleContent}</p>
+                    <p className='p-4 rounded-1'>{articleContent}</p>
                     <hr />
-                    <div>
-                        <span className='tag'>GitHub</span>
-                        <span className='tag'>LinkedIn</span>
-                        <span className='tag'>CV</span>
+                    <div className='mt-5'>
+                        <a href='https://github.com/AllenGleeson'>
+                            <span className='tag'>GitHub</span>
+                        </a>
+                        <a href='https://www.linkedin.com/in/allen-gleeson-a6263711a/'>
+                            <span className='tag'>LinkedIn</span>
+                        </a>
+                        <a href='#'>
+                            <span className='tag'>CV</span>
+                        </a>
                     </div>
                 </div>
             </div>

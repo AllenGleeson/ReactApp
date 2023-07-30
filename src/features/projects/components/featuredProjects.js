@@ -12,7 +12,7 @@ const FeaturedProjects = () => {
 
     return (
         <section className="featuredProjects mt-2">
-            <h2 className="text-center tag hoverWhite m-sm-3">Featured Projects</h2>
+            <h2 className="text-center tag hoverWhite m-sm-3 defaultCursor">Featured Projects</h2>
             <Carousel className="rounded m-sm-3">
                 <Carousel.Item className="rounded-2 p-1">
                     <img src="https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd"/>
