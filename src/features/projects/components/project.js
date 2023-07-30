@@ -1,6 +1,7 @@
 import React,{ useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import projectsData from '../../../data/projects.json';
+import '../../../assets/css/project.css'
 
 const Project = () => {
     const { id } = useParams();
@@ -20,60 +21,72 @@ const Project = () => {
         return <div>2</div>;
     }
     const dynamicStyles = `
-      .customClass {
+      .dynamicTheme {
         background-color: ${project.fields.colorTheme[0]};
         color: ${project.fields.colorTheme[1]};
       }
     `;
-    
+
     return(
         <section className='container'>
             <style>{dynamicStyles}</style>
             <div className='row'>
                 <div className='col-12'>
-                    <div className='customClass'>
+                    <div className='dynamicTheme mt-2 p-1 rounded shadow'>
                         <div className='row'>
-                            <div className='col-6'>
+                            <div className='col-6 p-5'>
                                 <h1>{project.fields.title}</h1>
                                 <p>{project.fields.overviewDescription}</p>
                                 <span>Created: {project.fields.date}</span>
                             </div>
-                            <div className='col-6'>
-                                <img className='w-100' src='https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd' />
+                            <div className='col-6 p-2'>
+                                <img className='p-2 w-100' src='https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd' />
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className='col-12'>
-                    <div className='m-sm-3 mt-2 p-1 rounded shadow techWrapper'>
-                        <h4 className='tag'>Technologies:</h4>
-                        <div className='techSkills'>
-                            <span className='tag'>HTML</span>
-                            <span className='tag'>CSS</span>
-                            <span className='tag'>JS</span>
-                            <span className='tag'>Python</span>
-                            <span className='tag'>Java</span>
-                            <span className='tag'>C#</span>
-                            <span className='tag'>SQL</span>
+                    <div className='m-sm-3 mt-2 p-1 techSkills rounded shadow'>
+                        <h4 className='d-inline-block dynamicTheme'>Technologies:</h4>
+                        <div className='techSkillsList'>
+                            <span className='dynamicTheme'>HTML</span>
+                            <span className='dynamicTheme'>CSS</span>
+                            <span className='dynamicTheme'>JS</span>
+                            <span className='dynamicTheme'>Python</span>
+                            <span className='dynamicTheme'>Java</span>
+                            <span className='dynamicTheme'>C#</span>
+                            <span className='dynamicTheme'>SQL</span>
                         </div>
                     </div>
                 </div>
-                <div className='col-12 row'>
-                    <div className='col-6'>
-                        <img className='w-100' src='https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd' />
-                    </div>
-                    <div className='col-6'>
-                        <h1>{project.fields.fields.sectionTitle[0]}</h1>
-                        <p>{project.fields.fields.descriptions[0]}</p>
+                <div className='col-12'>
+                    <div className='dynamicTheme mt-2 p-1 rounded shadow slideLeft'>
+                        <div className='row'>
+                            <div className='col-6 p-5'>
+                                <h1>{project.fields.fields.sectionTitle[0]}</h1>
+                                <hr />
+                                <p>{project.fields.fields.descriptions[0]}</p>
+                                <span>Created: {project.fields.date}</span>
+                            </div>
+                            <div className='col-6 p-2'>
+                                <img className='p-2 w-100' src='https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd' />
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div className='col-12 row'>
-                    <div className='col-6'>
-                        <h1>{project.fields.title}</h1>
-                        <p>{project.fields.overviewDescription}</p>
-                    </div>
-                    <div className='col-6'>
-                        <img className='w-100' src='https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd' />
+                <div className='col-12'>
+                    <div className='normalTheme mt-2 p-1 rounded shadow slideRight'>
+                        <div className='row'>
+                            <div className='col-6 p-2'>
+                                <img className='p-2 w-100' src='https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd' />
+                            </div>
+                            <div className='col-6 p-5'>
+                                <h1>{project.fields.fields.sectionTitle[1]}</h1>
+                                <hr />
+                                <p>{project.fields.fields.descriptions[1]}</p>
+                                <span>Created: {project.fields.date}</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div className='col-12 row'>

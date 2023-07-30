@@ -1,0 +1,28 @@
+.techSkills{
+    background-color: rgb(175, 175, 175);
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.techSkills h4{
+    padding: 4px 6px;
+    border-radius: 4px;
+    margin-left: 8px;
+}
+
+.techSkillsList{
+    margin-bottom: 4px;
+    font-size: 14px;
+}
+
+.techSkillsList span{
+    margin-left: 8px;
+    margin-right: 8px;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.normalTheme {
+    background-color: rgb(175, 175, 175);
+    color: #ffffff;
+}

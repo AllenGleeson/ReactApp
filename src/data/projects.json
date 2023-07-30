@@ -8,7 +8,7 @@
             "featured": true,
             "mobileVersion": true,
             "date": "2022",
-            "colorTheme": ["Red","White"],
+            "colorTheme": ["#df63d6","White"],
             "fields": {
                 "sectionTitle": [
                     "Home Page",
@@ -52,7 +52,7 @@
             "featured": true,
             "mobileVersion": true,
             "date": "2022",
-            "colorTheme": ["Red","White"],
+            "colorTheme": ["#810000","White"],
             "fields": {
                 "sectionTitle": [
                     "Home Page",
@@ -96,7 +96,7 @@
             "featured": true,
             "mobileVersion": true,
             "date": "2022",
-            "colorTheme": ["Red","White"],
+            "colorTheme": ["#0e8100","White"],
             "fields": {
                 "sectionTitle": [
                     "Home Page",
@@ -140,7 +140,7 @@
             "featured": true,
             "mobileVersion": true,
             "date": "2022",
-            "colorTheme": ["Red","White"],
+            "colorTheme": ["#0020bf","White"],
             "fields": {
                 "sectionTitle": [
                     "Home Page",
@@ -184,7 +184,7 @@
             "featured": false,
             "mobileVersion": true,
             "date": "2022",
-            "colorTheme": ["Red","White"],
+            "colorTheme": ["#333333","White"],
             "fields": {
                 "sectionTitle": [
                     "Home Page",
@@ -228,7 +228,7 @@
             "featured": false,
             "mobileVersion": true,
             "date": "2022",
-            "colorTheme": ["Red","White"],
+            "colorTheme": ["#00b9b9","White"],
             "fields": {
                 "sectionTitle": [
                     "Home Page",
@@ -272,7 +272,7 @@
             "featured": false,
             "mobileVersion": true,
             "date": "2022",
-            "colorTheme": ["Red","White"],
+            "colorTheme": ["#333333","White"],
             "fields": {
                 "sectionTitle": [
                     "Home Page",
@@ -316,7 +316,7 @@
             "featured": false,
             "mobileVersion": true,
             "date": "2022",
-            "colorTheme": ["Red","White"],
+            "colorTheme": ["#333333","White"],
             "fields": {
                 "sectionTitle": [
                     "Home Page",
@@ -360,7 +360,7 @@
             "featured": false,
             "mobileVersion": true,
             "date": "2022",
-            "colorTheme": ["Red","White"],
+            "colorTheme": ["#0015ab","White"],
             "fields": {
                 "sectionTitle": [
                     "Home Page",
@@ -404,7 +404,7 @@
             "featured": false,
             "mobileVersion": true,
             "date": "2022",
-            "colorTheme": ["Red","White"],
+            "colorTheme": ["#333333","White"],
             "fields": {
                 "sectionTitle": [
                     "Home Page",
@@ -448,7 +448,7 @@
             "featured": false,
             "mobileVersion": true,
             "date": "2022",
-            "colorTheme": ["Red","White"],
+            "colorTheme": ["#333333","White"],
             "fields": {
                 "sectionTitle": [
                     "Home Page",
