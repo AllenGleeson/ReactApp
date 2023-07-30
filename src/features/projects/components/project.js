@@ -34,13 +34,17 @@ const Project = () => {
                 <div className='col-12'>
                     <div className='dynamicTheme mt-2 p-1 rounded shadow'>
                         <div className='row'>
-                            <div className='col-6 p-5'>
-                                <h1>{project.fields.title}</h1>
-                                <p>{project.fields.overviewDescription}</p>
-                                <span>Created: {project.fields.date}</span>
+                            <div className='col-6'>
+                                <div className='m-3'>
+                                    <h1>{project.fields.title}</h1>
+                                    <p>{project.fields.overviewDescription}</p>
+                                    <span>Created: {project.fields.date}</span>
+                                </div>
                             </div>
-                            <div className='col-6 p-2'>
-                                <img className='p-2 w-100' src='https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd' />
+                            <div class="col-6">
+                                <div class="m-2">
+                                    <img class="border border-3 border-dark rounded w-100" src="https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd" />
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -62,14 +66,18 @@ const Project = () => {
                 <div className='col-12'>
                     <div className='dynamicTheme mt-2 p-1 rounded shadow slideLeft'>
                         <div className='row'>
-                            <div className='col-6 p-5'>
-                                <h1>{project.fields.fields.sectionTitle[0]}</h1>
-                                <hr />
-                                <p>{project.fields.fields.descriptions[0]}</p>
-                                <span>Created: {project.fields.date}</span>
+                            <div className='col-6'>
+                                <div className='m-3'>
+                                    <h1>{project.fields.fields.sectionTitle[0]}</h1>
+                                    <hr />
+                                    <p>{project.fields.fields.descriptions[0]}</p>
+                                    <span>Created: {project.fields.date}</span>
+                                </div>
                             </div>
-                            <div className='col-6 p-2'>
-                                <img className='p-2 w-100' src='https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd' />
+                            <div class="col-6">
+                                <div class="m-2">
+                                    <img class="border border-3 border-dark rounded w-100" src="https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd" />
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -77,14 +85,18 @@ const Project = () => {
                 <div className='col-12'>
                     <div className='normalTheme mt-2 p-1 rounded shadow slideRight'>
                         <div className='row'>
-                            <div className='col-6 p-2'>
-                                <img className='p-2 w-100' src='https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd' />
+                            <div class="col-6">
+                                <div class="m-2">
+                                    <img class="border border-3 border-dark rounded w-100" src="https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd" />
+                                </div>
                             </div>
-                            <div className='col-6 p-5'>
-                                <h1>{project.fields.fields.sectionTitle[1]}</h1>
-                                <hr />
-                                <p>{project.fields.fields.descriptions[1]}</p>
-                                <span>Created: {project.fields.date}</span>
+                            <div className='col-6'>
+                                <div className='m-3'>
+                                    <h1>{project.fields.fields.sectionTitle[1]}</h1>
+                                    <hr />
+                                    <p>{project.fields.fields.descriptions[1]}</p>
+                                    <span>Created: {project.fields.date}</span>
+                                </div>
                             </div>
                         </div>
                     </div>

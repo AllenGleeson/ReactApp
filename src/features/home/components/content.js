@@ -8,7 +8,7 @@ const Content = () => {
             <div className='col-12'>
                 <div className='m-sm-3 mt-2 p-1 rounded shadow techWrapper'>
                     <h4 className='tag'>Technologies:</h4>
-                    <div className='techSkills'>
+                    <div className='tech'>
                         <span className='tag'>HTML</span>
                         <span className='tag'>CSS</span>
                         <span className='tag'>JS</span>
