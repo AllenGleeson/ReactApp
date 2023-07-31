@@ -44,9 +44,9 @@ const Project = () => {
                                     <span>Created: {project.fields.date}</span>
                                 </div>
                             </div>
-                            <div class="col-6">
-                                <div class="m-2">
-                                    <img class="border border-3 border-dark rounded w-100" src="https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd" />
+                            <div className="col-6">
+                                <div className="m-2">
+                                    <img className="border border-3 border-dark rounded w-100" src={project.fields.overviewImage} />
                                 </div>
                             </div>
                         </div>
