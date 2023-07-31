@@ -13,7 +13,7 @@ const Cards = () => {
                   key={index}
                   index={index}
                   title={project.fields.title}
-                  description={project.fields.overviewDescription}
+                  description={project.fields.shortDescription}
                   links={project.fields.links}
                   image={project.fields.overviewImage}
                   />

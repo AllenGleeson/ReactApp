@@ -13,14 +13,14 @@ const Highlight = ({ index, title, description, image }) => {
                 if (isEven) {
                 return (
                     <div className='row'>
-                        <div className='col-6'>
-                            <div className='border border-3 border-light m-3 p-3 rounded-1'>
+                        <div className='col-sm-12 col-md-6'>
+                            <div className='border border-3 border-light m-3 p-3 rounded-1 text-shadow-light normalThemePrime'>
                                 <h1>{title}</h1>
                                 <hr />
                                 <p>{description}</p>
                             </div>
                         </div>
-                        <div className='col-6'>
+                        <div className='col-sm-12 col-md-6'>
                             <div className='m-2'>
                                 <img className='border border-3 border-dark rounded w-100'src={image}alt='Project' />
                             </div>
@@ -30,13 +30,13 @@ const Highlight = ({ index, title, description, image }) => {
                 } else {
                 return (
                     <div className='row'>
-                        <div className='col-6'>
+                        <div className='col-sm-12 col-md-6'>
                             <div className='m-2'>
                                 <img className='border border-3 border-dark rounded w-100'src={image}alt='Project' />
                             </div>
                         </div>
-                        <div className='col-6'>
-                            <div className='border border-3 border-light m-3 p-3 rounded-1'>
+                        <div className='col-sm-12 col-md-6'>
+                            <div className='border border-3 border-light m-3 p-3 rounded-1 text-shadow-light normalThemePrime'>
                                 <h1>{title}</h1>
                                 <hr />
                                 <p>{description}</p>

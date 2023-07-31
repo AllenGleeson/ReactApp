@@ -42,8 +42,8 @@
     background-color: #b4b4b4 !important;
 }
 
-.card-body .card-title, .card-text{
-    color: #fff;
+.card-body{
+    color: #fff !important;
 }
 
 .card-body span{

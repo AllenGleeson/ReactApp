@@ -11,15 +11,16 @@ const Card = ({ index, title, description, links, image}) => {
         <div className="mb-3 col-sm-10 col-md-5 p-2 offset-md-1">
             <div className={cardClass}>
                 <a href={projectLink} className="row">
-                    <div class="col-md-4 p-0">
+                    <div class="col-sm-12 col-md-4 p-0">
                         <img src={image} className="card-img" alt="Project One" />
                     </div>
-                    <div className="col-md-8">
-                        <div className="card-body tr-border-radius">
+                    <div className="col-sm-12 col-md-8">
+                        <div className="card-body tr-border-radius text-shadow">
                             <h5 className="card-title">{title}</h5>
+                            <hr />
                             <p className="card-text">{description}</p>
                             {links.link.map((link, index) => (
-                                <a href={link} className="tag">
+                                <a href={link} className="tag border border-black">
                                     <span key={index}>
                                         {links.linkName[index]}
                                     </span>
