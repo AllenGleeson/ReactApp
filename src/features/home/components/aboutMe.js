@@ -30,12 +30,15 @@ const AboutMe = () => {
             
             <div className='col-sm-12 col-md-6 profileImg'>
                 <div className='p-2'>
-                    <img className='rounded-circle' src='https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd'/>
+                    <img className='border border-5 border-light rounded-circle' src='https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd'/>
                 </div>
             </div>
             <div className='col-sm-12 col-md-6'>
                 <div className='aboutMe h-100 p-3'>
-                    <p className='p-4 rounded-1'>{articleContent}</p>
+                    <div className='border border-2 border-light m-2 rounded-1'>
+                        <p className='m-0 p-3'>{articleContent}</p>
+                    </div>
+                    
                     <hr />
                     <div className='mt-5'>
                         <a href='https://github.com/AllenGleeson'>

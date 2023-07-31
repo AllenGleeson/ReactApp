@@ -14,7 +14,7 @@ const Highlight = ({ index, title, description, image }) => {
                 return (
                     <div className='row'>
                         <div className='col-6'>
-                            <div className='m-3'>
+                            <div className='border border-3 border-light m-3 p-3 rounded-1'>
                                 <h1>{title}</h1>
                                 <hr />
                                 <p>{description}</p>
@@ -36,7 +36,7 @@ const Highlight = ({ index, title, description, image }) => {
                             </div>
                         </div>
                         <div className='col-6'>
-                            <div className='m-3'>
+                            <div className='border border-3 border-light m-3 p-3 rounded-1'>
                                 <h1>{title}</h1>
                                 <hr />
                                 <p>{description}</p>

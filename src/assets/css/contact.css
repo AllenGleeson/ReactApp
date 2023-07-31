@@ -28,4 +28,13 @@
 
 .personalLinks ul{
     list-style: none;
+    flex-direction: column;
+}
+
+.personalLinks ul li{
+    background-color: #b4b4b4;
+}
+
+.contactIcon{
+    color: #ffffff;
 }

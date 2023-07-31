@@ -49,24 +49,24 @@ const Contact = () => {
                         </div>
                     </div>
                     <div className='col-sm-12 col-md-6 pt-3'>
-                        <div className='h-100 p-sm-3 personalLinks shadow-lg slideRight'>
-                            <ul>
-                                <a href='https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd'>
-                                    <li>
-                                        <FontAwesomeIcon icon={faFolder} beat size="lg" className='icon'/>
-                                        <span>GitHub</span>
+                        <div className='d-flex h-100 justify-content-center p-sm-3 personalLinks shadow-lg slideRight'>
+                            <ul className='align-content-center d-flex justify-content-center m-3 p-2'>
+                                <a className='m-2 p-2' href='https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd'>
+                                    <li className='border border-3 border-light p-1 rounded-2 text-center'>
+                                        <FontAwesomeIcon icon={faFolder} beat size="lg" className='icon contactIcon'/>
+                                        <span className='border border-1 border-black tag'>GitHub</span>
                                     </li>
                                 </a>
-                                <a href='https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd'>
-                                    <li>
-                                        <FontAwesomeIcon icon={faFolder} beat size="lg" className='icon'/>
-                                        <span>GitHub</span>
+                                <a className='m-2 p-2' href='https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd'>
+                                    <li className='border border-3 border-light p-1 rounded-2 text-center'>
+                                        <FontAwesomeIcon icon={faFolder} beat size="lg" className='icon contactIcon'/>
+                                        <span className='border border-1 border-black tag'>LinkedIn</span>
                                     </li>
                                 </a>
-                                <a href='https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd'>
-                                    <li>
-                                        <FontAwesomeIcon icon={faFolder} beat size="lg" className='icon'/>
-                                        <span>GitHub</span>
+                                <a className='m-2 p-2' href='https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd'>
+                                    <li className='border border-3 border-light p-1 rounded-2 text-center'>
+                                        <FontAwesomeIcon icon={faFolder} beat size="lg" className='icon contactIcon'/>
+                                        <span className='border border-1 border-black tag'>CV</span>
                                     </li>
                                 </a>
                             </ul>

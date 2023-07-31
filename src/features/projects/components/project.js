@@ -38,7 +38,7 @@ const Project = () => {
                     <div className='dynamicTheme mt-2 p-1 rounded shadow'>
                         <div className='row'>
                             <div className='col-6'>
-                                <div className='m-3'>
+                                <div className='border border-3 border-light m-3 p-3 rounded-1'>
                                     <h1>{project.fields.title}</h1>
                                     <p>{project.fields.overviewDescription}</p>
                                     <span>Created: {project.fields.date}</span>
