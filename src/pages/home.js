@@ -4,7 +4,7 @@ import AboutMe from '../features/home/components/aboutMe';
 import Timeline from '../features/home/components/timeline';
 import BackToTop from '../components/backToTop';
 import FeaturedProjects from '../features/projects/components/featuredProjects';
-
+import technologies from '../data/technologies.json';
 
 const Home = () => {
     const [showComponent, setShowComponent] = useState(false);
@@ -29,7 +29,7 @@ const Home = () => {
         <div>
             <AboutMe />
             <hr />
-            <Content />
+            <Content technologies={technologies[0].technologies} />
             <hr />
             <FeaturedProjects />
             <div className={`fade ${showComponent ? 'show' : 'hide'}`}>

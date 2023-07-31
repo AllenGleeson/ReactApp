@@ -56,13 +56,11 @@ const Project = () => {
                     <div className='m-sm-3 mt-2 p-1 techSkills rounded shadow'>
                         <h4 className='d-inline-block dynamicTheme'>Technologies:</h4>
                         <div className='techSkillsList'>
-                            <span className='dynamicTheme'>HTML</span>
-                            <span className='dynamicTheme'>CSS</span>
-                            <span className='dynamicTheme'>JS</span>
-                            <span className='dynamicTheme'>Python</span>
-                            <span className='dynamicTheme'>Java</span>
-                            <span className='dynamicTheme'>C#</span>
-                            <span className='dynamicTheme'>SQL</span>
+                            {project.fields.technologies.map((tech, index) => (
+                                <span key={index} className='dynamicTheme'>
+                                    {tech}
+                                </span>
+                            ))}
                         </div>
                     </div>
                 </div>
