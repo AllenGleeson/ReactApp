@@ -9,3 +9,8 @@ footer{
 .footer-links{
     animation: 1s ease-out 0s 1 slideInRight;
 }
+
+.footer-links a{
+    text-decoration: none;
+    color: #333333;
+}
