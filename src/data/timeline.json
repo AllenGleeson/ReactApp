@@ -2,8 +2,8 @@
     {
         "pk": 1,
         "fields": {
-            "title": "Web Scrapper - Orcawise",
-            "organisation": "National College of Ireland",
+            "title": "Web Scrapper - Web Scrapper Innovation Program",
+            "organisation": "Orcawise",
             "location": "Remote",
             "description": "Scarf made out of faux silk material, soft and shiney with a fun.",
             "education": false,
@@ -13,23 +13,23 @@
     {
         "pk": 2,
         "fields": {
-            "title": "Certificate in Science in Computing",
-            "organisation": "National College of Ireland",
+            "title": "Web Developer",
+            "organisation": "Freelance",
             "location": "Remote",
-            "description": "Scarf made out of faux silk material, soft and shiney with a fun.",
-            "education": true,
-            "date": "July 2023 - present"
+            "description": "Working on a type learning application with a client I connected with through Nebula Innovations.",
+            "education": false,
+            "date": "May 2023 - July 2023"
         }
     },
     {
         "pk": 3,
         "fields": {
-            "title": "Web Developer",
-            "organisation": "Freelance",
+            "title": "Certificate in Science in Computing",
+            "organisation": "National College of Ireland",
             "location": "Remote",
-            "description": "Scarf made out of faux silk material, soft and shiney with a fun.",
-            "education": false,
-            "date": "May 2023 - July 2023"
+            "description": "Course focused on Java, SQL and Computer Architecture.",
+            "education": true,
+            "date": "March 2023 - July 2023"
         }
     },
     {
@@ -38,7 +38,7 @@
             "title": "Customer Service Advisor",
             "organisation": "Capita",
             "location": "Remote",
-            "description": "Scarf made out of faux silk material, soft and shiney with a fun.",
+            "description": "Assisted customers with a wide variaty of queries for Bord Gais.",
             "education": false,
             "date": "Sept 2022 - May 2023"
         }
@@ -46,34 +46,78 @@
     {
         "pk": 5,
         "fields": {
-            "title": "Kitchen Porter",
-            "organisation": "National College of Ireland",
+            "title": "Advanced JS",
+            "organisation": "Brainnest",
             "location": "Remote",
-            "description": "Scarf made out of faux silk material, soft and shiney with a fun.",
+            "description": "Brainnest bootcamp focusing on advanced JS.",
             "education": false,
-            "date": "2010"
+            "date": "November 2022 - December 2022"
         }
     },
     {
         "pk": 6,
         "fields": {
-            "title": "Ellas Design",
-            "organisation": "National College of Ireland",
+            "title": "Frontend Fundamentals",
+            "organisation": "Brainnest",
             "location": "Remote",
-            "description": "Scarf made out of faux silk material, soft and shiney with a fun.",
+            "description": "Brainnest bootcamp focused on the frontend fundamentals with semantic HTML elements and how to design a user friendly experience.",
             "education": true,
-            "date": "2010"
+            "date": "July 2022 - August 2022"
         }
     },
     {
         "pk": 7,
         "fields": {
-            "title": "Ellas Design",
-            "organisation": "National College of Ireland",
-            "location": "Remote",
+            "title": "Kitchen Porter",
+            "organisation": "Limekiln Gastropub",
+            "location": "Julianstown, Co.Meath",
+            "description": "Assisted chefs as well as cleaning duties, training up new porters and closing up after finish.",
+            "education": true,
+            "date": "May 2022 - July 2022"
+        }
+    },
+    {
+        "pk": 8,
+        "fields": {
+            "title": "Kitchen Porter",
+            "organisation": "Limekiln Gastropub",
+            "location": "Julianstown, Co.Meath",
             "description": "Scarf made out of faux silk material, soft and shiney with a fun.",
             "education": true,
-            "date": "2010"
+            "date": "May 2022 - July 2022"
+        }
+    },
+    {
+        "pk": 9,
+        "fields": {
+            "title": "Kitchen Porter",
+            "organisation": "Limekiln Gastropub",
+            "location": "Julianstown, Co.Meath",
+            "description": "Scarf made out of faux silk material, soft and shiney with a fun.",
+            "education": true,
+            "date": "May 2022 - July 2022"
+        }
+    },
+    {
+        "pk": 10,
+        "fields": {
+            "title": "Kitchen Porter",
+            "organisation": "Limekiln Gastropub",
+            "location": "Julianstown, Co.Meath",
+            "description": "Scarf made out of faux silk material, soft and shiney with a fun.",
+            "education": true,
+            "date": "May 2022 - July 2022"
+        }
+    },
+    {
+        "pk": 11,
+        "fields": {
+            "title": "Kitchen Porter",
+            "organisation": "Limekiln Gastropub",
+            "location": "Julianstown, Co.Meath",
+            "description": "Scarf made out of faux silk material, soft and shiney with a fun.",
+            "education": true,
+            "date": "May 2022 - July 2022"
         }
     }
 ]
