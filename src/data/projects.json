@@ -9,6 +9,7 @@
             "mobileVersion": true,
             "date": "2022",
             "colorTheme": ["#df63d6","White"],
+            "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments"],
             "fields": {
                 "sectionTitle": [
                     "Home Page",
@@ -53,6 +54,7 @@
             "mobileVersion": true,
             "date": "2022",
             "colorTheme": ["#810000","White"],
+            "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments"],
             "fields": {
                 "sectionTitle": [
                     "Home Page",
@@ -97,6 +99,7 @@
             "mobileVersion": true,
             "date": "2022",
             "colorTheme": ["#0e8100","White"],
+            "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments"],
             "fields": {
                 "sectionTitle": [
                     "Home Page",
@@ -141,6 +144,7 @@
             "mobileVersion": true,
             "date": "2022",
             "colorTheme": ["#0020bf","White"],
+            "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments"],
             "fields": {
                 "sectionTitle": [
                     "Home Page",
@@ -185,6 +189,7 @@
             "mobileVersion": true,
             "date": "2022",
             "colorTheme": ["#333333","White"],
+            "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments"],
             "fields": {
                 "sectionTitle": [
                     "Home Page",
@@ -229,6 +234,7 @@
             "mobileVersion": true,
             "date": "2022",
             "colorTheme": ["#00b9b9","White"],
+            "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments"],
             "fields": {
                 "sectionTitle": [
                     "Home Page",
@@ -273,6 +279,7 @@
             "mobileVersion": true,
             "date": "2022",
             "colorTheme": ["#333333","White"],
+            "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments"],
             "fields": {
                 "sectionTitle": [
                     "Home Page",
@@ -317,6 +324,7 @@
             "mobileVersion": true,
             "date": "2022",
             "colorTheme": ["#333333","White"],
+            "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments"],
             "fields": {
                 "sectionTitle": [
                     "Home Page",
@@ -361,6 +369,7 @@
             "mobileVersion": true,
             "date": "2022",
             "colorTheme": ["#0015ab","White"],
+            "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments"],
             "fields": {
                 "sectionTitle": [
                     "Home Page",
@@ -405,6 +414,7 @@
             "mobileVersion": true,
             "date": "2022",
             "colorTheme": ["#333333","White"],
+            "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments"],
             "fields": {
                 "sectionTitle": [
                     "Home Page",
@@ -449,6 +459,7 @@
             "mobileVersion": true,
             "date": "2022",
             "colorTheme": ["#333333","White"],
+            "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments"],
             "fields": {
                 "sectionTitle": [
                     "Home Page",

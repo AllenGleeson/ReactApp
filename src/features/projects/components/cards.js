@@ -1,48 +1,9 @@
 import React from 'react';
 import Card from './card';
 import '../../../assets/css/card.css';
+import projects from '../../../data/projects.json';
 
 const Cards = () => {
-    const projects = [
-        {
-          name: "Project 1",
-          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."+""+
-          "Morbi et ultricies lectus. Proin vel maximus est. Aliquam sollicitudin mauris quis mauris venenatis, a sagittis elit volutpat.",
-          technologies: ["React", "JavaScript", "CSS"],
-        },
-        {
-          name: "Project 2",
-          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."+""+
-          "Morbi et ultricies lectus. Proin vel maximus est. Aliquam sollicitudin mauris quis mauris venenatis, a sagittis elit volutpat.",
-          technologies: ["React", "Node.js", "Express"],
-        },
-        {
-          name: "Project 3",
-          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."+""+
-          "Morbi et ultricies lectus. Proin vel maximus est. Aliquam sollicitudin mauris quis mauris venenatis, a sagittis elit volutpat.",
-          technologies: ["React", "Node.js", "Express"],
-        },
-        {
-          name: "Project 4",
-          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."+""+
-          "Morbi et ultricies lectus. Proin vel maximus est. Aliquam sollicitudin mauris quis mauris venenatis, a sagittis elit volutpat.",
-          technologies: ["React", "Node.js", "Express"],
-        },
-        {
-          name: "Project 5",
-          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."+""+
-          "Morbi et ultricies lectus. Proin vel maximus est. Aliquam sollicitudin mauris quis mauris venenatis, a sagittis elit volutpat.",
-          technologies: ["React", "Node.js", "Express"],
-        },
-        {
-          name: "Project 6",
-          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."+""+
-          "Morbi et ultricies lectus. Proin vel maximus est. Aliquam sollicitudin mauris quis mauris venenatis, a sagittis elit volutpat.",
-          technologies: ["React", "Node.js", "Express"],
-        }
-      ];
-    
-    
     return(
         <section className='cards justify-content-center'>
           <h3 className='text-center tag'>Other Code:</h3>
@@ -51,9 +12,10 @@ const Cards = () => {
                   <Card
                   key={index}
                   index={index}
-                  title={project.name}
-                  description={project.description}
-                  technologies={project.technologies}
+                  title={project.fields.title}
+                  description={project.fields.overviewDescription}
+                  technologies={project.fields.technologies}
+                  image={project.fields.overviewImage}
                   />
               ))}
           </div>
