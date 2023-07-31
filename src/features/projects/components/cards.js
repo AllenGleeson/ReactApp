@@ -14,7 +14,7 @@ const Cards = () => {
                   index={index}
                   title={project.fields.title}
                   description={project.fields.overviewDescription}
-                  technologies={project.fields.technologies}
+                  links={project.fields.links}
                   image={project.fields.overviewImage}
                   />
               ))}

@@ -42,6 +42,10 @@
     background-color: #b4b4b4 !important;
 }
 
+.card-body .card-title, .card-text{
+    color: #fff;
+}
+
 .card-body span{
     font-size: 11px;
 }
@@ -52,5 +56,4 @@
 
 .card a{
     text-decoration: none;
-    color: #ffffff;
 }

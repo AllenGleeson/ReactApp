@@ -2,7 +2,7 @@ import React from 'react'
 import '../../../assets/css/card.css';
 
 
-const Card = ({ index, title, description, technologies, image}) => {
+const Card = ({ index, title, description, links, image}) => {
     const isEven = index%2==0;
     const cardClass = `border border-bottom-0 border-end-0 card container tr-border-radius shadow-lg ${isEven ? "slideLeft" : "slideRight"}`;
     const projectLink = '/projects/'+(index+1);
@@ -18,10 +18,12 @@ const Card = ({ index, title, description, technologies, image}) => {
                         <div className="card-body tr-border-radius">
                             <h5 className="card-title">{title}</h5>
                             <p className="card-text">{description}</p>
-                            {technologies.map((tech, index) => (
-                                <span key={index} className="tag">
-                                    {tech}
-                                </span>
+                            {links.link.map((link, index) => (
+                                <a href={link} className="tag">
+                                    <span key={index}>
+                                        {links.linkName[index]}
+                                    </span>
+                                </a>
                             ))}
                         </div>
                     </div>
