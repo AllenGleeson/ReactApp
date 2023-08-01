@@ -67,6 +67,10 @@ code {
   color: #fff;
 }
 
+.dark-bg{
+  background-color: #252525;
+}
+
 .tag {
   display: inline-block;
   padding: 4px 8px;

@@ -36,6 +36,10 @@
   text-shadow: 2px 3px 4px #000000 !important;
 }
 
+.aboutMeContent{
+  background-color: #919191;
+}
+
 .aboutMe p{
   background-color: #b4b4b4;
   color: #333333;

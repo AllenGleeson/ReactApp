@@ -26,6 +26,9 @@ const Project = () => {
         background-color: ${project.fields.colorTheme[0]};
         color: ${project.fields.colorTheme[1]};
       }
+      .borderThemeColor{
+        border-color: ${project.fields.colorTheme[2]} !important;
+      }
     `;
     
     
@@ -38,25 +41,29 @@ const Project = () => {
                     <div className='dynamicTheme mt-2 p-1 rounded shadow'>
                         <div className='row'>
                             <div className='col-sm-12 col-md-6'>
-                                <div className='border border-3 border-light h-75 m-2 p-3 rounded-1 normalThemePrime text-shadow-light'>
-                                    <h1>{project.fields.title}</h1>
-                                    <hr />
-                                    <p>{project.fields.overviewDescription}</p>
-                                    <span>Created: {project.fields.date}</span>
+                            <div className='border border-4 borderThemeColor h-75 m-2 p-2 rounded-1 normalThemePrime text-shadow-light'>
+                                <div className='dark-bg h-100 rounded'>
+                                        <h1>{project.fields.title}</h1>
+                                        <hr />
+                                        <p>{project.fields.overviewDescription}</p>
+                                        <span>Created: {project.fields.date}</span>
+                                    </div>
                                 </div>
-                                <div className='border border-3 border-light m-2 mt-3 p-3 rounded-1 normalThemePrime'>
-                                    {project.fields.links.link.map((link, index) => (
-                                        <a href={link} className="border border-2 border-light d-inline rounded dynamicTheme m-2 p-1 text-decoration-none">
-                                            <span key={index}>
-                                                {project.fields.links.linkName[index]}
-                                            </span>
-                                        </a>
-                                    ))}
+                                <div className='border border-4 borderThemeColor m-2 mt-3 normalThemePrime p-1 rounded-1'>
+                                    <div className='dark-bg h-100 p-2 rounded'>
+                                        {project.fields.links.link.map((link, index) => (
+                                            <a href={link} className="border border-2 borderThemeColor d-inline dynamicTheme m-2 p-1 rounded text-decoration-none">
+                                                <span key={index}>
+                                                    {project.fields.links.linkName[index]}
+                                                </span>
+                                            </a>
+                                        ))}
+                                    </div>
                                 </div>
                             </div>
                             <div className="col-sm-12 col-md-6">
-                                <div className="m-2">
-                                    <img className="border border-3 border-dark rounded w-100" src={project.fields.overviewImage} />
+                                <div className="m-2 p-2">
+                                    <img className="border border-4 border-dark rounded w-100" src={project.fields.overviewImage} />
                                 </div>
                             </div>
                         </div>
@@ -64,10 +71,10 @@ const Project = () => {
                 </div>
                 <div className='col-12'>
                     <div className='m-sm-3 mt-2 p-1 techSkills rounded shadow'>
-                        <h4 className='border border-2 border-light d-inline-block dynamicTheme'>Technologies:</h4>
+                        <h4 className='border border-2 borderThemeColor d-inline-block dynamicTheme'>Technologies:</h4>
                         <div className='techSkillsList'>
                             {project.fields.technologies.map((tech, index) => (
-                                <span key={index} className='border border-2 border-light dynamicTheme'>
+                                <span key={index} className='border border-2 borderThemeColor dynamicTheme m-2'>
                                     {tech}
                                 </span>
                             ))}

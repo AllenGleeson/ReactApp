@@ -11,45 +11,49 @@ let articleContent = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. A
 
 const AboutMe = () => {
     return (
-    <section className='aboutMeSection mt-3 rounded-1'>
-        <div className='pb-3 m-sm-1 row'>
-            <div className='mb-1 mt-2 defaultCursor'>
-                <div className='tag border border-2 border-light slideLeft'>
-                    <FontAwesomeIcon icon={faFolder} className='icon'/>
-                    <span>Allen Gleeson</span>
-                </div>
-                <div className='tag border border-2 border-light slideRight'>
-                    <FontAwesomeIcon icon={faFolder} className='icon'/>
-                    <span>Full Stack Developer</span>
-                </div>
-                <div className='tag border border-2 border-light slideInFarRight'>
-                    <FontAwesomeIcon icon={faFolder} className='icon'/>
-                    <span>Ireland</span>
-                </div>
-            </div>
-            
-            <div className='col-sm-12 col-md-6 profileImg'>
-                <div className='p-2'>
-                    <img className='border border-5 border-light rounded-circle' src='https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd'/>
-                </div>
-            </div>
-            <div className='col-sm-12 col-md-6'>
-                <div className='aboutMe h-100 p-3'>
-                    <div className='border border-2 border-light m-2 rounded-1'>
-                        <p className='m-0 p-3'>{articleContent}</p>
+    <section className='aboutMeSection mt-3 p-2 rounded-1'>
+        <div className='rounded-1 dark-bg'>
+            <div className='pb-3 m-sm-1 row'>
+                <div className='mb-1 mt-2 defaultCursor'>
+                    <div className='tag border border-2 border-light slideLeft'>
+                        <FontAwesomeIcon icon={faFolder} className='icon'/>
+                        <span>Allen Gleeson</span>
                     </div>
-                    
-                    <hr />
-                    <div className='mt-5'>
-                        <a href='https://github.com/AllenGleeson'>
-                            <span className='tag border border-2 border-light'>GitHub</span>
-                        </a>
-                        <a href='https://www.linkedin.com/in/allen-gleeson-a6263711a/'>
-                            <span className='tag border border-2 border-light'>LinkedIn</span>
-                        </a>
-                        <a href='#'>
-                            <span className='tag border border-2 border-light'>CV</span>
-                        </a>
+                    <div className='tag border border-2 border-light slideRight'>
+                        <FontAwesomeIcon icon={faFolder} className='icon'/>
+                        <span>Full Stack Developer</span>
+                    </div>
+                    <div className='tag border border-2 border-light slideInFarRight'>
+                        <FontAwesomeIcon icon={faFolder} className='icon'/>
+                        <span>Ireland</span>
+                    </div>
+                </div>
+                
+                <div className='col-sm-12 col-md-6 profileImg'>
+                    <div className='p-2'>
+                        <img className='border border-5 border-light rounded-circle' src='https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd'/>
+                    </div>
+                </div>
+                <div className='col-sm-12 col-md-6'>
+                    <div className='aboutMe h-100 p-3'>
+                        <div className='border border-2 border-light m-2 rounded-1'>
+                            <div className='p-1 aboutMeContent'>
+                                <p className='m-0 p-1 rounded'>{articleContent}</p>
+                            </div>
+                        </div>
+                        
+                        <hr />
+                        <div className='mt-5'>
+                            <a href='https://github.com/AllenGleeson'>
+                                <span className='tag border border-2 border-light'>GitHub</span>
+                            </a>
+                            <a href='https://www.linkedin.com/in/allen-gleeson-a6263711a/'>
+                                <span className='tag border border-2 border-light'>LinkedIn</span>
+                            </a>
+                            <a href='#'>
+                                <span className='tag border border-2 border-light'>CV</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
