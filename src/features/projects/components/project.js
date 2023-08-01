@@ -38,13 +38,13 @@ const Project = () => {
                     <div className='dynamicTheme mt-2 p-1 rounded shadow'>
                         <div className='row'>
                             <div className='col-sm-12 col-md-6'>
-                                <div className='border border-3 border-light m-3 p-3 rounded-1 normalThemePrime text-shadow-light'>
+                                <div className='border border-3 border-light h-75 m-2 p-3 rounded-1 normalThemePrime text-shadow-light'>
                                     <h1>{project.fields.title}</h1>
                                     <hr />
                                     <p>{project.fields.overviewDescription}</p>
                                     <span>Created: {project.fields.date}</span>
                                 </div>
-                                <div className='border border-3 border-light m-3 p-3 rounded-1 normalThemePrime'>
+                                <div className='border border-3 border-light m-2 mt-3 p-3 rounded-1 normalThemePrime'>
                                     {project.fields.links.link.map((link, index) => (
                                         <a href={link} className="border border-2 border-light d-inline rounded dynamicTheme m-2 p-1 text-decoration-none">
                                             <span key={index}>
@@ -64,10 +64,10 @@ const Project = () => {
                 </div>
                 <div className='col-12'>
                     <div className='m-sm-3 mt-2 p-1 techSkills rounded shadow'>
-                        <h4 className='d-inline-block dynamicTheme'>Technologies:</h4>
+                        <h4 className='border border-2 border-light d-inline-block dynamicTheme'>Technologies:</h4>
                         <div className='techSkillsList'>
                             {project.fields.technologies.map((tech, index) => (
-                                <span key={index} className='dynamicTheme'>
+                                <span key={index} className='border border-2 border-light dynamicTheme'>
                                     {tech}
                                 </span>
                             ))}

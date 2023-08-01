@@ -9,7 +9,7 @@
             "featured": true,
             "mobileVersion": true,
             "date": "2022",
-            "colorTheme": ["#df63d6","White"],
+            "colorTheme": ["#df63d685","White"],
             "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments"],
             "links": {
                 "link": [
@@ -65,7 +65,7 @@
             "featured": true,
             "mobileVersion": true,
             "date": "2022",
-            "colorTheme": ["#810000","White"],
+            "colorTheme": ["#810000c9","White"],
             "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments"],
             "links": {
                 "link": [
@@ -121,7 +121,7 @@
             "featured": true,
             "mobileVersion": true,
             "date": "2022",
-            "colorTheme": ["#0e8100","White"],
+            "colorTheme": ["#1095009e","White"],
             "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments"],
             "links": {
                 "link": [
@@ -177,7 +177,7 @@
             "featured": true,
             "mobileVersion": true,
             "date": "2022",
-            "colorTheme": ["#0020bf","White"],
+            "colorTheme": ["#002afb8a","White"],
             "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments"],
             "links": {
                 "link": [
@@ -289,7 +289,7 @@
             "featured": false,
             "mobileVersion": true,
             "date": "2022",
-            "colorTheme": ["#00b9b9","White"],
+            "colorTheme": ["#fbc50085","White"],
             "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments"],
             "links": {
                 "link": [

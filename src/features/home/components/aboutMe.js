@@ -14,15 +14,15 @@ const AboutMe = () => {
     <section className='aboutMeSection mt-3 rounded-1'>
         <div className='pb-3 m-sm-1 row'>
             <div className='mb-1 mt-2 defaultCursor'>
-                <div className='tag slideLeft'>
+                <div className='tag border border-2 border-light slideLeft'>
                     <FontAwesomeIcon icon={faFolder} className='icon'/>
                     <span>Allen Gleeson</span>
                 </div>
-                <div className='tag slideRight'>
+                <div className='tag border border-2 border-light slideRight'>
                     <FontAwesomeIcon icon={faFolder} className='icon'/>
                     <span>Full Stack Developer</span>
                 </div>
-                <div className='tag slideInFarRight'>
+                <div className='tag border border-2 border-light slideInFarRight'>
                     <FontAwesomeIcon icon={faFolder} className='icon'/>
                     <span>Ireland</span>
                 </div>
@@ -42,13 +42,13 @@ const AboutMe = () => {
                     <hr />
                     <div className='mt-5'>
                         <a href='https://github.com/AllenGleeson'>
-                            <span className='tag'>GitHub</span>
+                            <span className='tag border border-2 border-light'>GitHub</span>
                         </a>
                         <a href='https://www.linkedin.com/in/allen-gleeson-a6263711a/'>
-                            <span className='tag'>LinkedIn</span>
+                            <span className='tag border border-2 border-light'>LinkedIn</span>
                         </a>
                         <a href='#'>
-                            <span className='tag'>CV</span>
+                            <span className='tag border border-2 border-light'>CV</span>
                         </a>
                     </div>
                 </div>

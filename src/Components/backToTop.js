@@ -17,9 +17,11 @@ const BackToTop = () => {
   }, [footerHeight]);
 
   return (
-    <a href='#nav' className="fixed-bottom-right tag backToTop slideInLeft border border-black">
-        <FontAwesomeIcon icon={faArrowAltCircleUp} beat size="lg" className='icon'/>
-        <span className='backToTopSpan'>Back to top</span>
+    <a href='#nav' className="fixed-bottom-right backToTop slideInLeft border border-light rounded-1 text-shadow">
+        <div className='border border-black rounded-1'>
+          <FontAwesomeIcon icon={faArrowAltCircleUp} beat size="lg" className='icon'/>
+          <span className='backToTopSpan'>Back to top</span>
+        </div>
     </a>
   );
 }

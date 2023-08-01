@@ -12,11 +12,11 @@ const FeaturedProjects = () => {
 
     return (
         <section className="featuredProjects mt-2">
-            <h2 className="text-center tag hoverWhite m-sm-3 defaultCursor">Featured Projects</h2>
+            <h2 className="border border-2 border-black defaultCursor hoverWhite m-sm-3 tag text-center">Featured Projects</h2>
             <Carousel className="rounded m-sm-3">
                 <Carousel.Item className="rounded-2 p-1">
                     <img src="https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd"/>
-                    <div onClick={toggleCollapse} className="featuredProjectDescription hoverWhite">
+                    <div onClick={toggleCollapse} className="border border-2 border-black featuredProjectDescription hoverWhite rounded rounded-2">
                         <span>Project 1</span>
                         <FontAwesomeIcon icon={faFolder} beat size="lg" className='icon'/>
                         {!isCollapsed && 
@@ -31,7 +31,7 @@ const FeaturedProjects = () => {
                 </Carousel.Item>
                 <Carousel.Item className="rounded-2 p-1">
                     <img src="https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd"/>
-                    <div onClick={toggleCollapse} className="featuredProjectDescription hoverWhite">
+                    <div onClick={toggleCollapse} className="border border-2 border-black featuredProjectDescription hoverWhite rounded rounded-2">
                         <span>Project 2</span>
                         <FontAwesomeIcon icon={faFolder} beat size="lg" className='icon'/>
                         {!isCollapsed && 
@@ -46,7 +46,7 @@ const FeaturedProjects = () => {
                 </Carousel.Item>
                 <Carousel.Item className="rounded-2 p-1">
                     <img src="https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd"/>
-                    <div onClick={toggleCollapse} className="featuredProjectDescription hoverWhite">
+                    <div onClick={toggleCollapse} className="border border-2 border-black featuredProjectDescription hoverWhite rounded rounded-2">
                         <span>Project 3</span>
                         <FontAwesomeIcon icon={faFolder} beat size="lg" className='icon'/>
                         {!isCollapsed && 

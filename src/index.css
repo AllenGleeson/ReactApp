@@ -12,6 +12,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+img{
+  -webkit-user-drag: none;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -37,6 +41,17 @@ code {
   text-decoration: none;
   color: inherit;
   animation: 1s ease-out 0s 1 slideInRight;
+  z-index: 2;
+}
+
+.backToTop div{
+  background-color: #ffc228;
+  padding: 2px;
+}
+
+.backToTop div:hover{
+  background-color: #919191 !important;
+  color: #fff;
 }
 
 .icon{
@@ -67,7 +82,7 @@ code {
 }
 
 .text-shadow-light{
-  text-shadow: 1px 0px 1px #fff !important;
+  text-shadow: 3px 2px 4px #bfbfbf !important;
 }
 
 .hoverWhite:hover{
