@@ -29,8 +29,9 @@ const Contact = () => {
             <div className='contactSection'>
                 <div className='row'>
                     <div className='col-sm-12 col-md-6 pt-3'>
-                        <div className='p-sm-3 shadow-lg contactForm slideLeft'>
+                        <div className='border border-2 border-black contactForm p-sm-3 shadow-lg slideLeft'>
                             <h1 className='m-4'>Please get in touch:</h1>
+                            <hr />
                             <Form>
                                 <Form.Group className='m-2'>
                                     <Form.Label>Name:</Form.Label>
@@ -49,7 +50,7 @@ const Contact = () => {
                         </div>
                     </div>
                     <div className='col-sm-12 col-md-6 pt-3'>
-                        <div className='d-flex h-100 justify-content-center p-sm-3 personalLinks shadow-lg slideRight'>
+                        <div className='border border-3 d-flex h-100 justify-content-center p-sm-3 personalLinks shadow-lg slideRight'>
                             <ul className='align-content-center d-flex justify-content-center m-3 p-2'>
                                 <a className='m-2 p-2' href='https://github.com/AllenGleeson'>
                                     <li className='border border-3 border-light p-1 rounded-2 text-center'>
