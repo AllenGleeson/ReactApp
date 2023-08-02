@@ -25,6 +25,7 @@
     margin: 8px;
     padding: 8px;
     cursor: pointer;
+    font-size: 14px;
 }
 
 .featuredProjectDescription span{
@@ -36,8 +37,7 @@
 }
 
 .featuredProjectDescription span{
-    font-size: 22px;
-    text-shadow: 1px 0px 1px #000000 !important;
+    font-size: 18px !important;
 }
 
 .featuredProjects{

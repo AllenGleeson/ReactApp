@@ -22,8 +22,12 @@
   background-color: #333333;
 }
 
-.nav-item:hover{
-  background-color: #919191;
+.nav-link{
+  color: #fff;
+}
+
+.nav-link:hover{
+  text-shadow: 1px 0px 1px #ffffff !important;
 }
 
 #logo{

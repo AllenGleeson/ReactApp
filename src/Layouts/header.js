@@ -20,12 +20,12 @@ const Header = () => {
             </Navbar.Brand>
             <Nav className="mr-auto">
               <NavItem className='tag'>
-                  <NavLink className="nav-link text-center" href="/projects">
+                  <NavLink className="nav-link text-shadow" href="/projects">
                   PROJECTS
                   </NavLink>
               </NavItem>
               <NavItem className='tag'>
-                  <NavLink className="nav-link text-center" href="/contact">
+                  <NavLink className="nav-link text-shadow" href="/contact">
                   CONTACT
                   </NavLink>
               </NavItem>

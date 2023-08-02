@@ -1,7 +1,5 @@
 import React from 'react'
 import '../../../assets/css/aboutMe.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFolder } from '@fortawesome/free-regular-svg-icons';
 
 let articleContent = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam venenatis erat id felis porttitor,'+
  'et vestibulum dui euismod. Aenean in velit et urna mollis volutpat nec quis urna. Sed eu lorem nisl.'+
@@ -11,20 +9,17 @@ let articleContent = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. A
 
 const AboutMe = () => {
     return (
-    <section className='aboutMeSection mt-3 p-1 rounded-1'>
+    <section className='aboutMeSection mt-3'>
         <div className='rounded-1 dark-bg'>
             <div className='pb-3 m-sm-1 row'>
                 <div className='mb-1 mt-2 defaultCursor'>
                     <div className='tag text-shadow slideLeft'>
-                        <FontAwesomeIcon icon={faFolder} className='icon'/>
                         <span>Allen Gleeson</span>
                     </div>
                     <div className='tag text-shadow slideRight'>
-                        <FontAwesomeIcon icon={faFolder} className='icon'/>
                         <span>Full Stack Developer</span>
                     </div>
                     <div className='tag text-shadow slideInFarRight'>
-                        <FontAwesomeIcon icon={faFolder} className='icon'/>
                         <span>Ireland</span>
                     </div>
                 </div>

@@ -76,7 +76,7 @@ const Project = () => {
                 </div>
                 <div className='col-12'>
                     <div className='m-sm-3 mt-2 p-1 techSkills'>
-                        <h4 className='d-inline-block techTheme text-shadow-light-small'>Technologies:</h4>
+                        <h4 className='d-inline-block techTheme text-shadow-light-small'>Technologies</h4>
                         <div className='techSkillsList'>
                             {project.fields.technologies.map((tech, index) => (
                                 <span key={index} className='techTheme text-shadow-light-small'>
@@ -87,7 +87,7 @@ const Project = () => {
                     </div>
                 </div>
                 {project.fields.fields.sectionTitle.map((title, index) => (
-                    <Highlight title={title} description={project.fields.fields.descriptions[index]} image={project.fields.fields.images[index]} index={index} />
+                    <Highlight title={title} description={project.fields.fields.descriptions[index]} image={project.fields.fields.images[index]} mobileVersion={project.fields.mobileVersion} index={index} />
                 ))}
                 <div className='col-12 row'>
                     <div className='col-12'>

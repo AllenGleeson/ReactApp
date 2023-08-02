@@ -2,7 +2,7 @@ import React from 'react'
 import '../../../assets/css/project.css';
 
 
-const Highlight = ({ index, title, description, image }) => {
+const Highlight = ({ index, title, description, image, mobileVersion }) => {
     const isEven = index%2==0;
     const highlightClass = `mt-2 ${isEven ? "slideLeft dynamicTheme rounded-bottom-circle rounded-top-pill" : "text-light slideRight"}`;
 
@@ -21,6 +21,13 @@ const Highlight = ({ index, title, description, image }) => {
                                     <p>{description}</p>
                                 </div>
                             </div>
+                            {mobileVersion ? (
+                            <div className="h-25">
+                                <a href='#' className='d-flex justify-content-start text-decoration-none'>
+                                    <span className='techTheme text-shadow-light-small p-1 m-2 rounded'>Mobile Version</span>
+                                </a>
+                            </div>
+                            ) : null}
                         </div>
                         <div className='col-sm-12 col-md-6'>
                             <div className='m-3'>
@@ -39,12 +46,17 @@ const Highlight = ({ index, title, description, image }) => {
                         </div>
                         <div className='col-sm-12 col-md-6'>
                             <div className='h-75 m-2 p-2 text-shadow'>
-                                <div>
-                                    <h1>{title}</h1>
-                                    <hr />
-                                    <p>{description}</p>
-                                </div>
+                                <h1>{title}</h1>
+                                <hr />
+                                <p>{description}</p>
                             </div>
+                            {mobileVersion ? (
+                            <div className="h-25">
+                                <a href='#' className='d-flex justify-content-end text-decoration-none'>
+                                    <span className='techTheme text-shadow-light-small p-1 m-2 rounded'>Mobile Version</span>
+                                </a>
+                            </div>
+                            ) : null}
                         </div>
                     </div>
                 )

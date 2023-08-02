@@ -6,7 +6,7 @@ import projects from '../../../data/projects.json';
 const Cards = () => {
     return(
         <section className='cards justify-content-center'>
-          <h3 className='text-center tag'>Other Code:</h3>
+          <h3 className='text-center tag defaultCursor'>Other Code</h3>
           <div className='row'>
               {projects.map((project, index) => (
                   <React.Fragment key={index}>

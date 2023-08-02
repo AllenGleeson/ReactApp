@@ -67,14 +67,13 @@ code {
 }
 
 .dark-bg{
-  background: radial-gradient(#737373, #141414) !important;
+  background: radial-gradient(#000000, #494949) !important;
 }
 
 .tag {
   display: inline-block;
   padding: 4px 8px;
   background: radial-gradient(#919191,#ffc228) !important;
-  background-color: #ffc228;
   color: #ffffff !important;
   border-radius: 4px;
   margin: 8px;
@@ -98,7 +97,9 @@ code {
 }
 
 .tag:hover{
-  background-color: #919191;
+  background: radial-gradient(#ffc228,#919191) !important;
+  text-shadow: 1px 0px 1px #ffffff !important;
+  color: #000000 !important;
 }
 
 .slideLeft{

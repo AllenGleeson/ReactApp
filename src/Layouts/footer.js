@@ -6,10 +6,10 @@ const Footer = () => {
     <footer className='mt-4'>
       <div className='container'>
         <div className="footer-content pt-3 row">
-          <ul className="col-4 footer-links offset-8">
-            <li className='tag border border-2 border-light'><a href='/'>HOME</a></li>
-            <li className='tag border border-2 border-light'><a href='/projects'>PROJECTS</a></li>
-            <li className='tag border border-2 border-light'><a href='/contact'>CONTACT</a></li>
+          <ul className="col-md-4 col-sm-6 footer-links offset-md-8">
+            <li className='tag'><a href='/'>HOME</a></li>
+            <li className='tag'><a href='/projects'>PROJECTS</a></li>
+            <li className='tag'><a href='/contact'>CONTACT</a></li>
           </ul>
         </div>
       </div>

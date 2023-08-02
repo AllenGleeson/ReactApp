@@ -18,7 +18,7 @@ const FeaturedProjects = () => {
                     <a href="/projects/1">
                         <img src="https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd"/>
                     </a>
-                    <div onClick={toggleCollapse} className="border border-2 border-black featuredProjectDescription hoverWhite rounded rounded-2">
+                    <div onClick={toggleCollapse} className="border border-2 border-black featuredProjectDescription text-shadow-light hoverWhite rounded rounded-2">
                         <span>Project 1</span>
                         <FontAwesomeIcon icon={faFolder} beat size="lg" className='icon'/>
                         {!isCollapsed && 
@@ -35,7 +35,7 @@ const FeaturedProjects = () => {
                 <   a href="/projects/2">
                         <img src="https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd"/>
                     </a>
-                    <div onClick={toggleCollapse} className="border border-2 border-black featuredProjectDescription hoverWhite rounded rounded-2">
+                    <div onClick={toggleCollapse} className="border border-2 border-black featuredProjectDescription text-shadow-light hoverWhite rounded rounded-2">
                         <span>Project 2</span>
                         <FontAwesomeIcon icon={faFolder} beat size="lg" className='icon'/>
                         {!isCollapsed && 
@@ -52,7 +52,7 @@ const FeaturedProjects = () => {
                     <a href="/projects/3">
                         <img src="https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd"/>
                     </a>
-                    <div onClick={toggleCollapse} className="border border-2 border-black featuredProjectDescription hoverWhite rounded rounded-2">
+                    <div onClick={toggleCollapse} className="border border-2 border-black featuredProjectDescription text-shadow-light hoverWhite rounded rounded-2">
                         <span>Project 3</span>
                         <FontAwesomeIcon icon={faFolder} beat size="lg" className='icon'/>
                         {!isCollapsed && 
