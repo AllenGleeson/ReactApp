@@ -44,7 +44,7 @@ code {
 }
 
 .backToTop div{
-  background-color: #ffc228;
+  background: radial-gradient(#ffffff, #ffbc00) !important;
   padding: 2px;
 }
 
@@ -73,8 +73,9 @@ code {
 .tag {
   display: inline-block;
   padding: 4px 8px;
+  background: radial-gradient(#919191,#ffc228) !important;
   background-color: #ffc228;
-  color: #333;
+  color: #ffffff !important;
   border-radius: 4px;
   margin: 8px;
   text-shadow: 1px 0px 1px #000000 !important;

@@ -12,7 +12,7 @@ const FeaturedProjects = () => {
 
     return (
         <section className="featuredProjects mt-2">
-            <h2 className="border border-2 border-black defaultCursor hoverWhite m-sm-3 tag text-center">Featured Projects</h2>
+            <h2 className="text-shadow defaultCursor hoverWhite m-sm-3 tag text-center">Featured Projects</h2>
             <Carousel className="rounded m-sm-3">
                 <Carousel.Item className="rounded-2 p-1">
                     <a href="/projects/1">

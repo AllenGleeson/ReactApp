@@ -11,19 +11,19 @@ let articleContent = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. A
 
 const AboutMe = () => {
     return (
-    <section className='aboutMeSection mt-3 p-2 rounded-1'>
+    <section className='aboutMeSection mt-3 p-1 rounded-1'>
         <div className='rounded-1 dark-bg'>
             <div className='pb-3 m-sm-1 row'>
                 <div className='mb-1 mt-2 defaultCursor'>
-                    <div className='tag border border-2 border-light slideLeft'>
+                    <div className='tag text-shadow slideLeft'>
                         <FontAwesomeIcon icon={faFolder} className='icon'/>
                         <span>Allen Gleeson</span>
                     </div>
-                    <div className='tag border border-2 border-light slideRight'>
+                    <div className='tag text-shadow slideRight'>
                         <FontAwesomeIcon icon={faFolder} className='icon'/>
                         <span>Full Stack Developer</span>
                     </div>
-                    <div className='tag border border-2 border-light slideInFarRight'>
+                    <div className='tag text-shadow slideInFarRight'>
                         <FontAwesomeIcon icon={faFolder} className='icon'/>
                         <span>Ireland</span>
                     </div>
@@ -35,23 +35,21 @@ const AboutMe = () => {
                     </div>
                 </div>
                 <div className='col-sm-12 col-md-6'>
-                    <div className='aboutMe h-100 p-3'>
-                        <div className='border border-2 border-light m-2 rounded-1'>
-                            <div className='p-1 aboutMeContent'>
-                                <p className='m-0 p-1 rounded'>{articleContent}</p>
-                            </div>
+                    <div className='h-100 p-3'>
+                        <div>
+                            <p className='text-shadow'>{articleContent}</p>
                         </div>
                         
                         <hr />
                         <div className='mt-5'>
                             <a href='https://github.com/AllenGleeson'>
-                                <span className='tag border border-2 border-light'>GitHub</span>
+                                <span className='tag text-shadow'>GitHub</span>
                             </a>
                             <a href='https://www.linkedin.com/in/allen-gleeson-a6263711a/'>
-                                <span className='tag border border-2 border-light'>LinkedIn</span>
+                                <span className='tag text-shadow'>LinkedIn</span>
                             </a>
                             <a href='#'>
-                                <span className='tag border border-2 border-light'>CV</span>
+                                <span className='tag text-shadow'>CV</span>
                             </a>
                         </div>
                     </div>

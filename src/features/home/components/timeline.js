@@ -11,7 +11,7 @@ const Timeline = () => {
 
     return(
         <section className='rounded-1 timelineSection'>
-            <h3 className='border border-2 border-light defaultCursor tag text-center'>My History:</h3>
+            <h3 className='defaultCursor tag text-shadow'>My History:</h3>
             <VerticalTimeline>
                 {
                     timeline.map((element) => {
