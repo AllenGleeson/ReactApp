@@ -47,6 +47,6 @@
 }
 
 .aboutMeSection{
-  background-color: #333333;
+  background: linear-gradient(to top right, #2f2f2f, #4f4f4f) !important;
   color: white;
 }

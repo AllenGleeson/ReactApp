@@ -5,11 +5,10 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #494949 !important;
+  font-family: monospace, 'sans-serif' !important;
 }
 
 img{
@@ -25,7 +24,7 @@ code {
 .fixed-bottom-right {
   position: fixed;
   bottom: var(--footer-height, 0);
-  right: 0;
+  right: 8px;
 }
 
 .personalLinks-height{
@@ -68,7 +67,7 @@ code {
 }
 
 .dark-bg{
-  background-color: #252525;
+  background: radial-gradient(#737373, #141414) !important;
 }
 
 .tag {
@@ -82,7 +81,11 @@ code {
 }
 
 .text-shadow{
-  text-shadow: 1px 0px 1px #000000 !important;
+  text-shadow: 2px 2px 2px #000000 !important;
+}
+
+.text-shadow-light-small{
+  text-shadow: -1px 0px 3px #bfbfbf !important;
 }
 
 .text-shadow-light{

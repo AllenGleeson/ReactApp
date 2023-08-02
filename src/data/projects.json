@@ -9,7 +9,7 @@
             "featured": true,
             "mobileVersion": true,
             "date": "2022",
-            "colorTheme": ["#ffc1fb","Black", "#ff34f0"],
+            "colorTheme": ["#ffc1fb","#494949", "#e7b5e4"],
             "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments"],
             "links": {
                 "link": [
@@ -65,7 +65,7 @@
             "featured": true,
             "mobileVersion": true,
             "date": "2022",
-            "colorTheme": ["#810000c9","White", "#ff4d55"],
+            "colorTheme": ["#cd0000","#494949", "#bd6367 "],
             "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments"],
             "links": {
                 "link": [
@@ -121,7 +121,7 @@
             "featured": true,
             "mobileVersion": true,
             "date": "2022",
-            "colorTheme": ["#1095009e","White"],
+            "colorTheme": ["#810000c9","#494949", "#bd6367 "],
             "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments"],
             "links": {
                 "link": [
@@ -177,7 +177,7 @@
             "featured": true,
             "mobileVersion": true,
             "date": "2022",
-            "colorTheme": ["#002afb8a","White"],
+            "colorTheme": ["#810000c9","#494949", "#bd6367 "],
             "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments"],
             "links": {
                 "link": [
@@ -233,7 +233,7 @@
             "featured": false,
             "mobileVersion": true,
             "date": "2022",
-            "colorTheme": ["#333333","White"],
+            "colorTheme": ["#810000c9","#494949", "#bd6367 "],
             "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments"],
             "links": {
                 "link": [
@@ -289,7 +289,7 @@
             "featured": false,
             "mobileVersion": true,
             "date": "2022",
-            "colorTheme": ["#fbc50085","White"],
+            "colorTheme": ["#810000c9","#494949", "#bd6367 "],
             "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments"],
             "links": {
                 "link": [
@@ -345,7 +345,7 @@
             "featured": false,
             "mobileVersion": true,
             "date": "2022",
-            "colorTheme": ["#333333","White"],
+            "colorTheme": ["#810000c9","#494949", "#bd6367 "],
             "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments"],
             "links": {
                 "link": [
@@ -401,7 +401,7 @@
             "featured": false,
             "mobileVersion": true,
             "date": "2022",
-            "colorTheme": ["#333333","White", "#ff4d55"],
+            "colorTheme": ["#810000c9","#494949", "#bd6367 "],
             "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments"],
             "links": {
                 "link": [
@@ -457,7 +457,7 @@
             "featured": false,
             "mobileVersion": true,
             "date": "2022",
-            "colorTheme": ["#0015ab","White"],
+            "colorTheme": ["#810000c9","#494949", "#bd6367 "],
             "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments"],
             "links": {
                 "link": [
@@ -513,7 +513,7 @@
             "featured": false,
             "mobileVersion": true,
             "date": "2022",
-            "colorTheme": ["#333333","White"],
+            "colorTheme": ["#810000c9","#494949", "#bd6367 "],
             "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments"],
             "links": {
                 "link": [
@@ -569,7 +569,7 @@
             "featured": false,
             "mobileVersion": true,
             "date": "2022",
-            "colorTheme": ["#333333","White"],
+            "colorTheme": ["#810000c9","#494949", "#bd6367 "],
             "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments"],
             "links": {
                 "link": [

@@ -4,7 +4,7 @@ import '../../../assets/css/project.css';
 
 const Highlight = ({ index, title, description, image }) => {
     const isEven = index%2==0;
-    const highlightClass = `mt-2 p-1 rounded shadow ${isEven ? "slideLeft dynamicTheme" : "slideRight normalTheme"}`;
+    const highlightClass = `mt-2 ${isEven ? "slideLeft dynamicTheme rounded-bottom-circle rounded-top-pill" : "text-light slideRight"}`;
 
     return (
         <div className='col-12'>
@@ -14,8 +14,8 @@ const Highlight = ({ index, title, description, image }) => {
                 return (
                     <div className='row'>
                         <div className='col-sm-12 col-md-6'>
-                            <div className='border border-4 borderThemeColor h-75 m-2 p-2 rounded-1 normalThemePrime text-shadow-light'>
-                                <div className='dark-bg h-100 p-2 rounded'>
+                            <div className='h-75 m-2 p-2 text-shadow'>
+                                <div>
                                     <h1>{title}</h1>
                                     <hr />
                                     <p>{description}</p>
@@ -38,8 +38,8 @@ const Highlight = ({ index, title, description, image }) => {
                             </div>
                         </div>
                         <div className='col-sm-12 col-md-6'>
-                            <div className='border border-4 borderThemeColor h-75 m-2 p-2 rounded-1 normalThemePrime text-shadow-light'>
-                                <div className='dark-bg h-100 p-2 rounded'>
+                            <div className='h-75 m-2 p-2 text-shadow'>
+                                <div>
                                     <h1>{title}</h1>
                                     <hr />
                                     <p>{description}</p>

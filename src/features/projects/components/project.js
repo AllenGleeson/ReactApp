@@ -23,11 +23,16 @@ const Project = () => {
     }
     const dynamicStyles = `
       .dynamicTheme {
-        background-color: ${project.fields.colorTheme[0]};
-        color: ${project.fields.colorTheme[1]};
+        background: linear-gradient(to top right, ${project.fields.colorTheme[1]}, ${project.fields.colorTheme[0]}) !important;
+        color: white;
       }
       .borderThemeColor{
-        border-color: ${project.fields.colorTheme[2]} !important;
+        border-color: ${project.fields.colorTheme[1]} !important;
+      }
+
+      .techTheme{
+        background: radial-gradient(${project.fields.colorTheme[1]},${project.fields.colorTheme[0]}) !important;
+        color: white;
       }
     `;
     
@@ -38,21 +43,21 @@ const Project = () => {
             <style>{dynamicStyles}</style>
             <div className='row'>
                 <div className='col-12'>
-                    <div className='dynamicTheme mt-2 p-1 rounded shadow'>
+                    <div className='mt-2 dynamicTheme rounded-bottom-pill rounded-top-circle'>
                         <div className='row'>
                             <div className='col-sm-12 col-md-6'>
-                            <div className='border border-4 borderThemeColor h-75 m-2 p-2 rounded-1 normalThemePrime text-shadow-light'>
-                                <div className='dark-bg h-100 rounded'>
+                            <div className='h-75 m-2 p-2 text-shadow'>
+                                <div>
                                         <h1>{project.fields.title}</h1>
                                         <hr />
                                         <p>{project.fields.overviewDescription}</p>
                                         <span>Created: {project.fields.date}</span>
                                     </div>
                                 </div>
-                                <div className='border border-4 borderThemeColor m-2 mt-3 normalThemePrime p-1 rounded-1'>
-                                    <div className='dark-bg h-100 p-2 rounded'>
+                                <div className='m-2 mt-3 p-1'>
+                                    <div className='h-100 p-2'>
                                         {project.fields.links.link.map((link, index) => (
-                                            <a href={link} className="border border-2 borderThemeColor d-inline dynamicTheme m-2 p-1 rounded text-decoration-none">
+                                            <a href={link} className="border border-2 borderThemeColor d-inline techTheme text-shadow m-2 p-1 rounded text-decoration-none">
                                                 <span key={index}>
                                                     {project.fields.links.linkName[index]}
                                                 </span>
@@ -70,11 +75,11 @@ const Project = () => {
                     </div>
                 </div>
                 <div className='col-12'>
-                    <div className='m-sm-3 mt-2 p-1 techSkills rounded shadow'>
-                        <h4 className='border border-2 borderThemeColor d-inline-block dynamicTheme'>Technologies:</h4>
+                    <div className='m-sm-3 mt-2 p-1 techSkills'>
+                        <h4 className='d-inline-block techTheme text-shadow-light-small'>Technologies:</h4>
                         <div className='techSkillsList'>
                             {project.fields.technologies.map((tech, index) => (
-                                <span key={index} className='border border-2 borderThemeColor dynamicTheme m-2'>
+                                <span key={index} className='techTheme text-shadow-light-small'>
                                     {tech}
                                 </span>
                             ))}
