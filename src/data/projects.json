@@ -8,12 +8,12 @@
             "shortDescription": "Ellas Design is a full stack Django web app to sell clothing from Ella Moya.",
             "featured": true,
             "mobileVersion": true,
-            "date": "2022",
+            "date": "2020",
             "colorTheme": ["#ffc1fb","#494949", "#e7b5e4"],
-            "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments"],
+            "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments", "AWS S3", "Bootstrap", "jQuery", "SQLite"],
             "links": {
                 "link": [
-                    "https://github.com/AllenGleeson",
+                    "https://github.com/AllenGleeson/Ellas_Design",
                     "https://www.linkedin.com/in/allen-gleeson-a6263711a/"
                 ],
                 "linkName": [
@@ -23,34 +23,60 @@
             },
             "fields": {
                 "sectionTitle": [
-                    "Home Page",
-                    "Products Page",
-                    "Product Page",
-                    "Bag Page",
-                    "Checkout Page",
-                    "Profiles Page",
-                    "Contact Page",
-                    "About Page"
+                    "Details",
+                    "Home",
+                    "Product",
+                    "Bag",
+                    "Checkout",
+                    "Order Complete",
+                    "Profiles",
+                    "Contact",
+                    "About"
                 ],
                 "descriptions": [
-                    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun."
+                    "The site is designed for users to buy from the shop aswell as allowing the admin to add, edit, update and delete products. The site works on any screen size. Click Mobile Version below to see the mobile version of the site or Admin View to see what the admin sees on each page.",
+                    "The home page consists of a background image and link to the shop or products page. The image is a selection of fabrics that matches the overall site color theme.",
+                    "The product page shows more detail on a specific product and allows the user to add choose a quantity and add it to the Bag. Anything added to the bag shows as the price on the top right of the screen.",
+                    "The bag can be seen at all times at the top right of the navigation. If you go to the bag you can see the items in your bag and add more of an item or remove items and prices will be reflected properly.",
+                    "When the user goes to checkout they need to enter in their personal details as well as bank information. Right now it is using Stripe Test API so you can enter all 42 and it will proceed to order complete.",
+                    "When order is done the order is displayed on the screen and the user gets a confirmation email along with their order details.",
+                    "A user can create an account to store their delivery details as well as see their order history. Just simply click the profole at the top right of navigation then enter email and password and the user will get a confirmation email.",
+                    "The contact page has a form for users to get in touch with the client. When submitted it will sent an email to the client.",
+                    "Simple about page with some links to the clients social media pages."
                 ],
                 "images": [
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd"
+                    null,
+                    "https://hips.hearstapps.com/hmg-prod/images/close-up-of-tulips-blooming-in-field-royalty-free-image-1584131603.jpg?crop=1xw:0.89656xh;center,top&resize=1200:*",
+                    "https://hips.hearstapps.com/hmg-prod/images/close-up-of-tulips-blooming-in-field-royalty-free-image-1584131603.jpg?crop=1xw:0.89656xh;center,top&resize=1200:*",
+                    "https://hips.hearstapps.com/hmg-prod/images/close-up-of-tulips-blooming-in-field-royalty-free-image-1584131603.jpg?crop=1xw:0.89656xh;center,top&resize=1200:*",
+                    "https://hips.hearstapps.com/hmg-prod/images/close-up-of-tulips-blooming-in-field-royalty-free-image-1584131603.jpg?crop=1xw:0.89656xh;center,top&resize=1200:*",
+                    "https://hips.hearstapps.com/hmg-prod/images/close-up-of-tulips-blooming-in-field-royalty-free-image-1584131603.jpg?crop=1xw:0.89656xh;center,top&resize=1200:*",
+                    "https://hips.hearstapps.com/hmg-prod/images/close-up-of-tulips-blooming-in-field-royalty-free-image-1584131603.jpg?crop=1xw:0.89656xh;center,top&resize=1200:*",
+                    "https://hips.hearstapps.com/hmg-prod/images/close-up-of-tulips-blooming-in-field-royalty-free-image-1584131603.jpg?crop=1xw:0.89656xh;center,top&resize=1200:*",
+                    "https://hips.hearstapps.com/hmg-prod/images/close-up-of-tulips-blooming-in-field-royalty-free-image-1584131603.jpg?crop=1xw:0.89656xh;center,top&resize=1200:*"
+                ],
+                "admin": [
+                    false,
+                    true,
+                    false,
+                    true,
+                    false,
+                    true,
+                    false,
+                    true,
+                    false
+                ]
+            },
+            "endDescriptions": {
+                "titles": [
+                    "Challenges",
+                    "Goals",
+                    "Final Thoughts"
+                ],
+                "descriptions": [
+                    "To create a website for the client to sell her clothing as well as get in touch with the client.",
+                    "Learning the Django framework as well as implementing Stripe and AWS S3.",
+                    "I loved the process and think the Django framework has a lot of positives when developing and can see myself making something in the future with it."
                 ]
             }
         }
@@ -108,6 +134,18 @@
                     "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
                     "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd"
                 ]
+            },
+            "endDescriptions": {
+                "titles": [
+                    "Challenges",
+                    "Goals",
+                    "Final Thoughts"
+                ],
+                "descriptions": [
+                    "To create a website for the client to sell her clothing as well as get in touch with the client.",
+                    "Learning the Django framework as well as implementing Stripe and AWS S3.",
+                    "I loved the process and think the Django framework has a lot of positives when developing and can see myself making something in the future with it."
+                ]
             }
         }
     },
@@ -121,7 +159,7 @@
             "featured": true,
             "mobileVersion": true,
             "date": "2022",
-            "colorTheme": ["#810000c9","#494949", "#bd6367 "],
+            "colorTheme": ["#0baf00","#494949", "#bd6367 "],
             "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments"],
             "links": {
                 "link": [
@@ -163,6 +201,18 @@
                     "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
                     "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
                     "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd"
+                ]
+            },
+            "endDescriptions": {
+                "titles": [
+                    "Challenges",
+                    "Goals",
+                    "Final Thoughts"
+                ],
+                "descriptions": [
+                    "To create a website for the client to sell her clothing as well as get in touch with the client.",
+                    "Learning the Django framework as well as implementing Stripe and AWS S3.",
+                    "I loved the process and think the Django framework has a lot of positives when developing and can see myself making something in the future with it."
                 ]
             }
         }
@@ -177,7 +227,7 @@
             "featured": true,
             "mobileVersion": true,
             "date": "2022",
-            "colorTheme": ["#810000c9","#494949", "#bd6367 "],
+            "colorTheme": ["#0005bb","#494949", "#bd6367 "],
             "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments"],
             "links": {
                 "link": [
@@ -219,6 +269,18 @@
                     "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
                     "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
                     "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd"
+                ]
+            },
+            "endDescriptions": {
+                "titles": [
+                    "Challenges",
+                    "Goals",
+                    "Final Thoughts"
+                ],
+                "descriptions": [
+                    "To create a website for the client to sell her clothing as well as get in touch with the client.",
+                    "Learning the Django framework as well as implementing Stripe and AWS S3.",
+                    "I loved the process and think the Django framework has a lot of positives when developing and can see myself making something in the future with it."
                 ]
             }
         }
@@ -233,7 +295,7 @@
             "featured": false,
             "mobileVersion": true,
             "date": "2022",
-            "colorTheme": ["#810000c9","#494949", "#bd6367 "],
+            "colorTheme": ["#ffc83cb8","#494949", "#bd6367 "],
             "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments"],
             "links": {
                 "link": [
@@ -275,6 +337,18 @@
                     "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
                     "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
                     "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd"
+                ]
+            },
+            "endDescriptions": {
+                "titles": [
+                    "Challenges",
+                    "Goals",
+                    "Final Thoughts"
+                ],
+                "descriptions": [
+                    "To create a website for the client to sell her clothing as well as get in touch with the client.",
+                    "Learning the Django framework as well as implementing Stripe and AWS S3.",
+                    "I loved the process and think the Django framework has a lot of positives when developing and can see myself making something in the future with it."
                 ]
             }
         }
@@ -332,6 +406,18 @@
                     "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
                     "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd"
                 ]
+            },
+            "endDescriptions": {
+                "titles": [
+                    "Challenges",
+                    "Goals",
+                    "Final Thoughts"
+                ],
+                "descriptions": [
+                    "To create a website for the client to sell her clothing as well as get in touch with the client.",
+                    "Learning the Django framework as well as implementing Stripe and AWS S3.",
+                    "I loved the process and think the Django framework has a lot of positives when developing and can see myself making something in the future with it."
+                ]
             }
         }
     },
@@ -345,7 +431,7 @@
             "featured": false,
             "mobileVersion": true,
             "date": "2022",
-            "colorTheme": ["#810000c9","#494949", "#bd6367 "],
+            "colorTheme": ["#ffc83cb8","#494949", "#bd6367 "],
             "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments"],
             "links": {
                 "link": [
@@ -387,6 +473,18 @@
                     "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
                     "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
                     "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd"
+                ]
+            },
+            "endDescriptions": {
+                "titles": [
+                    "Challenges",
+                    "Goals",
+                    "Final Thoughts"
+                ],
+                "descriptions": [
+                    "To create a website for the client to sell her clothing as well as get in touch with the client.",
+                    "Learning the Django framework as well as implementing Stripe and AWS S3.",
+                    "I loved the process and think the Django framework has a lot of positives when developing and can see myself making something in the future with it."
                 ]
             }
         }
@@ -401,7 +499,7 @@
             "featured": false,
             "mobileVersion": true,
             "date": "2022",
-            "colorTheme": ["#810000c9","#494949", "#bd6367 "],
+            "colorTheme": ["#ffc83cb8","#494949", "#bd6367 "],
             "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments"],
             "links": {
                 "link": [
@@ -443,6 +541,18 @@
                     "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
                     "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
                     "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd"
+                ]
+            },
+            "endDescriptions": {
+                "titles": [
+                    "Challenges",
+                    "Goals",
+                    "Final Thoughts"
+                ],
+                "descriptions": [
+                    "To create a website for the client to sell her clothing as well as get in touch with the client.",
+                    "Learning the Django framework as well as implementing Stripe and AWS S3.",
+                    "I loved the process and think the Django framework has a lot of positives when developing and can see myself making something in the future with it."
                 ]
             }
         }
@@ -457,7 +567,7 @@
             "featured": false,
             "mobileVersion": true,
             "date": "2022",
-            "colorTheme": ["#810000c9","#494949", "#bd6367 "],
+            "colorTheme": ["#ffc83cb8","#494949", "#bd6367 "],
             "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments"],
             "links": {
                 "link": [
@@ -499,6 +609,18 @@
                     "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
                     "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
                     "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd"
+                ]
+            },
+            "endDescriptions": {
+                "titles": [
+                    "Challenges",
+                    "Goals",
+                    "Final Thoughts"
+                ],
+                "descriptions": [
+                    "To create a website for the client to sell her clothing as well as get in touch with the client.",
+                    "Learning the Django framework as well as implementing Stripe and AWS S3.",
+                    "I loved the process and think the Django framework has a lot of positives when developing and can see myself making something in the future with it."
                 ]
             }
         }
@@ -513,7 +635,7 @@
             "featured": false,
             "mobileVersion": true,
             "date": "2022",
-            "colorTheme": ["#810000c9","#494949", "#bd6367 "],
+            "colorTheme": ["#ffc83cb8","#494949", "#bd6367 "],
             "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments"],
             "links": {
                 "link": [
@@ -556,6 +678,18 @@
                     "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
                     "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd"
                 ]
+            },
+            "endDescriptions": {
+                "titles": [
+                    "Challenges",
+                    "Goals",
+                    "Final Thoughts"
+                ],
+                "descriptions": [
+                    "To create a website for the client to sell her clothing as well as get in touch with the client.",
+                    "Learning the Django framework as well as implementing Stripe and AWS S3.",
+                    "I loved the process and think the Django framework has a lot of positives when developing and can see myself making something in the future with it."
+                ]
             }
         }
     },
@@ -569,7 +703,7 @@
             "featured": false,
             "mobileVersion": true,
             "date": "2022",
-            "colorTheme": ["#810000c9","#494949", "#bd6367 "],
+            "colorTheme": ["#ffc83cb8","#494949", "#bd6367 "],
             "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments"],
             "links": {
                 "link": [
@@ -611,6 +745,18 @@
                     "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
                     "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
                     "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd"
+                ]
+            },
+            "endDescriptions": {
+                "titles": [
+                    "Challenges",
+                    "Goals",
+                    "Final Thoughts"
+                ],
+                "descriptions": [
+                    "To create a website for the client to sell her clothing as well as get in touch with the client.",
+                    "Learning the Django framework as well as implementing Stripe and AWS S3.",
+                    "I loved the process and think the Django framework has a lot of positives when developing and can see myself making something in the future with it."
                 ]
             }
         }
