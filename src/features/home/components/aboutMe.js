@@ -12,14 +12,14 @@ const AboutMe = () => {
     <section className='aboutMeSection mt-3'>
         <div className='rounded-1 dark-bg'>
             <div className='pb-3 m-sm-1 row'>
-                <div className='mb-1 mt-2 defaultCursor'>
-                    <div className='tag text-shadow slideLeft'>
+                <div className='defaultCursor mb-1 mt-2 slideLeft'>
+                    <div className='tag text-shadow'>
                         <span>Allen Gleeson</span>
                     </div>
-                    <div className='tag text-shadow slideRight'>
+                    <div className='tag text-shadow'>
                         <span>Full Stack Developer</span>
                     </div>
-                    <div className='tag text-shadow slideInFarRight'>
+                    <div className='tag text-shadow'>
                         <span>Ireland</span>
                     </div>
                 </div>

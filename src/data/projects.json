@@ -44,7 +44,7 @@
                 ],
                 "images": [
                     "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
+                    null,
                     "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
                     "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
                     "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
@@ -121,7 +121,7 @@
             "featured": true,
             "mobileVersion": true,
             "date": "2022",
-            "colorTheme": ["#810000c9","#494949", "#bd6367 "],
+            "colorTheme": ["#0baf00","#494949", "#bd6367 "],
             "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments"],
             "links": {
                 "link": [
@@ -177,7 +177,7 @@
             "featured": true,
             "mobileVersion": true,
             "date": "2022",
-            "colorTheme": ["#810000c9","#494949", "#bd6367 "],
+            "colorTheme": ["#0005bb","#494949", "#bd6367 "],
             "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments"],
             "links": {
                 "link": [
@@ -233,7 +233,7 @@
             "featured": false,
             "mobileVersion": true,
             "date": "2022",
-            "colorTheme": ["#810000c9","#494949", "#bd6367 "],
+            "colorTheme": ["#ffc83cb8","#494949", "#bd6367 "],
             "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments"],
             "links": {
                 "link": [
@@ -345,7 +345,7 @@
             "featured": false,
             "mobileVersion": true,
             "date": "2022",
-            "colorTheme": ["#810000c9","#494949", "#bd6367 "],
+            "colorTheme": ["#ffc83cb8","#494949", "#bd6367 "],
             "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments"],
             "links": {
                 "link": [
@@ -401,7 +401,7 @@
             "featured": false,
             "mobileVersion": true,
             "date": "2022",
-            "colorTheme": ["#810000c9","#494949", "#bd6367 "],
+            "colorTheme": ["#ffc83cb8","#494949", "#bd6367 "],
             "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments"],
             "links": {
                 "link": [
@@ -457,7 +457,7 @@
             "featured": false,
             "mobileVersion": true,
             "date": "2022",
-            "colorTheme": ["#810000c9","#494949", "#bd6367 "],
+            "colorTheme": ["#ffc83cb8","#494949", "#bd6367 "],
             "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments"],
             "links": {
                 "link": [
@@ -513,7 +513,7 @@
             "featured": false,
             "mobileVersion": true,
             "date": "2022",
-            "colorTheme": ["#810000c9","#494949", "#bd6367 "],
+            "colorTheme": ["#ffc83cb8","#494949", "#bd6367 "],
             "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments"],
             "links": {
                 "link": [
@@ -569,7 +569,7 @@
             "featured": false,
             "mobileVersion": true,
             "date": "2022",
-            "colorTheme": ["#810000c9","#494949", "#bd6367 "],
+            "colorTheme": ["#ffc83cb8","#494949", "#bd6367 "],
             "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments"],
             "links": {
                 "link": [

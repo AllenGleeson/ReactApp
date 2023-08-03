@@ -24,3 +24,10 @@
     background-color: rgb(175, 175, 175);
     color: #ffffff;
 }
+
+.alternateBg {
+    border-top-left-radius: 100% !important;
+    border-bottom-right-radius: 100% !important;
+    background-color: #d7d7d714;
+    min-height: 300px;
+}

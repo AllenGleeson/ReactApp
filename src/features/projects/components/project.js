@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import projectsData from '../../../data/projects.json';
 import '../../../assets/css/project.css'
 import Highlight from './highlight';
+import EndDescription from './endDescription'
 
 const Project = () => {
     const { id } = useParams();
@@ -34,6 +35,12 @@ const Project = () => {
         background: radial-gradient(${project.fields.colorTheme[1]},${project.fields.colorTheme[0]}) !important;
         color: white;
       }
+
+      .dynamicHover:hover{
+        background: radial-gradient(${project.fields.colorTheme[0]}, ${project.fields.colorTheme[1]}) !important;
+        color: black;
+        text-shadow: 3px 2px 4px #bfbfbf !important;
+      }
     `;
     
     
@@ -51,13 +58,13 @@ const Project = () => {
                                         <h1>{project.fields.title}</h1>
                                         <hr />
                                         <p>{project.fields.overviewDescription}</p>
-                                        <span>Created: {project.fields.date}</span>
+                                        <span>Created - {project.fields.date}</span>
                                     </div>
                                 </div>
                                 <div className='m-2 mt-3 p-1'>
                                     <div className='h-100 p-2'>
                                         {project.fields.links.link.map((link, index) => (
-                                            <a href={link} className="border border-2 borderThemeColor d-inline techTheme text-shadow m-2 p-1 rounded text-decoration-none">
+                                            <a href={link} className="border border-2 borderThemeColor d-inline techTheme dynamicHover text-shadow m-2 p-1 rounded text-decoration-none">
                                                 <span key={index}>
                                                     {project.fields.links.linkName[index]}
                                                 </span>
@@ -75,11 +82,11 @@ const Project = () => {
                     </div>
                 </div>
                 <div className='col-12'>
-                    <div className='m-sm-3 mt-2 p-1 techSkills'>
-                        <h4 className='d-inline-block techTheme text-shadow-light-small'>Technologies</h4>
+                    <div className='m-sm-3 mt-2 p-1 techSkills defaultCursor'>
+                        <h4 className='d-inline-block techTheme dynamicHover text-shadow-light-small'>Technologies</h4>
                         <div className='techSkillsList'>
                             {project.fields.technologies.map((tech, index) => (
-                                <span key={index} className='techTheme text-shadow-light-small'>
+                                <span key={index} className='techTheme dynamicHover text-shadow-light-small'>
                                     {tech}
                                 </span>
                             ))}
@@ -89,19 +96,7 @@ const Project = () => {
                 {project.fields.fields.sectionTitle.map((title, index) => (
                     <Highlight title={title} description={project.fields.fields.descriptions[index]} image={project.fields.fields.images[index]} mobileVersion={project.fields.mobileVersion} index={index} />
                 ))}
-                <div className='col-12 row'>
-                    <div className='col-12'>
-                        <h3 className='text-center'>Challenge</h3>
-                        <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                             when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                             It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-                             It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with 
-                             desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                        </p>
-                    </div>
-                </div>
+                <EndDescription />
             </div>
         </section>
     );
