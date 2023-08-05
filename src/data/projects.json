@@ -69,8 +69,8 @@
             },
             "endDescriptions": {
                 "titles": [
+                    "Goal",
                     "Challenges",
-                    "Goals",
                     "Final Thoughts"
                 ],
                 "descriptions": [
@@ -85,14 +85,14 @@
         "pk": 2,
         "fields": {
             "title": "Lazy Hunger",
-            "overviewDescription": "Scarf made out of faux silk material, soft and shiney with a fun.",
+            "overviewDescription": "Lazy Hunger is a community based website for users to share their recipes with others. Using Flask with Python for the backend, Materialise CSS for the frontend and MongoDB for storage. User can create, view, update and delete their own or if they wish they can delete others recipes.",
             "overviewImage": "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-            "shortDescription": "Ellas Design is a full stack Django web app to sell clothing from Ella Moya.",
+            "shortDescription": "A community based website for users to share their recipes with others.",
             "featured": true,
             "mobileVersion": true,
             "date": "2022",
             "colorTheme": ["#cd0000","#494949", "#bd6367 "],
-            "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments"],
+            "technologies": ["HTML", "CSS", "JS", "Python", "Flask", "MongoDB", "Materialise CSS"],
             "links": {
                 "link": [
                     "https://github.com/AllenGleeson",
@@ -106,18 +106,12 @@
             "fields": {
                 "sectionTitle": [
                     "Home Page",
-                    "Products Page",
-                    "Product Page",
-                    "Bag Page",
-                    "Checkout Page",
-                    "Profiles Page",
-                    "Contact Page",
-                    "About Page"
+                    "Create a Recipe",
+                    "View a Recipe",
+                    "Edit a Recipe",
+                    "Delete a Recipe"
                 ],
                 "descriptions": [
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
                     "Scarf made out of faux silk material, soft and shiney with a fun.",
                     "Scarf made out of faux silk material, soft and shiney with a fun.",
                     "Scarf made out of faux silk material, soft and shiney with a fun.",
@@ -129,22 +123,26 @@
                     "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
                     "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
                     "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
                     "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd"
+                ],
+                "admin": [
+                    false,
+                    false,
+                    false,
+                    false,
+                    false
                 ]
             },
             "endDescriptions": {
                 "titles": [
+                    "Goal",
                     "Challenges",
-                    "Goals",
                     "Final Thoughts"
                 ],
                 "descriptions": [
-                    "To create a website for the client to sell her clothing as well as get in touch with the client.",
-                    "Learning the Django framework as well as implementing Stripe and AWS S3.",
-                    "I loved the process and think the Django framework has a lot of positives when developing and can see myself making something in the future with it."
+                    "Create a community based website for users to share their cooking recipes with others.",
+                    "Using the Flask and Materialise frameworks as well as storing information on MongoDB.",
+                    "Once I understood MongoDB stores its files like JSON and how to add, edit and delete data from the database it became a lot of fun to use."
                 ]
             }
         }
@@ -155,12 +153,12 @@
             "title": "Find Ireland",
             "overviewDescription": "A tourism website to explore different tourist attractions across Ireland. The website is API heavy and uses JS and Jquery to create a website to see nearby tourist attractions to the selected towns.",
             "overviewImage": "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-            "shortDescription": "Ellas Design is a full stack Django web app to sell clothing from Ella Moya.",
+            "shortDescription": "A website to see tourist attractions around Ireland.",
             "featured": true,
             "mobileVersion": true,
             "date": "2022",
             "colorTheme": ["#0baf00","#494949", "#bd6367 "],
-            "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments"],
+            "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments", "Google Maps API", "Wikipedia API", "Weather API"],
             "links": {
                 "link": [
                     "https://github.com/AllenGleeson",
@@ -173,46 +171,36 @@
             },
             "fields": {
                 "sectionTitle": [
+                    "API Used",
                     "Home Page",
-                    "Products Page",
-                    "Product Page",
-                    "Bag Page",
-                    "Checkout Page",
-                    "Profiles Page",
-                    "Contact Page",
                     "About Page"
                 ],
                 "descriptions": [
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun."
+                    "I use google maps API and search for tourist attractions within 50miles of a location then I find an image and use Wikipedias API to gather information about that attraction. The about page also uses an Weather API to show the current temperature on the four sides of Ireland.",
+                    "The home page has a nice image of Irelands countryside as well as the google map. Click on one of the city buttons or pictures on the map will zoom in to show markers for attractions in the area and will display cards below the map of any attraction it found near the location as well as information about the locations.",
+                    "On the about page you can find more information about Ireland as well as a Carousel to display some nice images of the country. Down at the bottom of the page you will find the weather API working with todays current temperatures."
                 ],
                 "images": [
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
+                    null,
                     "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
                     "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd"
+                ],
+                "admin": [
+                    false,
+                    false,
+                    false
                 ]
             },
             "endDescriptions": {
                 "titles": [
+                    "Goal",
                     "Challenges",
-                    "Goals",
                     "Final Thoughts"
                 ],
                 "descriptions": [
-                    "To create a website for the client to sell her clothing as well as get in touch with the client.",
-                    "Learning the Django framework as well as implementing Stripe and AWS S3.",
-                    "I loved the process and think the Django framework has a lot of positives when developing and can see myself making something in the future with it."
+                    "To create a website using different API to create a interesting experience for the user to view and learn more about Ireland.",
+                    "Trying out and using different API and getting bits of what I need from each to make something I want.",
+                    "There is so much code out there that other coders like myself can use for their own projects and it leads to ideas of what can be done."
                 ]
             }
         }
@@ -221,17 +209,17 @@
         "pk": 4,
         "fields": {
             "title": "AMG Art Gallery",
-            "overviewDescription": "Scarf made out of faux silk material, soft and shiney with a fun.",
+            "overviewDescription": "A gallery website for AMG to display her art, photos and poems created using HTML, CSS and Bootstrap.",
             "overviewImage": "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-            "shortDescription": "Ellas Design is a full stack Django web app to sell clothing from Ella Moya.",
+            "shortDescription": "An art gallery for AMG to display some of their art, photos and poems.",
             "featured": true,
             "mobileVersion": true,
-            "date": "2022",
+            "date": "2020",
             "colorTheme": ["#0005bb","#494949", "#bd6367 "],
-            "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments"],
+            "technologies": ["HTML", "CSS", "Bootstrap"],
             "links": {
                 "link": [
-                    "https://github.com/AllenGleeson",
+                    "https://github.com/AllenGleeson/AmgArtGallery",
                     "https://www.linkedin.com/in/allen-gleeson-a6263711a/"
                 ],
                 "linkName": [
@@ -241,46 +229,40 @@
             },
             "fields": {
                 "sectionTitle": [
-                    "Home Page",
-                    "Products Page",
-                    "Product Page",
-                    "Bag Page",
-                    "Checkout Page",
-                    "Profiles Page",
-                    "Contact Page",
-                    "About Page"
+                    "Home",
+                    "Gallery",
+                    "Poems",
+                    "Contact"
                 ],
                 "descriptions": [
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun."
+                    "Home page consists of a jumbotron with an message from the artist and a Carousel to display some of their favourite images.",
+                    "The gallery is three HTML pages navigated through a paginator. These pages are the gallery and display a collection of the artists art and photos.",
+                    "The poems page displays two of the artists poems and images attached.",
+                    "The contact page has another message from the artist as well as an image they like and an embedded YouTube video. Below there is a contact form that but no functionality as the site has no backend."
                 ],
                 "images": [
                     "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
                     "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
                     "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
                     "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd"
+                ],
+                "admin": [
+                    false,
+                    false,
+                    false,
+                    false
                 ]
             },
             "endDescriptions": {
                 "titles": [
+                    "Goal",
                     "Challenges",
-                    "Goals",
                     "Final Thoughts"
                 ],
                 "descriptions": [
-                    "To create a website for the client to sell her clothing as well as get in touch with the client.",
-                    "Learning the Django framework as well as implementing Stripe and AWS S3.",
-                    "I loved the process and think the Django framework has a lot of positives when developing and can see myself making something in the future with it."
+                    "Create a place for the client to display their art, photos and poems in a nice way.",
+                    "Learning the Bootstrap framework and getting the hang of rows and columns.",
+                    "Bootstrap has so much utility and can help to make a very structured website that works for all screen sizes."
                 ]
             }
         }
@@ -289,17 +271,17 @@
         "pk": 5,
         "fields": {
             "title": "SSid Checker",
-            "overviewDescription": "Scarf made out of faux silk material, soft and shiney with a fun.",
+            "overviewDescription": "Application that enables a user to check if the user name of your WiFi network, which is identified as SSID (Service Set Identifier) hereafter is of a standard format that conforms to the rules corresponding to the assigned item. The application prompts the user to provide one item (i.e. a piece of text). Next, the application uses the piece of text to determine if the provided text is valid or invalid.",
             "overviewImage": "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-            "shortDescription": "Ellas Design is a full stack Django web app to sell clothing from Ella Moya.",
+            "shortDescription": "Application to validate user name of Wifi Network.",
             "featured": false,
-            "mobileVersion": true,
-            "date": "2022",
+            "mobileVersion": false,
+            "date": "2023",
             "colorTheme": ["#ffc83cb8","#494949", "#bd6367 "],
-            "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments"],
+            "technologies": ["Java"],
             "links": {
                 "link": [
-                    "https://github.com/AllenGleeson",
+                    "https://github.com/AllenGleeson/SSidChecker---NCI",
                     "https://www.linkedin.com/in/allen-gleeson-a6263711a/"
                 ],
                 "linkName": [
@@ -309,46 +291,32 @@
             },
             "fields": {
                 "sectionTitle": [
-                    "Home Page",
-                    "Products Page",
-                    "Product Page",
-                    "Bag Page",
-                    "Checkout Page",
-                    "Profiles Page",
-                    "Contact Page",
-                    "About Page"
+                    "Flow",
+                    "Validation"
                 ],
                 "descriptions": [
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun."
+                    "Ask the user at the beginning of the application how many items they would like to check, and ensure that the application enables the user to provide that amount of items and for each item check its validity.",
+                    "To there are a few rules to validate the SSiD. It starts with five-digit sequence number (i.e. SSSSS-LLL CC) in descending order. Continues with a dash followed by three letters unique to the service provider Eir. Continues with a space and ends with a two-character sequence. The first character of the two-character sequence should be a digit followed by a letter randomly selected from English alphabet. A digit is any of the ten numbers from 0 to 9. Further, the digits should be unique in the five-digit sequence."
                 ],
                 "images": [
                     "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd"
+                    null
+                ],
+                "admin": [
+                    false,
+                    false
                 ]
             },
             "endDescriptions": {
                 "titles": [
+                    "Goal",
                     "Challenges",
-                    "Goals",
                     "Final Thoughts"
                 ],
                 "descriptions": [
-                    "To create a website for the client to sell her clothing as well as get in touch with the client.",
-                    "Learning the Django framework as well as implementing Stripe and AWS S3.",
-                    "I loved the process and think the Django framework has a lot of positives when developing and can see myself making something in the future with it."
+                    "Validate as many SSiD's as a user wants and generate passwords.",
+                    "Short time constraint was the main challenge to this. Messing around with substring and split also.",
+                    "Was a interesting application to make and great to be using Java again."
                 ]
             }
         }
@@ -361,14 +329,14 @@
             "overviewImage": "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
             "shortDescription": "Ellas Design is a full stack Django web app to sell clothing from Ella Moya.",
             "featured": false,
-            "mobileVersion": true,
+            "mobileVersion": false,
             "date": "2022",
             "colorTheme": ["#810000c9","#494949", "#bd6367 "],
-            "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments"],
+            "technologies": ["HTML", "CSS"],
             "links": {
                 "link": [
-                    "https://github.com/AllenGleeson",
-                    "https://www.linkedin.com/in/allen-gleeson-a6263711a/"
+                    "https://github.com/AllenGleeson/RandomTrip",
+                    "https://allengleeson.github.io/RandomTrip/"
                 ],
                 "linkName": [
                     "GitHub",
@@ -377,46 +345,28 @@
             },
             "fields": {
                 "sectionTitle": [
-                    "Home Page",
-                    "Products Page",
-                    "Product Page",
-                    "Bag Page",
-                    "Checkout Page",
-                    "Profiles Page",
-                    "Contact Page",
-                    "About Page"
+                    "Purpose"
                 ],
                 "descriptions": [
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun."
+                    "Simple page using CSS grid and semantic HTML elements to create a page for users to sign up to a random holiday destination."
                 ],
                 "images": [
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd"
+                    null
+                ],
+                "admin": [
+                    false
                 ]
             },
             "endDescriptions": {
                 "titles": [
+                    "Goal",
                     "Challenges",
-                    "Goals",
                     "Final Thoughts"
                 ],
                 "descriptions": [
-                    "To create a website for the client to sell her clothing as well as get in touch with the client.",
-                    "Learning the Django framework as well as implementing Stripe and AWS S3.",
-                    "I loved the process and think the Django framework has a lot of positives when developing and can see myself making something in the future with it."
+                    "The purpose of the website was to practice using CSS's Grid to style elements as well as use and understand semantic HTML elements.",
+                    "Using CSS's grid system was interesting to learn about.",
+                    "I see a lot of use in using semantic elements and am trying to keep to that for future projects."
                 ]
             }
         }
@@ -425,14 +375,14 @@
         "pk": 7,
         "fields": {
             "title": "Library",
-            "overviewDescription": "Scarf made out of faux silk material, soft and shiney with a fun.",
+            "overviewDescription": "A simple library application. Allows users to add and book and mark if it was read or not as well as delete the book.",
             "overviewImage": "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-            "shortDescription": "Ellas Design is a full stack Django web app to sell clothing from Ella Moya.",
+            "shortDescription": "A simple library application. Allows users to add and book and mark if it was read or not as well as delete the book.",
             "featured": false,
             "mobileVersion": true,
             "date": "2022",
             "colorTheme": ["#ffc83cb8","#494949", "#bd6367 "],
-            "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments"],
+            "technologies": ["HTML", "CSS", "JS"],
             "links": {
                 "link": [
                     "https://github.com/AllenGleeson",
@@ -445,46 +395,28 @@
             },
             "fields": {
                 "sectionTitle": [
-                    "Home Page",
-                    "Products Page",
-                    "Product Page",
-                    "Bag Page",
-                    "Checkout Page",
-                    "Profiles Page",
-                    "Contact Page",
-                    "About Page"
+                    "Add Book"
                 ],
                 "descriptions": [
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun."
+                    "User can add a new book by clicking Add Book and enter the name. Then mark if it was read or not. After the book is added the user can delete the book if they wish."
                 ],
                 "images": [
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
                     "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd"
+                ],
+                "admin": [
+                    false
                 ]
             },
             "endDescriptions": {
                 "titles": [
+                    "Goal",
                     "Challenges",
-                    "Goals",
                     "Final Thoughts"
                 ],
                 "descriptions": [
-                    "To create a website for the client to sell her clothing as well as get in touch with the client.",
-                    "Learning the Django framework as well as implementing Stripe and AWS S3.",
-                    "I loved the process and think the Django framework has a lot of positives when developing and can see myself making something in the future with it."
+                    "Practice making something small with HTML, CSS, JS.",
+                    "No challenges on this one. Fairly straight forward.",
+                    "More practice with CRUD functionality."
                 ]
             }
         }
@@ -493,66 +425,50 @@
         "pk": 8,
         "fields": {
             "title": "Review Scrapper",
-            "overviewDescription": "A Webscraper using Selenium to gather data from a given company and some reviews and store them in an excel file and on MongoDB.",
+            "overviewDescription": "A Webscraper using Selenium to gather data from a given company and some reviews and store them in an excel file and on MongoDB. It searches trustpilot.com for the company you search and gathers reviews and general company data to put in our file or database.",
             "overviewImage": "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-            "shortDescription": "Ellas Design is a full stack Django web app to sell clothing from Ella Moya.",
+            "shortDescription": "A Webscraper using Selenium to gather data from a given company and some reviews and store them in an excel file and on MongoDB.",
             "featured": false,
-            "mobileVersion": true,
+            "mobileVersion": false,
             "date": "2022",
             "colorTheme": ["#ffc83cb8","#494949", "#bd6367 "],
-            "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments"],
+            "technologies": ["Python", "Selenium", "MongoDB", "Excel"],
             "links": {
                 "link": [
-                    "https://github.com/AllenGleeson",
-                    "https://www.linkedin.com/in/allen-gleeson-a6263711a/"
+                    "https://github.com/AllenGleeson/reviewscrapper"
                 ],
                 "linkName": [
-                    "GitHub",
-                    "Live Site"
+                    "GitHub"
                 ]
             },
             "fields": {
                 "sectionTitle": [
-                    "Home Page",
-                    "Products Page",
-                    "Product Page",
-                    "Bag Page",
-                    "Checkout Page",
-                    "Profiles Page",
-                    "Contact Page",
-                    "About Page"
+                    "Excel",
+                    "MongoDB"
                 ],
                 "descriptions": [
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun."
+                    "Once data is scrapped I then use xlsxwriter to save it on to an Excel file.",
+                    "Connection made to MongoDB and data is sent there at same time as writing to excel file."
                 ],
                 "images": [
                     "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
                     "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd"
+                ],
+                "admin": [
+                    false,
+                    false
                 ]
             },
             "endDescriptions": {
                 "titles": [
+                    "Goal",
                     "Challenges",
-                    "Goals",
                     "Final Thoughts"
                 ],
                 "descriptions": [
-                    "To create a website for the client to sell her clothing as well as get in touch with the client.",
-                    "Learning the Django framework as well as implementing Stripe and AWS S3.",
-                    "I loved the process and think the Django framework has a lot of positives when developing and can see myself making something in the future with it."
+                    "Create a webscrapper to gather company data and store it in excel and in MongoDB.",
+                    "First time creating a webscrapper and while I have tried selenium before I hadnt used it to do web scrapping.",
+                    "Was very interesting to work on and I have since began doing more web scrapping for Orcawise. Now I have to deal with other things that can hinder web scrapping like being blocked depending on the website. Leads finding a way around the problem."
                 ]
             }
         }
@@ -561,18 +477,18 @@
         "pk": 9,
         "fields": {
             "title": "CSS Presentation",
-            "overviewDescription": "A Webscraper using Selenium to gather data from a given company and some reviews and store them in an excel file and on MongoDB.",
+            "overviewDescription": "A CSS presentation to get a better grasp of the fundamentals and Flex box.",
             "overviewImage": "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-            "shortDescription": "Ellas Design is a full stack Django web app to sell clothing from Ella Moya.",
+            "shortDescription": "A CSS presentation to get a better grasp of the fundamentals and Flex box.",
             "featured": false,
-            "mobileVersion": true,
+            "mobileVersion": false,
             "date": "2022",
             "colorTheme": ["#ffc83cb8","#494949", "#bd6367 "],
-            "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments"],
+            "technologies": ["HTML", "CSS"],
             "links": {
                 "link": [
-                    "https://github.com/AllenGleeson",
-                    "https://www.linkedin.com/in/allen-gleeson-a6263711a/"
+                    "https://github.com/AllenGleeson/css-presentation",
+                    "https://allengleeson.github.io/css-presentation/"
                 ],
                 "linkName": [
                     "GitHub",
@@ -581,46 +497,28 @@
             },
             "fields": {
                 "sectionTitle": [
-                    "Home Page",
-                    "Products Page",
-                    "Product Page",
-                    "Bag Page",
-                    "Checkout Page",
-                    "Profiles Page",
-                    "Contact Page",
-                    "About Page"
+                    null
                 ],
                 "descriptions": [
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun."
+                    null
                 ],
                 "images": [
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd"
+                    null
+                ],
+                "admin": [
+                    false
                 ]
             },
             "endDescriptions": {
                 "titles": [
+                    "Goal",
                     "Challenges",
-                    "Goals",
                     "Final Thoughts"
                 ],
                 "descriptions": [
-                    "To create a website for the client to sell her clothing as well as get in touch with the client.",
-                    "Learning the Django framework as well as implementing Stripe and AWS S3.",
-                    "I loved the process and think the Django framework has a lot of positives when developing and can see myself making something in the future with it."
+                    "To better learn Flexbox and how to get elements where I want them.",
+                    "Getting used to how Flexbox works.",
+                    "I enjoy using Flexbox and can see myself using it in certain situations especially if you cant use a CSS framework like Bootstrap or Materialise CSS which have thier own grid and column system."
                 ]
             }
         }
@@ -629,18 +527,18 @@
         "pk": 10,
         "fields": {
             "title": "JS Presentation - Part One",
-            "overviewDescription": "A Webscraper using Selenium to gather data from a given company and some reviews and store them in an excel file and on MongoDB.",
+            "overviewDescription": "A JS presentation to get a better grasp of the fundamentals. Creating a simple Rock, Paper, Scissors game. User is asked for input when on the page and they can enter in their choice as text.",
             "overviewImage": "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-            "shortDescription": "Ellas Design is a full stack Django web app to sell clothing from Ella Moya.",
+            "shortDescription": "A JS presentation to get a better grasp of the fundamentals.",
             "featured": false,
-            "mobileVersion": true,
+            "mobileVersion": false,
             "date": "2022",
             "colorTheme": ["#ffc83cb8","#494949", "#bd6367 "],
-            "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments"],
+            "technologies": ["HTML", "CSS", "JS"],
             "links": {
                 "link": [
-                    "https://github.com/AllenGleeson",
-                    "https://www.linkedin.com/in/allen-gleeson-a6263711a/"
+                    "https://github.com/AllenGleeson/js-presentation",
+                    "https://allengleeson.github.io/js-presentation/"
                 ],
                 "linkName": [
                     "GitHub",
@@ -649,46 +547,28 @@
             },
             "fields": {
                 "sectionTitle": [
-                    "Home Page",
-                    "Products Page",
-                    "Product Page",
-                    "Bag Page",
-                    "Checkout Page",
-                    "Profiles Page",
-                    "Contact Page",
-                    "About Page"
+                    null
                 ],
                 "descriptions": [
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun."
+                    null
                 ],
                 "images": [
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd"
+                    null
+                ],
+                "admin": [
+                    false
                 ]
             },
             "endDescriptions": {
                 "titles": [
+                    "Goal",
                     "Challenges",
-                    "Goals",
                     "Final Thoughts"
                 ],
                 "descriptions": [
-                    "To create a website for the client to sell her clothing as well as get in touch with the client.",
-                    "Learning the Django framework as well as implementing Stripe and AWS S3.",
-                    "I loved the process and think the Django framework has a lot of positives when developing and can see myself making something in the future with it."
+                    "Practice JS more.",
+                    "No challenges.",
+                    "Simple enough application, just something else to practice on."
                 ]
             }
         }
@@ -697,18 +577,18 @@
         "pk": 11,
         "fields": {
             "title": "JS Presentation - Part Two",
-            "overviewDescription": "A Webscraper using Selenium to gather data from a given company and some reviews and store them in an excel file and on MongoDB.",
+            "overviewDescription": "More practice with frontend fundamentals this time creating a calculator. Combining CS flexbox with some more JS practice.",
             "overviewImage": "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-            "shortDescription": "Ellas Design is a full stack Django web app to sell clothing from Ella Moya.",
+            "shortDescription": "More practice with frontend fundamentals this time creating a calculator.",
             "featured": false,
-            "mobileVersion": true,
+            "mobileVersion": false,
             "date": "2022",
             "colorTheme": ["#ffc83cb8","#494949", "#bd6367 "],
-            "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments"],
+            "technologies": ["HTML", "CSS", "JS"],
             "links": {
                 "link": [
-                    "https://github.com/AllenGleeson",
-                    "https://www.linkedin.com/in/allen-gleeson-a6263711a/"
+                    "https://github.com/AllenGleeson/js-presentation-part-2",
+                    "https://allengleeson.github.io/js-presentation-part-2/"
                 ],
                 "linkName": [
                     "GitHub",
@@ -717,46 +597,28 @@
             },
             "fields": {
                 "sectionTitle": [
-                    "Home Page",
-                    "Products Page",
-                    "Product Page",
-                    "Bag Page",
-                    "Checkout Page",
-                    "Profiles Page",
-                    "Contact Page",
-                    "About Page"
+                    null
                 ],
                 "descriptions": [
-                    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun.",
-                    "Scarf made out of faux silk material, soft and shiney with a fun."
+                    null
                 ],
                 "images": [
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd"
+                    null
+                ],
+                "admin": [
+                    false
                 ]
             },
             "endDescriptions": {
                 "titles": [
+                    "Goal",
                     "Challenges",
-                    "Goals",
                     "Final Thoughts"
                 ],
                 "descriptions": [
-                    "To create a website for the client to sell her clothing as well as get in touch with the client.",
-                    "Learning the Django framework as well as implementing Stripe and AWS S3.",
-                    "I loved the process and think the Django framework has a lot of positives when developing and can see myself making something in the future with it."
+                    "To combine and practice with Flexbox and JS.",
+                    "Still getting used to flexbox and how it interacts with elements.",
+                    "Overall doing the CSS and Js presentations helped me think more about how I'm making websites and who will be using them as well as flexbox and when to use it."
                 ]
             }
         }
