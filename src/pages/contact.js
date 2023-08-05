@@ -51,26 +51,20 @@ const Contact = () => {
                     </div>
                     <div className='col-sm-12 col-md-6 pt-3'>
                         <div className='border border-3 d-flex h-100 justify-content-center p-sm-3 personalLinks shadow-lg slideRight'>
-                            <ul className='align-content-center d-flex justify-content-center m-3 p-2'>
-                                <a className='m-2 p-2' href='https://github.com/AllenGleeson'>
-                                    <li className='border border-3 border-light p-1 rounded-2 text-center'>
-                                        <FontAwesomeIcon icon={faFolder} beat size="lg" className='icon contactIcon'/>
-                                        <span className='border border-1 border-black tag'>GitHub</span>
-                                    </li>
+                            <div className='align-center d-flex flex-column justify-content-center'>
+                                <a className='m-2 p-2 tag text-decoration-none' href='https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd'>
+                                    <FontAwesomeIcon icon={faFolder} className='icon contactIcon'/>
+                                    <span>GitHub</span>
                                 </a>
-                                <a className='m-2 p-2' href='https://www.linkedin.com/in/allen-gleeson-a6263711a/'>
-                                    <li className='border border-3 border-light p-1 rounded-2 text-center'>
-                                        <FontAwesomeIcon icon={faFolder} beat size="lg" className='icon contactIcon'/>
-                                        <span className='border border-1 border-black tag'>LinkedIn</span>
-                                    </li>
+                                <a className='m-2 p-2 tag text-decoration-none' href='https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd'>
+                                    <FontAwesomeIcon icon={faFolder} className='icon contactIcon'/>
+                                    <span>LinkedIn</span>
                                 </a>
-                                <a className='m-2 p-2' href='https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd'>
-                                    <li className='border border-3 border-light p-1 rounded-2 text-center'>
-                                        <FontAwesomeIcon icon={faFolder} beat size="lg" className='icon contactIcon'/>
-                                        <span className='border border-1 border-black tag'>CV</span>
-                                    </li>
+                                <a className='m-2 p-2 tag text-decoration-none' href='https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd'>
+                                    <FontAwesomeIcon icon={faFolder} className='icon contactIcon'/>
+                                    <span>CV</span>
                                 </a>
-                            </ul>
+                            </div>
                         </div>
                     </div>
                 </div>

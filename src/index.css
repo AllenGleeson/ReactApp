@@ -97,7 +97,7 @@ code {
 }
 
 .tag:hover{
-  background: radial-gradient(#ffc228,#919191) !important;
+  background: radial-gradient(#ffc228,#ffffff) !important;
   text-shadow: 1px 0px 1px #ffffff !important;
   color: #000000 !important;
 }
