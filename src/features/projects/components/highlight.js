@@ -48,16 +48,16 @@ const Highlight = ({ index, title, description, image, mobileVersion, admin }) =
                                         <p>{description}</p>
                                     </div>
                                     {(mobileVersion || admin) && (
-                                        <div className='d-flex h-25'>
+                                        <div className='d-flex justify-content-end'>
                                             {mobileVersion && (
-                                                <span onClick={() => handleViewClick('mobile')} className='techTheme dynamicHover text-shadow-light-small p-1 m-2 rounded border border-dark-subtle'>
+                                                <span onClick={() => handleViewClick('mobile')} className='pointerCursor techTheme dynamicHover text-shadow-light-small p-1 m-2 rounded border border-dark-subtle'>
                                                     {selectedView === 'mobile'
                                                         ? 'Desktop Version'
                                                         : 'Mobile Version'}
                                                 </span>
                                             )}
                                             {admin && (
-                                                <span onClick={() => handleViewClick('admin')} className='techTheme dynamicHover text-shadow-light-small p-1 m-2 rounded border border-dark-subtle'>
+                                                <span onClick={() => handleViewClick('admin')} className='pointerCursor techTheme dynamicHover text-shadow-light-small p-1 m-2 rounded border border-dark-subtle'>
                                                     {selectedView === 'admin'
                                                         ? 'User View'
                                                         : 'Admin View'}
@@ -77,16 +77,16 @@ const Highlight = ({ index, title, description, image, mobileVersion, admin }) =
                                         <p>{description}</p>
                                     </div>
                                     {(mobileVersion || admin) && (
-                                        <div className='d-flex h-25'>
+                                        <div className='d-flex'>
                                             {mobileVersion && (
-                                                <span onClick={() => handleViewClick('mobile')} className='techTheme dynamicHover text-shadow-light-small p-1 m-2 rounded border border-dark-subtle'>
+                                                <span onClick={() => handleViewClick('mobile')} className='pointerCursor techTheme dynamicHover text-shadow-light-small p-1 m-2 rounded border border-dark-subtle'>
                                                     {selectedView === 'mobile'
                                                         ? 'Desktop Version'
                                                         : 'Mobile Version'}
                                                 </span>
                                             )}
                                             {admin && (
-                                                <span onClick={() => handleViewClick('admin')} className='techTheme dynamicHover text-shadow-light-small p-1 m-2 rounded border border-dark-subtle'>
+                                                <span onClick={() => handleViewClick('admin')} className='pointerCursor techTheme dynamicHover text-shadow-light-small p-1 m-2 rounded border border-dark-subtle'>
                                                     {selectedView === 'admin'
                                                         ? 'User View'
                                                         : 'Admin View'}
