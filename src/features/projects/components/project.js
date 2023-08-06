@@ -96,7 +96,7 @@ const Project = () => {
                 {project.fields.fields.sectionTitle.map((title, index) => (
                     <Highlight title={title} description={project.fields.fields.descriptions[index]} image={project.fields.fields.images[index]} mobileVersion={project.fields.mobileVersion} admin={project.fields.fields.admin[index]} index={index} />
                 ))}
-                <EndDescription descriptions={project.fields.endDescriptions} />
+                <EndDescription descriptions={project.fields.endDescriptions} color={project.fields.colorTheme[0]} />
             </div>
         </section>
     );
