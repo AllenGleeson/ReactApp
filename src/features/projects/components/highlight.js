@@ -54,7 +54,7 @@ const Highlight = ({ index, title, description, image, mobileVersion, admin }) =
                                 <div className='col-sm-12 col-md-5'>
                                     <div className='m-3'>
                                         <img
-                                            className='border border-4 border-dark rounded w-100'
+                                            className='min-height border border-4 border-dark rounded w-100'
                                             src={getImagePath()}
                                             alt='Project'
                                         />
@@ -117,7 +117,7 @@ const Highlight = ({ index, title, description, image, mobileVersion, admin }) =
                                 <div className='col-sm-12 col-md-5'>
                                     <div className='m-3'>
                                         <img
-                                            className='border border-4 border-dark rounded w-100'
+                                            className='min-height border border-4 border-dark rounded w-100'
                                             src={getImagePath()}
                                             alt='Project'
                                         />
