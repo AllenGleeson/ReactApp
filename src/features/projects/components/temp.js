@@ -27,6 +27,7 @@ function Temp() {
     return (
         <div>
             <FeaturedProjects />
+            <h4 className='tag text-shadow'>Scroll for more</h4>
             <div className={`fade ${showComponent ? 'show' : 'hide'}`}>
                 {showComponent && (
                 <div>

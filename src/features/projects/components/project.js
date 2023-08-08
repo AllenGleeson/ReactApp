@@ -4,15 +4,31 @@ import projectsData from '../../../data/projects.json';
 import '../../../assets/css/project.css'
 import Highlight from './highlight';
 import EndDescription from './endDescription'
+import BackToTop from '../../../components/backToTop';
 
 const Project = () => {
     const { id } = useParams();
     var [project, setProject] = useState(null);
 
-    //project = projectsData[0];
+    const [showComponent, setShowComponent] = useState(false);
 
     useEffect(() => {
-        // Find the selected project based on the "id" parameter
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+        window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
+    const handleScroll = () => {
+        const scrollY = window.scrollY;
+        if (scrollY > 20) {
+        setShowComponent(true);
+        } else {
+        setShowComponent(false);
+        }
+    };
+
+    useEffect(() => {
         const selectedProject = projectsData.find((project) => project.pk === parseInt(id));
         setProject(selectedProject);
       }, [id]);
@@ -64,8 +80,8 @@ const Project = () => {
                                 <div className='m-2 mt-3 p-1'>
                                     <div className='h-100 p-2'>
                                         {project.fields.links.link.map((link, index) => (
-                                            <a href={link} className="border border-2 borderThemeColor d-inline techTheme dynamicHover text-shadow m-2 p-1 rounded text-decoration-none">
-                                                <span key={index}>
+                                            <a key={index} href={link} className="border border-2 borderThemeColor d-inline techTheme dynamicHover text-shadow m-2 p-1 rounded text-decoration-none">
+                                                <span>
                                                     {project.fields.links.linkName[index]}
                                                 </span>
                                             </a>
@@ -94,9 +110,16 @@ const Project = () => {
                     </div>
                 </div>
                 {project.fields.fields.sectionTitle.map((title, index) => (
-                    <Highlight title={title} description={project.fields.fields.descriptions[index]} image={project.fields.fields.images[index]} mobileVersion={project.fields.mobileVersion} admin={project.fields.fields.admin[index]} index={index} />
+                    <Highlight key={index} title={title} description={project.fields.fields.descriptions[index]} image={project.fields.fields.images[index]} mobileVersion={project.fields.mobileVersion} admin={project.fields.fields.admin[index]} index={index} />
                 ))}
                 <EndDescription descriptions={project.fields.endDescriptions} color={project.fields.colorTheme[0]} />
+                <div className={`fade ${showComponent ? 'show' : 'hide'}`}>
+                    {showComponent && (
+                    <div>
+                        <BackToTop />
+                    </div>
+                    )}
+                </div>
             </div>
         </section>
     );

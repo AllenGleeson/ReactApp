@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import '../../../assets/css/project.css';
 
 const Highlight = ({ index, title, description, image, mobileVersion, admin }) => {
-    const [selectedView, setSelectedView] = useState('desktop');
     const [showMobileVersion, setShowMobileVersion] = useState(false);
     const [showAdminView, setShowAdminView] = useState(false);
 
@@ -12,19 +11,6 @@ const Highlight = ({ index, title, description, image, mobileVersion, admin }) =
             ? 'slideLeft dynamicTheme rounded-bottom-circle rounded-top-pill'
             : 'alternateBg text-light slideRight'
     }`;
-
-    // Event handler for the "Mobile Version" or "Admin View" button click
-    const handleViewClick = (view) => {
-        setSelectedView((prevView) => {
-            if (prevView === view) {
-                // If clicking the same view again, switch to "Desktop Version"
-                return 'desktop';
-            } else {
-                // If clicking a different view, switch to the clicked view
-                return view;
-            }
-        });
-    };
 
     // Event handler for the "Mobile Version" button click
     const handleMobileVersionClick = () => {

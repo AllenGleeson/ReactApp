@@ -18,12 +18,12 @@ const FeaturedProjects = () => {
             <h3 className="text-shadow defaultCursor hoverWhite m-sm-3 tag text-center">Featured Projects</h3>
             <Carousel>
                 {featuredProjects.map((project) => (
-                    <Carousel.Item className="rounded-2">
-                        <div>
-                            <a href={project.pk}>
-                                <img className="rounded-2" src={project.fields.overviewImage}/>
+                    <Carousel.Item>
+                        <div className="h-100 rounded border border-black">
+                            <a href={`projects/${project.pk}`}>
+                                <img className="rounded" src={project.fields.overviewImage}/>
                             </a>
-                            <div onClick={toggleCollapse} className="border border-2 border-black featuredProjectDescription text-shadow-light hoverWhite rounded rounded-2">
+                            <div onClick={toggleCollapse} className="border border-2 border-black featuredProjectDescription text-shadow text-light hoverWhite rounded">
                                 <span>{project.fields.title}</span>
                                 <FontAwesomeIcon icon={faFolder} beat size="lg" className='icon'/>
                                 {!isCollapsed && 
