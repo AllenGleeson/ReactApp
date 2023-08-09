@@ -13,13 +13,13 @@ const AboutMe = () => {
         <div className='rounded-1 dark-bg'>
             <div className='pb-3 m-sm-1 row'>
                 <div className='defaultCursor mb-1 mt-2 slideLeft'>
-                    <div className='tag text-shadow'>
+                    <div className='links text-shadow'>
                         <span>Allen Gleeson</span>
                     </div>
-                    <div className='tag text-shadow'>
+                    <div className='links text-shadow'>
                         <span>Full Stack Developer</span>
                     </div>
-                    <div className='tag text-shadow'>
+                    <div className='links text-shadow'>
                         <span>Ireland</span>
                     </div>
                 </div>
@@ -38,13 +38,13 @@ const AboutMe = () => {
                         <hr />
                         <div className='mt-5'>
                             <a href='https://github.com/AllenGleeson'>
-                                <span className='tag text-shadow'>GitHub</span>
+                                <span className='links text-shadow'>GitHub</span>
                             </a>
                             <a href='https://www.linkedin.com/in/allen-gleeson-a6263711a/'>
-                                <span className='tag text-shadow'>LinkedIn</span>
+                                <span className='links text-shadow'>LinkedIn</span>
                             </a>
                             <a href='#'>
-                                <span className='tag text-shadow'>CV</span>
+                                <span className='links text-shadow'>CV</span>
                             </a>
                         </div>
                     </div>

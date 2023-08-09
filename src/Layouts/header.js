@@ -19,14 +19,14 @@ const Header = () => {
               <img id="logo" src={logo} alt="logo" />
             </Navbar.Brand>
             <Nav className="mr-auto">
-              <NavItem className='tag'>
-                  <NavLink className="nav-link text-shadow" href="/projects">
-                  PROJECTS
+              <NavItem className='links'>
+                  <NavLink className="nav-link text-shadow" href="/">
+                  HOME
                   </NavLink>
               </NavItem>
-              <NavItem className='tag'>
-                  <NavLink className="nav-link text-shadow" href="/contact">
-                  CONTACT
+              <NavItem className='links'>
+                  <NavLink className="nav-link text-shadow" href="/projects">
+                  PROJECTS
                   </NavLink>
               </NavItem>
             </Nav>

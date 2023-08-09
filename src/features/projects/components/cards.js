@@ -6,24 +6,16 @@ import projects from '../../../data/projects.json';
 const Cards = () => {
     return(
         <section className='cards justify-content-center'>
-          <h3 className='text-center tag defaultCursor'>Other Code</h3>
+          <h3 className='text-center tag defaultCursor'>All Projects</h3>
           <div className='row'>
               {projects.map((project, index) => (
-                  <React.Fragment key={index}>
-                    {project.fields.featured ? (
-                      // Render elements when project is featured
-                      <></>
-                    ) : (
-                      // Render Card component for non-featured projects
-                      <Card
-                        index={index}
-                        title={project.fields.title}
-                        description={project.fields.shortDescription}
-                        links={project.fields.links}
-                        image={project.fields.overviewImage}
-                      />
-                    )}
-                  </React.Fragment>
+                <Card
+                  index={index}
+                  title={project.fields.title}
+                  description={project.fields.shortDescription}
+                  links={project.fields.links}
+                  image={project.fields.overviewImage}
+                />
               ))}
           </div>
         </section>

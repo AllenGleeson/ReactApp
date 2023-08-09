@@ -20,7 +20,7 @@ const Card = ({ index, title, description, links, image}) => {
                             <hr />
                             <p className="card-text">{description}</p>
                             {links.link.map((link, index) => (
-                                <a href={link} className="tag border border-black">
+                                <a href={link} className="links border border-black">
                                     <span key={index}>
                                         {links.linkName[index]}
                                     </span>
