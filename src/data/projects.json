@@ -95,7 +95,7 @@
             "technologies": ["HTML", "CSS", "JS", "Python", "Flask", "MongoDB", "Materialise CSS"],
             "links": {
                 "link": [
-                    "https://github.com/AllenGleeson",
+                    "https://github.com/AllenGleeson/Lazy-Hunger",
                     "https://www.linkedin.com/in/allen-gleeson-a6263711a/"
                 ],
                 "linkName": [
@@ -161,8 +161,8 @@
             "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments", "Google Maps API", "Wikipedia API", "Weather API"],
             "links": {
                 "link": [
-                    "https://github.com/AllenGleeson",
-                    "https://www.linkedin.com/in/allen-gleeson-a6263711a/"
+                    "https://github.com/AllenGleeson/Find-Ireland",
+                    "https://allengleeson.github.io/Find-Ireland/"
                 ],
                 "linkName": [
                     "GitHub",
@@ -220,7 +220,7 @@
             "links": {
                 "link": [
                     "https://github.com/AllenGleeson/AmgArtGallery",
-                    "https://www.linkedin.com/in/allen-gleeson-a6263711a/"
+                    "https://allengleeson.github.io/AmgArtGallery/"
                 ],
                 "linkName": [
                     "GitHub",
