@@ -11,7 +11,7 @@ const Card = ({ index, title, description, links, image}) => {
         <div className="mb-3 col-sm-10 col-md-5 p-2 offset-md-1">
             <div className={cardClass}>
                 <a href={projectLink} className="row">
-                    <div class="col-sm-12 col-md-4 p-0">
+                    <div className="col-sm-12 col-md-4 p-0">
                         <img src={image} className="card-img" alt="Project One" />
                     </div>
                     <div className="col-sm-12 col-md-8">
@@ -20,7 +20,7 @@ const Card = ({ index, title, description, links, image}) => {
                             <hr />
                             <p className="card-text">{description}</p>
                             {links.link.map((link, index) => (
-                                <a href={link} className="links border border-black">
+                                <a key={index} href={link} className="links border border-black">
                                     <span key={index}>
                                         {links.linkName[index]}
                                     </span>

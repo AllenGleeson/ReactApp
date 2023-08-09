@@ -10,6 +10,7 @@ const Cards = () => {
           <div className='row'>
               {projects.map((project, index) => (
                 <Card
+                  key={index}
                   index={index}
                   title={project.fields.title}
                   description={project.fields.shortDescription}

@@ -17,8 +17,8 @@ const FeaturedProjects = () => {
         <section className="featuredProjects mt-2">
             <h3 className="text-shadow defaultCursor hoverWhite m-sm-3 tag text-center">Featured Projects</h3>
             <Carousel>
-                {featuredProjects.map((project) => (
-                    <Carousel.Item>
+                {featuredProjects.map((project, index) => (
+                    <Carousel.Item key={index}>
                         <div className="h-100 rounded border border-black">
                             <a href={`projects/${project.pk}`}>
                                 <img className="rounded" src={project.fields.overviewImage}/>
