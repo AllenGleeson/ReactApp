@@ -28,6 +28,9 @@
   text-shadow: 3px 1px 3px #b1b1b1 !important;
 }
 
+.vertical-timeline-element-content p {
+  font-size: 1.3rem;
+}
 
 .vertical-timeline-element-date{
   color: #ffffff;

@@ -7,20 +7,37 @@
     height: 100%;
 }
 
-.featuredProjects{
-    min-height: 82vh;
+.projects{
+    min-height: 85vh;
 }
 
 .featuredProjects .carousel, .carousel-inner, .carousel-item{
     min-height: 600px;
 }
 
+.file-container {
+    position: relative;
+    margin-top: 100px;
+}
+  
+.file-title {
+    position: absolute;
+    top: -55px;
+    left: -6px;
+    padding: 10px;
+    font-size: 20px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    background: radial-gradient(#919191,#ffc228) !important;
+    margin: 45px !important;
+}
+
 .carousel-control-prev-icon, .carousel-control-next-icon{
     background-color: #ffc228;
 }
 
-.featuredProjectDescription{
-    background: radial-gradient(#b9b191,#ffc228) !important;
+.featuredProjectDescription {
+    background: radial-gradient(#b9b191, #ffc228) !important;
     right: 0 !important;
     top: 0px !important;
     width: 200px;
@@ -30,7 +47,15 @@
     padding: 8px;
     cursor: pointer;
     font-size: 14px;
+    max-height: 100px; /* Initial max height for collapsing */
+    overflow: hidden; /* Hide overflowing content */
+    transition: max-height 0.5s ease-in; /* Transition for max-height */
 }
+
+.featuredProjectDescription.expanded {
+    max-height: 300px; /* Adjust this value as needed for expanding */
+}
+
 
 .featuredProjectDescription span{
     margin-right: 20px;
