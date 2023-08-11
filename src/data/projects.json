@@ -4,7 +4,7 @@
         "fields": {
             "title": "Ellas Design",
             "overviewDescription": "Ellas Design is a full stack Django web app to sell clothing from Ella Moya. The user can browse the products and add them to cart where they can checkout and pay using Stripe Payments. They can also create a profile to store their delivery information and see their order history. The owner will be able to add, edit and delete products.",
-            "overviewImage": "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
+            "overviewImage": "amg_art_overview.PNG",
             "shortDescription": "Ellas Design is a full stack Django web app to sell clothing from Ella Moya.",
             "featured": true,
             "mobileVersion": true,
@@ -152,13 +152,13 @@
         "fields": {
             "title": "Find Ireland",
             "overviewDescription": "A tourism website to explore different tourist attractions across Ireland. The website is API heavy and uses JS and Jquery to create a website to see nearby tourist attractions to the selected towns.",
-            "overviewImage": "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
+            "overviewImage": "find_ireland_overview.PNG",
             "shortDescription": "A website to see tourist attractions around Ireland.",
             "featured": true,
-            "mobileVersion": false,
+            "mobileVersion": true,
             "date": "2022",
             "colorTheme": ["#0baf00","#494949", "#bd6367 "],
-            "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments", "Google Maps API", "Wikipedia API", "Weather API"],
+            "technologies": ["HTML", "CSS", "JS", "Google Maps API", "Wikipedia API", "Weather API"],
             "links": {
                 "link": [
                     "https://github.com/AllenGleeson/Find-Ireland",
@@ -182,7 +182,7 @@
                 ],
                 "images": [
                     null,
-                    "3.jpg",
+                    "find_ireland_home.png",
                     "3.jpg"
                 ],
                 "admin": [
@@ -210,7 +210,7 @@
         "fields": {
             "title": "AMG Art Gallery",
             "overviewDescription": "A gallery website for AMG to display her art, photos and poems created using HTML, CSS and Bootstrap.",
-            "overviewImage": "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
+            "overviewImage": "amg_art_overview.PNG",
             "shortDescription": "An art gallery for AMG to display some of their art, photos and poems.",
             "featured": true,
             "mobileVersion": true,

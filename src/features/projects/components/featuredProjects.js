@@ -20,9 +20,9 @@ const FeaturedProjects = () => {
                 <Carousel>
                     {featuredProjects.map((project, index) => (
                         <Carousel.Item key={index}>
-                            <div className="h-100 rounded border border-black">
+                            <div className="h-100">
                                 <a href={`projects/${project.pk}`}>
-                                    <img className="rounded" src={project.fields.overviewImage} alt={project.fields.title} />
+                                    <img className="rounded" src={`${process.env.PUBLIC_URL}/data/images/overview/${project.fields.overviewImage}`} alt={project.fields.title} />
                                 </a>
                                 <div
                                     onClick={toggleCollapse}

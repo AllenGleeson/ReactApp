@@ -5,6 +5,7 @@ import '../../../assets/css/project.css'
 import Highlight from './highlight';
 import EndDescription from './endDescription'
 import BackToTop from '../../../components/backToTop';
+import MobileViewer from './mobileViewer';
 
 const Project = () => {
     const { id } = useParams();
@@ -59,6 +60,7 @@ const Project = () => {
       }
     `;
     
+    const overviewImagePath = `${process.env.PUBLIC_URL}/data/images/overview/${project.fields.overviewImage}`;
     
 
     return(
@@ -90,8 +92,8 @@ const Project = () => {
                                 </div>
                             </div>
                             <div className="col-sm-12 col-md-6">
-                                <div className="m-2 p-2">
-                                    <img className="border border-4 border-dark rounded w-100" src={project.fields.overviewImage} />
+                                <div>
+                                    <img className="w-100" src={overviewImagePath} />
                                 </div>
                             </div>
                         </div>
@@ -109,6 +111,9 @@ const Project = () => {
                         </div>
                     </div>
                 </div>
+                {project.fields.mobileVersion && (
+                    <MobileViewer site={project.fields.links.link[1]} />
+                )}
                 {project.fields.fields.sectionTitle.map((title, index) => (
                     <Highlight key={index} title={title} description={project.fields.fields.descriptions[index]} image={project.fields.fields.images[index]} mobileVersion={project.fields.mobileVersion} admin={project.fields.fields.admin[index]} index={index} />
                 ))}
