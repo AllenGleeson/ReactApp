@@ -1,11 +1,10 @@
 import React from 'react'
 import '../../../assets/css/aboutMe.css';
 
-let articleContent = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam venenatis erat id felis porttitor,'+
- 'et vestibulum dui euismod. Aenean in velit et urna mollis volutpat nec quis urna. Sed eu lorem nisl.'+
-  'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.'+
-   'Quisque quis ligula vehicula, auctor metus tristique, eleifend velit. Duis ac magna magna.'+
-    'Nulla sed commodo magna, et feugiat libero. Cras bibendum luctus justo. Nulla at suscipit neque.'
+let articleContent = "I am a junior developer having completed several courses focused on programming and expanding my knowledge of different aspects of the development lifecycle."+
+"My courses have covered a diverse range of development languages, frameworks, and skills. "+
+"My early courses were in the backend with Java and C# and learning the Spring Framework. I continually did courses in any area of the Full Stack I felt weak in. The last few years I have been training up in Web Development."+
+"If you "
 
 const AboutMe = () => {
     return (
