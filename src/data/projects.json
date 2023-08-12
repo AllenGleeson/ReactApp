@@ -172,8 +172,8 @@
             "fields": {
                 "sectionTitle": [
                     "API Used",
-                    "Home Page",
-                    "About Page"
+                    "Home",
+                    "About"
                 ],
                 "descriptions": [
                     "I use google maps API and search for tourist attractions within 50miles of a location then I find an image and use Wikipedias API to gather information about that attraction. The about page also uses an Weather API to show the current temperature on the four sides of Ireland.",
@@ -183,7 +183,7 @@
                 "images": [
                     null,
                     "find_ireland_home.png",
-                    "3.jpg"
+                    "find_ireland_about.png"
                 ],
                 "admin": [
                     false,
@@ -272,7 +272,7 @@
         "fields": {
             "title": "SSid Checker",
             "overviewDescription": "Application that enables a user to check if the user name of your WiFi network, which is identified as SSID (Service Set Identifier) hereafter is of a standard format that conforms to the rules corresponding to the assigned item. The application prompts the user to provide one item (i.e. a piece of text). Next, the application uses the piece of text to determine if the provided text is valid or invalid.",
-            "overviewImage": "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
+            "overviewImage": null,
             "shortDescription": "Application to validate user name of Wifi Network.",
             "featured": false,
             "mobileVersion": false,
@@ -324,7 +324,7 @@
         "fields": {
             "title": "Random Trip",
             "overviewDescription": "Scarf made out of faux silk material, soft and shiney with a fun.",
-            "overviewImage": "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
+            "overviewImage": "random_trip.png",
             "shortDescription": "Ellas Design is a full stack Django web app to sell clothing from Ella Moya.",
             "featured": false,
             "mobileVersion": false,
@@ -374,7 +374,7 @@
         "fields": {
             "title": "Library",
             "overviewDescription": "A simple library application. Allows users to add and book and mark if it was read or not as well as delete the book.",
-            "overviewImage": "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
+            "overviewImage": null,
             "shortDescription": "A simple library application. Allows users to add and book and mark if it was read or not as well as delete the book.",
             "featured": false,
             "mobileVersion": true,
@@ -424,7 +424,7 @@
         "fields": {
             "title": "Review Scrapper",
             "overviewDescription": "A Webscraper using Selenium to gather data from a given company and some reviews and store them in an excel file and on MongoDB. It searches trustpilot.com for the company you search and gathers reviews and general company data to put in our file or database.",
-            "overviewImage": "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
+            "overviewImage": null,
             "shortDescription": "A Webscraper using Selenium to gather data from a given company and some reviews and store them in an excel file and on MongoDB.",
             "featured": false,
             "mobileVersion": false,
@@ -476,7 +476,7 @@
         "fields": {
             "title": "CSS Presentation",
             "overviewDescription": "A CSS presentation to get a better grasp of the fundamentals and Flex box.",
-            "overviewImage": "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
+            "overviewImage": "css_presentation.png",
             "shortDescription": "A CSS presentation to get a better grasp of the fundamentals and Flex box.",
             "featured": false,
             "mobileVersion": false,
@@ -526,7 +526,7 @@
         "fields": {
             "title": "JS Presentation - Part One",
             "overviewDescription": "A JS presentation to get a better grasp of the fundamentals. Creating a simple Rock, Paper, Scissors game. User is asked for input when on the page and they can enter in their choice as text.",
-            "overviewImage": "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
+            "overviewImage": null,
             "shortDescription": "A JS presentation to get a better grasp of the fundamentals.",
             "featured": false,
             "mobileVersion": false,
@@ -576,7 +576,7 @@
         "fields": {
             "title": "JS Presentation - Part Two",
             "overviewDescription": "More practice with frontend fundamentals this time creating a calculator. Combining CS flexbox with some more JS practice.",
-            "overviewImage": "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
+            "overviewImage": null,
             "shortDescription": "More practice with frontend fundamentals this time creating a calculator.",
             "featured": false,
             "mobileVersion": false,
