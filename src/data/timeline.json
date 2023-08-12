@@ -5,7 +5,7 @@
             "title": "Data Scientist - Innovation Program",
             "organisation": "Orcawise",
             "location": "Remote",
-            "description": "Scarf made out of faux silk material, soft and shiney with a fun.",
+            "description": "Currently working with Orcawise to do Data Scrapping with Python",
             "education": false,
             "date": "July 2023 - present"
         }
@@ -27,7 +27,7 @@
             "title": "Certificate in Science in Computing",
             "organisation": "National College of Ireland",
             "location": "Remote",
-            "description": "Course focused on Java, SQL and Computer Architecture.",
+            "description": "12 week course focused on Java, SQL and Computer Architecture.",
             "education": true,
             "date": "March 2023 - July 2023"
         }
@@ -50,7 +50,7 @@
             "organisation": "Brainnest",
             "location": "Remote",
             "description": "Brainnest bootcamp focusing on advanced JS.",
-            "education": false,
+            "education": true,
             "date": "November 2022 - December 2022"
         }
     },
@@ -72,41 +72,41 @@
             "organisation": "Limekiln Gastropub",
             "location": "Julianstown, Co.Meath",
             "description": "Assisted chefs as well as cleaning duties, training up new porters and closing up after finish.",
-            "education": true,
+            "education": false,
             "date": "May 2022 - July 2022"
         }
     },
     {
         "pk": 8,
         "fields": {
-            "title": "Kitchen Porter",
-            "organisation": "Limekiln Gastropub",
-            "location": "Julianstown, Co.Meath",
-            "description": "Scarf made out of faux silk material, soft and shiney with a fun.",
-            "education": true,
-            "date": "May 2022 - July 2022"
+            "title": "Customer Assistant",
+            "organisation": "Tesco",
+            "location": "Bettystown, Co. Meath",
+            "description": "Worked as a customer assistant in Tesco during December toward the end of COVID.",
+            "education": false,
+            "date": "December 2021"
         }
     },
     {
         "pk": 9,
         "fields": {
-            "title": "Kitchen Porter",
-            "organisation": "Limekiln Gastropub",
+            "title": "Web Developer - Work Placement",
+            "organisation": "Nebula Innovation",
             "location": "Julianstown, Co.Meath",
-            "description": "Scarf made out of faux silk material, soft and shiney with a fun.",
-            "education": true,
-            "date": "May 2022 - July 2022"
+            "description": "Work placement with Nebula Innovations mainly using .NET CORE. Worked on a nursing home application to assist with bugs and adding minor features.",
+            "education": false,
+            "date": "October 2020 - September 2021"
         }
     },
     {
         "pk": 10,
         "fields": {
-            "title": "Kitchen Porter",
-            "organisation": "Limekiln Gastropub",
-            "location": "Julianstown, Co.Meath",
-            "description": "Scarf made out of faux silk material, soft and shiney with a fun.",
+            "title": "Diploma in Full Stack Software Development",
+            "organisation": "Code Institute",
+            "location": "Remote",
+            "description": "Full Stack bootcamp from the beginings of creating a simple HTML website with Bootstrap to a Full Stack Django E-Commerce application.",
             "education": true,
-            "date": "May 2022 - July 2022"
+            "date": "July 2019 - September 2020"
         }
     },
     {
@@ -115,9 +115,65 @@
             "title": "Kitchen Porter",
             "organisation": "Limekiln Gastropub",
             "location": "Julianstown, Co.Meath",
-            "description": "Scarf made out of faux silk material, soft and shiney with a fun.",
+            "description": "Assisted chefs as well as cleaning duties, training up new porters and closing up after finish.",
+            "education": false,
+            "date": "October 2019 - March 2020"
+        }
+    },
+    {
+        "pk": 13,
+        "fields": {
+            "title": "Website Administrator",
+            "organisation": "Meath Partnership",
+            "location": "Remote",
+            "description": "With Meath Partnership I was working on the football website, Nefl.ie, for clubs’ northeast of Dublin. I was responsible for posting to the site and adding media as well as updating the tables with match results and making new fixtures. I also posted results, upcoming matches, and other news for their social media to keep people engaged.",
+            "education": false,
+            "date": "Febuary 2019 - Febuary 2020"
+        }
+    },
+    {
+        "pk": 14,
+        "fields": {
+            "title": "Software Testing: ISTQB Foundation Level",
+            "organisation": "DDLETB",
+            "location": "Baldoyle",
+            "description": "Focusing on Blackbox, Whitebox manual testing with some exposure to automated testing.",
             "education": true,
-            "date": "May 2022 - July 2022"
+            "date": "April 2017 - August 2017"
+        }
+    },
+    {
+        "pk": 15,
+        "fields": {
+            "title": "Software Developer Traineeship: Oracle Certified Associate, Java SE8",
+            "organisation": "CDETB",
+            "location": "Finglas",
+            "description": "This course went through Java using servlets, Mavin, Jsp’s and getting to learn Java more deeply with Spring and Hibernate culminating with the Oracle Associate Certificate.",
+            "education": true,
+            "date": "Sept 2015 - Sept 2016"
+        }
+    }
+    ,
+    {
+        "pk": 16,
+        "fields": {
+            "title": "Software Development: City and Guilds Level 2",
+            "organisation": "DDLETB",
+            "location": "Baldoyle",
+            "description": "My first full time programming course. Introduced me to OOP, MVC and the waterfall lifecycle. Got to learn and practice the basics of Java, C#, SQL as well as technical support.",
+            "education": true,
+            "date": "October 2014 - May 2015"
+        }
+    },
+    {
+        "pk": 17,
+        "fields": {
+            "title": "Pre 2014",
+            "organisation": "",
+            "location": "",
+            "description": "Please have a look at my CV or get in touch for more.",
+            "education": true,
+            "date": "Pre 2014"
         }
     }
 ]

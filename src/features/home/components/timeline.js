@@ -21,7 +21,7 @@ const TimelineElement = ({ element }) => {
             iconStyle={{ background: '#ffc228', color: '#fff' }}
             icon={icon}
         >
-            <h3 className="vertical-timeline-element-title text-shadow-light text-shadow">{element.fields.title}</h3>
+            <h4 className="vertical-timeline-element-title text-shadow-light text-shadow">{element.fields.title}</h4>
             <div className="vertical-timeline-element-subtitle text-shadow-light text-shadow">
                 <h5>{element.fields.location}</h5>
                 <h4>{element.fields.organisation}</h4>
