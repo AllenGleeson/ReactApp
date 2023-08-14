@@ -16,7 +16,8 @@
 }
 
 .vertical-timeline-element--work .vertical-timeline-element-content{
-  background-color: #ffc228;
+  background-color: #6f6f6f;
+  color: rgb(255, 255, 255);
 }
 
 .vertical-timeline-element--education .vertical-timeline-element-content{
@@ -24,12 +25,10 @@
   color: rgb(255, 255, 255);
 }
 
-.vertical-timeline-element-content{
-  text-shadow: 3px 1px 3px #b1b1b1 !important;
-}
+
 
 .vertical-timeline-element-content p {
-  font-size: 1.3rem;
+  font-size: 1.1rem !important;
 }
 
 .vertical-timeline-element-date{
@@ -42,10 +41,8 @@
   background-color: #919191;
 }
 
-.aboutMe p{
-  background-color: #b4b4b4;
-  color: #333333;
-  text-shadow: 1px 1px 5px #000000, -1px 0px 3px #ffffff;
+.aboutmeDescription{
+  animation: grow 1s;
 }
 
 .aboutMeSection{
