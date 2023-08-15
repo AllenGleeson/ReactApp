@@ -86,7 +86,7 @@
         "fields": {
             "title": "Lazy Hunger",
             "overviewDescription": "Lazy Hunger is a community based website for users to share their recipes with others. Using Flask with Python for the backend, Materialise CSS for the frontend and MongoDB for storage. User can create, view, update and delete their own or if they wish they can delete others recipes.",
-            "overviewImage": "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
+            "overviewImage": "amg_art_overview.PNG",
             "shortDescription": "A community based website for users to share their recipes with others.",
             "featured": true,
             "mobileVersion": true,

@@ -48,7 +48,7 @@ const Highlight = ({ index, title, description, image, mobileVersion, admin }) =
                                 </div>
                                 <div className='col-sm-12 col-md-7'>
                                     <div className='m-2 p-2 text-shadow'>
-                                        <h1>{title}</h1>
+                                        <h1 className='text-center'>{title}</h1>
                                         <hr />
                                         <p>{description}</p>
                                     </div>
@@ -77,7 +77,7 @@ const Highlight = ({ index, title, description, image, mobileVersion, admin }) =
                             <>
                                 <div className='col-sm-12 col-md-7'>
                                     <div className='m-2 p-2 text-shadow'>
-                                        <h1>{title}</h1>
+                                        <h1 className='text-center'>{title}</h1>
                                         <hr />
                                         <p>{description}</p>
                                     </div>
