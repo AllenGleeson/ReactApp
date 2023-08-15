@@ -2,8 +2,8 @@
   width: 100%;
 }
 
-.techWrapper{
-  background-color: #333333;
+.techWrapper span{
+  font-size: 16px;
 }
 
 .tech{
@@ -46,6 +46,5 @@
 }
 
 .aboutMeSection{
-  background: linear-gradient(to top right, #2f2f2f, #4f4f4f) !important;
   color: white;
 }

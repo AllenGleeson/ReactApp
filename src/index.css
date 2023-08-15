@@ -8,7 +8,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #494949 !important;
-  font-family: monospace, 'sans-serif' !important;
+  font-family: 'Inter', sans-serif;
 }
 
 img{
@@ -91,6 +91,16 @@ code {
   display: inline-block;
   padding: 4px 8px;
   background: radial-gradient(#919191,#ffc228) !important;
+  color: #ffffff !important;
+  border-radius: 4px;
+  margin: 8px;
+  text-shadow: 1px 0px 1px #000000 !important;
+}
+
+.tech_tag{
+  display: inline-block;
+  padding: 4px 8px;
+  background: radial-gradient(#141414, #919191) !important;
   color: #ffffff !important;
   border-radius: 4px;
   margin: 8px;
