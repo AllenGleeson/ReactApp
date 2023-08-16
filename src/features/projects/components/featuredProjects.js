@@ -13,8 +13,7 @@ const FeaturedProjects = () => {
 
     return (
         <section className="mt-2">
-            <div className="file-container">
-                <h3 className="file-title text-shadow defaultCursor hoverWhite m-sm-3 tag text-center">
+                <h3 className="tech_tag text-shadow defaultCursor m-sm-3 text-center">
                     Featured Projects
                 </h3>
                 <Carousel>
@@ -42,7 +41,6 @@ const FeaturedProjects = () => {
                         </Carousel.Item>
                     ))}
                 </Carousel>
-            </div>
         </section>
     );
 }
