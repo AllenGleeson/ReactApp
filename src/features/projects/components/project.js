@@ -52,11 +52,8 @@ const Project = () => {
         background: radial-gradient(${project.fields.colorTheme[1]},${project.fields.colorTheme[0]}) !important;
         color: white;
       }
-
-      .dynamicHover:hover{
-        background: radial-gradient(${project.fields.colorTheme[0]}, ${project.fields.colorTheme[1]}) !important;
-        color: black;
-        text-shadow: 3px 2px 4px #bfbfbf !important;
+      .techTheme:hover {
+        background: radial-gradient(#fff,${project.fields.colorTheme[0]}) !important;
       }
     `;
     

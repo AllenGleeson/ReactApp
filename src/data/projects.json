@@ -9,12 +9,12 @@
             "featured": true,
             "mobileVersion": true,
             "date": "2020",
-            "colorTheme": ["#ffc1fb","#494949", "#e7b5e4"],
+            "colorTheme": ["#f990bc","#494949", "#e7b5e4"],
             "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments", "AWS S3", "Bootstrap", "jQuery", "SQLite"],
             "links": {
                 "link": [
                     "https://github.com/AllenGleeson/Ellas_Design",
-                    "http://localhost:8000/"
+                    "https://ellas-design-231d819e785f.herokuapp.com/"
                 ],
                 "linkName": [
                     "GitHub",
@@ -157,7 +157,7 @@
             "featured": true,
             "mobileVersion": true,
             "date": "2022",
-            "colorTheme": ["#0baf00","#494949", "#bd6367 "],
+            "colorTheme": ["#1cba24","#494949", "#bd6367 "],
             "technologies": ["HTML", "CSS", "JS", "Google Maps API", "Wikipedia API", "Weather API"],
             "links": {
                 "link": [
@@ -215,7 +215,7 @@
             "featured": true,
             "mobileVersion": true,
             "date": "2020",
-            "colorTheme": ["#0005bb","#494949", "#bd6367 "],
+            "colorTheme": ["#0a28af","#494949", "#bd6367 "],
             "technologies": ["HTML", "CSS", "Bootstrap"],
             "links": {
                 "link": [
