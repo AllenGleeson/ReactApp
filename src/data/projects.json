@@ -4,7 +4,7 @@
         "fields": {
             "title": "Ellas Design",
             "overviewDescription": "Ellas Design is a full stack Django web app to sell clothing from Ella Moya. The user can browse the products and add them to cart where they can checkout and pay using Stripe Payments. They can also create a profile to store their delivery information and see their order history. The owner will be able to add, edit and delete products.",
-            "overviewImage": "amg_art_overview.PNG",
+            "overviewImage": "ellas_design_overview.PNG",
             "shortDescription": "Ellas Design is a full stack Django web app to sell clothing from Ella Moya.",
             "featured": true,
             "mobileVersion": true,
@@ -25,6 +25,7 @@
                 "sectionTitle": [
                     "Details",
                     "Home",
+                    "Shop",
                     "Product",
                     "Bag",
                     "Checkout",
@@ -35,7 +36,8 @@
                 ],
                 "descriptions": [
                     "The site is designed for users to buy from the shop aswell as allowing the admin to add, edit, update and delete products. The site works on any screen size. Click Mobile Version below to see the mobile version of the site or Admin View to see what the admin sees on each page.",
-                    "The home page consists of a background image and link to the shop or products page. The image is a selection of fabrics that matches the overall site color theme.",
+                    "The home page consists of a background image and link to the shop. The image is a selection of fabrics that the client has developed.",
+                    "The shop displays all of Ellas products on cards. Clicking on any card will bring to the products page. There is a nice flower animation playing on this page that I found online. Here the admin can also add new products.",
                     "The product page shows more detail on a specific product and allows the user to add choose a quantity and add it to the Bag. Anything added to the bag shows as the price on the top right of the screen.",
                     "The bag can be seen at all times at the top right of the navigation. If you go to the bag you can see the items in your bag and add more of an item or remove items and prices will be reflected properly.",
                     "When the user goes to checkout they need to enter in their personal details as well as bank information. Right now it is using Stripe Test API so you can enter all 42 and it will proceed to order complete.",
@@ -46,24 +48,26 @@
                 ],
                 "images": [
                     null,
+                    "ellas_design_home.png",
+                    "ellas_design_shop.png",
+                    "ellas_design_product.png",
                     "1.jpg",
                     "1.jpg",
                     "1.jpg",
                     "1.jpg",
-                    "1.jpg",
-                    "1.jpg",
-                    "1.jpg",
-                    "1.jpg"
+                    "ellas_design_contact.png",
+                    "ellas_design_about.png"
                 ],
                 "admin": [
                     false,
-                    true,
                     false,
                     true,
-                    false,
                     true,
                     false,
-                    true,
+                    false,
+                    false,
+                    false,
+                    false,
                     false
                 ]
             },

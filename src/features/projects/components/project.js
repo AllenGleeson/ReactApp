@@ -58,13 +58,7 @@ const Project = () => {
     `;
     
     const overviewImagePath = `${process.env.PUBLIC_URL}/data/images/overview/${project.fields.overviewImage}`;
-    let colClass
-    if(project.fields.overviewImage){
-        colClass = "col-sm-12 col-md-6"
-    }
-    else{
-        colClass = "col-sm-12"
-    }
+    
     return(
         <section className='container'>
             <style>{dynamicStyles}</style>
@@ -72,7 +66,7 @@ const Project = () => {
                 <div className='col-12'>
                     <div className='mt-4 dynamicTheme rounded-bottom-pill rounded-top-circle'>
                         <div className='row'>
-                            <div className={colClass}>
+                            <div className="col-sm-12">
                                 <div className='h-75 m-2 p-2 text-shadow'>
                                     <div>
                                         <h1 className='text-center'>{project.fields.title}</h1>
@@ -94,7 +88,7 @@ const Project = () => {
                                 </div>
                             </div>
                             {project.fields.overviewImage && (
-                                <div className="col-sm-12 col-md-4 p-0">
+                                <div className="col-sm-12 p-0">
                                     <img src={overviewImagePath} className="card-img" alt="Project One" />
                                 </div>
                             )}
