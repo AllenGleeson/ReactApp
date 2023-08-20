@@ -78,7 +78,7 @@ const Project = () => {
                                 <div className='m-2 mt-3 p-1'>
                                     <div className='h-100 p-2'>
                                         {project.fields.links.link.map((link, index) => (
-                                            <a key={index} href={link} className="border border-2 borderThemeColor d-inline techTheme dynamicHover text-shadow m-2 p-1 rounded text-decoration-none">
+                                            <a key={index} href={link} className="border d-inline techTheme dynamicHover text-shadow m-2 p-1 rounded text-decoration-none">
                                                 <span>
                                                     {project.fields.links.linkName[index]}
                                                 </span>
