@@ -3,7 +3,7 @@
         "pk": 1,
         "fields": {
             "title": "Ellas Design",
-            "overviewDescription": "Ellas Design is a full stack Django web app to sell clothing from Ella Moya. The user can browse the products and add them to cart where they can checkout and pay using Stripe Payments. They can also create a profile to store their delivery information and see their order history. The owner will be able to add, edit and delete products.",
+            "overviewDescription": "Ellas Design is a full stack Django web app to sell clothing from Ella Moya. The user can browse the products and add them to cart where they can checkout and pay using Stripe Payments. They can also create a profile to store their delivery information and see their order history. The owner is able to add, edit and delete products. The mobile display you can see below is only available on the Home, Shop, Product, About and Contact pages. You will get an error if you try to go to other pages for security reasons. Please go to the live website if you would like to make a purchase.",
             "overviewImage": "ellas_design_overview.PNG",
             "shortDescription": "Ellas Design is a full stack Django web app to sell clothing from Ella Moya.",
             "featured": true,
@@ -30,6 +30,8 @@
                     "Bag",
                     "Checkout",
                     "Order Complete",
+                    "Product Management",
+                    "Create or Edit a Product",
                     "Profiles",
                     "Contact",
                     "About"
@@ -38,13 +40,15 @@
                     "The site is designed for users to buy from the shop aswell as allowing the admin to add, edit, update and delete products. The site works on any screen size. Click Mobile Version below to see the mobile version of the site or Admin View to see what the admin sees on each page.",
                     "The home page consists of a background image and link to the shop. The image is a selection of fabrics that the client has developed.",
                     "The shop displays all of Ellas products on cards. Clicking on any card will bring to the products page. There is a nice flower animation playing on this page that I found online. Here the admin can also add new products.",
-                    "The product page shows more detail on a specific product and allows the user to add choose a quantity and add it to the Bag. Anything added to the bag shows as the price on the top right of the screen.",
+                    "The product page shows more detail on a specific product and allows the user to choose a quantity and add it to the Bag. Anything added to the bag shows as the price on the top right of the screen.",
                     "The bag can be seen at all times at the top right of the navigation. If you go to the bag you can see the items in your bag and add more of an item or remove items and prices will be reflected properly.",
                     "When the user goes to checkout they need to enter in their personal details as well as bank information. Right now it is using Stripe Test API so you can enter all 42 and it will proceed to order complete.",
                     "When order is done the order is displayed on the screen and the user gets a confirmation email along with their order details.",
-                    "A user can create an account to store their delivery details as well as see their order history. Just simply click the profole at the top right of navigation then enter email and password and the user will get a confirmation email.",
+                    "As as admin you can go on to the product management page where you can create new categories or new products.",
+                    "On creating or editing a page you can add or change the image, give a title, description and SKU.",
+                    "A user can create an account to store their delivery details as well as see their order history. Just simply click the profile at the top right of navigation and register.",
                     "The contact page has a form for users to get in touch with the client. When submitted it will sent an email to the client.",
-                    "Simple about page with some links to the clients social media pages."
+                    "An about page with some links to the clients social media."
                 ],
                 "images": [
                     null,
@@ -54,6 +58,8 @@
                     "ellas_design_bag.png",
                     "ellas_design_checkout.png",
                     "ellas_design_order.png",
+                    "ellas_design_manage.png",
+                    "ellas_design_crud.png",
                     "ellas_design_profile.png",
                     "ellas_design_contact.png",
                     "ellas_design_about.png"
@@ -61,8 +67,10 @@
                 "admin": [
                     false,
                     false,
+                    false,
                     true,
-                    true,
+                    false,
+                    false,
                     false,
                     false,
                     false,
