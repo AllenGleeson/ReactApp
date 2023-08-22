@@ -111,9 +111,11 @@ const Project = () => {
                 {project.fields.mobileVersion && (
                     <MobileViewer site={project.fields.links.link[1]} />
                 )}
-                {project.fields.fields.sectionTitle.map((title, index) => (
-                    <Highlight key={index} title={title} description={project.fields.fields.descriptions[index]} image={project.fields.fields.images[index]} mobileVersion={project.fields.mobileVersion} admin={project.fields.fields.admin[index]} index={index} />
-                ))}
+                {project.fields.fields.sectionTitle && (
+                    project.fields.fields.sectionTitle.map((title, index) => (
+                        <Highlight key={index} title={title} description={project.fields.fields.descriptions[index]} image={project.fields.fields.images[index]} mobileVersion={project.fields.mobileVersion} admin={project.fields.fields.admin[index]} index={index} />
+                    ))
+                )}
                 <EndDescription descriptions={project.fields.endDescriptions} color={project.fields.colorTheme[0]} />
                 <div className={`fade ${showComponent ? 'show' : 'hide'}`}>
                     {showComponent && (
