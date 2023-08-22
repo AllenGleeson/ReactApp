@@ -57,3 +57,8 @@
 .card a{
     text-decoration: none;
 }
+
+.max-card{
+    max-height: 275px !important;
+}
+

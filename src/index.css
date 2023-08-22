@@ -129,6 +129,10 @@ code {
   color: #000000 !important;
 }
 
+.grow{
+  animation: ease-in grow 1s;
+}
+
 .slideLeft{
   animation: 2s ease-out 0s 1 slideInLeft;
 }

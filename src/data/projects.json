@@ -102,7 +102,7 @@
             "shortDescription": "A community based website for users to share their recipes with others.",
             "featured": true,
             "mobileVersion": true,
-            "date": "2022",
+            "date": "2020",
             "colorTheme": ["#cd0000","#494949", "#bd6367 "],
             "technologies": ["HTML", "CSS", "JS", "Python", "Flask", "MongoDB", "Materialise CSS"],
             "links": {
@@ -168,7 +168,7 @@
             "shortDescription": "A website to see tourist attractions around Ireland.",
             "featured": true,
             "mobileVersion": true,
-            "date": "2022",
+            "date": "2020",
             "colorTheme": ["#1cba24","#494949", "#bd6367 "],
             "technologies": ["HTML", "CSS", "JS", "Google Maps API", "Wikipedia API", "Weather API"],
             "links": {
@@ -335,7 +335,7 @@
         "pk": 6,
         "fields": {
             "title": "Random Trip",
-            "overviewDescription": "Scarf made out of faux silk material, soft and shiney with a fun.",
+            "overviewDescription": "Simple page using CSS grid and semantic HTML elements to create a page for users to sign up to a random holiday destination.",
             "overviewImage": "random_trip.png",
             "shortDescription": "Ellas Design is a full stack Django web app to sell clothing from Ella Moya.",
             "featured": false,
@@ -354,18 +354,10 @@
                 ]
             },
             "fields": {
-                "sectionTitle": [
-                    "Purpose"
-                ],
-                "descriptions": [
-                    "Simple page using CSS grid and semantic HTML elements to create a page for users to sign up to a random holiday destination."
-                ],
-                "images": [
-                    null
-                ],
-                "admin": [
-                    false
-                ]
+                "sectionTitle": null,
+                "descriptions": null,
+                "images": null,
+                "admin": null
             },
             "endDescriptions": {
                 "titles": [
@@ -395,8 +387,8 @@
             "technologies": ["HTML", "CSS", "JS"],
             "links": {
                 "link": [
-                    "https://github.com/AllenGleeson",
-                    "https://www.linkedin.com/in/allen-gleeson-a6263711a/"
+                    "https://github.com/AllenGleeson/LibraryAssignment",
+                    "https://allengleeson.github.io/LibraryAssignment/"
                 ],
                 "linkName": [
                     "GitHub",
