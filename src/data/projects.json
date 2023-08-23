@@ -117,29 +117,21 @@
             },
             "fields": {
                 "sectionTitle": [
-                    "Home Page",
+                    "Home",
                     "Create a Recipe",
-                    "View a Recipe",
-                    "Edit a Recipe",
-                    "Delete a Recipe"
+                    "View/Edit or Delete a Recipe"
                 ],
                 "descriptions": [
                     "On the home page you can find any recipes currently on the database. They can be deleted by others though, so grab the recipe while it is there.",
                     "Click to create a recipe and you can fill in all the details. Add some ingrediants and cooking methods with the plus buttons and add a personal image if you like.",
-                    "Clicking on any recipe you can see the details and if you wish you can click to edit the recipe or delete if you dare let others miss out.. Maybe it should be missed.",
-                    "Editing a recipe you can change anything, the title, description, image or add or remove ingrediants or methods.",
-                    "If you want to delete a recipe click delete and confirm and it will be gone from the community."
+                    "Clicking on any recipe you can see the details and if you wish you can click to edit the recipe or delete if you dare let others miss out.. Maybe it should be missed. On edit the pages looks the page as creating a recipe but the details are already there for you to change. Editing a recipe you can change anything, the title, description, image or add or remove ingrediants or methods."
                 ],
                 "images": [
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd",
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd"
+                    "lazy_hunger_home.png",
+                    "lazy_hunger_create.png",
+                    "lazy_hunger_view.png"
                 ],
                 "admin": [
-                    false,
-                    false,
                     false,
                     false,
                     false
