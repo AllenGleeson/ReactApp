@@ -62,7 +62,7 @@
     max-height: 275px !important;
 }
 
-.active{
+.paginator_active{
     background: radial-gradient(#141414, #919191) !important;
 }
 
