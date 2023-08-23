@@ -37,7 +37,7 @@ const Cards = () => {
                     <button
                         key={i}
                         onClick={() => handlePageChange(i + 1)}
-                        className={currentPage === i + 1 ? 'active' : ''}
+                        className={currentPage === i + 1 ? 'active links' : 'links'}
                     >
                         {i + 1}
                     </button>
