@@ -28,6 +28,24 @@
 .alternateBg {
     border-top-left-radius: 100% !important;
     border-bottom-right-radius: 100% !important;
-    background-color: #d7d7d714;
+    background: linear-gradient(90deg, #232323,#5d5d5d);
     min-height: 300px;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .carousel-item{
+        min-height: auto !important;
+        height: auto !important;
+        padding: 30px;
+    }
+    .carousel-item h1{
+        font-size: 1rem !important;
+    }
+    .carousel-item p{
+        font-size: 1rem !important;
+    }
+    .highlight-text h1{
+        font-size: 1.3rem;
+    }
 }

@@ -47,7 +47,7 @@ const Highlight = ({ index, title, description, image, mobileVersion, admin }) =
                                     </div>
                                 </div>
                                 <div className='col-sm-12 col-md-7'>
-                                    <div className='m-2 p-2 text-shadow'>
+                                    <div className='highlight-text m-2 p-2 text-shadow'>
                                         <h1 className='text-center'>{title}</h1>
                                         <hr />
                                         <p>{description}</p>
@@ -76,7 +76,7 @@ const Highlight = ({ index, title, description, image, mobileVersion, admin }) =
                             // Render for odd index (Image on the right)
                             <>
                                 <div className='col-sm-12 col-md-7'>
-                                    <div className='m-2 p-2 text-shadow'>
+                                    <div className='highlight-text m-2 p-2 text-shadow'>
                                         <h1 className='text-center'>{title}</h1>
                                         <hr />
                                         <p>{description}</p>
@@ -115,7 +115,7 @@ const Highlight = ({ index, title, description, image, mobileVersion, admin }) =
                 ) : (
                     <div className='row'>
                         <div className='col-sm-12'>
-                            <div className='mt-3 p-3 text-center'>
+                            <div className='highlight-text mt-3 p-3 text-center'>
                                 <h1>{title}</h1>
                                 <hr />
                                 <p>{description}</p>

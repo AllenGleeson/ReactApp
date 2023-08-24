@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Carousel from 'react-bootstrap/Carousel';
 import '../../../assets/css/featuredProjects.css';
 import projects from '../../../data/projects.json';
+import { FaInfoCircle } from 'react-icons/fa';
 
 const FeaturedProjects = () => {
     const [isCollapsed, setIsCollapsed] = useState(true);
@@ -25,13 +26,16 @@ const FeaturedProjects = () => {
                                 </a>
                                 <div
                                     onClick={toggleCollapse}
-                                    className={`border border-2 border-black featuredProjectDescription text-shadow text-light hoverWhite rounded ${isCollapsed ? '' : 'expanded'}`}
+                                    className={`featuredProjectDescription rounded ${isCollapsed ? '' : 'expanded'}`}
                                 >
-                                    <span>{project.fields.title}</span>
+                                    <div>
+                                        <span>{project.fields.title}</span>
+                                        <FaInfoCircle className="featureIcon" />
+                                    </div>
                                     {!isCollapsed && 
                                     <div>
                                         <hr />
-                                        <p>
+                                        <p className="featuredDescription">
                                             {project.fields.shortDescription}
                                         </p>
                                     </div>

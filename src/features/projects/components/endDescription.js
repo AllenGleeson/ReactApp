@@ -15,8 +15,8 @@ const EndDescription = ({descriptions, color}) => {
                 <Carousel>
                     {descriptions.titles.map((title, index) => (
                         <Carousel.Item key={index}>
-                            <div className='align-items-center d-flex h-100 justify-content-center text-light text-shadow w-100'>
-                                <div className='m-2 w-50 text-center'>
+                            <div className='text-center text-light text-shadow'>
+                                <div className='m-2'>
                                     <h1>{title}</h1>
                                     <hr />
                                     <p>{descriptions.descriptions[index]}</p>

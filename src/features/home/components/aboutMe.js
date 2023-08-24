@@ -5,7 +5,7 @@ import { FaGithub, FaLinkedin, FaFile } from 'react-icons/fa';
 let articleContent = "I am a Full Stack Developer having completed several courses focused on programming and expanding my knowledge of different aspects of the development lifecycle. "+
 "My courses have covered a diverse range of development languages, frameworks, and skills. "+
 "\n \n"+
-"I am now working with Orcawise as a Data Scienist to web scrape, using Python, websites depending on the data they need. Also getting to see use of NLP to get some insights about the data.";
+"I am now working with Orcawise in thier Innovation Program as a Data Scienist to web scrape, using Python, websites depending on the data they need. Also getting to see use of NLP to get some insights about the data.";
 
 const AboutMe = () => {
     return (
@@ -34,7 +34,7 @@ const AboutMe = () => {
                         </div>
 
                         <hr />
-                        <div className='mt-5'>
+                        <div className='mt-5 slideRight'>
                             <a href='https://github.com/AllenGleeson'>
                                 <span className='links text-shadow'>GitHub <FaGithub /></span>
                             </a>

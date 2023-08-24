@@ -4,7 +4,6 @@
 
 .carousel-item img{
     width: 100%;
-    height: 100%;
 }
 
 .projects{
@@ -38,6 +37,8 @@
 
 .featuredProjectDescription {
     background: radial-gradient(#b9b191, #ffc228) !important;
+    color: black;
+    font-weight: 500;
     right: 0 !important;
     top: 0px !important;
     width: 200px;
@@ -47,24 +48,48 @@
     padding: 8px;
     cursor: pointer;
     font-size: 14px;
-    max-height: 100px; /* Initial max height for collapsing */
-    overflow: hidden; /* Hide overflowing content */
-    transition: max-height 0.5s ease-in; /* Transition for max-height */
-}
-
-.featuredProjectDescription.expanded {
-    max-height: 300px; /* Adjust this value as needed for expanding */
-}
-
-
-.featuredProjectDescription span{
-    margin-right: 20px;
+    max-height: 100px;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in;
 }
 
 .featuredProjectDescription:hover{
-    background-color: #919191;
+    background: radial-gradient(#141414, #919191) !important;
+    color: #fff;
+}
+
+.featuredProjectDescription.expanded {
+    max-height: 300px;
 }
 
 .featuredProjectDescription span{
+    margin-right: 20px;
     font-size: 18px !important;
+}
+
+.featureIcon{
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+    .featuredProjectDescription{
+        width: auto;
+    }
+    .featuredProjectDescription p {
+        font-size: 0.8rem;
+    }
+    .featuredProjectDescription span {
+        font-size: 1rem !important;
+    }
+    .carousel-inner{
+        height: 260px !important;
+        min-height: auto !important;
+    }
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        width: 1.4rem !important;
+        height: 1.4rem !important;
+    }
+    .featuredDescription{
+        font-size: 0.8rem !important;
+    }
 }
