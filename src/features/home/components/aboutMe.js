@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../../assets/css/aboutMe.css';
 import { FaGithub, FaLinkedin, FaFile } from 'react-icons/fa';
+import profileImage from '../../../assets/images/profile.jpg';
 
 let articleContent = "I am a Full Stack Developer having completed several courses focused on programming and expanding my knowledge of different aspects of the development lifecycle. "+
 "My courses have covered a diverse range of development languages, frameworks, and skills. "+
@@ -13,7 +14,7 @@ const AboutMe = () => {
             <div className='pb-3 m-sm-1 row'>
                 <div className='col-sm-12 col-md-6 profileImg'>
                     <div className='h-100 p-4'>
-                        <img className='border border-5 border-light h-100 rounded-circle' src='https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd'/>
+                        <img className='border border-5 border-light h-100 rounded-circle' src={profileImage}/>
                     </div>
                 </div>
                 <div className='col-sm-12 col-md-6'>

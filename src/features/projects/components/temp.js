@@ -1,4 +1,3 @@
-import AboutMe from '../../home/components/aboutMe';
 import React, { useState, useEffect } from 'react';
 import '../../../assets/css/temp.css';
 import Cards from './cards';
