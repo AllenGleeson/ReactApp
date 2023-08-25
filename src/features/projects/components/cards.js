@@ -20,17 +20,21 @@ const Cards = () => {
         <section className='cards justify-content-center'>
             <h3 className='text-center tag defaultCursor'>All Projects</h3>
             <div className='row grow'>
-                {visibleProjects.map((project, index) => (
-                    <Card
-                        key={index}
-                        index={index}
-                        title={project.fields.title}
-                        description={project.fields.shortDescription}
-                        links={project.fields.links}
-                        image={project.fields.overviewImage}
-                    />
-                ))}
+                {visibleProjects.map((project, index) => {
+                    const cardIndex = startIndex + index; // Calculate the actual card index
+                    return (
+                        <Card
+                            key={index}
+                            index={cardIndex} // Use the calculated card index as the URL
+                            title={project.fields.title}
+                            description={project.fields.shortDescription}
+                            links={project.fields.links}
+                            image={project.fields.overviewImage}
+                        />
+                    );
+                })}
             </div>
+
 
             <div className='paginator'>
                 {Array.from({ length: totalPages }, (_, i) => (
