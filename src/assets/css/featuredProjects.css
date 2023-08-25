@@ -75,11 +75,14 @@
     .featuredProjectDescription{
         width: auto;
     }
+    .featuredDescription{
+        font-size: 0.9rem !important;
+    }
     .featuredProjectDescription p {
         font-size: 0.8rem;
     }
     .featuredProjectDescription span {
-        font-size: 1rem !important;
+        font-size: 0.7rem !important;
     }
     .carousel-inner{
         height: 260px !important;

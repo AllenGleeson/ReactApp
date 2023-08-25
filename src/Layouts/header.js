@@ -19,13 +19,13 @@ const Header = () => {
           </Navbar.Brand>
         <Navbar.Collapse in={!isCollapsed}>
             <Nav className="mr-auto">
-              <NavItem className='links'>
-                  <NavLink className="nav-link text-shadow" href="/">
+              <NavItem>
+                  <NavLink className="links m-md-0 mb-sm-0 nav-link text-center text-shadow" href="/">
                   HOME
                   </NavLink>
               </NavItem>
-              <NavItem className='links'>
-                  <NavLink className="nav-link text-shadow" href="/projects">
+              <NavItem>
+                  <NavLink className="links mt-md-auto mt-sm-0 nav-link p-2 text-center text-shadow" href="/projects">
                   PROJECTS
                   </NavLink>
               </NavItem>

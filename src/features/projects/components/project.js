@@ -67,7 +67,7 @@ const Project = () => {
                     <div className='mt-4 dynamicTheme rounded-bottom-pill rounded-top-circle'>
                         <div className='row'>
                             <div className="col-sm-12">
-                                <div className='h-75 m-2 p-2 text-shadow'>
+                                <div className='m-2 p-2 text-shadow project-header'>
                                     <div>
                                         <h1 className='text-center'>{project.fields.title}</h1>
                                         <hr />

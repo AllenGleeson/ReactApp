@@ -32,6 +32,10 @@
     min-height: 300px;
 }
 
+.case-study{
+    margin-left: 150px;
+    margin-right: 150px;
+}
 
 @media only screen and (max-width: 500px) {
     .carousel-item{
@@ -39,13 +43,23 @@
         height: auto !important;
         padding: 30px;
     }
-    .carousel-item h1{
+    .case-study h1{
         font-size: 1rem !important;
     }
-    .carousel-item p{
+    .case-study p{
         font-size: 1rem !important;
     }
     .highlight-text h1{
         font-size: 1.3rem;
+    }
+    .project-header h1{
+        font-size: 1.3rem;
+    }
+    .project-header p{
+        font-size: 0.9rem;
+    }
+    .case-study{
+        margin-left: 6px;
+        margin-right: 6px;
     }
 }

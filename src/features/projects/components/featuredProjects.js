@@ -14,7 +14,7 @@ const FeaturedProjects = () => {
 
     return (
         <section className="mt-2">
-                <h3 className="tech_tag text-shadow defaultCursor m-sm-3 text-center">
+                <h3 className="section-heading tech_tag text-shadow defaultCursor m-sm-3 text-center">
                     Featured Projects
                 </h3>
                 <Carousel>

@@ -34,15 +34,15 @@ const AboutMe = () => {
                         </div>
 
                         <hr />
-                        <div className='mt-5 slideRight'>
+                        <div className='mt-md-5 mt-sm-auto slideRight'>
                             <a href='https://github.com/AllenGleeson'>
-                                <span className='links text-shadow'>GitHub <FaGithub /></span>
+                                <span className='social-links links text-shadow'>GitHub <FaGithub /></span>
                             </a>
                             <a href='https://www.linkedin.com/in/allen-gleeson-a6263711a/'>
-                                <span className='links text-shadow'>LinkedIn <FaLinkedin /></span>
+                                <span className='social-links links text-shadow'>LinkedIn <FaLinkedin /></span>
                             </a>
                             <a href='#'>
-                                <span className='links text-shadow'>CV <FaFile /></span>
+                                <span className='social-links links text-shadow'>CV <FaFile /></span>
                             </a>
                         </div>
                     </div>
