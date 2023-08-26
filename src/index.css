@@ -7,7 +7,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(90deg, #5d5d5d, #232323);
+  background: linear-gradient(90deg, #00294c, #262626);
   font-family: 'Inter', sans-serif;
 }
 
@@ -90,7 +90,7 @@ code {
 .links {
   display: inline-block;
   padding: 4px 8px;
-  background: radial-gradient(#919191,#ffc228) !important;
+  background: radial-gradient(#353535,#f3bf3b) !important;
   color: #ffffff !important;
   border-radius: 4px;
   margin: 8px;
@@ -100,11 +100,11 @@ code {
 .tech_tag{
   display: inline-block;
   padding: 4px 8px;
-  background: radial-gradient(#141414, #919191) !important;
   color: #ffffff !important;
-  border-radius: 4px;
   margin: 8px;
+  background: linear-gradient(90deg, #262626,#00294c);
   text-shadow: 1px 0px 1px #000000 !important;
+  border-left: 2px solid #cb8402;
 }
 
 .text-shadow{

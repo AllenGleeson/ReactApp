@@ -16,12 +16,12 @@
 }
 
 .vertical-timeline-element--work .vertical-timeline-element-content{
-  background-color: #6f6f6f;
+  background-color: #3f3f3f;
   color: rgb(255, 255, 255);
 }
 
 .vertical-timeline-element--education .vertical-timeline-element-content{
-  background-color: #333333;
+  background-color: #01294c;
   color: rgb(255, 255, 255);
 }
 
@@ -47,6 +47,9 @@
   color: white;
 }
 
+.profileImg img{
+  border-color: #936d00 !important;
+}
 @media only screen and (max-width: 500px) {
   .social-links{
     font-size: 0.9rem;

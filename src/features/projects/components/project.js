@@ -41,7 +41,7 @@ const Project = () => {
     }
     const dynamicStyles = `
       .dynamicTheme {
-        background: linear-gradient(to top right, ${project.fields.colorTheme[1]}, ${project.fields.colorTheme[0]}) !important;
+        background: linear-gradient(90deg, ${project.fields.colorTheme[0]},${project.fields.colorTheme[1]});
         color: white;
       }
       .borderThemeColor{
@@ -51,6 +51,7 @@ const Project = () => {
       .techTheme{
         background: radial-gradient(${project.fields.colorTheme[1]},${project.fields.colorTheme[0]}) !important;
         color: white;
+        font-weight: 500;
       }
       .techTheme:hover {
         background: radial-gradient(#fff,${project.fields.colorTheme[0]}) !important;
@@ -58,18 +59,22 @@ const Project = () => {
     `;
     
     const overviewImagePath = `${process.env.PUBLIC_URL}/data/images/overview/${project.fields.overviewImage}`;
-    
+    let descriptionClass = 'col-sm-12';
+
+    if(project.fields.overviewImage){
+        descriptionClass = 'col-md-4 col-sm-12'
+    }
     return(
         <section className='container'>
             <style>{dynamicStyles}</style>
             <div className='row'>
                 <div className='col-12'>
-                    <div className='mt-4 dynamicTheme rounded-bottom-pill rounded-top-circle'>
+                    <div className='text-light'>
                         <div className='row'>
-                            <div className="col-sm-12">
+                            <div className={descriptionClass}>
                                 <div className='m-2 p-2 text-shadow project-header'>
                                     <div>
-                                        <h1 className='text-center'>{project.fields.title}</h1>
+                                        <h1 className='mt-3 text-center'>{project.fields.title}</h1>
                                         <hr />
                                         <p>{project.fields.overviewDescription}</p>
                                         <span>Created - {project.fields.date}</span>
@@ -78,7 +83,7 @@ const Project = () => {
                                 <div className='m-2 mt-3 p-1'>
                                     <div className='h-100 p-2'>
                                         {project.fields.links.link.map((link, index) => (
-                                            <a key={index} href={link} className="border d-inline techTheme dynamicHover text-shadow m-2 p-1 rounded text-decoration-none">
+                                            <a key={index} href={link} className="dynamicHover m-2 p-2 rounded rounded-5 techTheme text-decoration-none text-shadow">
                                                 <span>
                                                     {project.fields.links.linkName[index]}
                                                 </span>
@@ -88,8 +93,8 @@ const Project = () => {
                                 </div>
                             </div>
                             {project.fields.overviewImage && (
-                                <div className="col-sm-12 p-0">
-                                    <img src={overviewImagePath} className="card-img" alt="Project One" />
+                                <div className="col-md-8 col-sm-12 p-0">
+                                    <img id='overview-image' src={overviewImagePath} className="card-img" alt="Project One" />
                                 </div>
                             )}
                             

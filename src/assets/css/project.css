@@ -4,7 +4,6 @@
 
 .techSkills h4{
     padding: 4px 6px;
-    border-radius: 4px;
     margin-left: 8px;
 }
 
@@ -17,7 +16,6 @@
     margin-left: 8px;
     margin-right: 8px;
     padding: 4px 8px;
-    border-radius: 4px;
 }
 
 .normalTheme {
@@ -25,10 +23,13 @@
     color: #ffffff;
 }
 
+#overview-image{
+    max-height: 500px;
+}
+
 .alternateBg {
     border-top-left-radius: 100% !important;
     border-bottom-right-radius: 100% !important;
-    background: linear-gradient(90deg, #232323,#5d5d5d);
     min-height: 300px;
 }
 

@@ -12,7 +12,7 @@ const Header = () => {
   };
 
   return (
-    <Navbar expand="lg" className='bg-nav' id='nav'>
+    <Navbar expand="lg" className='bg-nav border-bottom' id='nav'>
         <Navbar.Toggle onClick={toggleCollapse} aria-controls="navbarTogglerDemo03" aria-expanded={!isCollapsed} aria-label="Toggle navigation" />
           <Navbar.Brand href="/">
             <img id="logo" src={logo} alt="logo" />

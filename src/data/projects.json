@@ -281,7 +281,7 @@
             "featured": false,
             "mobileVersion": false,
             "date": "2023",
-            "colorTheme": ["#ffc83cb8","#494949", "#bd6367 "],
+            "colorTheme": ["#ffc83c","#494949", "#bd6367 "],
             "technologies": ["Java"],
             "links": {
                 "link": [
@@ -333,7 +333,7 @@
             "featured": false,
             "mobileVersion": false,
             "date": "2022",
-            "colorTheme": ["#810000c9","#494949", "#bd6367 "],
+            "colorTheme": ["#810000","#494949", "#bd6367 "],
             "technologies": ["HTML", "CSS"],
             "links": {
                 "link": [
@@ -375,7 +375,7 @@
             "featured": false,
             "mobileVersion": true,
             "date": "2022",
-            "colorTheme": ["#ffc83cb8","#494949", "#bd6367 "],
+            "colorTheme": ["#ffc83c","#00294c", "#bd6367 "],
             "technologies": ["HTML", "CSS", "JS"],
             "links": {
                 "link": [
@@ -425,7 +425,7 @@
             "featured": false,
             "mobileVersion": false,
             "date": "2022",
-            "colorTheme": ["#ffc83cb8","#494949", "#bd6367 "],
+            "colorTheme": ["#ffc83c","#00294c", "#bd6367 "],
             "technologies": ["Python", "Selenium", "MongoDB", "Excel"],
             "links": {
                 "link": [
@@ -477,7 +477,7 @@
             "featured": false,
             "mobileVersion": false,
             "date": "2022",
-            "colorTheme": ["#ffc83cb8","#494949", "#bd6367 "],
+            "colorTheme": ["#ffc83c","#00294c", "#bd6367 "],
             "technologies": ["HTML", "CSS"],
             "links": {
                 "link": [
@@ -519,7 +519,7 @@
             "featured": false,
             "mobileVersion": false,
             "date": "2022",
-            "colorTheme": ["#ffc83cb8","#494949", "#bd6367 "],
+            "colorTheme": ["#ffc83c","#00294c", "#bd6367 "],
             "technologies": ["HTML", "CSS", "JS"],
             "links": {
                 "link": [
@@ -569,7 +569,7 @@
             "featured": false,
             "mobileVersion": false,
             "date": "2022",
-            "colorTheme": ["#ffc83cb8","#494949", "#bd6367 "],
+            "colorTheme": ["#ffc83c","#00294c", "#bd6367 "],
             "technologies": ["HTML", "CSS", "JS"],
             "links": {
                 "link": [
