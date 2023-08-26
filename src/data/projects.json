@@ -161,7 +161,7 @@
             "featured": true,
             "mobileVersion": true,
             "date": "2020",
-            "colorTheme": ["#1cba24","#494949", "#bd6367 "],
+            "colorTheme": ["#1cba24","#49494921", "#bd6367 "],
             "technologies": ["HTML", "CSS", "JS", "Google Maps API", "Wikipedia API", "Weather API"],
             "links": {
                 "link": [

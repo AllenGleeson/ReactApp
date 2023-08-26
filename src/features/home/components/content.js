@@ -8,10 +8,10 @@ const Content = ({technologies}) => {
             <div className='col-12'>
                 <div className='m-sm-3 mt-2 rounded techWrapper defaultCursor'>
                     <div className='p-2'>
-                        <h3 className='section-heading tech_tag text-shadow'>Technologies</h3>
+                        <h3 className='section-heading tech_tag'>Technologies</h3>
                         <div className='tech'>
                             {technologies.map((tech, index) => (
-                                <span key={index} className='tech_tag text-shadow'>
+                                <span key={index} className='tech_tag'>
                                 {tech}
                                 </span>
                             ))}

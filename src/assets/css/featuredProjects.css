@@ -33,12 +33,12 @@
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon{
-    background-color: #ffc228;
+    background-color: #99e7e4;
 }
 
 .featuredProjectDescription {
-    background: radial-gradient(#b9b191, #ffc228) !important;
-    color: black;
+    background-color: #99e7e4;
+    color: #fff;
     font-weight: 500;
     right: 0 !important;
     top: 0px !important;

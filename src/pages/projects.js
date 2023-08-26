@@ -26,7 +26,7 @@ function Projects() {
     return (
         <div className='align-content-center d-flex flex-column justify-content-center projects'>
             <FeaturedProjects />
-            <h4 className='tag text-shadow'>Scroll for more</h4>
+            <h4>Scroll for more</h4>
             <div className={`fade ${showComponent ? 'show' : 'hide'}`}>
                 {showComponent && (
                 <div>

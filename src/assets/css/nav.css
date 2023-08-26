@@ -14,8 +14,8 @@
 }
 
 .bg-nav{
-  background-color: #051c23 !important;
-  border-color: #cb8402 !important;
+  background-color: #ffffff !important;
+  border-color: #000000 !important;
 }
 
 .navbar-brand{
@@ -23,11 +23,14 @@
 }
 
 .nav-link{
-  color: #fff;
+  color: #000;
+  font-size: 18px;
+  font-weight: 600 !important;
+  border-left: 1px solid #acacac !important;
 }
 
 .nav-link:hover{
-  text-shadow: 1px 0px 1px #ffffff !important;
+  text-decoration: underline;
 }
 
 #logo{

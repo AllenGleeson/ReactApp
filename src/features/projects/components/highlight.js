@@ -8,8 +8,8 @@ const Highlight = ({ index, title, description, image, mobileVersion, admin }) =
     const isEven = index % 2 === 0;
     const highlightClass = `mt-3 mb-3 ${
         isEven === false
-            ? 'slideLeft text-light p-3'
-            : 'alternateBg dynamicTheme mb-3 mt-3 p-3 slideRight text-light'
+            ? 'slideLeft p-3'
+            : 'alternateBg dynamicTheme mb-3 mt-3 p-3 slideRight'
     }`;
 
     // Event handler for the "Mobile Version" button click
@@ -47,7 +47,7 @@ const Highlight = ({ index, title, description, image, mobileVersion, admin }) =
                                     </div>
                                 </div>
                                 <div className='col-sm-12 col-md-7'>
-                                    <div className='highlight-text m-2 p-2 text-shadow'>
+                                    <div className='highlight-text m-2 p-2'>
                                         <h1 className='text-center'>{title}</h1>
                                         <hr />
                                         <p>{description}</p>
@@ -55,14 +55,14 @@ const Highlight = ({ index, title, description, image, mobileVersion, admin }) =
                                     {(mobileVersion || admin) && (
                                         <div className='d-flex justify-content-end'>
                                             {mobileVersion && (
-                                                <span onClick={handleMobileVersionClick} className='dynamicHover m-2 p-2 rounded rounded-5 techTheme text-decoration-none text-shadow'>
+                                                <span onClick={handleMobileVersionClick} className='pointerCursor dynamicHover m-2 p-2 techTheme text-decoration-none'>
                                                     {showMobileVersion
                                                         ? 'Desktop Version'
                                                         : 'Mobile Version'}
                                                 </span>
                                             )}
                                             {admin && (
-                                                <span onClick={handleAdminViewClick} className='dynamicHover m-2 p-2 rounded rounded-5 techTheme text-decoration-none text-shadow'>
+                                                <span onClick={handleAdminViewClick} className='pointerCursor dynamicHover m-2 p-2 techTheme text-decoration-none'>
                                                     {showAdminView
                                                         ? 'User View'
                                                         : 'Admin View'}
@@ -76,7 +76,7 @@ const Highlight = ({ index, title, description, image, mobileVersion, admin }) =
                             // Render for odd index (Image on the right)
                             <>
                                 <div className='col-sm-12 col-md-7'>
-                                    <div className='highlight-text m-2 p-2 text-shadow'>
+                                    <div className='highlight-text m-2 p-2'>
                                         <h1 className='text-center'>{title}</h1>
                                         <hr />
                                         <p>{description}</p>
@@ -84,14 +84,14 @@ const Highlight = ({ index, title, description, image, mobileVersion, admin }) =
                                     {(mobileVersion || admin) && (
                                         <div className='d-flex'>
                                             {mobileVersion && (
-                                                <span onClick={handleMobileVersionClick} className='dynamicHover m-2 p-2 rounded rounded-5 techTheme text-decoration-none text-shadow'>
+                                                <span onClick={handleMobileVersionClick} className='pointerCursor dynamicHover m-2 p-2 techTheme text-decoration-none'>
                                                     {showMobileVersion
                                                         ? 'Desktop Version'
                                                         : 'Mobile Version'}
                                                 </span>
                                             )}
                                             {admin && (
-                                                <span onClick={handleAdminViewClick} className='dynamicHover m-2 p-2 rounded rounded-5 techTheme text-decoration-none text-shadow'>
+                                                <span onClick={handleAdminViewClick} className='pointerCursor dynamicHover m-2 p-2 techTheme text-decoration-none'>
                                                     {showAdminView
                                                         ? 'User View'
                                                         : 'Admin View'}

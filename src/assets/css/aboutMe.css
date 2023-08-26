@@ -30,9 +30,7 @@
 }
 
 .vertical-timeline-element-date{
-  color: #ffffff;
-  text-shadow: 2px 0px 1px #ffffff !important;
-  text-shadow: 2px 3px 4px #000000 !important;
+  color: #000;
 }
 
 .aboutMeContent{
@@ -41,6 +39,7 @@
 
 .aboutmeDescription{
   animation: grow 1s;
+  color: #000;
 }
 
 .aboutMeSection{

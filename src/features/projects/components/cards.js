@@ -18,7 +18,7 @@ const Cards = () => {
 
     return (
         <section className='cards justify-content-center'>
-            <h3 className='text-center tag defaultCursor'>All Projects</h3>
+            <h3 className='tech_tag defaultCursor'>All Projects</h3>
             <div className='row grow'>
                 {visibleProjects.map((project, index) => {
                     const cardIndex = startIndex + index; // Calculate the actual card index

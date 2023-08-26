@@ -7,7 +7,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(90deg, #00294c, #262626);
+  background-color: #fff;
   font-family: 'Inter', sans-serif;
 }
 
@@ -44,7 +44,7 @@ code {
 }
 
 .backToTop div{
-  background: radial-gradient(#ffffff, #ffbc00) !important;
+  background: radial-gradient(#ffffff, #99e7e4) !important;
   padding: 2px;
 }
 
@@ -90,21 +90,19 @@ code {
 .links {
   display: inline-block;
   padding: 4px 8px;
-  background: radial-gradient(#353535,#f3bf3b) !important;
-  color: #ffffff !important;
-  border-radius: 4px;
+  background-color: #99e7e4;
+  color: #fff !important;
   margin: 8px;
-  text-shadow: 2px 1px 1px #000000 !important;
+  font-weight: 500;
 }
 
 .tech_tag{
-  display: inline-block;
-  padding: 4px 8px;
-  color: #ffffff !important;
-  margin: 8px;
-  background: linear-gradient(90deg, #262626,#00294c);
-  text-shadow: 1px 0px 1px #000000 !important;
-  border-left: 2px solid #cb8402;
+  display: inline-block !important;
+  padding: 4px 8px !important;
+  color: #000 !important;
+  margin: 8px !important;
+  font-weight: 600 !important;
+  border-left: 2px solid #b3b3b3 !important;
 }
 
 .text-shadow{
@@ -179,7 +177,7 @@ code {
 
 @media only screen and (max-width: 500px) {
   .tech_tag{
-    margin: 3px;
+    margin: 2px;
   }
   .tech_tag span{
     font-size: 0.8rem;

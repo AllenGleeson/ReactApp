@@ -36,8 +36,12 @@
 .case-study{
     margin-left: 150px;
     margin-right: 150px;
+    font-weight: 600;
 }
 
+.highlight-text{
+    font-weight: 600;
+}
 @media only screen and (max-width: 500px) {
     .carousel-item{
         min-height: auto !important;

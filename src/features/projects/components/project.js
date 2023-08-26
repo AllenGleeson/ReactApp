@@ -41,15 +41,14 @@ const Project = () => {
     }
     const dynamicStyles = `
       .dynamicTheme {
-        background: linear-gradient(90deg, ${project.fields.colorTheme[0]},${project.fields.colorTheme[1]});
-        color: white;
+        background: linear-gradient(90deg, ${project.fields.colorTheme[0]},#49494900);
       }
       .borderThemeColor{
         border-color: ${project.fields.colorTheme[1]} !important;
       }
 
       .techTheme{
-        background: radial-gradient(${project.fields.colorTheme[1]},${project.fields.colorTheme[0]}) !important;
+        background: radial-gradient(#cdcdcd,${project.fields.colorTheme[0]}) !important;
         color: white;
         font-weight: 500;
       }
@@ -69,36 +68,34 @@ const Project = () => {
             <style>{dynamicStyles}</style>
             <div className='row'>
                 <div className='col-12'>
-                    <div className='text-light'>
-                        <div className='row'>
-                            <div className={descriptionClass}>
-                                <div className='m-2 p-2 text-shadow project-header'>
-                                    <div>
-                                        <h1 className='mt-3 text-center'>{project.fields.title}</h1>
-                                        <hr />
-                                        <p>{project.fields.overviewDescription}</p>
-                                        <span>Created - {project.fields.date}</span>
-                                    </div>
-                                </div>
-                                <div className='m-2 mt-3 p-1'>
-                                    <div className='h-100 p-2'>
-                                        {project.fields.links.link.map((link, index) => (
-                                            <a key={index} href={link} className="dynamicHover m-2 p-2 rounded rounded-5 techTheme text-decoration-none text-shadow">
-                                                <span>
-                                                    {project.fields.links.linkName[index]}
-                                                </span>
-                                            </a>
-                                        ))}
-                                    </div>
+                    <div className='row'>
+                        <div className={descriptionClass}>
+                            <div className='m-2 p-2 project-header'>
+                                <div>
+                                    <h1 className='mt-3 text-center'>{project.fields.title}</h1>
+                                    <hr />
+                                    <p>{project.fields.overviewDescription}</p>
+                                    <span>Created - {project.fields.date}</span>
                                 </div>
                             </div>
-                            {project.fields.overviewImage && (
-                                <div className="col-md-8 col-sm-12 p-0">
-                                    <img id='overview-image' src={overviewImagePath} className="card-img" alt="Project One" />
+                            <div className='m-2 mt-3 p-1'>
+                                <div className='h-100 p-2'>
+                                    {project.fields.links.link.map((link, index) => (
+                                        <a key={index} href={link} className="dynamicHover m-2 p-2 techTheme text-decoration-none">
+                                            <span>
+                                                {project.fields.links.linkName[index]}
+                                            </span>
+                                        </a>
+                                    ))}
                                 </div>
-                            )}
-                            
+                            </div>
                         </div>
+                        {project.fields.overviewImage && (
+                            <div className="col-md-8 col-sm-12 p-0">
+                                <img id='overview-image' src={overviewImagePath} className="card-img" alt="Project One" />
+                            </div>
+                        )}
+                        
                     </div>
                 </div>
                 <div className='col-12'>

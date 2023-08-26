@@ -14,36 +14,36 @@ const AboutMe = () => {
             <div className='pb-3 m-sm-1 row'>
                 <div className="col-md-5 col-sm-12 profileImg">
                     <div className='h-100 p-4'>
-                        <img className='border border-2 h-100 rounded-circle' src={profileImage}/>
+                        <img alt='Profile' className='h-100' src={profileImage}/>
                     </div>
                 </div>
                 <div className='col-sm-12 col-md-7'>
                     <div className='h-100 p-3'>
                         <div className='defaultCursor mb-1 mt-2 slideRight'>
-                            <div className='tech_tag text-shadow'>
+                            <div className='tech_tag'>
                                 <span>Allen Gleeson</span>
                             </div>
-                            <div className='tech_tag text-shadow'>
+                            <div className='tech_tag'>
                                 <span>Full Stack Developer</span>
                             </div>
-                            <div className='tech_tag text-shadow'>
+                            <div className='tech_tag'>
                                 <span>Ireland</span>
                             </div>
                         </div>
-                        <div className='m-2'>
-                            <p className='text-shadow aboutmeDescription' dangerouslySetInnerHTML={{ __html: articleContent.replace(/\n/g, '<br />') }}></p>
+                        <div className='m-2 mt-4'>
+                            <p className='aboutmeDescription' dangerouslySetInnerHTML={{ __html: articleContent.replace(/\n/g, '<br />') }}></p>
                         </div>
 
                         <hr />
                         <div className='mt-md-5 mt-sm-auto slideRight'>
                             <a href='https://github.com/AllenGleeson'>
-                                <span className='links rounded-5 social-links text-shadow'>GitHub <FaGithub /></span>
+                                <span className='links social-links'>GitHub <FaGithub /></span>
                             </a>
                             <a href='https://www.linkedin.com/in/allen-gleeson-a6263711a/'>
-                                <span className='links rounded-5 social-links text-shadow'>LinkedIn <FaLinkedin /></span>
+                                <span className='links social-links'>LinkedIn <FaLinkedin /></span>
                             </a>
                             <a href='#'>
-                                <span className='links rounded-5 social-links text-shadow'>CV <FaFile /></span>
+                                <span className='links social-links'>CV <FaFile /></span>
                             </a>
                         </div>
                     </div>

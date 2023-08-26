@@ -20,12 +20,12 @@ const Header = () => {
         <Navbar.Collapse in={!isCollapsed}>
             <Nav className="mr-auto">
               <NavItem>
-                  <NavLink className="links m-md-0 mb-sm-0 nav-link text-center text-shadow" href="/">
+                  <NavLink className="m-md-0 mb-sm-0 nav-link text-center" href="/">
                   HOME
                   </NavLink>
               </NavItem>
               <NavItem>
-                  <NavLink className="links mt-md-auto mt-sm-0 nav-link p-2 text-center text-shadow" href="/projects">
+                  <NavLink className="mt-md-auto mt-sm-0 nav-link p-2 text-center" href="/projects">
                   PROJECTS
                   </NavLink>
               </NavItem>

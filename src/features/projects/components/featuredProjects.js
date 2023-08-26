@@ -14,7 +14,7 @@ const FeaturedProjects = () => {
 
     return (
         <section className="mt-2">
-                <h3 className="section-heading tech_tag text-shadow defaultCursor m-sm-3 text-center">
+                <h3 className="section-heading tech_tag defaultCursor m-sm-3 text-center">
                     Featured Projects
                 </h3>
                 <Carousel>
@@ -26,7 +26,7 @@ const FeaturedProjects = () => {
                                 </a>
                                 <div
                                     onClick={toggleCollapse}
-                                    className={`featuredProjectDescription rounded ${isCollapsed ? '' : 'expanded'}`}
+                                    className={`featuredProjectDescription ${isCollapsed ? '' : 'expanded'}`}
                                 >
                                     <div>
                                         <span>{project.fields.title}</span>

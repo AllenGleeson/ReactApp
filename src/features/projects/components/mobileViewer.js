@@ -7,7 +7,7 @@ const MobileViewer = ({site}) => {
         <section className='col-12'>
             <div id="wrapper" className="slideLeft">
                 <div className="phone view" id="phone">
-                    <iframe src={site} id="frame"></iframe>
+                    <iframe src={site} title='Live Website' id="frame"></iframe>
                 </div>
             </div>
         </section>

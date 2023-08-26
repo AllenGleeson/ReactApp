@@ -18,7 +18,7 @@ const TimelineElement = ({ element }) => {
             className={timelineClass}
             contentArrowStyle={{ borderRight: `7px solid ${color}` }}
             date={element.fields.date}
-            iconStyle={{ background: '#ffc228', color: '#fff' }}
+            iconStyle={{ background: '#99e7e4', color: '#000' }}
             icon={icon}
         >
             <h5 className="vertical-timeline-element-title text-shadow">{element.fields.title}</h5>
