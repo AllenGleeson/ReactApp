@@ -81,15 +81,15 @@ const Project = () => {
                 <div className='col-12'>
                     <div className='row'>
                         <div className={descriptionClass}>
-                            <div className='m-2 p-2 project-header'>
+                            <div className='m-2 p-md-2 project-header'>
                                 <div>
                                     <h1 className='mt-3 text-center project-heading-border'>{project.fields.title}</h1>
                                     <p>{project.fields.overviewDescription}</p>
                                     <span>Created - {project.fields.date}</span>
                                 </div>
                             </div>
-                            <div className='m-2 mt-3 p-1'>
-                                <div className='h-100 p-2'>
+                            <div className='m-2 mt-3 p-md-1'>
+                                <div className='h-100 p-md-2'>
                                     {project.fields.links.link.map((link, index) => (
                                         <a key={index} href={link} className="dynamicHover m-2 p-2 techTheme text-decoration-none">
                                             <span>
@@ -109,7 +109,7 @@ const Project = () => {
                     </div>
                 </div>
                 <div className='col-12'>
-                    <div className='m-sm-3 mt-2 p-1 techSkills defaultCursor'>
+                    <div className='m-sm-3 mt-2 p-md-1 techSkills defaultCursor'>
                         <h4 className='d-inline-block project-tech dynamicHover text-shadow-light-small'>Technologies</h4>
                         <div className='techSkillsList'>
                             {project.fields.technologies.map((tech, index) => (
