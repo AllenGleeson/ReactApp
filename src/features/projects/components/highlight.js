@@ -8,8 +8,8 @@ const Highlight = ({ index, title, description, image, mobileVersion, admin }) =
     const isEven = index % 2 === 0;
     const highlightClass = `mt-3 mb-3 ${
         isEven === false
-            ? 'slideLeft p-3'
-            : 'alternateBg dynamicTheme mb-3 mt-3 p-3 slideRight'
+            ? 'slideLeft p-md-3 p-sm-0'
+            : 'alternateBg dynamicTheme mb-3 mt-3 p-md-3 p-sm-0 slideRight'
     }`;
 
     // Event handler for the "Mobile Version" button click
@@ -38,7 +38,7 @@ const Highlight = ({ index, title, description, image, mobileVersion, admin }) =
                             // Render for even index (Image on the left)
                             <>
                                 <div className='col-sm-12 col-md-6 col-lg-5'>
-                                    <div className='m-3'>
+                                    <div className='m-md-3 m-sm-0'>
                                         <img
                                             className='min-height w-100'
                                             src={getImagePath()}
@@ -99,7 +99,7 @@ const Highlight = ({ index, title, description, image, mobileVersion, admin }) =
                                     )}
                                 </div>
                                 <div className='col-sm-12 col-md-6 col-lg-5'>
-                                    <div className='m-3'>
+                                    <div className='m-md-3 m-sm-0'>
                                         <img
                                             className='min-height w-100'
                                             src={getImagePath()}
@@ -113,7 +113,7 @@ const Highlight = ({ index, title, description, image, mobileVersion, admin }) =
                 ) : (
                     <div className='row'>
                         <div className='col-sm-12'>
-                            <div className='highlight-text mt-3 p-3 text-center project-header'>
+                            <div className='highlight-text mt-3 p-sm-0 p-md-3 text-center project-header'>
                                 <h1 className='project-heading-border'>{title}</h1>
                                 <p>{description}</p>
                             </div>

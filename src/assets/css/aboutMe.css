@@ -77,6 +77,11 @@
 .dark-mode .vertical-timeline-element-icon{
   background-color: #ffc228;
 }
+
+.vertical-timeline-element-date{
+  color: #fff !important;
+}
+
 @media only screen and (max-width: 500px) {
   .social-links{
     font-size: 0.9rem;

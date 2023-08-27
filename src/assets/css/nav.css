@@ -40,15 +40,18 @@
   height: 24px; /* Adjust the height */
 }
 
+.light-dark-toggler{
+  position: absolute;
+  right: 5px;
+  border: 0;
+}
 
 .light-mode .light-dark-toggler{
   background-color: #99e7e4;
-  border: 0;
 }
 
 .dark-mode .light-dark-toggler{
   background-color: #ffc228;
-  border: 0;
 }
 
 .light-mode .light-dark-toggler:hover{
