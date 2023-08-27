@@ -46,14 +46,26 @@ const Project = () => {
       .borderThemeColor{
         border-color: ${project.fields.colorTheme[1]} !important;
       }
-
+      .project-tech{
+        display: inline-block !important;
+        padding: 4px 8px !important;
+        color: #000 !important;
+        margin: 8px !important;
+        font-weight: 600 !important;
+        border-left: 3px solid ${project.fields.colorTheme[0]} !important;
+      }
       .techTheme{
-        background: radial-gradient(#cdcdcd,${project.fields.colorTheme[0]}) !important;
+        background-color: ${project.fields.colorTheme[0]};
         color: white;
-        font-weight: 500;
+        font-weight: 700;
       }
       .techTheme:hover {
         background: radial-gradient(#fff,${project.fields.colorTheme[0]}) !important;
+      }
+      .project-heading-border{
+        border-bottom: 1px solid ${project.fields.colorTheme[0]};
+        margin-bottom: 1rem;
+        padding-bottom: 1rem;
       }
     `;
     
@@ -61,7 +73,7 @@ const Project = () => {
     let descriptionClass = 'col-sm-12';
 
     if(project.fields.overviewImage){
-        descriptionClass = 'col-md-4 col-sm-12'
+        descriptionClass = 'col-lg-4 col-sm-12'
     }
     return(
         <section className='container'>
@@ -72,8 +84,7 @@ const Project = () => {
                         <div className={descriptionClass}>
                             <div className='m-2 p-2 project-header'>
                                 <div>
-                                    <h1 className='mt-3 text-center'>{project.fields.title}</h1>
-                                    <hr />
+                                    <h1 className='mt-3 text-center project-heading-border'>{project.fields.title}</h1>
                                     <p>{project.fields.overviewDescription}</p>
                                     <span>Created - {project.fields.date}</span>
                                 </div>
@@ -91,7 +102,7 @@ const Project = () => {
                             </div>
                         </div>
                         {project.fields.overviewImage && (
-                            <div className="col-md-8 col-sm-12 p-0">
+                            <div className="col-lg-8 col-sm-12 p-0">
                                 <img id='overview-image' src={overviewImagePath} className="card-img" alt="Project One" />
                             </div>
                         )}
@@ -100,10 +111,10 @@ const Project = () => {
                 </div>
                 <div className='col-12'>
                     <div className='m-sm-3 mt-2 p-1 techSkills defaultCursor'>
-                        <h4 className='d-inline-block tech_tag dynamicHover text-shadow-light-small'>Technologies</h4>
+                        <h4 className='d-inline-block project-tech dynamicHover text-shadow-light-small'>Technologies</h4>
                         <div className='techSkillsList'>
                             {project.fields.technologies.map((tech, index) => (
-                                <span key={index} className='tech_tag dynamicHover text-shadow-light-small'>
+                                <span key={index} className='project-tech dynamicHover text-shadow-light-small'>
                                     {tech}
                                 </span>
                             ))}

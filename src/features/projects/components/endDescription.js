@@ -17,8 +17,7 @@ const EndDescription = ({descriptions, color}) => {
                         <Carousel.Item key={index}>
                             <div className='h-100'>
                                 <div className='case-study d-flex flex-column h-100 justify-content-center text-center'>
-                                    <h1>{title}</h1>
-                                    <hr />
+                                    <h1 className='project-heading-border'>{title}</h1>
                                     <p>{descriptions.descriptions[index]}</p>
                                 </div>
                             </div>

@@ -37,7 +37,7 @@ const Highlight = ({ index, title, description, image, mobileVersion, admin }) =
                         {isEven ? (
                             // Render for even index (Image on the left)
                             <>
-                                <div className='col-sm-12 col-md-5'>
+                                <div className='col-sm-12 col-md-6 col-lg-5'>
                                     <div className='m-3'>
                                         <img
                                             className='min-height w-100'
@@ -46,10 +46,9 @@ const Highlight = ({ index, title, description, image, mobileVersion, admin }) =
                                         />
                                     </div>
                                 </div>
-                                <div className='col-sm-12 col-md-7'>
+                                <div className='col-sm-12 col-md-6 col-lg-7'>
                                     <div className='highlight-text m-2 p-2'>
-                                        <h1 className='text-center'>{title}</h1>
-                                        <hr />
+                                        <h1 className='text-center project-heading-border'>{title}</h1>
                                         <p>{description}</p>
                                     </div>
                                     {(mobileVersion || admin) && (
@@ -75,10 +74,9 @@ const Highlight = ({ index, title, description, image, mobileVersion, admin }) =
                         ) : (
                             // Render for odd index (Image on the right)
                             <>
-                                <div className='col-sm-12 col-md-7'>
+                                <div className='col-sm-12 col-md-6 col-lg-7'>
                                     <div className='highlight-text m-2 p-2'>
-                                        <h1 className='text-center'>{title}</h1>
-                                        <hr />
+                                        <h1 className='text-center project-heading-border'>{title}</h1>
                                         <p>{description}</p>
                                     </div>
                                     {(mobileVersion || admin) && (
@@ -100,7 +98,7 @@ const Highlight = ({ index, title, description, image, mobileVersion, admin }) =
                                         </div>
                                     )}
                                 </div>
-                                <div className='col-sm-12 col-md-5'>
+                                <div className='col-sm-12 col-md-6 col-lg-5'>
                                     <div className='m-3'>
                                         <img
                                             className='min-height w-100'
@@ -116,8 +114,7 @@ const Highlight = ({ index, title, description, image, mobileVersion, admin }) =
                     <div className='row'>
                         <div className='col-sm-12'>
                             <div className='highlight-text mt-3 p-3 text-center'>
-                                <h1>{title}</h1>
-                                <hr />
+                                <h1 className='project-heading-border'>{title}</h1>
                                 <p>{description}</p>
                             </div>
                         </div>

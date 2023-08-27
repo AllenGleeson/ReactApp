@@ -27,16 +27,6 @@ const Card = ({ index, title, description, links, image }) => {
                     </div>
                 </a>
             </div>
-            {index % 1 === 0 && (
-                <div className="col-12 d-sm-none mb-5">
-                    <hr />
-                </div>
-            )}
-            {index % 2 === 0 && (
-                <div className="col-12 d-none d-sm-block d-md-block d-lg-none mb-5">
-                    <hr />
-                </div>
-            )}
         </div>
     )
 }

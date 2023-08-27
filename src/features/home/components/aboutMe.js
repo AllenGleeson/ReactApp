@@ -12,12 +12,12 @@ const AboutMe = () => {
     return (
         <section className='aboutMeSection'>
             <div className='pb-3 m-sm-1 row'>
-                <div className="col-md-5 col-sm-12 profileImg">
+                <div className="col-lg-5 col-sm-12 profileImg">
                     <div className='h-100 p-4'>
                         <img alt='Profile' className='h-100' src={profileImage}/>
                     </div>
                 </div>
-                <div className='col-sm-12 col-md-7'>
+                <div className='col-lg-7 col-sm-12'>
                     <div className='h-100 p-3'>
                         <div className='defaultCursor mb-1 mt-2 slideRight'>
                             <div className='tech_tag'>
