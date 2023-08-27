@@ -8,6 +8,21 @@
     min-height: 400px;
 }
 
+.light-mode .card-body{
+    color: #000 !important;
+}
+
+.dark-mode .card-body{
+    color: #fff !important;
+}
+
+.light-mode .card{
+    background-color: #fff;
+}
+.dark-mode .card{
+    background-color: #2e2e2e !important;
+}
+
 .card-title{
     font-size: 16px;
 }
@@ -29,10 +44,6 @@
 .card:hover .card-body{
     color: #fff !important;
     cursor: pointer;
-}
-
-.card-body{
-    color: #000 !important;
 }
 
 .card-body span{

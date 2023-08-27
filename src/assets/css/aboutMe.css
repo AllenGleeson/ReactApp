@@ -25,21 +25,41 @@
   color: rgb(255, 255, 255);
 }
 
+.light-mode .vertical-timeline-element--education .vertical-timeline-element-content{
+  background-color: #01294c;
+}
+
+.dark-mode .vertical-timeline-element--education .vertical-timeline-element-content{
+  background-color: #ffc228;
+}
+
 .vertical-timeline-element-content p {
   font-size: 1.1rem !important;
 }
 
-.vertical-timeline-element-date{
+
+.light-mode .vertical-timeline-element-date{
   color: #000;
+}
+
+.dark-mode .vertical-timeline-element-date{
+  color: #fff;
 }
 
 .aboutMeContent{
   background-color: #919191;
 }
 
+.light-mode .aboutmeDescription{
+  color: #000;
+}
+
+.dark-mode .aboutmeDescription{
+  color: #fff;
+}
+
 .aboutmeDescription{
   animation: grow 1s;
-  color: #000;
 }
 
 .aboutMeSection{
@@ -48,6 +68,14 @@
 
 .profileImg img{
   border-color: #936d00 !important;
+}
+
+.light-mode .vertical-timeline-element-icon{
+  background-color: #99e7e4;
+}
+
+.dark-mode .vertical-timeline-element-icon{
+  background-color: #ffc228;
 }
 @media only screen and (max-width: 500px) {
   .social-links{

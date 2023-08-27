@@ -49,7 +49,6 @@ const Project = () => {
       .project-tech{
         display: inline-block !important;
         padding: 4px 8px !important;
-        color: #000 !important;
         margin: 8px !important;
         font-weight: 600 !important;
         border-left: 3px solid ${project.fields.colorTheme[0]} !important;
@@ -63,7 +62,7 @@ const Project = () => {
         background: radial-gradient(#fff,${project.fields.colorTheme[0]}) !important;
       }
       .project-heading-border{
-        border-bottom: 1px solid ${project.fields.colorTheme[0]};
+        border-bottom: 2px solid ${project.fields.colorTheme[0]};
         margin-bottom: 1rem;
         padding-bottom: 1rem;
       }

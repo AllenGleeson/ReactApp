@@ -42,6 +42,16 @@
 .highlight-text{
     font-weight: 600;
 }
+
+.light-mode .project-header, .light-mode .project-tech, .light-mode .case-study{
+    color: #000 !important;
+}
+
+.dark-mode .project-header, .dark-mode .project-tech, .dark-mode .case-study{
+    color: #fff !important;
+}
+
+
 @media only screen and (max-width: 500px) {
     .carousel-item{
         min-height: auto !important;

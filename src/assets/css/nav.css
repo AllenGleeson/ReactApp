@@ -13,20 +13,65 @@
   width: 100px;
 }
 
-.bg-nav{
-  background-color: #ffffff !important;
-  border-color: #000000 !important;
+.light-mode .bg-nav{
+  border-color: #99e7e4 !important;
+}
+
+.dark-mode .bg-nav{
+  border-color: #ffc228 !important;
 }
 
 .navbar-brand{
   z-index: 1;
 }
 
-.nav-link{
+.light-dark-toggler{
+  color: #fff;
+}
+
+.light-dark-toggler .svg-inline--fa {
+  vertical-align: baseline; /* Or vertical-align: middle; */
+}
+
+/* Increase the size of the SVG icon inside the button */
+.light-dark-toggler .fa-sun,
+.light-dark-toggler .fa-moon {
+  width: 24px; /* Adjust the width */
+  height: 24px; /* Adjust the height */
+}
+
+
+.light-mode .light-dark-toggler{
+  background-color: #99e7e4;
+  border: 0;
+}
+
+.dark-mode .light-dark-toggler{
+  background-color: #ffc228;
+  border: 0;
+}
+
+.light-mode .light-dark-toggler:hover{
+  background: radial-gradient(#ffc228, #fff);
+}
+
+.dark-mode .light-dark-toggler:hover{
+  background: radial-gradient(#99e7e4, #fff);
+}
+
+.light-mode .nav-link{
   color: #000;
+  border-left: 3px solid #99e7e4 !important;
+}
+
+.dark-mode .nav-link{
+  color: #fff;
+  border-left: 3px solid #ffc228 !important;
+}
+
+.nav-link{
   font-size: 18px;
   font-weight: 600 !important;
-  border-left: 3px solid #99e7e4 !important;
 }
 
 .nav-link:hover{

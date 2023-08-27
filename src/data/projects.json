@@ -10,7 +10,7 @@
             "mobileVersion": true,
             "date": "2020",
             "colorTheme": ["#f990bc","#494949", "#e7b5e4"],
-            "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "Stripe Payments", "AWS S3", "Bootstrap", "jQuery", "SQLite"],
+            "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "AWS S3", "Stripe Payments", "AWS RDS", "Heroku", "Bootstrap", "jQuery", "SQLite"],
             "links": {
                 "link": [
                     "https://github.com/AllenGleeson/Ellas_Design",
@@ -104,7 +104,7 @@
             "mobileVersion": true,
             "date": "2020",
             "colorTheme": ["#cd0000","#494949", "#bd6367 "],
-            "technologies": ["HTML", "CSS", "JS", "Python", "Flask", "MongoDB", "Materialise CSS"],
+            "technologies": ["HTML", "CSS", "JS", "jQuery", "Python", "Flask", "MongoDB", "Materialise CSS"],
             "links": {
                 "link": [
                     "https://github.com/AllenGleeson/Lazy-Hunger",
@@ -162,7 +162,7 @@
             "mobileVersion": true,
             "date": "2020",
             "colorTheme": ["#1cba24","#49494921", "#bd6367 "],
-            "technologies": ["HTML", "CSS", "JS", "Google Maps API", "Wikipedia API", "Weather API"],
+            "technologies": ["HTML", "CSS", "JS", "Bootstrap", "Google Maps API", "Wikipedia API", "WeatherBit API"],
             "links": {
                 "link": [
                     "https://github.com/AllenGleeson/Find-Ireland",

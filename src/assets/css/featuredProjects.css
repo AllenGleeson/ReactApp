@@ -32,12 +32,16 @@
     margin: 45px !important;
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon{
+
+.light-mode .featuredProjectDescription{
     background-color: #99e7e4;
 }
 
+.dark-mode .featuredProjectDescription{
+    background-color: #ffc228;
+}
+
 .featuredProjectDescription {
-    background-color: #99e7e4;
     color: #fff;
     font-weight: 500;
     right: 0 !important;
@@ -54,8 +58,13 @@
     transition: max-height 0.5s ease-in;
 }
 
-.featuredProjectDescription:hover{
-    background: radial-gradient(#141414, #919191) !important;
+.light-mode .featuredProjectDescription:hover{
+    background-color: #ffc228;
+    color: #fff;
+}
+
+.dark-mode .featuredProjectDescription:hover{
+    background-color: #99e7e4;
     color: #fff;
 }
 

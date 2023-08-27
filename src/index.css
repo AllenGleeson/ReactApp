@@ -1,14 +1,42 @@
 :root {
   --footer-height: 0;
   --contactForm-height: 0;
+  --carousel-control-prev-color-light: #99e7e4;
+  --carousel-control-prev-color-dark: #ffc228; /* Change this to your desired dark mode color */
 }
 
+/* Apply colors to the carousel controls */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: var(--carousel-control-prev-color-light);
+}
+
+.light-mode .carousel-control-prev-icon,
+.light-mode .carousel-control-next-icon {
+  background-color: var(--carousel-control-prev-color-light);
+}
+
+.dark-mode .carousel-control-prev-icon,
+.dark-mode .carousel-control-next-icon {
+  background-color: var(--carousel-control-prev-color-dark);
+}
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #fff;
   font-family: 'Inter', sans-serif;
+}
+
+/* Light mode */
+.light-mode {
+  background-color: #fff;
+  /* other styles */
+}
+
+/* Dark mode */
+.dark-mode {
+  background-color: #373737;
+  /* other styles */
 }
 
 img{
@@ -43,14 +71,22 @@ code {
   z-index: 2;
 }
 
+
+.light-mode .backToTop div{
+  background-color: #99e7e4;
+}
+
+.dark-mode .backToTop div{
+  background-color: #ffc228;
+}
+
 .backToTop div{
-  background: radial-gradient(#ffffff, #99e7e4) !important;
   padding: 2px;
+  color: #fff;
 }
 
 .backToTop div:hover{
-  background-color: #919191 !important;
-  color: #fff;
+  background-color: #ffc228 !important;
 }
 
 .icon{
@@ -74,10 +110,6 @@ code {
   color: #fff;
 }
 
-.dark-bg{
-  background: radial-gradient(#000000, #494949) !important;
-}
-
 .tag{
   display: inline-block;
   padding: 4px 8px;
@@ -87,22 +119,47 @@ code {
   text-shadow: 1px 0px 1px #000000 !important;
 }
 
+
+.light-mode .links{
+  background-color: #99e7e4;
+}
+
+.dark-mode .links{
+  background-color: #ffc228;
+}
+
 .links {
   display: inline-block;
   padding: 4px 8px;
-  background-color: #99e7e4;
   color: #fff !important;
   margin: 8px;
   font-weight: 500;
 }
 
+.light-mode .links:hover{
+  background-color: #ffc228;
+}
+
+.dark-mode .links:hover{
+  background-color: #99e7e4;
+}
+
+.light-mode .tech_tag{
+  color: #000;
+  border-left: 3px solid #99e7e4 !important;
+}
+
+.dark-mode .tech_tag{
+  color: #fff;
+  border-left: 3px solid #ffc228 !important;
+}
+
 .tech_tag{
   display: inline-block !important;
   padding: 4px 8px !important;
-  color: #000 !important;
   margin: 8px !important;
   font-weight: 600 !important;
-  border-left: 3px solid #99e7e4 !important;
+  border-left: 3px solid #ffc228 !important;
 }
 
 .text-shadow{
@@ -119,12 +176,6 @@ code {
 
 .hoverWhite:hover{
   color: rgb(255, 255, 255);
-}
-
-.links:hover{
-  background: radial-gradient(#ffc228,#ffffff) !important;
-  text-shadow: 1px 0px 1px #ffffff !important;
-  color: #000000 !important;
 }
 
 .grow{
