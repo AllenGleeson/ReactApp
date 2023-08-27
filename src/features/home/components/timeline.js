@@ -10,7 +10,7 @@ const isEven = (num) => num % 2 === 0;
 
 const TimelineElement = ({ element }) => {
     const timelineClass = isEven(element.pk) ? 'vertical-timeline-element--education' : 'vertical-timeline-element--work';
-    const color = isEven(element.pk) ? '#333333' : '#6f6f6f';
+    const color = isEven(element.pk) ? '#01294c' : '#3f3f3f';
     const icon = element.fields.education ? <FontAwesomeIcon icon={faCalendar} className='icon' /> : <FontAwesomeIcon icon={faAddressBook} className='icon' />;
 
     return (
@@ -18,7 +18,7 @@ const TimelineElement = ({ element }) => {
             className={timelineClass}
             contentArrowStyle={{ borderRight: `7px solid ${color}` }}
             date={element.fields.date}
-            iconStyle={{ background: '#99e7e4', color: '#000' }}
+            iconStyle={{ background: '#99e7e4', color: '#fff' }}
             icon={icon}
         >
             <h5 className="vertical-timeline-element-title text-shadow">{element.fields.title}</h5>

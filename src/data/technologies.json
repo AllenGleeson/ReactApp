@@ -1,5 +1,12 @@
 [
     {
-        "technologies": ["HTML", "CSS", "JS", "Java","Spring", "C#", ".NET CORE", "Python", "Django", "MongoDB", "PostgesSQL", "Stripe Payments"]
+        "technologies": [
+                "HTML", "CSS", "JS", "jQuery", "Bootstrap", "Flask",
+                "Java","Spring", "C#", ".NET CORE", "Python", "Django",
+                "React", "MongoDB", "PostgesSQL", "Stripe Payments",
+                "Manual Testing", "Communication", "Microsoft Office",
+                "AWS S3", "AWS RDS","Active Listening","Collaboration",
+                "Git","Heroku"
+            ]
     }
 ]
