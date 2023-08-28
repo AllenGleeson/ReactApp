@@ -60,6 +60,8 @@ const Project = () => {
       }
       .techTheme:hover {
         background: radial-gradient(#fff,${project.fields.colorTheme[0]}) !important;
+        position: relative;
+        top: -4px;
       }
       .project-heading-border{
         border-bottom: 2px solid ${project.fields.colorTheme[0]};

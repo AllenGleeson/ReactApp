@@ -85,8 +85,12 @@ code {
   color: #fff;
 }
 
-.backToTop div:hover{
-  background-color: #ffc228 !important;
+.light-mode .backToTop div:hover{
+  background-color: #ffc228;
+}
+
+.dark-mode .backToTop div:hover{
+  background-color: #99e7e4;
 }
 
 .icon{
@@ -134,6 +138,11 @@ code {
   color: #fff !important;
   margin: 8px;
   font-weight: 500;
+}
+
+.links:hover{
+  position: relative;
+  top: -4px;
 }
 
 .light-mode .links:hover{
