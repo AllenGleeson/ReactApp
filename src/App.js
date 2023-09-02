@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './assets/css/app.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
-import RootLayout from './layouts/rootLayout';
+import RootLayout from './base_layouts/rootLayout';
 import Home from './pages/home';
 import ProjectPage from './pages/projects';
 import Project from './features/projects/components/project';
