@@ -4,7 +4,7 @@
         "fields": {
             "title": "Ellas Design",
             "overviewDescription": "Ellas Design is a full stack Django web app to sell clothing from Ella Moya. The user can browse the products and add them to cart where they can checkout and pay using Stripe Payments. They can also create a profile to store their delivery information and see their order history. The owner is able to add, edit and delete products. The mobile display you can see below is only available on the Home, Shop, Product, About and Contact pages. You will get an error if you try to go to other pages for security reasons. Please go to the live website if you would like to make a purchase.",
-            "overviewImage": "ellas_design_overview.PNG",
+            "overviewImage": "ellas_design_overview.png",
             "shortDescription": "Ellas Design is a full stack Django web app to sell clothing from Ella Moya.",
             "featured": true,
             "mobileVersion": true,
