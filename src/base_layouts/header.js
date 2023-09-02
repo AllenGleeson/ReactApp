@@ -2,7 +2,8 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Navbar, Nav, NavItem, NavLink } from 'react-bootstrap';
 import '../assets/css/nav.css';
-import logo from '../assets/images/page-logo.png';
+import logoLight from '../assets/images/page-logo.png';
+import logoDark from '../assets/images/page-logo-dark.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSun, faMoon } from '@fortawesome/free-solid-svg-icons';
 
@@ -11,7 +12,7 @@ const Header = ({ isDarkMode, toggleDarkMode }) => {
   return (
     <Navbar className='bg-nav border-bottom' id='nav'>
       <Navbar.Brand href="/">
-        <img id="logo" src={logo} alt="logo" />
+      <img id="logo" src={isDarkMode ? logoDark : logoLight} alt="logo" />
       </Navbar.Brand>
       <Nav className="mr-auto">
         <NavItem>

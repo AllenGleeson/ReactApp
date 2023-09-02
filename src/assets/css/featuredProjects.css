@@ -43,6 +43,7 @@
 
 .featuredProjectDescription {
     color: #fff;
+    text-shadow: 1px 0px 3px black, 0px 0px 3px black;
     font-weight: 500;
     right: 0 !important;
     top: 0px !important;

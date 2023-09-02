@@ -81,6 +81,13 @@
   text-decoration: underline;
 }
 
+.light-mode #logo{
+  background-color: #fff;
+}
+.dark-mode #logo{
+  background-color: #373737;
+}
+
 #logo{
   -webkit-user-drag: none;
 }
