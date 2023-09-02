@@ -4,7 +4,7 @@ import projectsData from '../../../data/projects.json';
 import '../../../assets/css/project.css'
 import Highlight from './highlight';
 import EndDescription from './endDescription'
-import BackToTop from '../../../components/backToTop';
+import BackToTop from '../../../Components/backToTop';
 import MobileViewer from './mobileViewer';
 
 const Project = () => {

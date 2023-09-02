@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Content from '../features/home/components/content';
 import AboutMe from '../features/home/components/aboutMe';
 import Timeline from '../features/home/components/timeline';
-import BackToTop from '../components/backToTop';
+import BackToTop from '../Components/backToTop';
 import FeaturedProjects from '../features/projects/components/featuredProjects';
 import technologies from '../data/technologies.json';
 
