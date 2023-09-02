@@ -10,7 +10,7 @@
 }
 
 .navbar-brand img{
-  width: 100px;
+  width: 150px;
 }
 
 .light-mode .bg-nav{
@@ -82,12 +82,7 @@
 }
 
 #logo{
-  animation: 1s ease-out 0s 1 spin;
   -webkit-user-drag: none;
-}
-
-#logo:hover{
-  animation: 5s ease-in 0s infinite spin;
 }
 
 .nav-item {

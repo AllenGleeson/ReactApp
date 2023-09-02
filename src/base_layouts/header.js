@@ -2,7 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Navbar, Nav, NavItem, NavLink } from 'react-bootstrap';
 import '../assets/css/nav.css';
-import logo from '../assets/images/Logo.png';
+import logo from '../assets/images/page-logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSun, faMoon } from '@fortawesome/free-solid-svg-icons';
 
