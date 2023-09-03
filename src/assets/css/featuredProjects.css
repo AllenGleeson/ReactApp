@@ -86,7 +86,7 @@
 
 @media only screen and (max-width: 500px) {
     .featuredProjectDescription{
-        width: auto;
+        width: 120px;
     }
     .featuredDescription{
         font-size: 0.9rem !important;
