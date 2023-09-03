@@ -57,6 +57,7 @@ const Project = () => {
         background-color: ${project.fields.colorTheme[0]};
         color: white;
         font-weight: 700;
+        text-shadow: 1px 0px 3px black, 0px 0px 3px black;
       }
       .techTheme:hover {
         background: radial-gradient(#fff,${project.fields.colorTheme[0]}) !important;
