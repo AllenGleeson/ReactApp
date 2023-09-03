@@ -328,7 +328,7 @@
         "fields": {
             "title": "Random Trip",
             "overviewDescription": "Simple page using CSS grid and semantic HTML elements to create a page for users to sign up to a random holiday destination.",
-            "overviewImage": "random_trip.png",
+            "overviewImage": "random_trip.PNG",
             "shortDescription": "Ellas Design is a full stack Django web app to sell clothing from Ella Moya.",
             "featured": false,
             "mobileVersion": false,
@@ -369,7 +369,7 @@
         "pk": 7,
         "fields": {
             "title": "Library",
-            "overviewDescription": "A simple library application. Allows users to add and book and mark if it was read or not as well as delete the book.",
+            "overviewDescription": "A simple library application. Allows users to add and book and mark if it was read or not as well as delete the book. User can add a new book by clicking Add Book and enter the name. Then mark if it was read or not. After the book is added the user can delete the book if they wish.",
             "overviewImage": null,
             "shortDescription": "A simple library application. Allows users to add and book and mark if it was read or not as well as delete the book.",
             "featured": false,
@@ -388,18 +388,10 @@
                 ]
             },
             "fields": {
-                "sectionTitle": [
-                    "Add Book"
-                ],
-                "descriptions": [
-                    "User can add a new book by clicking Add Book and enter the name. Then mark if it was read or not. After the book is added the user can delete the book if they wish."
-                ],
-                "images": [
-                    "https://preview.redd.it/r19fc58otvn31.jpg?width=640&crop=smart&auto=webp&s=7956096bfcd6c77e7873f1728d9759869485c5fd"
-                ],
-                "admin": [
-                    false
-                ]
+                "sectionTitle": null,
+                "descriptions": null,
+                "images": null,
+                "admin": null
             },
             "endDescriptions": {
                 "titles": [
@@ -514,7 +506,7 @@
         "fields": {
             "title": "JS Presentation - Part One",
             "overviewDescription": "A JS presentation to get a better grasp of the fundamentals. Creating a simple Rock, Paper, Scissors game. User is asked for input when on the page and they can enter in their choice as text.",
-            "overviewImage": null,
+            "overviewImage": "js_presentation_1_overview.PNG",
             "shortDescription": "A JS presentation to get a better grasp of the fundamentals.",
             "featured": false,
             "mobileVersion": false,
@@ -532,18 +524,10 @@
                 ]
             },
             "fields": {
-                "sectionTitle": [
-                    "View"
-                ],
-                "descriptions": [
-                    null
-                ],
-                "images": [
-                    "js_presentation_1_overview.PNG"
-                ],
-                "admin": [
-                    false
-                ]
+                "sectionTitle": null,
+                "descriptions": null,
+                "images": null,
+                "admin": null
             },
             "endDescriptions": {
                 "titles": [
@@ -564,7 +548,7 @@
         "fields": {
             "title": "JS Presentation - Part Two",
             "overviewDescription": "More practice with frontend fundamentals this time creating a calculator. Combining CS flexbox with some more JS practice.",
-            "overviewImage": null,
+            "overviewImage": "js_presentation_2_overview.PNG",
             "shortDescription": "More practice with frontend fundamentals this time creating a calculator.",
             "featured": false,
             "mobileVersion": false,
@@ -582,18 +566,10 @@
                 ]
             },
             "fields": {
-                "sectionTitle": [
-                    "View"
-                ],
-                "descriptions": [
-                    null
-                ],
-                "images": [
-                    "js_presentation_2_overview.PNG"
-                ],
-                "admin": [
-                    false
-                ]
+                "sectionTitle": null,
+                "descriptions": null,
+                "images": null,
+                "admin": null
             },
             "endDescriptions": {
                 "titles": [
