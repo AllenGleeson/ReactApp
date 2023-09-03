@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../../assets/css/aboutMe.css';
 import { FaGithub, FaLinkedin, FaFile } from 'react-icons/fa';
-import profileImage from '../../../assets/images/profile.jpg';
+import profileImage from '../../../assets/images/profile.webp';
 
 let articleContent = "I am a Full Stack Developer having completed several courses focused on programming and expanding my knowledge of different aspects of the development lifecycle. "+
 "My courses have covered a diverse range of development languages, frameworks, and skills. "+

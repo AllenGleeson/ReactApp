@@ -4,7 +4,7 @@
         "fields": {
             "title": "Ellas Design",
             "overviewDescription": "Ellas Design is a full stack Django web app to sell clothing from Ella Moya. The user can browse the products and add them to cart where they can checkout and pay using Stripe Payments. They can also create a profile to store their delivery information and see their order history. The owner is able to add, edit and delete products. The mobile display you can see below is only available on the Home, Shop, Product, About and Contact pages. You will get an error if you try to go to other pages for security reasons. Please go to the live website if you would like to make a purchase.",
-            "overviewImage": "ellas_design_overview.png",
+            "overviewImage": "ellas_design_overview.webp",
             "shortDescription": "Ellas Design is a full stack Django web app to sell clothing from Ella Moya.",
             "featured": true,
             "mobileVersion": true,
@@ -52,17 +52,17 @@
                 ],
                 "images": [
                     null,
-                    "ellas_design_home.png",
-                    "ellas_design_shop.png",
-                    "ellas_design_product.png",
-                    "ellas_design_bag.png",
-                    "ellas_design_checkout.png",
-                    "ellas_design_order.png",
-                    "ellas_design_manage.png",
-                    "ellas_design_crud.png",
-                    "ellas_design_profile.png",
-                    "ellas_design_contact.png",
-                    "ellas_design_about.png"
+                    "ellas_design_home.webp",
+                    "ellas_design_shop.webp",
+                    "ellas_design_product.webp",
+                    "ellas_design_bag.webp",
+                    "ellas_design_checkout.webp",
+                    "ellas_design_order.webp",
+                    "ellas_design_manage.webp",
+                    "ellas_design_crud.webp",
+                    "ellas_design_profile.webp",
+                    "ellas_design_contact.webp",
+                    "ellas_design_about.webp"
                 ],
                 "admin": [
                     false,
@@ -98,7 +98,7 @@
         "fields": {
             "title": "Lazy Hunger",
             "overviewDescription": "Lazy Hunger is a community based website for users to share their recipes with others. Using Flask with Python for the backend, Materialise CSS and jQuery for the frontend, and MongoDB for storage. Users can create, view, edit and delete recipes.",
-            "overviewImage": "lazy_hunger_overview.png",
+            "overviewImage": "lazy_hunger_overview.webp",
             "shortDescription": "A community based website for users to share their recipes with others.",
             "featured": true,
             "mobileVersion": true,
@@ -127,9 +127,9 @@
                     "Clicking on any recipe you can see the details and if you wish you can click to edit the recipe or delete if you dare let others miss out.. Maybe it should be missed. On edit the pages looks the page as creating a recipe but the details are already there for you to change. Editing a recipe you can change anything, the title, description, image or add or remove ingrediants or methods."
                 ],
                 "images": [
-                    "lazy_hunger_home.png",
-                    "lazy_hunger_create.png",
-                    "lazy_hunger_view.png"
+                    "lazy_hunger_home.webp",
+                    "lazy_hunger_create.webp",
+                    "lazy_hunger_view.webp"
                 ],
                 "admin": [
                     false,
@@ -156,7 +156,7 @@
         "fields": {
             "title": "Find Ireland",
             "overviewDescription": "A tourism website to explore different tourist attractions across Ireland. The website is API heavy and uses JS and Jquery to create a website to see nearby tourist attractions to the selected towns.",
-            "overviewImage": "find_ireland_overview.PNG",
+            "overviewImage": "find_ireland_overview.webp",
             "shortDescription": "A website to see tourist attractions around Ireland.",
             "featured": true,
             "mobileVersion": true,
@@ -186,8 +186,8 @@
                 ],
                 "images": [
                     null,
-                    "find_ireland.PNG",
-                    "find_ireland_about.png"
+                    "find_ireland.webp",
+                    "find_ireland_about.webp"
                 ],
                 "admin": [
                     false,
@@ -214,7 +214,7 @@
         "fields": {
             "title": "AMG Art Gallery",
             "overviewDescription": "A gallery website for AMG to display her art, photos and poems created using HTML, CSS and Bootstrap.",
-            "overviewImage": "amg_art_overview.PNG",
+            "overviewImage": "amg_art_overview.webp",
             "shortDescription": "An art gallery for AMG to display some of their art, photos and poems.",
             "featured": true,
             "mobileVersion": true,
@@ -245,10 +245,10 @@
                     "The contact page has another message from the artist as well as an image they like and an embedded YouTube video. Below there is a contact form that but no functionality as the site has no backend."
                 ],
                 "images": [
-                    "amg_home.png",
-                    "amg_gallery.png",
-                    "amg_poems.png",
-                    "amg_contact.png"
+                    "amg_home.webp",
+                    "amg_gallery.webp",
+                    "amg_poems.webp",
+                    "amg_contact.webp"
                 ],
                 "admin": [
                     false,
@@ -328,7 +328,7 @@
         "fields": {
             "title": "Random Trip",
             "overviewDescription": "Simple page using CSS grid and semantic HTML elements to create a page for users to sign up to a random holiday destination.",
-            "overviewImage": "random_trip.PNG",
+            "overviewImage": "random_trip.webp",
             "shortDescription": "Ellas Design is a full stack Django web app to sell clothing from Ella Moya.",
             "featured": false,
             "mobileVersion": false,
@@ -437,8 +437,8 @@
                     "Connection made to MongoDB and data is sent there at same time as writing to excel file."
                 ],
                 "images": [
-                    "reviewscraper_excel.png",
-                    "reviewscraper_mongo.png"
+                    "review_scrapper_excel.jpg.webp",
+                    "reviewscraper_mongo.webp"
                 ],
                 "admin": [
                     false,
@@ -464,7 +464,7 @@
         "fields": {
             "title": "CSS Presentation",
             "overviewDescription": "A CSS presentation to get a better grasp of the fundamentals and Flex box.",
-            "overviewImage": "css_presentation.png",
+            "overviewImage": "css_presentation.webp",
             "shortDescription": "A CSS presentation to get a better grasp of the fundamentals and Flex box.",
             "featured": false,
             "mobileVersion": false,
@@ -506,7 +506,7 @@
         "fields": {
             "title": "JS Presentation - Part One",
             "overviewDescription": "A JS presentation to get a better grasp of the fundamentals. Creating a simple Rock, Paper, Scissors game. User is asked for input when on the page and they can enter in their choice as text.",
-            "overviewImage": "js_presentation_1_overview.PNG",
+            "overviewImage": "js_presentation_1_overview.webp",
             "shortDescription": "A JS presentation to get a better grasp of the fundamentals.",
             "featured": false,
             "mobileVersion": false,
@@ -548,7 +548,7 @@
         "fields": {
             "title": "JS Presentation - Part Two",
             "overviewDescription": "More practice with frontend fundamentals this time creating a calculator. Combining CS flexbox with some more JS practice.",
-            "overviewImage": "js_presentation_2_overview.PNG",
+            "overviewImage": "js_presentation_2_overview.webp",
             "shortDescription": "More practice with frontend fundamentals this time creating a calculator.",
             "featured": false,
             "mobileVersion": false,
