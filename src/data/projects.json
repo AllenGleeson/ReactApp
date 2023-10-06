@@ -329,7 +329,7 @@
             "title": "Random Trip",
             "overviewDescription": "Simple page using CSS grid and semantic HTML elements to create a page for users to sign up to a random holiday destination.",
             "overviewImage": "random_trip.webp",
-            "shortDescription": "Ellas Design is a full stack Django web app to sell clothing from Ella Moya.",
+            "shortDescription": "Simple page using CSS grid and semantic HTML elements to create a page for users to sign up to a random holiday destination.",
             "featured": false,
             "mobileVersion": false,
             "date": "2022",
