@@ -4,10 +4,11 @@ import { FaGithub, FaLinkedin, FaFile } from 'react-icons/fa';
 import profileImage from '../../../assets/images/profile.webp';
 import cv from '../../../assets/cv/AllenGCV.docx';
 
-let articleContent = "I am a Full Stack Developer having completed several courses focused on programming and expanding my knowledge of different aspects of the development lifecycle. "+
-"My courses have covered a diverse range of development languages, frameworks, and skills. "+
+let articleContent = "I am a Full Stack Developer that has steadily been building my skills with several courses, work placements, an internship and work experience which covered a diverse range of stacks, languages, and frameworks as well as manual testing."+
 "\n \n"+
-"I am now working with Orcawise in their Innovation Program as a Data Scienist to web scrape, using Python, websites depending on the data they need. Also getting to see use of NLP to get some insights about the data.";
+"Over the last year I have completed some courses, did an internship with Orcawise, built this site and some work with STC. I'm currently working on some side prjects and trying to expand what I can do."+
+"\n \n"+
+"I have been using React, Python, and Java with work or my own projects most recently.";
 
 const AboutMe = () => {
     return (
