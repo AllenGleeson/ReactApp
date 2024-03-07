@@ -6,7 +6,7 @@ import cv from '../../../assets/cv/AllenGCV.docx';
 
 let articleContent = "I am a Full Stack Developer that has steadily been building my skills with several courses, work placements, an internship and work experience which covered a diverse range of stacks, languages, and frameworks as well as manual testing."+
 "\n \n"+
-"Over the last year I have completed some courses, did an internship with Orcawise, built this site and some work with STC. I'm currently working on some side prjects and trying to expand what I can do."+
+"Over the last year I have completed some courses, did an internship with Orcawise, built this site and some work with STC. I'm currently working on some side projects and trying to expand what I can do."+
 "\n \n"+
 "I have been using React, Python, and Java with work or my own projects most recently.";
 
