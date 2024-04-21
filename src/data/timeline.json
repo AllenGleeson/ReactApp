@@ -145,28 +145,38 @@
     {
         "pk": 14,
         "fields": {
-            "title": "Software Testing: ISTQB Foundation Level",
-            "organisation": "DDLETB",
-            "location": "Baldoyle",
-            "description": "Focusing on Blackbox, Whitebox manual testing with some exposure to automated testing.",
-            "education": true,
-            "date": "APRIL 2017 - AUGUST 2017"
+            "title": "Work Experience",
+            "organisation": "T-Pro",
+            "location": "Dublin",
+            "description": "This was my first work experience the software industry and it was very helpful to me. I did some testing and spent some time understanding Selenium for automated testing. Great people working there.",
+            "education": false,
+            "date": "OCTOBER 2017 - NOVEMBER 2017"
         }
     },
     {
         "pk": 15,
+        "fields": {
+            "title": "Bachelor's degree",
+            "organisation": "Technological University Dublin",
+            "location": "Dublin",
+            "description": "Through my previous courses I managed to get into second year in TUD and had a great time expanding my skills.",
+            "education": true,
+            "date": "SEPTEMBER 2016 - MAY 2019"
+        }
+    },
+    {
+        "pk": 16,
         "fields": {
             "title": "Software Developer Traineeship: Oracle Certified Associate, Java SE8",
             "organisation": "CDETB",
             "location": "Finglas",
             "description": "This course went through Java using servlets, Mavin, Jsp’s and getting to learn Java more deeply with Spring and Hibernate culminating with the Oracle Associate Certificate.",
             "education": true,
-            "date": "SEPTEMBER 2015 - SEPTEMBER 2016"
+            "date": "SEPTEMBER 2015 - AUGUST 2016"
         }
-    }
-    ,
+    },
     {
-        "pk": 16,
+        "pk": 17,
         "fields": {
             "title": "Software Development: City and Guilds Level 2",
             "organisation": "DDLETB",
@@ -177,7 +187,7 @@
         }
     },
     {
-        "pk": 17,
+        "pk": 18,
         "fields": {
             "title": "Pre 2014",
             "organisation": "",
