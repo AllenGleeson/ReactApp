@@ -2,7 +2,7 @@ import React from 'react';
 import '../../../assets/css/aboutMe.css';
 import { FaGithub, FaLinkedin, FaFile } from 'react-icons/fa';
 import profileImage from '../../../assets/images/profile.webp';
-import cv from '../../../assets/cv/AllenGCV.docx';
+import cv from '../../../assets/cv/Allen-Gleeson-Dev-Resume.pdf';
 
 let articleContent = "I am a Full Stack Developer that has steadily been building my skills with several courses, work placements, an internship and work experience which covered a diverse range of stacks, languages, and frameworks as well as manual testing."+
 "\n \n"+
@@ -16,7 +16,7 @@ const AboutMe = () => {
             <div className='pb-3 m-sm-1 row'>
                 <div className="col-lg-5 col-sm-12 profileImg">
                     <div className='h-100 p-4'>
-                        <img alt='Profile' className='h-100' src={profileImage}/>
+                        <img alt='Profile' className='h-100 rounded-pill' src={profileImage}/>
                     </div>
                 </div>
                 <div className='col-lg-7 col-sm-12'>
@@ -41,7 +41,7 @@ const AboutMe = () => {
                             <a href='https://github.com/AllenGleeson'>
                                 <span className='links social-links'>GitHub <FaGithub /></span>
                             </a>
-                            <a href='https://www.linkedin.com/in/allen-gleeson-a6263711a/'>
+                            <a href='https://www.linkedin.com/in/allen-gleeson'>
                                 <span className='links social-links'>LinkedIn <FaLinkedin /></span>
                             </a>
                             <a href={cv}>

@@ -79,28 +79,6 @@
     {
         "pk": 8,
         "fields": {
-            "title": "Kitchen Porter",
-            "organisation": "Limekiln Gastropub",
-            "location": "Julianstown, Co.Meath",
-            "description": "Assisted chefs as well as cleaning duties, training up new porters and closing up after finish.",
-            "education": false,
-            "date": "MAY 2022 - JULY 2022"
-        }
-    },
-    {
-        "pk": 9,
-        "fields": {
-            "title": "Customer Assistant",
-            "organisation": "Tesco",
-            "location": "Bettystown, Co. Meath",
-            "description": "Worked as a customer assistant in Tesco during December toward the end of COVID.",
-            "education": false,
-            "date": "DECEMBER 2021"
-        }
-    },
-    {
-        "pk": 10,
-        "fields": {
             "title": "Web Developer - Work Placement",
             "organisation": "Nebula Innovation",
             "location": "Julianstown, Co.Meath",
@@ -110,29 +88,18 @@
         }
     },
     {
-        "pk": 11,
+        "pk": 9,
         "fields": {
             "title": "Diploma in Full Stack Software Development",
             "organisation": "Code Institute",
             "location": "Remote",
             "description": "Full Stack bootcamp from the beginings of creating a simple HTML website with Bootstrap to a Full Stack Django E-Commerce application.",
             "education": true,
-            "date": "JULY 2019 - SEPTEMBER 2020"
+            "date": "JUNE 2019 - SEPTEMBER 2020"
         }
     },
     {
-        "pk": 12,
-        "fields": {
-            "title": "Kitchen Porter",
-            "organisation": "Limekiln Gastropub",
-            "location": "Julianstown, Co.Meath",
-            "description": "Assisted chefs as well as cleaning duties, training up new porters and closing up after finish.",
-            "education": false,
-            "date": "OCTOBER 2019 - MARCH 2020"
-        }
-    },
-    {
-        "pk": 13,
+        "pk": 10,
         "fields": {
             "title": "Website Administrator",
             "organisation": "Meath Partnership",
@@ -143,51 +110,51 @@
         }
     },
     {
-        "pk": 14,
+        "pk": 11,
         "fields": {
             "title": "Work Experience",
             "organisation": "T-Pro",
             "location": "Dublin",
             "description": "This was my first work experience the software industry and it was very helpful to me. I did some testing and spent some time understanding Selenium for automated testing. Great people working there.",
             "education": false,
-            "date": "OCTOBER 2017 - NOVEMBER 2017"
+            "date": "SEPTEMBER 2017 - NOVEMBER 2017"
         }
     },
     {
-        "pk": 15,
+        "pk": 12,
         "fields": {
-            "title": "Bachelor's degree",
-            "organisation": "Technological University Dublin",
+            "title": "Software Testing: ISTQB Foundation Level",
+            "organisation": "DDLETB",
             "location": "Dublin",
-            "description": "Through my previous courses I managed to get into second year in TUD and had a great time expanding my skills.",
+            "description": "Blackbox, Whitebox manual testing with some exposure to automated testing.",
             "education": true,
-            "date": "SEPTEMBER 2016 - MAY 2019"
+            "date": "MARCH 2017 - AUGUST 2017"
         }
     },
     {
-        "pk": 16,
+        "pk": 13,
         "fields": {
             "title": "Software Developer Traineeship: Oracle Certified Associate, Java SE8",
             "organisation": "CDETB",
-            "location": "Finglas",
+            "location": "Dublin",
             "description": "This course went through Java using servlets, Mavin, Jsp’s and getting to learn Java more deeply with Spring and Hibernate culminating with the Oracle Associate Certificate.",
             "education": true,
             "date": "SEPTEMBER 2015 - AUGUST 2016"
         }
     },
     {
-        "pk": 17,
+        "pk": 14,
         "fields": {
             "title": "Software Development: City and Guilds Level 2",
             "organisation": "DDLETB",
-            "location": "Baldoyle",
+            "location": "Dublin",
             "description": "My first full time programming course. Introduced me to OOP, MVC and the waterfall lifecycle. Got to learn and practice the basics of Java, C#, SQL as well as technical support.",
             "education": true,
             "date": "OCTOBER 2014 - MAY 2015"
         }
     },
     {
-        "pk": 18,
+        "pk": 15,
         "fields": {
             "title": "Pre 2014",
             "organisation": "",
