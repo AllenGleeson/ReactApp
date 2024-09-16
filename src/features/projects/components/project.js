@@ -101,6 +101,18 @@ const Project = () => {
                                         </a>
                                     ))}
                                 </div>
+                                {project.fields.coauthors && (
+                                    <div className='h-100 mt-2 p-md-2'>
+                                        <span className='coauthor'>Co Author: </span>
+                                        {project.fields.coauthors.link.map((link, index) => (
+                                            <a key={index} href={link} className="dynamicHover m-2 p-2 techTheme text-decoration-none">
+                                                <span>
+                                                    {project.fields.coauthors.author[index]}
+                                                </span>
+                                            </a>
+                                        ))}
+                                    </div>
+                                )}
                             </div>
                         </div>
                         {project.fields.overviewImage && (
@@ -108,7 +120,6 @@ const Project = () => {
                                 <img id='overview-image' src={overviewImagePath} className="card-img" alt="Project One" />
                             </div>
                         )}
-                        
                     </div>
                 </div>
                 <div className='col-12'>

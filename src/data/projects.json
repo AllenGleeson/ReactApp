@@ -2,6 +2,72 @@
     {
         "pk": 1,
         "fields": {
+            "title": "ADIG - Coffeeshop",
+            "overviewDescription": "ADIG - Coffeeshop is a hybrid Django and React application designed for a coffeeshop co authored with Diarmaid Barron. The application is hosted on Heroku with data stored on a postgreSQL database on AWS RDS and the menu PDF stored on AWS S3. It provides an intuitive way for site owners to manage their content without needing to contact developers for minor changes.",
+            "overviewImage": "adig-coffeeshop-overview.webp",
+            "shortDescription": "ADIG - Coffeeshop is a hybrid Django and React application designed for a coffeeshop.",
+            "featured": true,
+            "mobileVersion": true,
+            "date": "2024",
+            "colorTheme": ["#8d016e","#494949", "#8d016e"],
+            "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "React", "AWS S3", "AWS RDS", "Heroku", "Bootstrap", "jQuery", "SQLite", "Google Maps API", "InstagFeed.js"],
+            "links": {
+                "link": [
+                    "https://github.com/AllenGleeson/coffee",
+                    "https://adig-coffeeshop-e5122ea78847.herokuapp.com/"
+                ],
+                "linkName": [
+                    "GitHub",
+                    "Live Site"
+                ]
+            },
+            "coauthors": {
+                "link": [
+                    "https://www.linkedin.com/in/diarmaidb/"
+                ],
+                "author": [
+                    "Diarmaid Barron"
+                ]
+            },
+            "fields": {
+                "sectionTitle": [
+                    "Home",
+                    "Menu",
+                    "Contact"
+                ],
+                "descriptions": [
+                    "The Home page showcases a dynamic and engaging layout, beginning with a carousel that includes a personalized greeting message. Following the carousel, there is a banner that highlights key aspects of the business, offering visitors a quick overview of its unique offerings.\n\nEmbedded within the page is a Vimeo video, providing a visual and interactive representation of the brand, which is complemented by a live Instagram feed that keeps the page updated with the latest posts and content from the business's social media presence.\n\nAdditionally, the page features an About section, which includes an interactive Google Maps integration with a custom map marker, making it easy for users to locate the business. Together, these elements create a well-rounded and immersive experience for visitors, combining multimedia content with essential business information.",
+                    "The Menu page allows users to view the business's menu in a convenient PDF format. This menu is uploaded directly by the site owner through Djangos Admin interface, providing flexibility for updates or changes. Once uploaded, the PDF is securely stored in an AWS S3 Bucket, ensuring reliability and scalability for file storage. This feature streamlines menu management, allowing the owner to keep their offerings up-to-date with ease, while also ensuring that visitors can access the latest version of the menu quickly and efficiently.",
+                    "The Contact page is a simple form made purely in React with no backend as it is for display purposes only as may not be wanted for all owners."
+                ],
+                "images": [
+                    "adig-coffeeshop-home.webp",
+                    "adig-coffeeshop-menu.webp",
+                    "adig-coffeeshop-contact.webp"
+                ],
+                "admin": [
+                    false,
+                    false,
+                    false
+                ]
+            },
+            "endDescriptions": {
+                "titles": [
+                    "Goal",
+                    "Challenges",
+                    "Final Thoughts"
+                ],
+                "descriptions": [
+                    "To create a customisable website for the owner to be able to change the content of the site themselves without need for developers unless they need big changes.",
+                    "Integrating React and Django together.",
+                    "Has greatly improved my React and Django skills and am happy with the final product."
+                ]
+            }
+        }
+    },
+    {
+        "pk": 2,
+        "fields": {
             "title": "Ellas Design",
             "overviewDescription": "Ellas Design is a full stack Django web app to sell clothing from Ella Moya. The user can browse the products and add them to cart where they can checkout and pay using Stripe Payments. They can also create a profile to store their delivery information and see their order history. The owner is able to add, edit and delete products. The mobile display you can see below is only available on the Home, Shop, Product, About and Contact pages. You will get an error if you try to go to other pages for security reasons. Please go to the live website if you would like to make a purchase.",
             "overviewImage": "ellas_design_overview.webp",
@@ -21,6 +87,7 @@
                     "Live Site"
                 ]
             },
+            "coauthors": null,
             "fields": {
                 "sectionTitle": [
                     "Details",
@@ -94,7 +161,7 @@
         }
     },
     {
-        "pk": 2,
+        "pk": 3,
         "fields": {
             "title": "Lazy Hunger",
             "overviewDescription": "Lazy Hunger is a community based website for users to share their recipes with others. Using Flask with Python for the backend, Materialise CSS and jQuery for the frontend, and MongoDB for storage. Users can create, view, edit and delete recipes.",
@@ -115,6 +182,7 @@
                     "Live Site"
                 ]
             },
+            "coauthors": null,
             "fields": {
                 "sectionTitle": [
                     "Home",
@@ -152,7 +220,7 @@
         }
     },
     {
-        "pk": 3,
+        "pk": 4,
         "fields": {
             "title": "Find Ireland",
             "overviewDescription": "A tourism website to explore different tourist attractions across Ireland. The website is API heavy and uses JS and Jquery to create a website to see nearby tourist attractions to the selected towns.",
@@ -173,6 +241,7 @@
                     "Live Site"
                 ]
             },
+            "coauthors": null,
             "fields": {
                 "sectionTitle": [
                     "API Used",
@@ -210,7 +279,7 @@
         }
     },
     {
-        "pk": 4,
+        "pk": 5,
         "fields": {
             "title": "AMG Art Gallery",
             "overviewDescription": "A gallery website for AMG to display her art, photos and poems created using HTML, CSS and Bootstrap.",
@@ -231,6 +300,7 @@
                     "Live Site"
                 ]
             },
+            "coauthors": null,
             "fields": {
                 "sectionTitle": [
                     "Home",
@@ -272,7 +342,7 @@
         }
     },
     {
-        "pk": 5,
+        "pk": 6,
         "fields": {
             "title": "SSid Checker",
             "overviewDescription": "Application that enables a user to check if the user name of your WiFi network, which is identified as SSID (Service Set Identifier) hereafter is of a standard format that conforms to the rules corresponding to the assigned item. The application prompts the user to provide one item (i.e. a piece of text). Next, the application uses the piece of text to determine if the provided text is valid or invalid.",
@@ -291,6 +361,7 @@
                     "GitHub"
                 ]
             },
+            "coauthors": null,
             "fields": {
                 "sectionTitle": [
                     "Flow",
@@ -324,7 +395,7 @@
         }
     },
     {
-        "pk": 6,
+        "pk": 7,
         "fields": {
             "title": "Random Trip",
             "overviewDescription": "Simple page using CSS grid and semantic HTML elements to create a page for users to sign up to a random holiday destination.",
@@ -345,6 +416,7 @@
                     "Live Site"
                 ]
             },
+            "coauthors": null,
             "fields": {
                 "sectionTitle": null,
                 "descriptions": null,
@@ -366,7 +438,7 @@
         }
     },
     {
-        "pk": 7,
+        "pk": 8,
         "fields": {
             "title": "Library",
             "overviewDescription": "A simple library application. Allows users to add and book and mark if it was read or not as well as delete the book. User can add a new book by clicking Add Book and enter the name. Then mark if it was read or not. After the book is added the user can delete the book if they wish.",
@@ -387,6 +459,7 @@
                     "Live Site"
                 ]
             },
+            "coauthors": null,
             "fields": {
                 "sectionTitle": null,
                 "descriptions": null,
@@ -408,7 +481,7 @@
         }
     },
     {
-        "pk": 8,
+        "pk": 9,
         "fields": {
             "title": "Review Scrapper",
             "overviewDescription": "A Webscraper using Selenium to gather data from a given company and some reviews and store them in an excel file and on MongoDB. It searches trustpilot.com for the company you search and gathers reviews and general company data to put in our file or database.",
@@ -427,6 +500,7 @@
                     "GitHub"
                 ]
             },
+            "coauthors": null,
             "fields": {
                 "sectionTitle": [
                     "Excel",
@@ -460,7 +534,7 @@
         }
     },
     {
-        "pk": 9,
+        "pk": 10,
         "fields": {
             "title": "CSS Presentation",
             "overviewDescription": "A CSS presentation to get a better grasp of the fundamentals and Flex box.",
@@ -481,6 +555,7 @@
                     "Live Site"
                 ]
             },
+            "coauthors": null,
             "fields": {
                 "sectionTitle": null,
                 "descriptions": null,
@@ -502,7 +577,7 @@
         }
     },
     {
-        "pk": 10,
+        "pk": 11,
         "fields": {
             "title": "JS Presentation - Part One",
             "overviewDescription": "A JS presentation to get a better grasp of the fundamentals. Creating a simple Rock, Paper, Scissors game. User is asked for input when on the page and they can enter in their choice as text.",
@@ -523,6 +598,7 @@
                     "Live Site"
                 ]
             },
+            "coauthors": null,
             "fields": {
                 "sectionTitle": null,
                 "descriptions": null,
@@ -544,7 +620,7 @@
         }
     },
     {
-        "pk": 11,
+        "pk": 12,
         "fields": {
             "title": "JS Presentation - Part Two",
             "overviewDescription": "More practice with frontend fundamentals this time creating a calculator. Combining CS flexbox with some more JS practice.",
@@ -565,6 +641,7 @@
                     "Live Site"
                 ]
             },
+            "coauthors": null,
             "fields": {
                 "sectionTitle": null,
                 "descriptions": null,
