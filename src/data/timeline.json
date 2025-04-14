@@ -2,6 +2,28 @@
     {
         "pk": 1,
         "fields": {
+            "title": "Higher Diploma in Science in Computing",
+            "organisation": "National College of Ireland",
+            "location": "Remote",
+            "description": "The Higher Diploma in Science in Computing is a Level 8 course. The course goes over the computing fundamentals, complemented with detailed knowledge, problem-solving and specialised technical skills required for designing, developing and deploying software.",
+            "education": true,
+            "date": "JANUARY 2025 - PRESENT"
+        }
+    },
+    {
+        "pk": 2,
+        "fields": {
+            "title": "ICDL - Cloud Computing",
+            "organisation": "eCollege",
+            "location": "Remote",
+            "description": "Learning more about the cloud and services like SAAS, IAAS, and PAAS.",
+            "education": true,
+            "date": "JULY 2024 - AUGUST 2024"
+        }
+    },
+    {
+        "pk": 3,
+        "fields": {
             "title": "Junior Software Engineer",
             "organisation": "The School Tour Company",
             "location": "Hybrid",
@@ -11,7 +33,7 @@
         }
     },
     {
-        "pk": 2,
+        "pk": 4,
         "fields": {
             "title": "Data Scientist - Innovation Program",
             "organisation": "Orcawise",
@@ -22,7 +44,7 @@
         }
     },
     {
-        "pk": 3,
+        "pk": 5,
         "fields": {
             "title": "Web Developer",
             "organisation": "Freelance",
@@ -33,7 +55,7 @@
         }
     },
     {
-        "pk": 4,
+        "pk": 6,
         "fields": {
             "title": "Certificate in Science in Computing",
             "organisation": "National College of Ireland",
@@ -44,7 +66,7 @@
         }
     },
     {
-        "pk": 5,
+        "pk": 7,
         "fields": {
             "title": "Customer Service Advisor",
             "organisation": "Capita",
@@ -55,7 +77,7 @@
         }
     },
     {
-        "pk": 6,
+        "pk": 8,
         "fields": {
             "title": "Advanced JS",
             "organisation": "Brainnest",
@@ -66,7 +88,7 @@
         }
     },
     {
-        "pk": 7,
+        "pk": 9,
         "fields": {
             "title": "Frontend Fundamentals",
             "organisation": "Brainnest",
@@ -77,7 +99,7 @@
         }
     },
     {
-        "pk": 8,
+        "pk": 10,
         "fields": {
             "title": "Web Developer - Work Placement",
             "organisation": "Nebula Innovation",
@@ -88,7 +110,7 @@
         }
     },
     {
-        "pk": 9,
+        "pk": 11,
         "fields": {
             "title": "Diploma in Full Stack Software Development",
             "organisation": "Code Institute",
@@ -99,7 +121,7 @@
         }
     },
     {
-        "pk": 10,
+        "pk": 12,
         "fields": {
             "title": "Website Administrator",
             "organisation": "Meath Partnership",
@@ -110,7 +132,7 @@
         }
     },
     {
-        "pk": 11,
+        "pk": 13,
         "fields": {
             "title": "Work Experience",
             "organisation": "T-Pro",
@@ -121,7 +143,7 @@
         }
     },
     {
-        "pk": 12,
+        "pk": 14,
         "fields": {
             "title": "Software Testing: ISTQB Foundation Level",
             "organisation": "DDLETB",
@@ -132,7 +154,7 @@
         }
     },
     {
-        "pk": 13,
+        "pk": 15,
         "fields": {
             "title": "Software Developer Traineeship: Oracle Certified Associate, Java SE8",
             "organisation": "CDETB",
@@ -143,7 +165,7 @@
         }
     },
     {
-        "pk": 14,
+        "pk": 16,
         "fields": {
             "title": "Software Development: City and Guilds Level 2",
             "organisation": "DDLETB",
@@ -154,7 +176,7 @@
         }
     },
     {
-        "pk": 15,
+        "pk": 17,
         "fields": {
             "title": "Pre 2014",
             "organisation": "",
