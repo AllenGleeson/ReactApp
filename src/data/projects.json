@@ -2,6 +2,89 @@
     {
         "pk": 1,
         "fields": {
+            "title": "Bens Bakery",
+            "overviewDescription": "Ben’s bakery online shop is simple website allows customer to browse and order freshly baked breads & cakes. The website is designed with easy navigation, good user experience, and friendly ordering process.",
+            "overviewImage": "bens-bakery-overview.webp",
+            "shortDescription": "Ben’s bakery online shop is simple website allows customer to browse and order freshly baked breads & cakes.",
+            "featured": true,
+            "mobileVersion": true,
+            "date": "2025",
+            "colorTheme": [
+                "#8d016e",
+                "#494949",
+                "#8d016e"
+            ],
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JS",
+                "Bootstrap"
+            ],
+            "links": {
+                "link": [
+                    "https://github.com/AllenGleeson/BensBakery",
+                    "https://allengleeson.github.io/BensBakery/"
+                ],
+                "linkName": [
+                    "GitHub",
+                    "Live Site"
+                ]
+            },
+            "coauthors": {
+                "link": [
+                    "#"
+                ],
+                "author": [
+                    "Salini Suresh"
+                ]
+            },
+            "fields": {
+                "sectionTitle": [
+                    "Home",
+                    "Menu",
+                    "Order",
+                    "About",
+                    "Bag"
+                ],
+                "descriptions": [
+                    "The Home page features a welcoming carousel showcasing beautiful bakery images including wedding cakes, coffee cakes, and cupcakes. The page includes a prominent 'Shop Now' button that directs users to the menu page, along with an interactive image gallery that displays product descriptions when clicked. The layout is designed to create an inviting first impression for visitors while highlighting the bakery's key offerings.",
+                    "The Menu page displays a comprehensive catalog of bakery products loaded dynamically from a JSON file. Each product is presented with an image, description, price, and quantity selector. Users can add items to their cart with a simple click, and the page includes flash messages to confirm successful additions or prompt for quantity selection. The shopping cart total is always visible in the navigation bar.",
+                    "The Order page provides a streamlined checkout experience with a multi-step form. The first step collects delivery details including name, address, and contact information. The second step handles payment information with options for packaging preferences. The page also displays the user's selected items and total cost in a sidebar, ensuring transparency throughout the ordering process.",
+                    "The About page features an engaging interactive cake decoration game where users can customize cakes with different toppings (sprinkles, blueberries, cherries) and flavors (vanilla, pineapple, chocolate). The page includes information about the bakery's commitment to fresh, organic ingredients and provides a delightful way for customers to engage with the brand while learning about the business.",
+                    "The Shopping Bag functionality is prominently displayed in the top-right corner of every page, providing persistent access to cart management. Users can click the shopping bag icon to view their current cart contents, edit quantities, or remove items. The bag displays the total cost in euros and updates in real-time as items are added or modified. This feature ensures a seamless shopping experience across all pages of the website."
+                ],
+                "images": [
+                    "adig-coffeeshop-home.webp",
+                    "adig-coffeeshop-menu.webp",
+                    "adig-coffeeshop-contact.webp",
+                    "adig-coffeeshop-menu.webp",
+                    "adig-coffeeshop-contact.webp"
+                ],
+                "admin": [
+                    false,
+                    false,
+                    false,
+                    false,
+                    false
+                ]
+            },
+            "endDescriptions": {
+                "titles": [
+                    "Goal",
+                    "Challenges",
+                    "Final Thoughts"
+                ],
+                "descriptions": [
+                    "To create a customisable website for the owner to be able to change the content of the site themselves without need for developers unless they need big changes.",
+                    "Integrating React and Django together.",
+                    "Has greatly improved my React and Django skills and am happy with the final product."
+                ]
+            }
+        }
+    },
+    {
+        "pk": 2,
+        "fields": {
             "title": "ADIG - Coffeeshop",
             "overviewDescription": "ADIG - Coffeeshop is a hybrid Django and React application designed for a coffeeshop co authored with Diarmaid Barron. The application is hosted on Heroku with data stored on a postgreSQL database on AWS RDS and the menu PDF stored on AWS S3. It provides an intuitive way for site owners to manage their content without needing to contact developers for minor changes.",
             "overviewImage": "adig-coffeeshop-overview.webp",
@@ -9,8 +92,28 @@
             "featured": true,
             "mobileVersion": true,
             "date": "2024",
-            "colorTheme": ["#8d016e","#494949", "#8d016e"],
-            "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "React", "AWS S3", "AWS RDS", "Heroku", "Bootstrap", "jQuery", "SQLite", "Google Maps API", "InstagFeed.js"],
+            "colorTheme": [
+                "#8d016e",
+                "#494949",
+                "#8d016e"
+            ],
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JS",
+                "Python",
+                "Django",
+                "PostgesSQL",
+                "React",
+                "AWS S3",
+                "AWS RDS",
+                "Heroku",
+                "Bootstrap",
+                "jQuery",
+                "SQLite",
+                "Google Maps API",
+                "InstagFeed.js"
+            ],
             "links": {
                 "link": [
                     "https://github.com/AllenGleeson/coffee",
@@ -66,7 +169,7 @@
         }
     },
     {
-        "pk": 2,
+        "pk": 3,
         "fields": {
             "title": "Ellas Design",
             "overviewDescription": "Ellas Design is a full stack Django web app to sell clothing from Ella Moya. The user can browse the products and add them to cart where they can checkout and pay using Stripe Payments. They can also create a profile to store their delivery information and see their order history. The owner is able to add, edit and delete products. The mobile display you can see below is only available on the Home, Shop, Product, About and Contact pages. You will get an error if you try to go to other pages for security reasons. Please go to the live website if you would like to make a purchase.",
@@ -75,8 +178,26 @@
             "featured": true,
             "mobileVersion": true,
             "date": "2020",
-            "colorTheme": ["#f990bc","#494949", "#e7b5e4"],
-            "technologies": ["HTML", "CSS", "JS", "Python", "Django", "PostgesSQL", "AWS S3", "Stripe Payments", "AWS RDS", "Heroku", "Bootstrap", "jQuery", "SQLite"],
+            "colorTheme": [
+                "#f990bc",
+                "#494949",
+                "#e7b5e4"
+            ],
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JS",
+                "Python",
+                "Django",
+                "PostgesSQL",
+                "AWS S3",
+                "Stripe Payments",
+                "AWS RDS",
+                "Heroku",
+                "Bootstrap",
+                "jQuery",
+                "SQLite"
+            ],
             "links": {
                 "link": [
                     "https://github.com/AllenGleeson/Ellas_Design",
@@ -161,7 +282,7 @@
         }
     },
     {
-        "pk": 3,
+        "pk": 4,
         "fields": {
             "title": "Lazy Hunger",
             "overviewDescription": "Lazy Hunger is a community based website for users to share their recipes with others. Using Flask with Python for the backend, Materialise CSS and jQuery for the frontend, and MongoDB for storage. Users can create, view, edit and delete recipes.",
@@ -170,8 +291,21 @@
             "featured": true,
             "mobileVersion": true,
             "date": "2020",
-            "colorTheme": ["#cd0000","#494949", "#bd6367 "],
-            "technologies": ["HTML", "CSS", "JS", "jQuery", "Python", "Flask", "MongoDB", "Materialise CSS"],
+            "colorTheme": [
+                "#cd0000",
+                "#494949",
+                "#bd6367 "
+            ],
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JS",
+                "jQuery",
+                "Python",
+                "Flask",
+                "MongoDB",
+                "Materialise CSS"
+            ],
             "links": {
                 "link": [
                     "https://github.com/AllenGleeson/Lazy-Hunger",
@@ -220,7 +354,7 @@
         }
     },
     {
-        "pk": 4,
+        "pk": 5,
         "fields": {
             "title": "Find Ireland",
             "overviewDescription": "A tourism website to explore different tourist attractions across Ireland. The website is API heavy and uses JS and Jquery to create a website to see nearby tourist attractions to the selected towns.",
@@ -229,8 +363,20 @@
             "featured": true,
             "mobileVersion": true,
             "date": "2020",
-            "colorTheme": ["#1cba24","#49494921", "#bd6367 "],
-            "technologies": ["HTML", "CSS", "JS", "Bootstrap", "Google Maps API", "Wikipedia API", "WeatherBit API"],
+            "colorTheme": [
+                "#1cba24",
+                "#49494921",
+                "#bd6367 "
+            ],
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JS",
+                "Bootstrap",
+                "Google Maps API",
+                "Wikipedia API",
+                "WeatherBit API"
+            ],
             "links": {
                 "link": [
                     "https://github.com/AllenGleeson/Find-Ireland",
@@ -279,7 +425,7 @@
         }
     },
     {
-        "pk": 5,
+        "pk": 6,
         "fields": {
             "title": "AMG Art Gallery",
             "overviewDescription": "A gallery website for AMG to display her art, photos and poems created using HTML, CSS and Bootstrap.",
@@ -288,8 +434,16 @@
             "featured": true,
             "mobileVersion": true,
             "date": "2020",
-            "colorTheme": ["#0a28af","#494949", "#bd6367 "],
-            "technologies": ["HTML", "CSS", "Bootstrap"],
+            "colorTheme": [
+                "#0a28af",
+                "#494949",
+                "#bd6367 "
+            ],
+            "technologies": [
+                "HTML",
+                "CSS",
+                "Bootstrap"
+            ],
             "links": {
                 "link": [
                     "https://github.com/AllenGleeson/AmgArtGallery",
@@ -342,7 +496,7 @@
         }
     },
     {
-        "pk": 6,
+        "pk": 7,
         "fields": {
             "title": "SSid Checker",
             "overviewDescription": "Application that enables a user to check if the user name of your WiFi network, which is identified as SSID (Service Set Identifier) hereafter is of a standard format that conforms to the rules corresponding to the assigned item. The application prompts the user to provide one item (i.e. a piece of text). Next, the application uses the piece of text to determine if the provided text is valid or invalid.",
@@ -351,8 +505,14 @@
             "featured": false,
             "mobileVersion": false,
             "date": "2023",
-            "colorTheme": ["#ffc83c","#494949", "#bd6367 "],
-            "technologies": ["Java"],
+            "colorTheme": [
+                "#ffc83c",
+                "#494949",
+                "#bd6367 "
+            ],
+            "technologies": [
+                "Java"
+            ],
             "links": {
                 "link": [
                     "https://github.com/AllenGleeson/SSidChecker---NCI"
@@ -395,7 +555,7 @@
         }
     },
     {
-        "pk": 7,
+        "pk": 8,
         "fields": {
             "title": "Random Trip",
             "overviewDescription": "Simple page using CSS grid and semantic HTML elements to create a page for users to sign up to a random holiday destination.",
@@ -404,8 +564,15 @@
             "featured": false,
             "mobileVersion": false,
             "date": "2022",
-            "colorTheme": ["#810000","#494949", "#bd6367 "],
-            "technologies": ["HTML", "CSS"],
+            "colorTheme": [
+                "#810000",
+                "#494949",
+                "#bd6367 "
+            ],
+            "technologies": [
+                "HTML",
+                "CSS"
+            ],
             "links": {
                 "link": [
                     "https://github.com/AllenGleeson/RandomTrip",
@@ -438,7 +605,7 @@
         }
     },
     {
-        "pk": 8,
+        "pk": 9,
         "fields": {
             "title": "Library",
             "overviewDescription": "A simple library application. Allows users to add and book and mark if it was read or not as well as delete the book. User can add a new book by clicking Add Book and enter the name. Then mark if it was read or not. After the book is added the user can delete the book if they wish.",
@@ -447,8 +614,16 @@
             "featured": false,
             "mobileVersion": true,
             "date": "2022",
-            "colorTheme": ["#ffc83c","#00294c", "#bd6367 "],
-            "technologies": ["HTML", "CSS", "JS"],
+            "colorTheme": [
+                "#ffc83c",
+                "#00294c",
+                "#bd6367 "
+            ],
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JS"
+            ],
             "links": {
                 "link": [
                     "https://github.com/AllenGleeson/LibraryAssignment",
@@ -481,7 +656,7 @@
         }
     },
     {
-        "pk": 9,
+        "pk": 10,
         "fields": {
             "title": "Review Scrapper",
             "overviewDescription": "A Webscraper using Selenium to gather data from a given company and some reviews and store them in an excel file and on MongoDB. It searches trustpilot.com for the company you search and gathers reviews and general company data to put in our file or database.",
@@ -490,8 +665,17 @@
             "featured": false,
             "mobileVersion": false,
             "date": "2022",
-            "colorTheme": ["#ffc83c","#00294c", "#bd6367 "],
-            "technologies": ["Python", "Selenium", "MongoDB", "Excel"],
+            "colorTheme": [
+                "#ffc83c",
+                "#00294c",
+                "#bd6367 "
+            ],
+            "technologies": [
+                "Python",
+                "Selenium",
+                "MongoDB",
+                "Excel"
+            ],
             "links": {
                 "link": [
                     "https://github.com/AllenGleeson/reviewscrapper"
@@ -534,7 +718,7 @@
         }
     },
     {
-        "pk": 10,
+        "pk": 11,
         "fields": {
             "title": "CSS Presentation",
             "overviewDescription": "A CSS presentation to get a better grasp of the fundamentals and Flex box.",
@@ -543,8 +727,15 @@
             "featured": false,
             "mobileVersion": false,
             "date": "2022",
-            "colorTheme": ["#ffc83c","#00294c", "#bd6367 "],
-            "technologies": ["HTML", "CSS"],
+            "colorTheme": [
+                "#ffc83c",
+                "#00294c",
+                "#bd6367 "
+            ],
+            "technologies": [
+                "HTML",
+                "CSS"
+            ],
             "links": {
                 "link": [
                     "https://github.com/AllenGleeson/css-presentation",
@@ -577,7 +768,7 @@
         }
     },
     {
-        "pk": 11,
+        "pk": 12,
         "fields": {
             "title": "JS Presentation - Part One",
             "overviewDescription": "A JS presentation to get a better grasp of the fundamentals. Creating a simple Rock, Paper, Scissors game. User is asked for input when on the page and they can enter in their choice as text.",
@@ -586,8 +777,16 @@
             "featured": false,
             "mobileVersion": false,
             "date": "2022",
-            "colorTheme": ["#ffc83c","#00294c", "#bd6367 "],
-            "technologies": ["HTML", "CSS", "JS"],
+            "colorTheme": [
+                "#ffc83c",
+                "#00294c",
+                "#bd6367 "
+            ],
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JS"
+            ],
             "links": {
                 "link": [
                     "https://github.com/AllenGleeson/js-presentation",
@@ -620,7 +819,7 @@
         }
     },
     {
-        "pk": 12,
+        "pk": 13,
         "fields": {
             "title": "JS Presentation - Part Two",
             "overviewDescription": "More practice with frontend fundamentals this time creating a calculator. Combining CS flexbox with some more JS practice.",
@@ -629,8 +828,16 @@
             "featured": false,
             "mobileVersion": false,
             "date": "2022",
-            "colorTheme": ["#ffc83c","#00294c", "#bd6367 "],
-            "technologies": ["HTML", "CSS", "JS"],
+            "colorTheme": [
+                "#ffc83c",
+                "#00294c",
+                "#bd6367 "
+            ],
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JS"
+            ],
             "links": {
                 "link": [
                     "https://github.com/AllenGleeson/js-presentation-part-2",
