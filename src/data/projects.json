@@ -2,6 +2,82 @@
     {
         "pk": 1,
         "fields": {
+            "title": "DistillED",
+            "overviewDescription": "DistillED is a distributed educational system that implements a microservices architecture using gRPC. The system consists of three core services: Course Catalog, Enrolment Service, and Progress Tracker, all communicating through gRPC protocols. The application features a Java Swing GUI for user interaction and demonstrates distributed systems concepts including service discovery, streaming RPCs, and microservice communication patterns.",
+            "overviewImage": "distilled-overview.png",
+            "shortDescription": "A distributed educational system built with gRPC microservices featuring course catalog, enrolment management, and progress tracking capabilities.",
+            "featured": true,
+            "mobileVersion": false,
+            "date": "2025",
+            "colorTheme": [
+                "#31289b",
+                "#494949",
+                "#8d016e"
+            ],
+            "technologies": [
+                "Java",
+                "gRPC",
+                "Protocol Buffers",
+                "Maven",
+                "Swing GUI",
+                "JmDNS"
+            ],
+            "links": {
+                "link": [
+                    "https://github.com/AllenGleeson/DistillED"
+                ],
+                "linkName": [
+                    "GitHub"
+                ]
+            },
+            "coauthors": null,
+            "fields": {
+                "sectionTitle": [
+                    "GUI Interface",
+                    "Course Catalog Service",
+                    "Enrolment Service",
+                    "Progress Tracker Service",
+                    "Service Discovery"
+                ],
+                "descriptions": [
+                    "Java Swing-based GUI providing a tabbed interface for interacting with all services. Features course browsing, enrolment management, and progress tracking panels with a modern dark theme.",
+                    "Manages course information with streaming RPCs to list all courses and unary RPCs to retrieve specific course details. Implements Protocol Buffer message definitions for structured data exchange.",
+                    "Handles student enrolment operations through bi-directional streaming RPCs. Supports enrol, unenrol, and status checking operations with real-time response streaming.",
+                    "Tracks student progress through client-streaming RPCs allowing batch progress updates. Provides progress querying capabilities and maintains learning progress data.",
+                    "Uses JmDNS for automatic service discovery, allowing services to advertise themselves on the network and clients to discover available services dynamically."
+                ],
+                "images": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "admin": [
+                    false,
+                    false,
+                    false,
+                    false,
+                    false
+                ]
+            },
+            "endDescriptions": {
+                "titles": [
+                    "Goal",
+                    "Challenges",
+                    "Final Thoughts"
+                ],
+                "descriptions": [
+                    "To create a comprehensive distributed educational system that demonstrates microservices architecture, gRPC communication patterns, and distributed systems concepts while providing a functional course management platform.",
+                    "Implementing different gRPC streaming patterns (unary, server-streaming, client-streaming, bi-directional), managing service discovery with JmDNS, and creating a cohesive GUI that integrates with multiple microservices.",
+                    "Successfully implemented a working distributed system that demonstrates key concepts in distributed computing. The project showcases various gRPC communication patterns and provides a solid foundation for understanding microservices architecture."
+                ]
+            }
+        }
+    },
+    {
+        "pk": 2,
+        "fields": {
             "title": "Bens Bakery",
             "overviewDescription": "Ben’s bakery online shop is simple website allows customer to browse and order freshly baked breads & cakes. The website is designed with easy navigation, good user experience, and friendly ordering process.",
             "overviewImage": "bens-bakery-overview.webp",
@@ -83,7 +159,7 @@
         }
     },
     {
-        "pk": 2,
+        "pk": 3,
         "fields": {
             "title": "ADIG - Coffeeshop",
             "overviewDescription": "ADIG - Coffeeshop is a hybrid Django and React application designed for a coffeeshop co authored with Diarmaid Barron. The application is hosted on Heroku with data stored on a postgreSQL database on AWS RDS and the menu PDF stored on AWS S3. It provides an intuitive way for site owners to manage their content without needing to contact developers for minor changes.",
@@ -169,7 +245,7 @@
         }
     },
     {
-        "pk": 3,
+        "pk": 4,
         "fields": {
             "title": "Ellas Design",
             "overviewDescription": "Ellas Design is a full stack Django web app to sell clothing from Ella Moya. The user can browse the products and add them to cart where they can checkout and pay using Stripe Payments. They can also create a profile to store their delivery information and see their order history. The owner is able to add, edit and delete products. The mobile display you can see below is only available on the Home, Shop, Product, About and Contact pages. You will get an error if you try to go to other pages for security reasons. Please go to the live website if you would like to make a purchase.",
@@ -282,7 +358,7 @@
         }
     },
     {
-        "pk": 4,
+        "pk": 5,
         "fields": {
             "title": "Lazy Hunger",
             "overviewDescription": "Lazy Hunger is a community based website for users to share their recipes with others. Using Flask with Python for the backend, Materialise CSS and jQuery for the frontend, and MongoDB for storage. Users can create, view, edit and delete recipes.",
@@ -354,7 +430,7 @@
         }
     },
     {
-        "pk": 5,
+        "pk": 6,
         "fields": {
             "title": "Find Ireland",
             "overviewDescription": "A tourism website to explore different tourist attractions across Ireland. The website is API heavy and uses JS and Jquery to create a website to see nearby tourist attractions to the selected towns.",
@@ -425,7 +501,7 @@
         }
     },
     {
-        "pk": 6,
+        "pk": 7,
         "fields": {
             "title": "AMG Art Gallery",
             "overviewDescription": "A gallery website for AMG to display her art, photos and poems created using HTML, CSS and Bootstrap.",
@@ -496,7 +572,7 @@
         }
     },
     {
-        "pk": 7,
+        "pk": 8,
         "fields": {
             "title": "SSid Checker",
             "overviewDescription": "Application that enables a user to check if the user name of your WiFi network, which is identified as SSID (Service Set Identifier) hereafter is of a standard format that conforms to the rules corresponding to the assigned item. The application prompts the user to provide one item (i.e. a piece of text). Next, the application uses the piece of text to determine if the provided text is valid or invalid.",
@@ -555,7 +631,7 @@
         }
     },
     {
-        "pk": 8,
+        "pk": 9,
         "fields": {
             "title": "Random Trip",
             "overviewDescription": "Simple page using CSS grid and semantic HTML elements to create a page for users to sign up to a random holiday destination.",
@@ -605,7 +681,7 @@
         }
     },
     {
-        "pk": 9,
+        "pk": 10,
         "fields": {
             "title": "Library",
             "overviewDescription": "A simple library application. Allows users to add and book and mark if it was read or not as well as delete the book. User can add a new book by clicking Add Book and enter the name. Then mark if it was read or not. After the book is added the user can delete the book if they wish.",
@@ -656,7 +732,7 @@
         }
     },
     {
-        "pk": 10,
+        "pk": 11,
         "fields": {
             "title": "Review Scrapper",
             "overviewDescription": "A Webscraper using Selenium to gather data from a given company and some reviews and store them in an excel file and on MongoDB. It searches trustpilot.com for the company you search and gathers reviews and general company data to put in our file or database.",
@@ -718,7 +794,7 @@
         }
     },
     {
-        "pk": 11,
+        "pk": 12,
         "fields": {
             "title": "CSS Presentation",
             "overviewDescription": "A CSS presentation to get a better grasp of the fundamentals and Flex box.",
@@ -768,7 +844,7 @@
         }
     },
     {
-        "pk": 12,
+        "pk": 13,
         "fields": {
             "title": "JS Presentation - Part One",
             "overviewDescription": "A JS presentation to get a better grasp of the fundamentals. Creating a simple Rock, Paper, Scissors game. User is asked for input when on the page and they can enter in their choice as text.",
@@ -819,7 +895,7 @@
         }
     },
     {
-        "pk": 13,
+        "pk": 14,
         "fields": {
             "title": "JS Presentation - Part Two",
             "overviewDescription": "More practice with frontend fundamentals this time creating a calculator. Combining CS flexbox with some more JS practice.",
