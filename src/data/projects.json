@@ -4,7 +4,7 @@
         "fields": {
             "title": "DistillED",
             "overviewDescription": "DistillED is a distributed educational system that implements a microservices architecture using gRPC. The system consists of three core services: Course Catalog, Enrolment Service, and Progress Tracker, all communicating through gRPC protocols. The application features a Java Swing GUI for user interaction and demonstrates distributed systems concepts including service discovery, streaming RPCs, and microservice communication patterns.",
-            "overviewImage": "distilled-overview.png",
+            "overviewImage": "distilled-overview.webp",
             "shortDescription": "A distributed educational system built with gRPC microservices featuring course catalog, enrolment management, and progress tracking capabilities.",
             "featured": true,
             "mobileVersion": false,
