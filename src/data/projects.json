@@ -10,7 +10,7 @@
             "mobileVersion": false,
             "date": "2025",
             "colorTheme": [
-                "#31289b",
+                "#94d5ff",
                 "#494949",
                 "#8d016e"
             ],
@@ -80,13 +80,13 @@
         "fields": {
             "title": "Mars Sols",
             "overviewDescription": "Mars Sols is a full-stack web application that provides real-time visualization of Mars weather data and rover imagery through NASA's APIs. The application features a React frontend with interactive charts displaying temperature, pressure, and wind data from the InSight lander, alongside daily Mars rover photos. The system uses Chart.js for data visualization and implements a Node.js/Express backend to aggregate data from multiple NASA APIs including the Mars Weather Service and Mars Rover Photos APIs.",
-            "overviewImage": "mars-sols-overview.png",
+            "overviewImage": "mars-overview.webp",
             "shortDescription": "A real-time Mars weather and imagery visualization platform that displays atmospheric data and rover photos from NASA's Mars missions.",
             "featured": true,
             "mobileVersion": true,
             "date": "2024",
             "colorTheme": [
-                "#d4af37",
+                "#ad5a20",
                 "#8b4513",
                 "#dc143c"
             ],
@@ -126,7 +126,7 @@
                     "Integrates with NASA's public APIs including Mars Weather Service for atmospheric data and Mars Rover Photos API for imagery. Implements proper error handling and fallback mechanisms for API failures."
                 ],
                 "images": [
-                    null,
+                    "mars-home.webp",
                     null,
                     null,
                     null,
@@ -165,7 +165,7 @@
             "mobileVersion": true,
             "date": "2025",
             "colorTheme": [
-                "#8d016e",
+                "#e732a6",
                 "#494949",
                 "#8d016e"
             ],
