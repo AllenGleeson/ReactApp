@@ -2,7 +2,7 @@ import React from 'react';
 import '../../../assets/css/aboutMe.css';
 import { FaGithub, FaLinkedin, FaFile } from 'react-icons/fa';
 import profileImage from '../../../assets/images/profile.webp';
-import cv from '../../../assets/cv/Allen-Gleeson-Dev-Resume.pdf';
+import cv from '../../../assets/cv/Allen-Gleeson.pdf';
 
 let articleContent = "I am a Full Stack Developer that has steadily been building my skills with several courses, work placements, an internship and work experience which covered a diverse range of stacks, languages, and frameworks as well as manual testing."+
 "\n \n"+
