@@ -1,35 +1,35 @@
-.profileImg img{
+.profileImg img {
   width: 100%;
 }
 
-.techWrapper span{
+.techWrapper span {
   font-size: 16px;
 }
 
-.tech{
+.tech {
   font-size: 12px;
 }
 
-.timelineSection{
+.timelineSection {
   margin-left: 20px;
   margin-right: 20px;
 }
 
-.vertical-timeline-element--work .vertical-timeline-element-content{
+.vertical-timeline-element--work .vertical-timeline-element-content {
   background-color: #3f3f3f;
   color: rgb(255, 255, 255);
 }
 
-.vertical-timeline-element--education .vertical-timeline-element-content{
+.vertical-timeline-element--education .vertical-timeline-element-content {
   background-color: #01294c;
   color: rgb(255, 255, 255);
 }
 
-.light-mode .vertical-timeline-element--education .vertical-timeline-element-content{
+.light-mode .vertical-timeline-element--education .vertical-timeline-element-content {
   background-color: #01294c;
 }
 
-.dark-mode .vertical-timeline-element--education .vertical-timeline-element-content{
+.dark-mode .vertical-timeline-element--education .vertical-timeline-element-content {
   background-color: #ffc228;
 }
 
@@ -38,80 +38,88 @@
 }
 
 
-.light-mode .vertical-timeline-element-date{
-  color: #9b9b9b  !important;
+.light-mode .vertical-timeline-element-date {
+  color: #9b9b9b !important;
 }
 
-.dark-mode .vertical-timeline-element-date{
+.dark-mode .vertical-timeline-element-date {
   color: #fff !important;
 }
 
-.aboutMeContent{
+.aboutMeContent {
   background-color: #919191;
 }
 
-.light-mode .aboutmeDescription{
+.light-mode .aboutmeDescription {
   color: #000;
 }
 
-.dark-mode .aboutmeDescription{
+.dark-mode .aboutmeDescription {
   color: #fff;
 }
 
-.aboutmeDescription{
+.aboutmeDescription {
   animation: grow 1s;
 }
 
-.aboutMeSection{
+.aboutMeSection {
   color: white;
 }
 
-.profileImg img{
+.profileImg img {
   border-color: #936d00 !important;
 }
 
-.light-mode .vertical-timeline-element-icon{
+.light-mode .vertical-timeline-element-icon {
   background-color: #99e7e4;
 }
 
-.dark-mode .vertical-timeline-element-icon{
+.dark-mode .vertical-timeline-element-icon {
   background-color: #ffc228;
 }
 
 @media only screen and (max-width: 500px) {
-  .social-links{
+  .social-links {
     font-size: 0.8rem;
   }
-  .aboutmeDescription{
+
+  .aboutmeDescription {
     font-size: 0.9rem;
   }
-  .vertical-timeline-element-title{
+
+  .vertical-timeline-element-title {
     font-size: 0.7rem;
   }
-  .vertical-timeline-element-subtitle h5{
+
+  .vertical-timeline-element-subtitle h5 {
     font-size: 0.8rem;
     margin-top: 4px;
   }
+
   .vertical-timeline-element-content p {
     font-size: 0.8rem !important;
   }
-  .vertical-timeline-element-date{
+
+  .vertical-timeline-element-date {
     font-size: 0.7rem !important;
   }
-  .vertical-timeline-element-icon{
+
+  .vertical-timeline-element-icon {
     width: 30px !important;
     height: 30px !important;
     left: 5px !important;
-    -webkit-box-shadow: 0 0 0 2px #fff, inset 0 2px 0 rgba(0,0,0,.08), 0 1px 0 2px rgba(0,0,0,.05) !important;
-    box-shadow: 0 0 0 2px #fff, inset 0 2px 0 rgba(0,0,0,.08), 0 1px 0 2px rgba(0,0,0,.05) !important;
+    -webkit-box-shadow: 0 0 0 2px #fff, inset 0 2px 0 rgba(0, 0, 0, .08), 0 1px 0 2px rgba(0, 0, 0, .05) !important;
+    box-shadow: 0 0 0 2px #fff, inset 0 2px 0 rgba(0, 0, 0, .08), 0 1px 0 2px rgba(0, 0, 0, .05) !important;
   }
+
   .vertical-timeline-element-icon svg {
     width: 16px !important;
     height: 16px !important;
     margin-left: -8px !important;
     margin-top: -8px !important;
   }
-  .tech span{
+
+  .tech span {
     font-size: 0.6rem;
   }
 }

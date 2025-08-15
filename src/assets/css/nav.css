@@ -1,100 +1,105 @@
 .navbar-collapse {
-    height: 0;
-    overflow: hidden;
-    transition: height 0.8s ease-in-out;
-  }
-  
+  height: 0;
+  overflow: hidden;
+  transition: height 0.8s ease-in-out;
+}
+
 .navbar-collapse.show {
   height: auto;
   transition: height 0.8s ease-in-out;
 }
 
-.navbar-brand img{
+.navbar-brand img {
   width: 180px;
 }
 
-.light-mode .bg-nav{
+.light-mode .bg-nav {
   border-color: #99e7e4 !important;
 }
 
-.dark-mode .bg-nav{
+.dark-mode .bg-nav {
   border-color: #ffc228 !important;
 }
 
-.navbar-brand{
+.navbar-brand {
   z-index: 1;
 }
 
-.light-dark-toggler{
+.light-dark-toggler {
   color: #fff;
 }
 
 .light-dark-toggler .svg-inline--fa {
-  vertical-align: baseline; /* Or vertical-align: middle; */
+  vertical-align: baseline;
+  /* Or vertical-align: middle; */
 }
 
 /* Increase the size of the SVG icon inside the button */
 .light-dark-toggler .fa-sun,
 .light-dark-toggler .fa-moon {
-  width: 24px; /* Adjust the width */
-  height: 24px; /* Adjust the height */
+  width: 24px;
+  /* Adjust the width */
+  height: 24px;
+  /* Adjust the height */
 }
 
-.light-dark-toggler{
+.light-dark-toggler {
   position: absolute;
   right: 5px;
   border: 0;
 }
 
-.light-mode .light-dark-toggler{
+.light-mode .light-dark-toggler {
   background-color: #99e7e4;
 }
 
-.dark-mode .light-dark-toggler{
+.dark-mode .light-dark-toggler {
   background-color: #ffc228;
 }
 
-.light-mode .light-dark-toggler:hover{
+.light-mode .light-dark-toggler:hover {
   background: radial-gradient(#ffc228, #fff);
 }
 
-.dark-mode .light-dark-toggler:hover{
+.dark-mode .light-dark-toggler:hover {
   background: radial-gradient(#99e7e4, #fff);
 }
 
-.light-mode .nav-link{
+.light-mode .nav-link {
   color: #000;
   border-left: 3px solid #99e7e4 !important;
 }
 
-.dark-mode .nav-link{
+.dark-mode .nav-link {
   color: #fff;
   border-left: 3px solid #ffc228 !important;
 }
 
-.nav-link{
+.nav-link {
   font-size: 18px;
   font-weight: 600 !important;
 }
 
-.nav-link:hover{
+.nav-link:hover {
   text-decoration: underline;
 }
 
-.light-mode #logo{
+.light-mode #logo {
   background-color: #fff;
 }
-.dark-mode #logo{
+
+.dark-mode #logo {
   background-color: #373737;
 }
 
-#logo{
+#logo {
   -webkit-user-drag: none;
 }
 
 .nav-item {
   animation: 1s ease-out 0s 1 slide;
 }
+
 .navbar-toggler:focus {
   box-shadow: 0px 0px 10px var(--bs-navbar-toggler-focus-width) !important;
 }
@@ -102,8 +107,9 @@
 @keyframes slide {
   0% {
     transform: translateX(-200%);
-      
+
   }
+
   100% {
     transform: translateX(0);
   }
@@ -113,37 +119,45 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
 
 @media only screen and (max-width: 500px) {
-  #nav{
+  #nav {
     display: flex !important;
     flex-wrap: nowrap;
     height: 120px;
   }
-  #logo{
+
+  #logo {
     height: 70px;
     width: 70px;
   }
-  .navbar-brand{
+
+  .navbar-brand {
     margin-left: 10px;
   }
-  #nav button{
+
+  #nav button {
     margin-left: 6px;
   }
-  .navbar-collapse{
+
+  .navbar-collapse {
     display: flex !important;
   }
-  .navbar-toggler{
+
+  .navbar-toggler {
     border: 1px solid #676767;
   }
+
   .navbar-toggler:focus {
     box-shadow: 0px 0px 10px white !important;
   }
-  .nav-link{
+
+  .nav-link {
     font-size: 0.8rem;
   }
 }

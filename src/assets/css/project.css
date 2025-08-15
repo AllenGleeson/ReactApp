@@ -1,18 +1,18 @@
-.techSkills{
+.techSkills {
     padding: 4px 8px;
 }
 
-.techSkills h4{
+.techSkills h4 {
     padding: 4px 6px;
     margin-left: 8px;
 }
 
-.techSkillsList{
+.techSkillsList {
     margin-bottom: 4px;
     font-size: 14px;
 }
 
-.techSkillsList span{
+.techSkillsList span {
     margin-left: 8px;
     margin-right: 8px;
     padding: 4px 8px;
@@ -23,7 +23,7 @@
     color: #ffffff;
 }
 
-#overview-image{
+#overview-image {
     max-height: 500px;
 }
 
@@ -33,46 +33,58 @@
     min-height: 300px;
 }
 
-.case-study{
+.case-study {
     margin-left: 150px;
     margin-right: 150px;
     font-weight: 600;
 }
 
-.highlight-text{
+.highlight-text {
     font-weight: 600;
 }
 
-.light-mode .project-header, .light-mode .project-tech, .light-mode .case-study, .light-mode .coauthor{
+.light-mode .project-header,
+.light-mode .project-tech,
+.light-mode .case-study,
+.light-mode .coauthor {
     color: #000 !important;
 }
 
-.dark-mode .project-header, .dark-mode .project-tech, .dark-mode .case-study, .dark-mode .coauthor{
+.dark-mode .project-header,
+.dark-mode .project-tech,
+.dark-mode .case-study,
+.dark-mode .coauthor {
     color: #fff !important;
 }
 
 @media only screen and (max-width: 500px) {
-    .carousel-item{
+    .carousel-item {
         min-height: auto !important;
         height: auto !important;
         padding: 30px;
     }
-    .case-study h1{
+
+    .case-study h1 {
         font-size: 1rem !important;
     }
-    .case-study p{
+
+    .case-study p {
         font-size: 1rem !important;
     }
-    .highlight-text h1{
+
+    .highlight-text h1 {
         font-size: 1.3rem;
     }
-    .project-header h1{
+
+    .project-header h1 {
         font-size: 1.3rem;
     }
-    .project-header p{
+
+    .project-header p {
         font-size: 0.9rem;
     }
-    .case-study{
+
+    .case-study {
         margin-left: 6px;
         margin-right: 6px;
     }

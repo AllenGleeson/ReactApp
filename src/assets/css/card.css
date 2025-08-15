@@ -1,68 +1,70 @@
-.card-img{
+.card-img {
     width: 100%;
     height: 100%;
 }
 
-.cards{
+.cards {
     margin: 1rem !important;
     min-height: 400px;
 }
 
-.light-mode .card-body{
+.light-mode .card-body {
     color: #000 !important;
 }
 
-.dark-mode .card-body{
+.dark-mode .card-body {
     color: #fff !important;
 }
 
-.light-mode .card{
+.light-mode .card {
     background-color: #fff;
 }
-.dark-mode .card{
+
+.dark-mode .card {
     background-color: #2e2e2e !important;
 }
 
-.card-title{
+.card-title {
     font-size: 16px;
 }
 
-.card-text{
+.card-text {
     font-size: 12px;
 }
 
-.row{
+.row {
     margin: 0;
 }
 
-.card{
+.card {
     border-radius: 0 !important;
 }
-.card:hover{
+
+.card:hover {
     background-color: #b4b4b4 !important;
 }
-.card:hover .card-body{
+
+.card:hover .card-body {
     color: #fff !important;
     cursor: pointer;
 }
 
-.card-body span{
+.card-body span {
     font-size: 11px;
 }
 
-.tr-border-radius{
+.tr-border-radius {
     border-top-right-radius: 60px !important;
 }
 
-.card a{
+.card a {
     text-decoration: none;
 }
 
-.max-card{
+.max-card {
     max-height: 275px !important;
 }
 
-.paginator_active{
+.paginator_active {
     background: radial-gradient(#141414, #919191) !important;
 }
-

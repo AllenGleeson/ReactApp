@@ -1,4 +1,4 @@
-.carousel-item{
+.carousel-item {
     height: 500px;
 }
 
@@ -7,11 +7,13 @@
     height: 100%;
 }
 
-.projects{
+.projects {
     min-height: 85vh;
 }
 
-.featuredProjects .carousel, .carousel-inner, .carousel-item{
+.featuredProjects .carousel,
+.carousel-inner,
+.carousel-item {
     min-height: 600px;
 }
 
@@ -19,7 +21,7 @@
     position: relative;
     margin-top: 100px;
 }
-  
+
 .file-title {
     position: absolute;
     top: -55px;
@@ -28,16 +30,16 @@
     font-size: 20px;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
-    background: radial-gradient(#919191,#ffc228) !important;
+    background: radial-gradient(#919191, #ffc228) !important;
     margin: 45px !important;
 }
 
 
-.light-mode .featuredProjectDescription{
+.light-mode .featuredProjectDescription {
     background-color: #99e7e4;
 }
 
-.dark-mode .featuredProjectDescription{
+.dark-mode .featuredProjectDescription {
     background-color: #ffc228;
 }
 
@@ -59,12 +61,12 @@
     transition: max-height 0.5s ease-in;
 }
 
-.light-mode .featuredProjectDescription:hover{
+.light-mode .featuredProjectDescription:hover {
     background-color: #ffc228;
     color: #fff;
 }
 
-.dark-mode .featuredProjectDescription:hover{
+.dark-mode .featuredProjectDescription:hover {
     background-color: #99e7e4;
     color: #fff;
 }
@@ -73,11 +75,11 @@
     max-height: 300px;
 }
 
-.featuredProjectDescription span{
+.featuredProjectDescription span {
     font-size: 18px !important;
 }
 
-.featureIcon{
+.featureIcon {
     font-size: 20px;
     position: absolute;
     right: 5px;
@@ -85,27 +87,34 @@
 }
 
 @media only screen and (max-width: 500px) {
-    .featuredProjectDescription{
+    .featuredProjectDescription {
         width: 120px;
     }
-    .featuredDescription{
+
+    .featuredDescription {
         font-size: 0.9rem !important;
     }
+
     .featuredProjectDescription p {
         font-size: 0.8rem;
     }
+
     .featuredProjectDescription span {
         font-size: 0.7rem !important;
     }
-    .carousel-inner{
+
+    .carousel-inner {
         height: 260px !important;
         min-height: auto !important;
     }
-    .carousel-control-prev-icon, .carousel-control-next-icon {
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
         width: 1.4rem !important;
         height: 1.4rem !important;
     }
-    .featuredDescription{
+
+    .featuredDescription {
         font-size: 0.8rem !important;
     }
 }

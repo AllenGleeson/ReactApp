@@ -2,7 +2,8 @@
   --footer-height: 0;
   --contactForm-height: 0;
   --carousel-control-prev-color-light: #99e7e4;
-  --carousel-control-prev-color-dark: #ffc228; /* Change this to your desired dark mode color */
+  --carousel-control-prev-color-dark: #ffc228;
+  /* Change this to your desired dark mode color */
 }
 
 /* CustomScrollbar.css */
@@ -64,6 +65,7 @@
 .dark-mode .carousel-control-next-icon {
   background-color: var(--carousel-control-prev-color-dark);
 }
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
@@ -83,7 +85,7 @@ body {
   /* other styles */
 }
 
-img{
+img {
   -webkit-user-drag: none;
 }
 
@@ -99,16 +101,17 @@ code {
   right: 8px;
 }
 
-.personalLinks-height{
-  height: var(--contactForm-height, 0);;
+.personalLinks-height {
+  height: var(--contactForm-height, 0);
+  ;
 }
 
-.backToTopSpan{
+.backToTopSpan {
   font-size: 20px;
   margin: 5px;
 }
 
-.backToTop{
+.backToTop {
   text-decoration: none;
   color: inherit;
   animation: 1s ease-out 0s 1 slideInRight;
@@ -116,49 +119,49 @@ code {
 }
 
 
-.light-mode .backToTop div{
+.light-mode .backToTop div {
   background-color: #99e7e4;
 }
 
-.dark-mode .backToTop div{
+.dark-mode .backToTop div {
   background-color: #ffc228;
 }
 
-.backToTop div{
+.backToTop div {
   padding: 2px;
   color: #fff;
 }
 
-.light-mode .backToTop div:hover{
+.light-mode .backToTop div:hover {
   background-color: #ffc228;
 }
 
-.dark-mode .backToTop div:hover{
+.dark-mode .backToTop div:hover {
   background-color: #99e7e4;
 }
 
-.icon{
+.icon {
   margin: 5px;
 }
 
-.defaultCursor{
+.defaultCursor {
   cursor: default;
 }
 
-.min-height{
+.min-height {
   min-height: 350px;
 }
 
-.pointerCursor{
+.pointerCursor {
   cursor: pointer;
 }
 
-.normalThemePrime{
+.normalThemePrime {
   background-color: #333;
   color: #fff;
 }
 
-.tag{
+.tag {
   display: inline-block;
   padding: 4px 8px;
   color: #ffffff !important;
@@ -168,11 +171,11 @@ code {
 }
 
 
-.light-mode .links{
+.light-mode .links {
   background-color: #99e7e4;
 }
 
-.dark-mode .links{
+.dark-mode .links {
   background-color: #ffc228;
 }
 
@@ -185,30 +188,30 @@ code {
   text-shadow: 1px 0px 3px black, 0px 0px 3px black;
 }
 
-.links:hover{
+.links:hover {
   position: relative;
   top: -4px;
 }
 
-.light-mode .links:hover{
+.light-mode .links:hover {
   background-color: #ffc228;
 }
 
-.dark-mode .links:hover{
+.dark-mode .links:hover {
   background-color: #99e7e4;
 }
 
-.light-mode .tech_tag{
+.light-mode .tech_tag {
   color: #000;
   border-left: 3px solid #99e7e4 !important;
 }
 
-.dark-mode .tech_tag{
+.dark-mode .tech_tag {
   color: #fff;
   border-left: 3px solid #ffc228 !important;
 }
 
-.tech_tag{
+.tech_tag {
   display: inline-block !important;
   padding: 4px 8px !important;
   margin: 8px !important;
@@ -216,79 +219,89 @@ code {
   border-left: 3px solid #ffc228 !important;
 }
 
-.text-shadow{
+.text-shadow {
   text-shadow: 2px 2px 2px #000000 !important;
 }
 
-.text-shadow-light-small{
+.text-shadow-light-small {
   text-shadow: -1px 0px 3px #bfbfbf !important;
 }
 
-.text-shadow-light{
+.text-shadow-light {
   text-shadow: 3px 2px 4px #ffffff !important
 }
 
-.hoverWhite:hover{
+.hoverWhite:hover {
   color: rgb(255, 255, 255);
 }
 
-.grow{
+.grow {
   animation: ease-in grow 1s;
 }
 
-.slideLeft{
+.slideLeft {
   animation: 2s ease-out 0s 1 slideInLeft;
 }
 
-.slideRight{
+.slideRight {
   animation: 1s ease-out 0s 1 slideInRight;
 }
 
-.slideInFarRight{
+.slideInFarRight {
   animation: 1s ease-out 0s 1 slideInFarRight;
 }
 
 @keyframes slideInLeft {
   0% {
-      transform: translateX(-200%);
+    transform: translateX(-200%);
   }
+
   100% {
-      transform: translateX(0);
+    transform: translateX(0);
   }
 }
 
 @keyframes slideInRight {
   0% {
-      transform: translateX(+100%);
+    transform: translateX(+100%);
   }
+
   100% {
-      transform: translateX(0);
+    transform: translateX(0);
   }
 }
 
 @keyframes slideInFarRight {
   0% {
-      transform: translateX(+200%);
+    transform: translateX(+200%);
   }
+
   100% {
-      transform: translateX(0);
+    transform: translateX(0);
   }
 }
 
 @keyframes grow {
-  0% { transform: scale(.2); }
-  100% { transform: scale(1); }
+  0% {
+    transform: scale(.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
 
 @media only screen and (max-width: 500px) {
-  .tech_tag{
+  .tech_tag {
     margin: 0px !important;
   }
-  .tech_tag span{
+
+  .tech_tag span {
     font-size: 0.7rem;
     font-weight: 600;
   }
-  .section-heading{
+
+  .section-heading {
     font-size: 1rem;
   }
 }

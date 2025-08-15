@@ -11,11 +11,10 @@
     opacity: 0;
 }
 
-.light-mode h4{
+.light-mode h4 {
     color: #000;
 }
 
-.dark-mode h4{
+.dark-mode h4 {
     color: #fff;
 }
-  
