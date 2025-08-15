@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import Content from '../features/home/components/content';
 import AboutMe from '../features/home/components/aboutMe';
 import Timeline from '../features/home/components/timeline';
@@ -12,20 +12,20 @@ const Home = () => {
     useEffect(() => {
         window.addEventListener('scroll', handleScroll);
         return () => {
-        window.removeEventListener('scroll', handleScroll);
+            window.removeEventListener('scroll', handleScroll);
         };
     }, []);
 
     const handleScroll = () => {
         const scrollY = window.scrollY;
         if (scrollY > 20) {
-        setShowComponent(true);
+            setShowComponent(true);
         } else {
-        setShowComponent(false);
+            setShowComponent(false);
         }
     };
 
-    return(
+    return (
         <div>
             <AboutMe />
             <hr />
@@ -34,18 +34,15 @@ const Home = () => {
             <FeaturedProjects />
             <div className={`fade ${showComponent ? 'show' : 'hide'}`}>
                 {showComponent && (
-                <div>
-                    <hr />
-                    <Timeline />
-                    <BackToTop />
-                </div>
+                    <div>
+                        <hr />
+                        <Timeline />
+                        <BackToTop />
+                    </div>
                 )}
             </div>
         </div>
     );
 }
-      
-      
-      
 
 export default Home

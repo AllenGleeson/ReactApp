@@ -1,4 +1,3 @@
-import React from 'react'
 import '../../../assets/css/card.css';
 
 const Card = ({ index, title, description, links, image }) => {

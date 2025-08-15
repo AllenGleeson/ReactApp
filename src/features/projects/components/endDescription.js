@@ -1,14 +1,13 @@
-import React from 'react';
 import '../../../assets/css/project.css';
 import Carousel from 'react-bootstrap/Carousel';
 
-const EndDescription = ({descriptions, color}) => {
+const EndDescription = ({ descriptions, color }) => {
     const dynamicCarousel = `
         .carousel-control-prev-icon, .carousel-control-next-icon{
             background-color: ${color} !important;
         }
     `
-    return(
+    return (
         <div className='row'>
             <div className='col-12'>
                 <style>{dynamicCarousel}</style>
@@ -28,11 +27,5 @@ const EndDescription = ({descriptions, color}) => {
         </div>
     );
 }
-      
 
 export default EndDescription
-
-
-
-
-            

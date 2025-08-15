@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import '../../../assets/css/project.css';
 
 const Highlight = ({ index, title, description, image, mobileVersion, admin }) => {
@@ -6,11 +6,10 @@ const Highlight = ({ index, title, description, image, mobileVersion, admin }) =
     const [showAdminView, setShowAdminView] = useState(false);
 
     const isEven = index % 2 === 0;
-    const highlightClass = `mt-3 mb-3 ${
-        isEven === false
+    const highlightClass = `mt-3 mb-3 ${isEven === false
             ? 'slideLeft p-md-3 p-sm-0'
             : 'alternateBg dynamicTheme mb-3 mt-3 p-md-3 p-sm-0 slideRight'
-    }`;
+        }`;
 
     // Event handler for the "Mobile Version" button click
     const handleMobileVersionClick = () => {

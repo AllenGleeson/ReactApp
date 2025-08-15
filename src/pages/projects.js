@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import '../assets/css/projects.css';
 import Cards from '../features/projects/components/cards';
 import BackToTop from '../Components/backToTop';

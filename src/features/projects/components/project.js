@@ -1,4 +1,4 @@
-import React,{ useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import projectsData from '../../../data/projects.json';
 import '../../../assets/css/project.css'
@@ -16,26 +16,26 @@ const Project = () => {
     useEffect(() => {
         window.addEventListener('scroll', handleScroll);
         return () => {
-        window.removeEventListener('scroll', handleScroll);
+            window.removeEventListener('scroll', handleScroll);
         };
     }, []);
 
     const handleScroll = () => {
         const scrollY = window.scrollY;
         if (scrollY > 20) {
-        setShowComponent(true);
+            setShowComponent(true);
         } else {
-        setShowComponent(false);
+            setShowComponent(false);
         }
     };
 
     useEffect(() => {
         const selectedProject = projectsData.find((project) => project.pk === parseInt(id));
         setProject(selectedProject);
-      }, [id]);
-    
-    
-    
+    }, [id]);
+
+
+
     if (!project) {
         return <div>Error loading.</div>;
     }
@@ -70,14 +70,14 @@ const Project = () => {
         padding-bottom: 1rem;
       }
     `;
-    
+
     const overviewImagePath = `${process.env.PUBLIC_URL}/data/images/overview/${project.fields.overviewImage}`;
     let descriptionClass = 'col-sm-12';
 
-    if(project.fields.overviewImage){
+    if (project.fields.overviewImage) {
         descriptionClass = 'col-lg-4 col-sm-12'
     }
-    return(
+    return (
         <section className='container'>
             <style>{dynamicStyles}</style>
             <div className='row'>
@@ -145,17 +145,14 @@ const Project = () => {
                 <EndDescription descriptions={project.fields.endDescriptions} color={project.fields.colorTheme[0]} />
                 <div className={`fade ${showComponent ? 'show' : 'hide'}`}>
                     {showComponent && (
-                    <div>
-                        <BackToTop />
-                    </div>
+                        <div>
+                            <BackToTop />
+                        </div>
                     )}
                 </div>
             </div>
         </section>
     );
 }
-      
-      
-      
 
 export default Project;

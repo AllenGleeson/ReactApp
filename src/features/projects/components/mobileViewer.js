@@ -1,8 +1,6 @@
-import React from 'react';
 import '../../../assets/css/mobileViewer.css';
 
-const MobileViewer = ({site}) => {
-
+const MobileViewer = ({ site }) => {
     return (
         <section className='col-12'>
             <div id="wrapper" className="slideLeft">

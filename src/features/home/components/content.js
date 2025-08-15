@@ -1,8 +1,6 @@
-import React from 'react'
 import '../../../assets/css/aboutMe.css';
 
-
-const Content = ({technologies}) => {
+const Content = ({ technologies }) => {
     return (
         <section className='row'>
             <div className='col-12'>
@@ -12,7 +10,7 @@ const Content = ({technologies}) => {
                         <div className='tech'>
                             {technologies.map((tech, index) => (
                                 <span key={index} className='tech_tag'>
-                                {tech}
+                                    {tech}
                                 </span>
                             ))}
                         </div>
@@ -22,8 +20,5 @@ const Content = ({technologies}) => {
         </section>
     );
 }
-      
-      
-      
 
 export default Content
