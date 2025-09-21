@@ -6,12 +6,15 @@ import Highlight from './highlight';
 import EndDescription from './endDescription'
 import BackToTop from '../../../Components/backToTop';
 import MobileViewer from './mobileViewer';
+import TabletViewer from './TabletViewer';
+import DesktopViewer from './DesktopViewer';
 
 const Project = () => {
     const { id } = useParams();
     var [project, setProject] = useState(null);
 
     const [showComponent, setShowComponent] = useState(false);
+    const [selectedDevice, setSelectedDevice] = useState('mobile');
 
     useEffect(() => {
         window.addEventListener('scroll', handleScroll);
@@ -58,6 +61,14 @@ const Project = () => {
         color: white;
         font-weight: 700;
         text-shadow: 1px 0px 3px black, 0px 0px 3px black;
+        border: none;
+      }
+    .techTheme.active {
+        top: -2px;
+        background-color: transparent;
+        box-shadow: 0px 0px 1px 1px #8d016e;
+        color: #8d016e;
+        text-shadow: -2px 0px 4px #fff;
       }
       .techTheme:hover {
         background: radial-gradient(#fff,${project.fields.colorTheme[0]}) !important;
@@ -68,6 +79,19 @@ const Project = () => {
         border-bottom: 2px solid ${project.fields.colorTheme[0]};
         margin-bottom: 1rem;
         padding-bottom: 1rem;
+      }
+      .device-selector {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin: 20px 0;
+        position: relative;
+        z-index: 10;
+      }
+      .device-viewer-container {
+        position: relative;
+        z-index: 1;
+        margin-top: 20px;
       }
     `;
 
@@ -135,7 +159,41 @@ const Project = () => {
                     </div>
                 </div>
                 {project.fields.mobileVersion && (
-                    <MobileViewer site={project.fields.links.link[1]} />
+                    <>
+                        <div className="col-12">
+                            <div className="device-selector">
+                                <button
+                                    className={`dynamicHover m-2 p-2 techTheme text-decoration-none ${selectedDevice === 'mobile' ? 'active' : ''}`}
+                                    onClick={() => setSelectedDevice('mobile')}
+                                >
+                                    Mobile
+                                </button>
+                                <button
+                                    className={`dynamicHover m-2 p-2 techTheme text-decoration-none ${selectedDevice === 'tablet' ? 'active' : ''}`}
+                                    onClick={() => setSelectedDevice('tablet')}
+                                >
+                                    Tablet
+                                </button>
+                                <button
+                                    className={`dynamicHover m-2 p-2 techTheme text-decoration-none ${selectedDevice === 'desktop' ? 'active' : ''}`}
+                                    onClick={() => setSelectedDevice('desktop')}
+                                >
+                                    Desktop
+                                </button>
+                            </div>
+                        </div>
+                        <div className="device-viewer-container">
+                            {selectedDevice === 'mobile' && (
+                                <MobileViewer site={project.fields.links.link[1]} />
+                            )}
+                            {selectedDevice === 'tablet' && (
+                                <TabletViewer site={project.fields.links.link[1]} />
+                            )}
+                            {selectedDevice === 'desktop' && (
+                                <DesktopViewer site={project.fields.links.link[1]} />
+                            )}
+                        </div>
+                    </>
                 )}
                 {project.fields.fields.sectionTitle && (
                     project.fields.fields.sectionTitle.map((title, index) => (
