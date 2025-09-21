@@ -304,4 +304,8 @@ code {
   .section-heading {
     font-size: 1rem;
   }
+
+  .min-height {
+    min-height: 300px;
+  }
 }

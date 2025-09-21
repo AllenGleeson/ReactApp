@@ -66,9 +66,9 @@ const Project = () => {
     .techTheme.active {
         top: -2px;
         background-color: transparent;
-        box-shadow: 0px 0px 1px 1px #8d016e;
-        color: #8d016e;
-        text-shadow: -2px 0px 4px #fff;
+        box-shadow: 0px 0px 1px 1px ${project.fields.colorTheme[0]};
+        color: ${project.fields.colorTheme[0]};
+        text-shadow: none;
       }
       .techTheme:hover {
         background: radial-gradient(#fff,${project.fields.colorTheme[0]}) !important;
@@ -102,7 +102,7 @@ const Project = () => {
         descriptionClass = 'col-lg-4 col-sm-12'
     }
     return (
-        <section className='container'>
+        <section>
             <style>{dynamicStyles}</style>
             <div className='row'>
                 <div className='col-12'>
@@ -126,7 +126,7 @@ const Project = () => {
                                     ))}
                                 </div>
                                 {project.fields.coauthors && (
-                                    <div className='h-100 mt-2 p-md-2'>
+                                    <div className='h-100 mt-4 p-md-2'>
                                         <span className='coauthor'>Co Author: </span>
                                         {project.fields.coauthors.link.map((link, index) => (
                                             <a key={index} href={link} className="dynamicHover m-2 p-2 techTheme text-decoration-none">
