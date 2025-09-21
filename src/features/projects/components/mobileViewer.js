@@ -1,4 +1,4 @@
-import '../../../assets/css/mobileViewer.css';
+import '../../../assets/css/device-viewer.css';
 
 const MobileViewer = ({ site }) => {
     return (

@@ -1,0 +1,122 @@
+/* 📱 Phone */
+.phone {
+  border: 1px solid #202124;
+  border-width: 50px 7px;
+  border-radius: 40px;
+  margin: 10px auto;
+  overflow: hidden;
+  transition: all 0.5s ease;
+}
+
+.phone iframe {
+  border: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.phone.view {
+  transform: rotateX(45deg) rotateY(0deg) rotateZ(-40deg);
+  box-shadow: -3px 3px 0 #BBB, -6px 6px 0 #BBB, -14px 10px 20px #000;
+  width: 320px;
+  height: 560px;
+}
+
+/* 📲 Tablet */
+.tablet {
+  border: 1px solid #202124;
+  border-width: 30px 12px;
+  /* thinner top/bottom, wider sides */
+  border-radius: 25px;
+  margin: -9rem auto;
+  overflow: hidden;
+  transition: all 0.5s ease;
+}
+
+.tablet iframe {
+  border: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.tablet.view {
+  transform: rotateX(35deg) rotateY(0deg) rotateZ(-20deg);
+  box-shadow: -5px 5px 0 #BBB, -8px 8px 0 #BBB, -18px 12px 25px #000;
+  width: 768px;
+  height: 1024px;
+  /* portrait iPad-style ratio */
+  scale: 0.7;
+}
+
+/* 🖥 Desktop */
+.desktop {
+  border: 1px solid #202124;
+  border-width: 20px;
+  /* even border all around */
+  border-radius: 8px;
+  margin: -2rem auto;
+  overflow: hidden;
+  transition: all 0.5s ease;
+  position: relative;
+}
+
+.desktop iframe {
+  border: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.desktop.view {
+  transform: rotateX(25deg) rotateY(0deg) rotateZ(-10deg);
+  box-shadow: -6px 6px 0 #BBB, -10px 10px 0 #BBB, -20px 14px 30px #000;
+  width: 1280px;
+  height: 800px;
+  scale: 0.8;
+}
+
+/* Optional: Desktop Stand */
+.desktop.view::after {
+  content: "";
+  display: block;
+  width: 150px;
+  height: 20px;
+  background: #202124;
+  margin: 10px auto 0;
+  border-radius: 0 0 8px 8px;
+}
+
+/* 📐 Responsive Scaling */
+@media (max-width: 900px) {
+  #wrapper {
+    transform: scale(0.8, 0.8);
+  }
+
+  .desktop.view {
+    width: 70rem;
+    height: 50rem;
+    scale: 0.6;
+  }
+
+  .desktop {
+    margin: -12rem -22rem;
+  }
+
+  .tablet.view {
+    scale: 0.6;
+  }
+
+  .tablet {
+    margin: -18rem -10rem;
+  }
+}
+
+@media (max-width: 700px) {
+  #wrapper {
+    transform: scale(0.6, 0.6);
+  }
+}
+
+@media (max-width: 500px) {
+  #wrapper {
+    transform: scale(0.5, 0.5);
+  }
+}
