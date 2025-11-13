@@ -4,13 +4,13 @@ import { FaGithub, FaLinkedin, FaFile } from 'react-icons/fa';
 import profileImage from '../../../assets/images/profile.webp';
 import cv from '../../../assets/cv/Allen-Gleeson.pdf';
 
-let articleContent = "I am a Full Stack Developer that has steadily been building my skills with several courses, work placements, an internship and work experience which covered a diverse range of stacks, languages, and frameworks as well as manual testing." +
+let articleContent = "I’m a Full Stack Developer with hands-on experience delivering secure, scalable web applications using React, Django, .NET Core, and Spring. My background spans both frontend and backend development, with strong fundamentals in Python, Java, and JavaScript." +
     "\n \n" +
-    "My goal is to always expand what I can do. Over the last year I completed some work with STC, have completed some courses to expand my knowledge of the cloud and built the ADIG Coffeeshop web app with a friend." +
+    "I’m passionate about building clean, efficient systems and continuously expanding my technical toolkit. Over the past year, I contributed to projects such as a customer payments portal for The School Tour Company and the ADIG Coffeeshop web app, while also strengthening my cloud skills through AWS and Heroku deployments." +
     "\n \n" +
-    "I am currently doing a Higher Diploma in Science in Computing with the National College of Ireland to improve my Java and other skills with a longer goal of doing a masters." +
+    "I’m currently pursuing a Higher Diploma in Science in Computing at the National College of Ireland to deepen my understanding of software architecture, distributed systems, and Java development, with plans to progress toward a master’s degree." +
     "\n \n" +
-    "I have been using Python, and Java with work or my own projects most recently and am looking for another software role. Always learning so happy to learn new technologies for an interesting role.";
+    "Outside of work and study, I’m actively building personal projects and exploring modern frameworks like Next.js to stay at the cutting edge of full-stack development. I’m currently seeking new software development opportunities where I can contribute to impactful products while continuing to grow as a developer.";
 
 const AboutMe = () => {
     return (
