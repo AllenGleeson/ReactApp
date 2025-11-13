@@ -1,16 +1,15 @@
-import React from 'react';
 import '../../../assets/css/aboutMe.css';
 import { FaGithub, FaLinkedin, FaFile } from 'react-icons/fa';
 import profileImage from '../../../assets/images/profile.webp';
 import cv from '../../../assets/cv/Allen-Gleeson.pdf';
 
-let articleContent = "I’m a Full Stack Developer with hands-on experience delivering secure, scalable web applications using React, Django, .NET Core, and Spring. My background spans both frontend and backend development, with strong fundamentals in Python, Java, and JavaScript." +
+let articleContent = "I’m a Full Stack Developer with practical experience delivering secure, data-driven web applications using React, Django, .NET Core, and Spring. My background spans both frontend and backend development, supported by strong skills in Python, Java, JavaScript, and SQL." +
     "\n \n" +
-    "I’m passionate about building clean, efficient systems and continuously expanding my technical toolkit. Over the past year, I contributed to projects such as a customer payments portal for The School Tour Company and the ADIG Coffeeshop web app, while also strengthening my cloud skills through AWS and Heroku deployments." +
+    "I’m passionate about building clean, efficient systems and enjoy working across the full stack—from designing REST APIs to developing responsive user interfaces. I’ve developed and deployed several full-stack projects, including the ADIG Coffeeshop web app and Ellas Design e-commerce platform, leveraging AWS services such as S3 and RDS for scalable cloud integration." +
     "\n \n" +
-    "I’m currently pursuing a Higher Diploma in Science in Computing at the National College of Ireland to deepen my understanding of software architecture, distributed systems, and Java development, with plans to progress toward a master’s degree." +
+    "I’m currently pursuing a Higher Diploma in Science in Computing at the National College of Ireland, where I’m strengthening my understanding of software architecture, distributed systems, and Java development, with the goal of progressing toward a master’s degree." +
     "\n \n" +
-    "Outside of work and study, I’m actively building personal projects and exploring modern frameworks like Next.js to stay at the cutting edge of full-stack development. I’m currently seeking new software development opportunities where I can contribute to impactful products while continuing to grow as a developer.";
+    "Outside of work and study, I’m continuing to build personal projects and explore modern frameworks like Next.js to expand my technical expertise. I’m currently seeking new software development opportunities where I can contribute to impactful products while continuing to grow as a developer.";
 
 const AboutMe = () => {
     return (
