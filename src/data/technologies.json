@@ -3,9 +3,8 @@
         "technologies": [
                 "HTML", "CSS", "JS", "jQuery", "Bootstrap", "Flask",
                 "Java","Spring", "C#", ".NET CORE", "Python", "Django",
-                "React", "MongoDB", "PostgesSQL", "Stripe Payments",
-                "Manual Testing", "Communication", "Microsoft Office",
-                "AWS S3", "AWS RDS","Active Listening","Collaboration",
+                "React", "Next.JS", "MongoDB", "PostgesSQL",
+                "AWS S3", "AWS RDS",
                 "Git","Heroku"
             ]
     }
