@@ -1,8 +1,7 @@
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import '../../../assets/css/aboutMe.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCalendar, faAddressBook } from '@fortawesome/free-regular-svg-icons';
+import { GraduationCap, Briefcase } from 'lucide-react';
 import timeline from '../../../data/timeline.json';
 
 const isEven = (num) => num % 2 === 0;
@@ -10,7 +9,7 @@ const isEven = (num) => num % 2 === 0;
 const TimelineElement = ({ element }) => {
     const timelineClass = isEven(element.pk) ? 'vertical-timeline-element--education' : 'vertical-timeline-element--work';
     const color = isEven(element.pk) ? '#01294c' : '#3f3f3f';
-    const icon = element.fields.education ? <FontAwesomeIcon icon={faCalendar} className='icon' /> : <FontAwesomeIcon icon={faAddressBook} className='icon' />;
+    const icon = element.fields.education ? <GraduationCap className='icon' /> : <Briefcase className='icon' />;
 
     return (
         <VerticalTimelineElement
