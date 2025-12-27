@@ -185,16 +185,5 @@
             "education": true,
             "date": "OCTOBER 2014 - MAY 2015"
         }
-    },
-    {
-        "pk": 18,
-        "fields": {
-            "title": "Pre 2014",
-            "organisation": "",
-            "location": "",
-            "description": "Please have a look at my CV or get in touch for more.",
-            "education": true,
-            "date": "PRE 2014"
-        }
     }
 ]
