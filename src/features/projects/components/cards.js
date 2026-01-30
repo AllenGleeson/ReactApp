@@ -20,9 +20,7 @@ const Cards = () => {
         <section className='cards justify-content-center'>
             <h3 className='tech_tag defaultCursor'>All Projects</h3>
             <div className='row grow'>
-                {visibleProjects.map((project, index) => {
-                    const cardIndex = startIndex + index; // Calculate the actual card index
-                    return (
+                {visibleProjects.map((project, index) => (
                         <Card
                             key={index}
                             slug={project.slug}
@@ -31,8 +29,7 @@ const Cards = () => {
                             links={project.fields.links}
                             image={project.fields.overviewImage}
                         />
-                    );
-                })}
+                ))}
             </div>
 
 
