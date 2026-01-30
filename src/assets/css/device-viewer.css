@@ -96,7 +96,7 @@
 
 @media (max-width: 900px) {
   #wrapper {
-    transform: scale(0.8, 0.8);
+    scale: 0.8;
   }
 
   .desktop.view {
@@ -121,13 +121,13 @@
 
 @media (max-width: 700px) {
   #wrapper {
-    transform: scale(0.6, 0.6);
+    scale: 0.6;
   }
 }
 
 @media (max-width: 500px) {
   #wrapper {
-    transform: scale(0.5, 0.5);
+    scale: 0.5;
   }
 
   .desktop.view {

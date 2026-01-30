@@ -1,0 +1,327 @@
+.in-development-section {
+    padding: 2rem 1rem;
+    margin: 2rem 0;
+}
+
+.in-development-heading {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.light-mode .in-development-heading {
+    color: #000;
+}
+
+.dark-mode .in-development-heading {
+    color: #fff;
+}
+
+.in-development-description {
+    padding: 1rem;
+    margin: 4rem 0rem;
+}
+
+.in-development-text {
+    margin: 0 0 0.75rem 0;
+    line-height: 1.6;
+}
+
+.in-development-text:last-child {
+    margin-bottom: 0;
+}
+
+.light-mode .in-development-text {
+    color: #000;
+}
+
+.dark-mode .in-development-text {
+    color: #fff;
+}
+
+.in-development-description .links {
+    margin-top: 1rem;
+}
+
+.device-selector {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0;
+    position: relative;
+    z-index: 2;
+}
+
+.device-selector .btn {
+    font-size: 1rem;
+    padding: 4px 8px;
+    margin: 8px;
+    font-weight: 700;
+    border: none;
+    border-radius: 0;
+    color: #fff;
+    transition: top 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
+}
+
+.device-selector .btn:hover {
+    position: relative;
+    top: -4px;
+}
+
+.light-mode .device-selector .btn {
+    background-color: #99e7e4;
+}
+
+.light-mode .device-selector .btn:hover {
+    background-color: #ffc228;
+}
+
+.light-mode .device-selector .btn.active {
+    top: -2px;
+    background-color: transparent;
+    box-shadow: 0 0 1px 1px #99e7e4;
+    color: #99e7e4;
+}
+
+.light-mode .device-selector .btn.active:hover {
+    top: -2px;
+    background-color: transparent !important;
+    box-shadow: 0 0 1px 1px #99e7e4;
+    color: #99e7e4;
+}
+
+.dark-mode .device-selector .btn {
+    background-color: #ffc228;
+}
+
+.dark-mode .device-selector .btn:hover {
+    background-color: #99e7e4;
+}
+
+.dark-mode .device-selector .btn.active {
+    top: -2px;
+    background-color: transparent;
+    box-shadow: 0 0 1px 1px #ffc228;
+    color: #ffc228;
+    text-shadow: none;
+}
+
+.dark-mode .device-selector .btn.active:hover {
+    top: -2px;
+    background-color: transparent !important;
+    box-shadow: 0 0 1px 1px #ffc228;
+    color: #ffc228;
+}
+
+.device-viewer-container .desktop.view {
+    scale: 0.5;
+}
+
+.device-viewer-container .desktop {
+    margin: -10rem -17rem;
+}
+
+.device-viewer-container .tablet.view {
+    scale: 0.5;
+}
+
+.device-viewer-container .tablet {
+    margin: -16rem 3rem;
+}
+
+.device-viewer-container .phone.view {
+    scale: 0.8;
+}
+
+.device-viewer-container .phone {
+    margin: -2rem 19rem;
+}
+
+/* Large tablets / small desktop */
+@media (max-width: 1199px) {
+    .device-viewer-container .desktop {
+        margin: -11rem -17rem;
+    }
+
+    .device-viewer-container .tablet {
+        margin: -16rem -6rem;
+    }
+
+    .device-viewer-container .phone {
+        margin: -4rem 10rem;
+    }
+}
+
+/* Tablets */
+@media (max-width: 991px) {
+    .in-development-section {
+        padding: 1.5rem 0.75rem;
+        margin: 1.5rem 0;
+    }
+
+    .in-development-heading {
+        font-size: 1.35rem;
+        margin-bottom: 1.25rem;
+    }
+
+    .in-development-description {
+        position: static;
+        margin: 2rem 0;
+        padding: 0.75rem;
+    }
+
+    .device-viewer-container .desktop.view {
+        scale: 0.6;
+    }
+
+    .device-viewer-container .desktop {
+        margin: -8rem -13rem;
+    }
+
+    .device-viewer-container .tablet.view {
+        scale: 0.6;
+    }
+
+    .device-viewer-container .tablet {
+        margin: -14rem -3rem;
+    }
+
+    .device-viewer-container .phone.view {
+        scale: 0.9;
+    }
+
+    .device-viewer-container .phone {
+        margin: -6rem 9rem;
+    }
+}
+
+/* Mobile landscape / small tablet */
+@media (max-width: 767px) {
+    .in-development-section {
+        padding: 1.25rem 0.5rem;
+        margin: 1.25rem 0;
+    }
+
+    .in-development-heading {
+        font-size: 1.25rem;
+        margin-bottom: 1rem;
+    }
+
+    .in-development-description {
+        margin: 1.5rem 0;
+        padding: 0.5rem;
+    }
+
+    .device-selector {
+        gap: 8px;
+        margin: 16px 0;
+    }
+
+    .device-selector .btn {
+        font-size: 0.9rem;
+        padding: 4px 6px;
+        margin: 4px;
+    }
+
+    .device-viewer-container .desktop.view {
+        scale: 0.35;
+    }
+
+    .device-viewer-container .desktop {
+        margin: -4rem -4rem;
+    }
+
+    .device-viewer-container .tablet.view {
+        scale: 0.4;
+    }
+
+    .device-viewer-container .tablet {
+        margin: -8rem 0;
+    }
+
+    .device-viewer-container .phone.view {
+        scale: 0.6;
+    }
+
+    .device-viewer-container .phone {
+        margin: -2rem 4rem;
+    }
+}
+
+/* Phones */
+@media (max-width: 576px) {
+    .in-development-section {
+        padding: 1rem 0.5rem;
+        margin: 1rem 0;
+    }
+
+    .in-development-heading {
+        font-size: 1.1rem;
+        margin-bottom: 0.75rem;
+    }
+
+    .in-development-text {
+        font-size: 0.95rem;
+    }
+
+    .in-development-description {
+        margin: 1rem 0;
+    }
+
+    .device-selector .btn {
+        font-size: 0.85rem;
+        padding: 3px 5px;
+    }
+
+    .device-viewer-container #wrapper {
+        transform: scale(1, 1);
+    }
+
+    .device-viewer-container .desktop.view {
+        scale: 0.5;
+    }
+
+    .device-viewer-container .desktop {
+        margin: -16rem -24rem;
+    }
+
+    .device-viewer-container .tablet.view {
+        scale: 0.6;
+    }
+
+    .device-viewer-container .tablet {
+        margin: -22rem -13rem;
+    }
+
+    .device-viewer-container .phone.view {
+        scale: 1;
+    }
+
+    .device-viewer-container .phone {
+        margin: -8.5rem 2rem;
+    }
+}
+
+/* Small phones */
+@media (max-width: 400px) {
+    .in-development-heading {
+        font-size: 1rem;
+    }
+
+    .in-development-text {
+        font-size: 0.9rem;
+    }
+
+    .device-viewer-container .desktop {
+        margin: -18rem -25rem;
+    }
+
+    .device-viewer-container .tablet {
+        margin: -23rem -14rem;
+    }
+
+    .device-viewer-container .phone {
+        margin: -10rem 0rem;
+    }
+}
