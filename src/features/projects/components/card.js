@@ -1,8 +1,8 @@
 import '../../../assets/css/card.css';
 
-const Card = ({ index, title, description, links, image }) => {
+const Card = ({ slug, title, description, links, image }) => {
     const cardClass = `card shadow-lg`;
-    const projectLink = '/projects/' + (index + 1);
+    const projectLink = '/projects/' + slug;
     const overviewImagePath = `${process.env.PUBLIC_URL}/data/images/overview/${image}`;
 
     return (

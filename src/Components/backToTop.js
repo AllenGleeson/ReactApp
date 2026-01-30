@@ -18,9 +18,7 @@ const BackToTop = () => {
 
   return (
     <a href='#nav' className="backToTop fixed-bottom-right slideInLeft">
-        <div className='rounded-circle'>
-          <FontAwesomeIcon icon={faArrowAltCircleUp} beat size="lg" className='icon'/>
-        </div>
+      <FontAwesomeIcon icon={faArrowAltCircleUp} size="lg" className='icon rounded-circle' />
     </a>
   );
 }

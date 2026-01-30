@@ -25,7 +25,7 @@ const Cards = () => {
                     return (
                         <Card
                             key={index}
-                            index={cardIndex} // Use the calculated card index as the URL
+                            slug={project.slug}
                             title={project.fields.title}
                             description={project.fields.shortDescription}
                             links={project.fields.links}

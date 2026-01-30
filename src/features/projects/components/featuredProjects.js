@@ -21,7 +21,7 @@ const FeaturedProjects = () => {
                 {featuredProjects.map((project, index) => (
                     <Carousel.Item key={index}>
                         <div className="h-100">
-                            <a href={`projects/${project.pk}`}>
+                            <a href={`projects/${project.slug}`}>
                                 <img className="rounded" src={`${process.env.PUBLIC_URL}/data/images/overview/${project.fields.overviewImage}`} alt={project.fields.title} />
                             </a>
                             <div

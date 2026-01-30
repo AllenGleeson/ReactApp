@@ -2,8 +2,10 @@ import { useState, useEffect } from 'react';
 import Content from '../features/home/components/content';
 import AboutMe from '../features/home/components/aboutMe';
 import Timeline from '../features/home/components/timeline';
+import Qualifications from '../features/home/components/qualifications';
 import BackToTop from '../Components/backToTop';
 import FeaturedProjects from '../features/projects/components/featuredProjects';
+import InDevelopment from '../features/home/components/inDevelopment';
 import technologies from '../data/technologies.json';
 
 const Home = () => {
@@ -28,9 +30,15 @@ const Home = () => {
     return (
         <div>
             <AboutMe />
-            <hr />
-            <Content technologies={technologies[0].technologies} />
-            <hr />
+            <div className="row">
+                <div className="col-12 col-md-6">
+                    <Content technologies={technologies} />
+                </div>
+                <div className="col-12 col-md-6">
+                    <Qualifications />
+                </div>
+            </div>
+            <InDevelopment />
             <FeaturedProjects />
             <div className={`fade ${showComponent ? 'show' : 'hide'}`}>
                 {showComponent && (

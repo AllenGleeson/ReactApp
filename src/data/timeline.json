@@ -3,9 +3,9 @@
         "pk": 1,
         "fields": {
             "title": "Admin Support",
-            "organisation": "Meath Partnership",
+            "organisation": "Meath Sports Partnership",
             "location": "Remote",
-            "description": "Working admin support for Meath Partnership.",
+            "description": "Working admin support for Meath Sports Partnership.",
             "education": false,
             "date": "JUNE 2025 - PRESENT"
         }
@@ -15,175 +15,76 @@
         "fields": {
             "title": "Higher Diploma in Science in Computing",
             "organisation": "National College of Ireland",
-            "location": "Remote",
+            "location": "Dublin (Remote)",
             "description": "The Higher Diploma in Science in Computing is a Level 8 course. The course goes over the computing fundamentals, complemented with detailed knowledge, problem-solving and specialised technical skills required for designing, developing and deploying software.",
             "education": true,
-            "date": "JANUARY 2025 - PRESENT"
+            "date": "JANUARY 2025 - DECEMBER 2025"
         }
     },
     {
         "pk": 3,
         "fields": {
-            "title": "ICDL - Cloud Computing",
-            "organisation": "eCollege",
-            "location": "Remote",
-            "description": "Learning more about the cloud and services like SAAS, IAAS, and PAAS.",
-            "education": true,
-            "date": "JULY 2024 - AUGUST 2024"
-        }
-    },
-    {
-        "pk": 4,
-        "fields": {
             "title": "Junior Software Engineer",
             "organisation": "The School Tour Company",
-            "location": "Hybrid",
-            "description": "At STC, I worked as a frontend developer while also mentoring an entry-level developer. I introduced several new components and conducted extensive fixes their new payments portal and internal websites. For the payments portal, I enhanced styling across all screen sizes and implemented new functionalities. On the internal site, I addressed styling issues and resolved problematic API calls, ensuring proper functionality such as table sorting and data saving. Occasionally, I directly updated the database to resolve rare tour booking verification issues. Additionally, I participated in organizing and conducting interviews for two consecutive intern positions, providing me with new experiences.",
+            "location": "Dublin",
+            "description": "Took ownership of a React-based internal application following significant project disruption, delivering a production-ready system that replaced a slow legacy platform and reduced sales quote turnaround times. Refactored and rebuilt large portions of existing code, stabilizing incomplete and poorly structured components while delivering new features under minimal supervision. Designed and implemented UI improvements to enhance usability for non-technical sales staff, enabling the application to be rolled out for active internal use. Worked on a customer-facing payments portal, contributing to frontend development and API integration for online payments. Mentored a graduate developer, assigning tasks, supporting manual testing efforts, and helping build foundational skills in frontend development and SQL.",
             "education": false,
             "date": "NOVEMBER 2023 - MARCH 2024"
         }
     },
     {
-        "pk": 5,
+        "pk": 4,
         "fields": {
-            "title": "Data Scientist - Innovation Program",
+            "title": "Data Scientist",
             "organisation": "Orcawise",
             "location": "Remote",
-            "description": "Completed Orcawise's Innovation Program to do Data Scrapping using Python for use in building an LLM.",
+            "description": "Developed and maintained Python-based web scrapers using Selenium to collect training data for large language model workflows. Collaborated within a web scraping team, contributing scrapers and supporting other developers with debugging, data extraction logic, and scraper reliability. Implemented techniques such as user-agent rotation, cookie handling, and IP rotation to improve scraper robustness, and applied basic NLP processing to prepare data prior to ingestion.",
             "education": false,
-            "date": "JULY 2023 - NOVEMBER 2023"
+            "date": "JUNE 2023 - NOVEMBER 2023"
+        }
+    },
+    {
+        "pk": 5,
+        "fields": {
+            "title": "Web Developer",
+            "organisation": "Freelance",
+            "location": "Remote",
+            "description": "Worked on a type learning application with a client I connected with through Nebula Innovations. Fixed an issue they were having where a certificate was printing on multiple pages instead of one.",
+            "education": false,
+            "date": "MAY 2023 - JUNE 2023"
         }
     },
     {
         "pk": 6,
         "fields": {
-            "title": "Web Developer",
-            "organisation": "Freelance",
-            "location": "Remote",
-            "description": "Worked on a type learning application with a client I connected with through Nebula Innovations. Fixed an issue they were having where a certificate was printing on multiple pages intstead of one.",
-            "education": false,
-            "date": "MAY 2023 - JULY 2023"
+            "title": "Certificate in Science in Computing",
+            "organisation": "National College of Ireland",
+            "location": "Dublin (Remote)",
+            "description": "12 week course focused on Java, SQL and Computer Architecture.",
+            "education": true,
+            "date": "MARCH 2023 - JUNE 2023"
         }
     },
     {
         "pk": 7,
         "fields": {
-            "title": "Certificate in Science in Computing",
-            "organisation": "National College of Ireland",
-            "location": "Remote",
-            "description": "12 week course focused on Java, SQL and Computer Architecture.",
-            "education": true,
-            "date": "MARCH 2023 - JULY 2023"
-        }
-    },
-    {
-        "pk": 8,
-        "fields": {
-            "title": "Customer Service Advisor",
-            "organisation": "Capita",
-            "location": "Remote",
-            "description": "Assisted customers with a wide variaty of queries for Bord Gais Energy.",
-            "education": false,
-            "date": "SEPTEMBER 2022 - MAY 2023"
-        }
-    },
-    {
-        "pk": 9,
-        "fields": {
-            "title": "Advanced JS",
-            "organisation": "Brainnest",
-            "location": "Remote",
-            "description": "Brainnest bootcamp focusing on advanced JS.",
-            "education": true,
-            "date": "NOVEMBER 2022 - DECEMBER 2022"
-        }
-    },
-    {
-        "pk": 10,
-        "fields": {
-            "title": "Frontend Fundamentals",
-            "organisation": "Brainnest",
-            "location": "Remote",
-            "description": "Brainnest bootcamp focused on the frontend fundamentals with semantic HTML elements and how to design a user friendly experience.",
-            "education": true,
-            "date": "JULY 2022 - AUGUST 2022"
-        }
-    },
-    {
-        "pk": 11,
-        "fields": {
-            "title": "Web Developer - Work Placement",
-            "organisation": "Nebula Innovation",
-            "location": "Julianstown, Co.Meath",
-            "description": "Work placement with Nebula Innovations mainly using .NET CORE. Worked on a nursing home application to assist with bugs and adding minor features.",
+            "title": "Web Developer",
+            "organisation": "Nebula Innovations",
+            "location": "Drogheda (Remote)",
+            "description": "Worked on a production web application for nursing home operations, supporting room management, cleaning workflows, and administrative functionality. Developed and maintained features using C#, .NET, and Razor Pages, resolving front-end and back-end issues in a live system.",
             "education": false,
             "date": "OCTOBER 2020 - SEPTEMBER 2021"
         }
     },
     {
-        "pk": 12,
+        "pk": 8,
         "fields": {
             "title": "Diploma in Full Stack Software Development",
             "organisation": "Code Institute",
-            "location": "Remote",
+            "location": "Dublin (Remote)",
             "description": "Full Stack bootcamp from the beginings of creating a simple HTML website with Bootstrap to a Full Stack Django E-Commerce application.",
             "education": true,
             "date": "JUNE 2019 - SEPTEMBER 2020"
-        }
-    },
-    {
-        "pk": 13,
-        "fields": {
-            "title": "Website Administrator",
-            "organisation": "Meath Partnership",
-            "location": "Remote",
-            "description": "With Meath Partnership I was working on the football website, Nefl.ie, for clubs' northeast of Dublin. I was responsible for posting to the site and adding media as well as updating the tables with match results and making new fixtures. I also posted results, upcoming matches, and other news for their social media to keep people engaged.",
-            "education": false,
-            "date": "FEBUARY 2019 - FEBUARY 2020"
-        }
-    },
-    {
-        "pk": 14,
-        "fields": {
-            "title": "Work Experience",
-            "organisation": "T-Pro",
-            "location": "Dublin",
-            "description": "This was my first work experience the software industry and it was very helpful to me. I did some testing and spent some time understanding Selenium for automated testing. Great people working there.",
-            "education": false,
-            "date": "SEPTEMBER 2017 - NOVEMBER 2017"
-        }
-    },
-    {
-        "pk": 15,
-        "fields": {
-            "title": "Software Testing: ISTQB Foundation Level",
-            "organisation": "DDLETB",
-            "location": "Dublin",
-            "description": "Blackbox, Whitebox manual testing with some exposure to automated testing.",
-            "education": true,
-            "date": "MARCH 2017 - AUGUST 2017"
-        }
-    },
-    {
-        "pk": 16,
-        "fields": {
-            "title": "Software Developer Traineeship: Oracle Certified Associate, Java SE8",
-            "organisation": "CDETB",
-            "location": "Dublin",
-            "description": "This course went through Java using servlets, Mavin, Jsp's and getting to learn Java more deeply with Spring and Hibernate culminating with the Oracle Associate Certificate.",
-            "education": true,
-            "date": "SEPTEMBER 2015 - AUGUST 2016"
-        }
-    },
-    {
-        "pk": 17,
-        "fields": {
-            "title": "Software Development: City and Guilds Level 2",
-            "organisation": "DDLETB",
-            "location": "Dublin",
-            "description": "My first full time programming course. Introduced me to OOP, MVC and the waterfall lifecycle. Got to learn and practice the basics of Java, C#, SQL as well as technical support.",
-            "education": true,
-            "date": "OCTOBER 2014 - MAY 2015"
         }
     }
 ]
