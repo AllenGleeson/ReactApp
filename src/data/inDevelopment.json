@@ -1,6 +1,6 @@
 {
     "title": "In Development - Football League Website",
-    "siteUrl": "https://nefl-demo-4170a31c76fa.herokuapp.com/",
+    "siteUrl": "https://allengleeson.github.io/nefl-frontend/",
     "description": [
         "Work in progress project for a redesign of a football league website.",
         "Original website is built in wordpress and I wanted to give it a modern look and feel using Next.js and Tailwind CSS.",
