@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import projectsData from '../../../data/projects.json';
 import '../../../assets/css/project.css'
 import Highlight from './highlight';
+import VimeoPlayer from './vimeoPlayer';
 import EndDescription from './endDescription'
 import BackToTop from '../../../Components/backToTop';
 import MobileViewer from './mobileViewer';
@@ -10,7 +11,7 @@ import TabletViewer from './TabletViewer';
 import DesktopViewer from './DesktopViewer';
 
 const Project = () => {
-    const { id } = useParams();
+    const { slug } = useParams();
     var [project, setProject] = useState(null);
 
     const [showComponent, setShowComponent] = useState(false);
@@ -33,9 +34,9 @@ const Project = () => {
     };
 
     useEffect(() => {
-        const selectedProject = projectsData.find((project) => project.pk === parseInt(id));
+        const selectedProject = projectsData.find((project) => project.slug === slug);
         setProject(selectedProject);
-    }, [id]);
+    }, [slug]);
 
 
 
@@ -146,15 +147,22 @@ const Project = () => {
                         )}
                     </div>
                 </div>
-                <div className='col-12'>
-                    <div className='m-sm-3 mt-2 p-md-1 techSkills defaultCursor'>
-                        <h4 className='d-inline-block project-tech dynamicHover text-shadow-light-small'>Technologies</h4>
-                        <div className='techSkillsList'>
-                            {project.fields.technologies.map((tech, index) => (
-                                <span key={index} className='project-tech dynamicHover text-shadow-light-small'>
-                                    {tech}
-                                </span>
-                            ))}
+                <div className='row'>
+                    {project.fields.vimeoID && (
+                        <div className='col-lg-8 col-12'>
+                            <VimeoPlayer vimeoID={project.fields.vimeoID} />
+                        </div>
+                    )}
+                    <div className={project.fields.vimeoID ? 'col-lg-4 col-12' : 'col-12'}>
+                        <div className={`p-md-1 techSkills defaultCursor ${project.fields.vimeoID ? 'mt-5' : ''}`}>
+                            <h4 className='d-inline-block project-tech dynamicHover text-shadow-light-small'>Technologies</h4>
+                            <div className='techSkillsList'>
+                                {project.fields.technologies.map((tech, index) => (
+                                    <span key={index} className='project-tech dynamicHover text-shadow-light-small'>
+                                        {tech}
+                                    </span>
+                                ))}
+                            </div>
                         </div>
                     </div>
                 </div>

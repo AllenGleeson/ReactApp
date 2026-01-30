@@ -28,7 +28,7 @@ function App() {
           <Route path="/" element={<RootLayout isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />}>
             <Route path="/" element={<Home />} />
             <Route path="/projects" element={<ProjectPage />} />
-            <Route path="/projects/:id" element={<Project />} />
+            <Route path="/projects/:slug" element={<Project />} />
           </Route>
         </Routes>
       </div>

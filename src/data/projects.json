@@ -1,14 +1,16 @@
 [
     {
         "pk": 1,
+        "slug": "aroundu",
         "fields": {
             "title": "AroundU",
             "overviewDescription": "AroundU is a location-based social media platform that connects users through geographic proximity. The application features an interactive Google Maps interface where users can discover nearby people, view location-tagged posts, and interact with their local community. Built with a Spring Boot GraphQL backend and a Next.js React frontend, the platform enables users to create posts with location data, manage friendships, and explore social connections within their geographic area.",
-            "overviewImage": "aroundu-overview.webp",
+            "overviewImage": "aroundu-overview.PNG",
             "shortDescription": "A location-based social media platform connecting users through geographic proximity with interactive map visualization, posts, and friend management.",
             "featured": true,
             "mobileVersion": false,
             "date": "2025",
+            "vimeoID": 1160278477,
             "colorTheme": [
                 "#3b82f6",
                 "#1f2937",
@@ -82,6 +84,7 @@
     },
     {
         "pk": 2,
+        "slug": "distilled",
         "fields": {
             "title": "DistillED",
             "overviewDescription": "DistillED is a distributed educational system that implements a microservices architecture using gRPC. The system consists of three core services: Course Catalog, Enrolment Service, and Progress Tracker, all communicating through gRPC protocols. The application features a Java Swing GUI for user interaction and demonstrates distributed systems concepts including service discovery, streaming RPCs, and microservice communication patterns.",
@@ -90,6 +93,7 @@
             "featured": true,
             "mobileVersion": false,
             "date": "2025",
+            "vimeoID": null,
             "colorTheme": [
                 "#94d5ff",
                 "#494949",
@@ -158,6 +162,7 @@
     },
     {
         "pk": 3,
+        "slug": "mars-sols",
         "fields": {
             "title": "Mars Sols",
             "overviewDescription": "Mars Sols is a full-stack web application that provides real-time visualization of Mars weather data and rover imagery through NASA's APIs. The application features a React frontend with interactive charts displaying temperature, pressure, and wind data from the InSight lander, alongside daily Mars rover photos. The system uses Chart.js for data visualization and implements a Node.js/Express backend to aggregate data from multiple NASA APIs including the Mars Weather Service and Mars Rover Photos APIs.",
@@ -166,6 +171,7 @@
             "featured": true,
             "mobileVersion": true,
             "date": "2024",
+            "vimeoID": null,
             "colorTheme": [
                 "#ad5a20",
                 "#8b4513",
@@ -237,6 +243,7 @@
     },
     {
         "pk": 4,
+        "slug": "bens-bakery",
         "fields": {
             "title": "Bens Bakery",
             "overviewDescription": "Ben's bakery online shop is simple website allows customer to browse and order freshly baked breads & cakes. The website is designed with easy navigation, good user experience, and friendly ordering process.",
@@ -245,6 +252,7 @@
             "featured": true,
             "mobileVersion": true,
             "date": "2025",
+            "vimeoID": null,
             "colorTheme": [
                 "#e732a6",
                 "#494949",
@@ -320,6 +328,7 @@
     },
     {
         "pk": 5,
+        "slug": "adig-coffeeshop",
         "fields": {
             "title": "ADIG - Coffeeshop",
             "overviewDescription": "ADIG - Coffeeshop is a hybrid Django and React application designed for a coffeeshop co authored with Diarmaid Barron. The application is hosted on Heroku with data stored on a postgreSQL database on AWS RDS and the menu PDF stored on AWS S3. It provides an intuitive way for site owners to manage their content without needing to contact developers for minor changes.",
@@ -328,6 +337,7 @@
             "featured": true,
             "mobileVersion": true,
             "date": "2024",
+            "vimeoID": null,
             "colorTheme": [
                 "#8d016e",
                 "#494949",
@@ -406,6 +416,7 @@
     },
     {
         "pk": 6,
+        "slug": "ellas-design",
         "fields": {
             "title": "Ellas Design",
             "overviewDescription": "Ellas Design is a full stack Django web app to sell clothing from Ella Moya. The user can browse the products and add them to cart where they can checkout and pay using Stripe Payments. They can also create a profile to store their delivery information and see their order history. The owner is able to add, edit and delete products.",
@@ -414,6 +425,7 @@
             "featured": true,
             "mobileVersion": true,
             "date": "2020",
+            "vimeoID": null,
             "colorTheme": [
                 "#f990bc",
                 "#494949",
@@ -519,14 +531,16 @@
     },
     {
         "pk": 7,
+        "slug": "lazy-hunger",
         "fields": {
             "title": "Lazy Hunger",
             "overviewDescription": "Lazy Hunger is a community based website for users to share their recipes with others. Using Flask with Python for the backend, Materialise CSS and jQuery for the frontend, and MongoDB for storage. Users can create, view, edit and delete recipes.",
             "overviewImage": "lazy_hunger_overview.webp",
             "shortDescription": "A community based website for users to share their recipes with others.",
-            "featured": true,
+            "featured": false,
             "mobileVersion": true,
             "date": "2020",
+            "vimeoID": null,
             "colorTheme": [
                 "#cd0000",
                 "#494949",
@@ -591,14 +605,16 @@
     },
     {
         "pk": 8,
+        "slug": "find-ireland",
         "fields": {
             "title": "Find Ireland",
             "overviewDescription": "A tourism website to explore different tourist attractions across Ireland. The website is API heavy and uses JS and Jquery to create a website to see nearby tourist attractions to the selected towns.",
             "overviewImage": "find_ireland_overview.webp",
             "shortDescription": "A website to see tourist attractions around Ireland.",
-            "featured": true,
+            "featured": false,
             "mobileVersion": true,
             "date": "2020",
+            "vimeoID": null,
             "colorTheme": [
                 "#1cba24",
                 "#49494921",
@@ -662,14 +678,16 @@
     },
     {
         "pk": 9,
+        "slug": "amg-art-gallery",
         "fields": {
             "title": "AMG Art Gallery",
             "overviewDescription": "A gallery website for AMG to display her art, photos and poems created using HTML, CSS and Bootstrap.",
             "overviewImage": "amg_art_overview.webp",
             "shortDescription": "An art gallery for AMG to display some of their art, photos and poems.",
-            "featured": true,
+            "featured": false,
             "mobileVersion": true,
             "date": "2020",
+            "vimeoID": null,
             "colorTheme": [
                 "#0a28af",
                 "#494949",
@@ -733,6 +751,7 @@
     },
     {
         "pk": 10,
+        "slug": "ssid-checker",
         "fields": {
             "title": "SSid Checker",
             "overviewDescription": "Application that enables a user to check if the user name of your WiFi network, which is identified as SSID (Service Set Identifier) hereafter is of a standard format that conforms to the rules corresponding to the assigned item. The application prompts the user to provide one item (i.e. a piece of text). Next, the application uses the piece of text to determine if the provided text is valid or invalid.",
@@ -741,6 +760,7 @@
             "featured": false,
             "mobileVersion": false,
             "date": "2023",
+            "vimeoID": null,
             "colorTheme": [
                 "#ffc83c",
                 "#494949",
@@ -792,6 +812,7 @@
     },
     {
         "pk": 11,
+        "slug": "random-trip",
         "fields": {
             "title": "Random Trip",
             "overviewDescription": "Simple page using CSS grid and semantic HTML elements to create a page for users to sign up to a random holiday destination.",
@@ -800,6 +821,7 @@
             "featured": false,
             "mobileVersion": false,
             "date": "2022",
+            "vimeoID": null,
             "colorTheme": [
                 "#810000",
                 "#494949",
@@ -842,6 +864,7 @@
     },
     {
         "pk": 12,
+        "slug": "library",
         "fields": {
             "title": "Library",
             "overviewDescription": "A simple library application. Allows users to add and book and mark if it was read or not as well as delete the book. User can add a new book by clicking Add Book and enter the name. Then mark if it was read or not. After the book is added the user can delete the book if they wish.",
@@ -850,6 +873,7 @@
             "featured": false,
             "mobileVersion": true,
             "date": "2022",
+            "vimeoID": null,
             "colorTheme": [
                 "#ffc83c",
                 "#00294c",
@@ -893,6 +917,7 @@
     },
     {
         "pk": 13,
+        "slug": "review-scrapper",
         "fields": {
             "title": "Review Scrapper",
             "overviewDescription": "A Webscraper using Selenium to gather data from a given company and some reviews and store them in an excel file and on MongoDB. It searches trustpilot.com for the company you search and gathers reviews and general company data to put in our file or database.",
@@ -901,6 +926,7 @@
             "featured": false,
             "mobileVersion": false,
             "date": "2022",
+            "vimeoID": null,
             "colorTheme": [
                 "#ffc83c",
                 "#00294c",
@@ -955,6 +981,7 @@
     },
     {
         "pk": 14,
+        "slug": "css-presentation",
         "fields": {
             "title": "CSS Presentation",
             "overviewDescription": "A CSS presentation to get a better grasp of the fundamentals and Flex box.",
@@ -963,6 +990,7 @@
             "featured": false,
             "mobileVersion": false,
             "date": "2022",
+            "vimeoID": null,
             "colorTheme": [
                 "#ffc83c",
                 "#00294c",
@@ -1005,6 +1033,7 @@
     },
     {
         "pk": 15,
+        "slug": "js-presentation-part-one",
         "fields": {
             "title": "JS Presentation - Part One",
             "overviewDescription": "A JS presentation to get a better grasp of the fundamentals. Creating a simple Rock, Paper, Scissors game. User is asked for input when on the page and they can enter in their choice as text.",
@@ -1013,6 +1042,7 @@
             "featured": false,
             "mobileVersion": false,
             "date": "2022",
+            "vimeoID": null,
             "colorTheme": [
                 "#ffc83c",
                 "#00294c",
@@ -1056,6 +1086,7 @@
     },
     {
         "pk": 16,
+        "slug": "js-presentation-part-two",
         "fields": {
             "title": "JS Presentation - Part Two",
             "overviewDescription": "More practice with frontend fundamentals this time creating a calculator. Combining CS flexbox with some more JS practice.",
@@ -1064,6 +1095,7 @@
             "featured": false,
             "mobileVersion": false,
             "date": "2022",
+            "vimeoID": null,
             "colorTheme": [
                 "#ffc83c",
                 "#00294c",
