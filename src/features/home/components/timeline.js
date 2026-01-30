@@ -25,7 +25,7 @@ const TimelineElement = ({ element }) => {
                 <h5>{element.fields.organisation}</h5>
             </div>
             <hr />
-            <p className="text-shadow">{element.fields.description}</p>
+            <p className='vertical-timeline-element-description'>{element.fields.description}</p>
         </VerticalTimelineElement>
     );
 };

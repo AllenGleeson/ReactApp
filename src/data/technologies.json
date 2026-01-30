@@ -1,11 +1,28 @@
-[
-    {
-        "technologies": [
-                "HTML", "CSS", "JS", "jQuery", "Bootstrap", "Flask",
-                "Java","Spring", "C#", ".NET CORE", "Python", "Django",
-                "React", "Next.JS", "MongoDB", "PostgesSQL",
-                "AWS S3", "AWS RDS",
-                "Git","Heroku"
-            ]
-    }
-]
+{
+    "Languages": [
+        "Java",
+        "Python",
+        "JavaScript"
+    ],
+    "Frameworks & Libraries": [
+        "Spring",
+        "Django",
+        "Flask",
+        "Node.js",
+        "React",
+        "Next.js"
+    ],
+    "Databases": [
+        "PostgreSQL",
+        "MongoDB",
+        "SQLite"
+    ],
+    "Cloud & Infrastructure": [
+        "AWS S3",
+        "AWS RDS",
+        "Heroku"
+    ],
+    "Tools": [
+        "Git"
+    ]
+}

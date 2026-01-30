@@ -119,24 +119,24 @@ code {
 }
 
 
-.light-mode .backToTop div {
+.light-mode .backToTop svg {
   background-color: #99e7e4;
 }
 
-.dark-mode .backToTop div {
+.dark-mode .backToTop svg {
   background-color: #ffc228;
 }
 
-.backToTop div {
-  padding: 2px;
+.backToTop svg {
+  padding: 0.2rem;
   color: #fff;
 }
 
-.light-mode .backToTop div:hover {
+.light-mode .backToTop svg:hover {
   background-color: #ffc228;
 }
 
-.dark-mode .backToTop div:hover {
+.dark-mode .backToTop svg:hover {
   background-color: #99e7e4;
 }
 

@@ -1,0 +1,54 @@
+{
+    "diplomas": [
+        {
+            "pk": 1,
+            "fields": {
+                "name": "Higher Diploma in Science in Computing",
+                "organisation": "National College of Ireland",
+                "logo": "nci-logo.png"
+            }
+        },
+        {
+            "pk": 2,
+            "fields": {
+                "name": "Diploma in Full Stack Software Development",
+                "organisation": "Code Institute",
+                "logo": "code-institute-logo.png"
+            }
+        }
+    ],
+    "certificates": [
+        {
+            "pk": 1,
+            "fields": {
+                "name": "Certificate in Science in Computing",
+                "organisation": "National College of Ireland",
+                "logo": "nci-logo.png"
+            }
+        },
+        {
+            "pk": 2,
+            "fields": {
+                "name": "ISTQB Foundation Level Software Testing",
+                "organisation": "DDLETB",
+                "logo": "istqb-logo.png"
+            }
+        },
+        {
+            "pk": 3,
+            "fields": {
+                "name": "Oracle Certified Associate, Java SE8",
+                "organisation": "Oracle",
+                "logo": "oracle-logo.png"
+            }
+        },
+        {
+            "pk": 4,
+            "fields": {
+                "name": "Software Development: City and Guilds Level 2",
+                "organisation": "DDLETB",
+                "logo": "city-guilds-logo.png"
+            }
+        }
+    ]
+}
