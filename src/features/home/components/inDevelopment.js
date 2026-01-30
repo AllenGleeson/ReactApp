@@ -8,7 +8,7 @@ import DesktopViewer from '../../projects/components/DesktopViewer';
 
 const InDevelopment = () => {
     const [selectedDevice, setSelectedDevice] = useState('desktop');
-    const { title, siteUrl, description } = inDevelopmentData;
+    const { title, siteUrl, githubUrl, description } = inDevelopmentData;
     const descriptionLines = Array.isArray(description) ? description : [description];
 
     return (
@@ -50,6 +50,19 @@ const InDevelopment = () => {
                         {descriptionLines.map((line, index) => (
                             <p key={index} className="in-development-text">{line}</p>
                         ))}
+                        {githubUrl && (
+                            <>
+                                {' '}
+                                <a
+                                    href={githubUrl}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="links text-decoration-none"
+                                >
+                                    GitHub
+                                </a>
+                            </>
+                        )}
                         <a
                             href={siteUrl}
                             target="_blank"
