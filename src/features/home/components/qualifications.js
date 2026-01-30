@@ -6,7 +6,7 @@ const QualificationCard = ({ qualification }) => {
 
     return (
         <div className="qualification-card d-flex align-items-center gap-2 p-2 rounded mb-2">
-                <div className="qualification-logo d-flex align-items-center justify-content-center rounded">
+            <div className="qualification-logo d-flex align-items-center justify-content-center rounded">
                 <img
                     src={logoPath}
                     alt={`${qualification.fields.organisation} logo`}

@@ -2,9 +2,7 @@ import { useState } from 'react';
 import '../../../assets/css/device-viewer.css';
 import '../../../assets/css/inDevelopment.css';
 import inDevelopmentData from '../../../data/inDevelopment.json';
-import MobileViewer from '../../projects/components/mobileViewer';
-import TabletViewer from '../../projects/components/TabletViewer';
-import DesktopViewer from '../../projects/components/DesktopViewer';
+import DeviceViewer from '../../projects/components/DeviceViewer';
 
 const InDevelopment = () => {
     const [selectedDevice, setSelectedDevice] = useState('desktop');
@@ -40,9 +38,7 @@ const InDevelopment = () => {
                         </button>
                     </div>
                     <div className="device-viewer-container">
-                        {selectedDevice === 'mobile' && <MobileViewer site={siteUrl} />}
-                        {selectedDevice === 'tablet' && <TabletViewer site={siteUrl} />}
-                        {selectedDevice === 'desktop' && <DesktopViewer site={siteUrl} />}
+                        <DeviceViewer device={selectedDevice} site={siteUrl} />
                     </div>
                 </div>
                 <div className="col-12 col-lg-4 order-1 order-lg-2 mb-4 mb-lg-0">

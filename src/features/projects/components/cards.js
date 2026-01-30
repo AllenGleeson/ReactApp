@@ -21,14 +21,14 @@ const Cards = () => {
             <h3 className='tech_tag defaultCursor'>All Projects</h3>
             <div className='row grow'>
                 {visibleProjects.map((project, index) => (
-                        <Card
-                            key={index}
-                            slug={project.slug}
-                            title={project.fields.title}
-                            description={project.fields.shortDescription}
-                            links={project.fields.links}
-                            image={project.fields.overviewImage}
-                        />
+                    <Card
+                        key={index}
+                        slug={project.slug}
+                        title={project.fields.title}
+                        description={project.fields.shortDescription}
+                        links={project.fields.links}
+                        image={project.fields.overviewImage}
+                    />
                 ))}
             </div>
 

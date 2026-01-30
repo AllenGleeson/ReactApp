@@ -6,9 +6,7 @@ import Highlight from './highlight';
 import VimeoPlayer from './vimeoPlayer';
 import EndDescription from './endDescription'
 import BackToTop from '../../../Components/backToTop';
-import MobileViewer from './mobileViewer';
-import TabletViewer from './TabletViewer';
-import DesktopViewer from './DesktopViewer';
+import DeviceViewer from './DeviceViewer';
 
 const Project = () => {
     const { slug } = useParams();
@@ -191,15 +189,10 @@ const Project = () => {
                             </div>
                         </div>
                         <div className="device-viewer-container">
-                            {selectedDevice === 'mobile' && (
-                                <MobileViewer site={project.fields.links.link[1]} />
-                            )}
-                            {selectedDevice === 'tablet' && (
-                                <TabletViewer site={project.fields.links.link[1]} />
-                            )}
-                            {selectedDevice === 'desktop' && (
-                                <DesktopViewer site={project.fields.links.link[1]} />
-                            )}
+                            <DeviceViewer
+                                device={selectedDevice}
+                                site={project.fields.links.link[1]}
+                            />
                         </div>
                     </>
                 )}
