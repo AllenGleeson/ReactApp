@@ -15,7 +15,7 @@ npm run build    # production build into build/
 npm run preview  # serve the production build locally
 ```
 
-Heroku runs `npm run build` on deploy and serves `build/` with `serve` (see `Procfile`). The app should be on the `heroku-24` stack.
+Heroku runs `npm run build` on deploy and serves `build/` with `serve` (see `Procfile`). The app runs on the `heroku-26` stack.
 
 ## Structure
 
