@@ -1,0 +1,302 @@
+/* ------------------------------------------------------------------
+   Theme tokens. Light is the default; App toggles .dark-mode on <html>.
+   ------------------------------------------------------------------ */
+:root {
+  --bg: #ffffff;
+  --surface: #f5f8f8;
+  --surface-2: #e9f1f1;
+  --text: #1b1f22;
+  --muted: #5b6670;
+  --border: #dde5e5;
+
+  --accent: #99e7e4;          /* decoration: borders, icons, chips */
+  --accent-text: #137f7b;     /* accent colour that is readable as text */
+  --on-accent: #0f2e2d;       /* text on an --accent background */
+  --accent-alt: #ffc228;      /* hover swap, as before */
+  --on-accent-alt: #1a1a1a;
+
+  --radius: 10px;
+  --radius-sm: 6px;
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.06), 0 6px 20px rgba(0, 0, 0, 0.06);
+  --shadow-hover: 0 2px 4px rgba(0, 0, 0, 0.08), 0 12px 32px rgba(0, 0, 0, 0.12);
+
+  --header-height: 72px;
+  --footer-height: 0px;
+
+  color-scheme: light;
+}
+
+:root.dark-mode {
+  --bg: #2f2f2f;
+  --surface: #393939;
+  --surface-2: #444444;
+  --text: #f2f2f2;
+  --muted: #c4c4c4;
+  --border: #4d4d4d;
+
+  --accent: #ffc228;
+  --accent-text: #ffc228;
+  --on-accent: #1a1a1a;
+  --accent-alt: #99e7e4;
+  --on-accent-alt: #0f2e2d;
+
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.25);
+  --shadow-hover: 0 2px 4px rgba(0, 0, 0, 0.35), 0 12px 32px rgba(0, 0, 0, 0.4);
+
+  color-scheme: dark;
+}
+
+/* ------------------------------------------------------------------
+   Base
+   ------------------------------------------------------------------ */
+html {
+  scroll-padding-top: calc(var(--header-height) + 1rem);
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text);
+  line-height: 1.25;
+  font-weight: 700;
+}
+
+a {
+  color: var(--accent-text);
+}
+
+img {
+  -webkit-user-drag: none;
+  max-width: 100%;
+}
+
+.text-muted-theme {
+  color: var(--muted);
+}
+
+.root-layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.root-layout > main {
+  flex: 1;
+  padding-top: 1.5rem;
+  padding-bottom: 3rem;
+}
+
+/* ------------------------------------------------------------------
+   Sections
+   ------------------------------------------------------------------ */
+.section {
+  margin-top: 4rem;
+}
+
+.section:first-child {
+  margin-top: 1rem;
+}
+
+.section-heading {
+  display: inline-block;
+  font-size: clamp(1.35rem, 1.1rem + 1vw, 1.75rem);
+  margin-bottom: 1.5rem;
+  padding-left: 0.75rem;
+  border-left: 4px solid var(--accent);
+}
+
+.section-intro {
+  color: var(--muted);
+  max-width: 60ch;
+  margin-top: -0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.section-header-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.section-header-link {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.section-header-link:hover {
+  text-decoration: underline;
+}
+
+/* ------------------------------------------------------------------
+   Buttons
+   ------------------------------------------------------------------ */
+.btn-accent,
+.btn-outline-accent {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.45rem 0.95rem;
+  border-radius: var(--radius-sm);
+  font-weight: 600;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.15s ease, background-color 0.15s ease, color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.btn-accent {
+  background: var(--accent);
+  color: var(--on-accent);
+  border: 1px solid transparent;
+}
+
+.btn-accent:hover,
+.btn-accent:focus-visible {
+  background: var(--accent-alt);
+  color: var(--on-accent-alt);
+  transform: translateY(-2px);
+}
+
+.btn-outline-accent {
+  background: transparent;
+  color: var(--text);
+  border: 1px solid var(--border);
+}
+
+.btn-outline-accent:hover,
+.btn-outline-accent:focus-visible {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.btn-outline-accent.is-active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--on-accent);
+}
+
+.btn-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+/* ------------------------------------------------------------------
+   Tags (the left-border chip style used across the site)
+   ------------------------------------------------------------------ */
+.tag {
+  display: inline-block;
+  padding: 0.2rem 0.6rem;
+  background: var(--surface);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text);
+  white-space: nowrap;
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+/* ------------------------------------------------------------------
+   Surfaces
+   ------------------------------------------------------------------ */
+.panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.25rem;
+}
+
+/* ------------------------------------------------------------------
+   Carousel controls (Bootstrap)
+   ------------------------------------------------------------------ */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: var(--accent);
+  border-radius: 50%;
+  background-size: 55%;
+  width: 2.25rem;
+  height: 2.25rem;
+}
+
+/* ------------------------------------------------------------------
+   Motion
+   ------------------------------------------------------------------ */
+.fade-in {
+  animation: fade-in-up 0.5s ease-out both;
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ------------------------------------------------------------------
+   Back to top
+   ------------------------------------------------------------------ */
+.back-to-top {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 90;
+  display: grid;
+  place-items: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  border: 0;
+  border-radius: 50%;
+  background: var(--accent);
+  color: var(--on-accent);
+  box-shadow: var(--shadow);
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(10px);
+  transition: opacity 0.2s ease, transform 0.2s ease, background-color 0.15s ease;
+}
+
+.back-to-top.is-visible {
+  opacity: 1;
+  pointer-events: auto;
+  transform: none;
+}
+
+.back-to-top:hover {
+  background: var(--accent-alt);
+  color: var(--on-accent-alt);
+}

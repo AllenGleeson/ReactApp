@@ -1,0 +1,59 @@
+/* ---------- Highlights ---------- */
+.highlight-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr));
+  gap: 1.25rem;
+}
+
+.highlight-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 1.5rem 1.6rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+/* Project-coloured bar that grows on hover */
+.highlight-card::before {
+  content: '';
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 4px;
+  background: var(--project);
+  transition: width 0.2s ease;
+}
+
+.highlight-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-hover);
+  border-color: color-mix(in srgb, var(--project) 45%, var(--border));
+}
+
+.highlight-card:hover::before {
+  width: 6px;
+}
+
+.highlight-number {
+  font-size: 2.25rem;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  color: var(--project);
+  opacity: 0.85;
+  margin-bottom: 0.85rem;
+}
+
+.highlight-title {
+  font-size: 1.15rem;
+  margin-bottom: 0.6rem;
+}
+
+.highlight-text {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--muted);
+}

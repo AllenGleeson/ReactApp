@@ -1,0 +1,13 @@
+/* ---------- Skills ---------- */
+.skill-group + .skill-group {
+  margin-top: 1.25rem;
+}
+
+.skill-group-title {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 0.6rem;
+}

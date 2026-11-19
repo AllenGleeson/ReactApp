@@ -1,0 +1,49 @@
+.qualification-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.qualification {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+}
+
+.qualification-logo {
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-sm);
+  background: #ffffff;
+  border: 1px solid var(--border);
+  overflow: hidden;
+}
+
+.qualification-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 4px;
+}
+
+.qualification-logo-fallback {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #1b1f22;
+}
+
+.qualification-name {
+  font-weight: 600;
+  font-size: 0.95rem;
+  line-height: 1.35;
+}
+
+.qualification-org {
+  font-size: 0.85rem;
+  color: var(--muted);
+}

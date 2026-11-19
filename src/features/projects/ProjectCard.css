@@ -1,0 +1,104 @@
+.project-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-top: 4px solid var(--project);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover,
+.project-card:focus-within {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-hover);
+}
+
+.project-card-media {
+  aspect-ratio: 16 / 10;
+  background: var(--surface-2);
+  overflow: hidden;
+}
+
+.project-card-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+}
+
+.project-card-placeholder {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, var(--project), color-mix(in srgb, var(--project) 40%, #1d1e20));
+  color: var(--on-project);
+  font-size: 4rem;
+  font-weight: 300;
+}
+
+.project-card-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 1.1rem 1.25rem 1.25rem;
+}
+
+.project-card-meta {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.project-card-title {
+  font-size: 1.15rem;
+  margin: 0.15rem 0 0.5rem;
+}
+
+.project-card-title a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.project-card-text {
+  font-size: 0.92rem;
+  color: var(--muted);
+  margin-bottom: 1rem;
+}
+
+.project-card-tags {
+  margin-top: auto;
+}
+
+.project-card .tag {
+  font-size: 0.75rem;
+  border-left-color: var(--project);
+}
+
+.project-card-links {
+  position: relative;
+  z-index: 2; /* sit above the stretched link */
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  padding-top: 0.85rem;
+  border-top: 1px solid var(--border);
+}
+
+.project-card-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.project-card-links a:hover {
+  color: var(--accent-text);
+}

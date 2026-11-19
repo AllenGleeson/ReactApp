@@ -1,0 +1,7 @@
+.end-panel {
+  border-top: 4px solid var(--project);
+}
+
+.end-panel p {
+  margin: 0;
+}

@@ -1,0 +1,21 @@
+.status-badge {
+  display: inline-block;
+  padding: 0.15rem 0.6rem;
+  border-radius: 999px;
+  background: var(--accent);
+  color: var(--on-accent);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.in-development-title {
+  font-size: 1.25rem;
+  margin: 0.75rem 0;
+}
+
+.in-development-text {
+  margin-bottom: 0.75rem;
+  color: var(--text);
+}

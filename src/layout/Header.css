@@ -1,0 +1,128 @@
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: color-mix(in srgb, var(--bg) 88%, transparent);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--border);
+}
+
+.site-header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  min-height: var(--header-height);
+}
+
+.brand {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.15;
+  text-decoration: none;
+  color: var(--text);
+  padding-left: 0.65rem;
+  border-left: 4px solid var(--accent);
+}
+
+.brand-name {
+  white-space: nowrap;
+  font-size: 1.25rem;
+  font-weight: 300;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.brand-role {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.site-nav-link {
+  position: relative;
+  padding: 0.4rem 0.75rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--text);
+}
+
+.site-nav-link::after {
+  content: '';
+  position: absolute;
+  left: 0.75rem;
+  right: 0.75rem;
+  bottom: 0.1rem;
+  height: 3px;
+  border-radius: 2px;
+  background: var(--accent);
+  transform: scaleX(0);
+  transition: transform 0.2s ease;
+}
+
+.site-nav-link:hover::after,
+.site-nav-link.is-active::after {
+  transform: scaleX(1);
+}
+
+.theme-toggle {
+  display: inline-grid;
+  place-items: center;
+  width: 2.4rem;
+  height: 2.4rem;
+  margin-left: 0.5rem;
+  border: 0;
+  border-radius: 50%;
+  background: var(--accent);
+  color: var(--on-accent);
+  font-size: 1.1rem;
+  transition: background-color 0.15s ease, transform 0.15s ease;
+}
+
+.theme-toggle:hover {
+  background: var(--accent-alt);
+  color: var(--on-accent-alt);
+  transform: rotate(-15deg);
+}
+
+@media (max-width: 480px) {
+  :root {
+    --header-height: 64px;
+  }
+
+  .brand-name {
+    font-size: 0.95rem;
+    letter-spacing: 0.05em;
+  }
+
+  .brand-role {
+    font-size: 0.62rem;
+  }
+
+  .site-nav-link {
+    padding: 0.4rem 0.5rem;
+    font-size: 0.82rem;
+  }
+
+  .site-nav-link::after {
+    left: 0.5rem;
+    right: 0.5rem;
+  }
+
+  .theme-toggle {
+    width: 2.1rem;
+    height: 2.1rem;
+    margin-left: 0.25rem;
+  }
+}

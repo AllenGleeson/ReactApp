@@ -52,20 +52,6 @@
                     "Secure authentication system using JWT tokens with Spring Security integration. Users can register, login, and manage profiles with customizable bios, profile images, and location settings. Profile privacy controls allow users to set their profiles as public or private.",
                     "Location-tagged posts supporting both text and image content. Posts can be set as public or friends-only visibility. Each post includes geographic coordinates enabling map-based discovery. Users can comment on posts and view post locations directly on the map interface.",
                     "Comprehensive friend management system with friend request functionality. Users can send, accept, or decline friend requests. The system tracks friendship status and enables filtering posts and users by friend connections. Includes nearby users discovery based on geographic proximity."
-                ],
-                "images": [
-                    null,
-                    null,
-                    null,
-                    null,
-                    null
-                ],
-                "admin": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
                 ]
             },
             "endDescriptions": {
@@ -130,20 +116,6 @@
                     "Handles student enrolment operations through bi-directional streaming RPCs. Supports enrol, unenrol, and status checking operations with real-time response streaming.",
                     "Tracks student progress through client-streaming RPCs allowing batch progress updates. Provides progress querying capabilities and maintains learning progress data.",
                     "Uses JmDNS for automatic service discovery, allowing services to advertise themselves on the network and clients to discover available services dynamically."
-                ],
-                "images": [
-                    null,
-                    null,
-                    null,
-                    null,
-                    null
-                ],
-                "admin": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
                 ]
             },
             "endDescriptions": {
@@ -189,7 +161,7 @@
             "links": {
                 "link": [
                     "https://github.com/AllenGleeson/mars-sols",
-                    "https://mar-sols-1855b33e27fe.herokuapp.com/"
+                    "https://allengleeson.github.io/MarsSols/"
                 ],
                 "linkName": [
                     "GitHub",
@@ -211,20 +183,6 @@
                     "Backend aggregates data from multiple NASA APIs including InSight Weather Service and Mars Rover Photos API. Implements concurrent API calls for efficient data fetching and provides a unified REST API endpoint for the frontend.",
                     "Responsive design using Bootstrap with mobile-friendly layouts. Charts adapt to different screen sizes and include interactive tooltips and legends for enhanced user experience.",
                     "Integrates with NASA's public APIs including Mars Weather Service for atmospheric data and Mars Rover Photos API for imagery. Implements proper error handling and fallback mechanisms for API failures."
-                ],
-                "images": [
-                    "mars-home.webp",
-                    null,
-                    null,
-                    null,
-                    null
-                ],
-                "admin": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
                 ]
             },
             "endDescriptions": {
@@ -261,7 +219,7 @@
             "technologies": [
                 "HTML",
                 "CSS",
-                "JS",
+                "JavaScript",
                 "Bootstrap"
             ],
             "links": {
@@ -296,20 +254,6 @@
                     "The Order page provides a streamlined checkout experience with a multi-step form. The first step collects delivery details including name, address, and contact information. The second step handles payment information with options for packaging preferences. The page also displays the user's selected items and total cost in a sidebar, ensuring transparency throughout the ordering process.",
                     "The About page features an engaging interactive cake decoration game where users can customize cakes with different toppings (sprinkles, blueberries, cherries) and flavors (vanilla, pineapple, chocolate). The page includes information about the bakery's commitment to fresh, organic ingredients and provides a delightful way for customers to engage with the brand while learning about the business.",
                     "The Shopping Bag functionality is prominently displayed in the top-right corner of every page, providing persistent access to cart management. Users can click the shopping bag icon to view their current cart contents, edit quantities, or remove items. The bag displays the total cost in euros and updates in real-time as items are added or modified. This feature ensures a seamless shopping experience across all pages of the website."
-                ],
-                "images": [
-                    "bens-bakery-home.webp",
-                    "bens-bakery-menu.webp",
-                    "bens-bakery-order.webp",
-                    "bens-bakery-about.webp",
-                    "bens-bakery-bag.webp"
-                ],
-                "admin": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
                 ]
             },
             "endDescriptions": {
@@ -346,10 +290,10 @@
             "technologies": [
                 "HTML",
                 "CSS",
-                "JS",
+                "JavaScript",
                 "Python",
                 "Django",
-                "PostgesSQL",
+                "PostgreSQL",
                 "React",
                 "AWS S3",
                 "AWS RDS",
@@ -363,7 +307,7 @@
             "links": {
                 "link": [
                     "https://github.com/AllenGleeson/coffee",
-                    "https://adig-coffeeshop-e5122ea78847.herokuapp.com/"
+                    "https://allengleeson.github.io/coffee/"
                 ],
                 "linkName": [
                     "GitHub",
@@ -388,16 +332,6 @@
                     "The Home page showcases a dynamic and engaging layout, beginning with a carousel that includes a personalized greeting message. Following the carousel, there is a banner that highlights key aspects of the business, offering visitors a quick overview of its unique offerings.\n\nEmbedded within the page is a Vimeo video, providing a visual and interactive representation of the brand, which is complemented by a live Instagram feed that keeps the page updated with the latest posts and content from the business's social media presence.\n\nAdditionally, the page features an About section, which includes an interactive Google Maps integration with a custom map marker, making it easy for users to locate the business. Together, these elements create a well-rounded and immersive experience for visitors, combining multimedia content with essential business information.",
                     "The Menu page allows users to view the business's menu in a convenient PDF format. This menu is uploaded directly by the site owner through Djangos Admin interface, providing flexibility for updates or changes. Once uploaded, the PDF is securely stored in an AWS S3 Bucket, ensuring reliability and scalability for file storage. This feature streamlines menu management, allowing the owner to keep their offerings up-to-date with ease, while also ensuring that visitors can access the latest version of the menu quickly and efficiently.",
                     "The Contact page is a simple form made purely in React with no backend as it is for display purposes only as may not be wanted for all owners."
-                ],
-                "images": [
-                    "adig-coffeeshop-home.webp",
-                    "adig-coffeeshop-menu.webp",
-                    "adig-coffeeshop-contact.webp"
-                ],
-                "admin": [
-                    false,
-                    false,
-                    false
                 ]
             },
             "endDescriptions": {
@@ -434,10 +368,10 @@
             "technologies": [
                 "HTML",
                 "CSS",
-                "JS",
+                "JavaScript",
                 "Python",
                 "Django",
-                "PostgesSQL",
+                "PostgreSQL",
                 "AWS S3",
                 "Stripe Payments",
                 "AWS RDS",
@@ -449,7 +383,7 @@
             "links": {
                 "link": [
                     "https://github.com/AllenGleeson/Ellas_Design",
-                    "https://ellas-design-231d819e785f.herokuapp.com/"
+                    "https://allengleeson.github.io/Ellas_Design/"
                 ],
                 "linkName": [
                     "GitHub",
@@ -473,7 +407,7 @@
                     "About"
                 ],
                 "descriptions": [
-                    "The site is designed for users to buy from the shop aswell as allowing the admin to add, edit, update and delete products. The site works on any screen size. Click Mobile Version below to see the mobile version of the site or Admin View to see what the admin sees on each page.",
+                    "The site is designed for users to buy from the shop aswell as allowing the admin to add, edit, update and delete products. The site works on any screen size.",
                     "The home page consists of a background image and link to the shop. The image is a selection of fabrics that the client has developed.",
                     "The shop displays all of Ellas products on cards. Clicking on any card will bring to the products page. There is a nice flower animation playing on this page that I found online. Here the admin can also add new products.",
                     "The product page shows more detail on a specific product and allows the user to choose a quantity and add it to the Bag. Anything added to the bag shows as the price on the top right of the screen. As an admin you can edit or delete the product from here.",
@@ -485,34 +419,6 @@
                     "A user can create an account to store their delivery details as well as see their order history. Just simply click the profile at the top right of navigation and register.",
                     "The contact page has a form for users to get in touch with the client. When submitted it will sent an email to the client.",
                     "An about page with some links to the clients social media."
-                ],
-                "images": [
-                    null,
-                    "ellas_design_home.webp",
-                    "ellas_design_shop.webp",
-                    "ellas_design_product.webp",
-                    "ellas_design_bag.webp",
-                    "ellas_design_checkout.webp",
-                    "ellas_design_order.webp",
-                    "ellas_design_manage.webp",
-                    "ellas_design_crud.webp",
-                    "ellas_design_profile.webp",
-                    "ellas_design_contact.webp",
-                    "ellas_design_about.webp"
-                ],
-                "admin": [
-                    false,
-                    false,
-                    false,
-                    true,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
                 ]
             },
             "endDescriptions": {
@@ -549,7 +455,7 @@
             "technologies": [
                 "HTML",
                 "CSS",
-                "JS",
+                "JavaScript",
                 "jQuery",
                 "Python",
                 "Flask",
@@ -559,7 +465,7 @@
             "links": {
                 "link": [
                     "https://github.com/AllenGleeson/Lazy-Hunger",
-                    "https://lazy-hunger-9742fb5be98d.herokuapp.com/"
+                    "https://allengleeson.github.io/Lazy-Hunger/"
                 ],
                 "linkName": [
                     "GitHub",
@@ -577,16 +483,6 @@
                     "On the home page you can find any recipes currently on the database. They can be deleted by others though, so grab the recipe while it is there.",
                     "Click to create a recipe and you can fill in all the details. Add some ingrediants and cooking methods with the plus buttons and add a personal image if you like.",
                     "Clicking on any recipe you can see the details and if you wish you can click to edit the recipe or delete if you dare let others miss out.. Maybe it should be missed. On edit the pages looks the page as creating a recipe but the details are already there for you to change. Editing a recipe you can change anything, the title, description, image or add or remove ingrediants or methods."
-                ],
-                "images": [
-                    "lazy_hunger_home.webp",
-                    "lazy_hunger_create.webp",
-                    "lazy_hunger_view.webp"
-                ],
-                "admin": [
-                    false,
-                    false,
-                    false
                 ]
             },
             "endDescriptions": {
@@ -623,7 +519,7 @@
             "technologies": [
                 "HTML",
                 "CSS",
-                "JS",
+                "JavaScript",
                 "Bootstrap",
                 "Google Maps API",
                 "Wikipedia API",
@@ -650,16 +546,6 @@
                     "I use google maps API and search for tourist attractions within 50miles of a location then I find an image and use Wikipedias API to gather information about that attraction. The about page also uses an Weather API to show the current temperature on the four sides of Ireland.",
                     "The home page has a nice image of Irelands countryside as well as the google map. Click on one of the city buttons or pictures on the map will zoom in to show markers for attractions in the area and will display cards below the map of any attraction it found near the location as well as information about the locations.",
                     "On the about page you can find more information about Ireland as well as a Carousel to display some nice images of the country. Down at the bottom of the page you will find the weather API working with todays current temperatures."
-                ],
-                "images": [
-                    null,
-                    "find_ireland.webp",
-                    "find_ireland_about.webp"
-                ],
-                "admin": [
-                    false,
-                    false,
-                    false
                 ]
             },
             "endDescriptions": {
@@ -721,18 +607,6 @@
                     "The gallery is three HTML pages navigated through a paginator. These pages are the gallery and display a collection of the artists art and photos.",
                     "The poems page displays two of the artists poems and images attached.",
                     "The contact page has another message from the artist as well as an image they like and an embedded YouTube video. Below there is a contact form that but no functionality as the site has no backend."
-                ],
-                "images": [
-                    "amg_home.webp",
-                    "amg_gallery.webp",
-                    "amg_poems.webp",
-                    "amg_contact.webp"
-                ],
-                "admin": [
-                    false,
-                    false,
-                    false,
-                    false
                 ]
             },
             "endDescriptions": {
@@ -786,14 +660,6 @@
                 "descriptions": [
                     "Ask the user at the beginning of the application how many items they would like to check, and ensure that the application enables the user to provide that amount of items and for each item check its validity.",
                     "To there are a few rules to validate the SSiD. It starts with five-digit sequence number (i.e. SSSSS-LLL CC) in descending order. Continues with a dash followed by three letters unique to the service provider Eir. Continues with a space and ends with a two-character sequence. The first character of the two-character sequence should be a digit followed by a letter randomly selected from English alphabet. A digit is any of the ten numbers from 0 to 9. Further, the digits should be unique in the five-digit sequence."
-                ],
-                "images": [
-                    null,
-                    null
-                ],
-                "admin": [
-                    false,
-                    false
                 ]
             },
             "endDescriptions": {
@@ -844,9 +710,7 @@
             "coauthors": null,
             "fields": {
                 "sectionTitle": null,
-                "descriptions": null,
-                "images": null,
-                "admin": null
+                "descriptions": []
             },
             "endDescriptions": {
                 "titles": [
@@ -882,7 +746,7 @@
             "technologies": [
                 "HTML",
                 "CSS",
-                "JS"
+                "JavaScript"
             ],
             "links": {
                 "link": [
@@ -897,9 +761,7 @@
             "coauthors": null,
             "fields": {
                 "sectionTitle": null,
-                "descriptions": null,
-                "images": null,
-                "admin": null
+                "descriptions": []
             },
             "endDescriptions": {
                 "titles": [
@@ -955,14 +817,6 @@
                 "descriptions": [
                     "Once data is scrapped I then use xlsxwriter to save it on to an Excel file.",
                     "Connection made to MongoDB and data is sent there at same time as writing to excel file."
-                ],
-                "images": [
-                    "review_scrapper_excel.jpg.webp",
-                    "reviewscraper_mongo.webp"
-                ],
-                "admin": [
-                    false,
-                    false
                 ]
             },
             "endDescriptions": {
@@ -1013,9 +867,7 @@
             "coauthors": null,
             "fields": {
                 "sectionTitle": null,
-                "descriptions": null,
-                "images": null,
-                "admin": null
+                "descriptions": []
             },
             "endDescriptions": {
                 "titles": [
@@ -1051,7 +903,7 @@
             "technologies": [
                 "HTML",
                 "CSS",
-                "JS"
+                "JavaScript"
             ],
             "links": {
                 "link": [
@@ -1066,9 +918,7 @@
             "coauthors": null,
             "fields": {
                 "sectionTitle": null,
-                "descriptions": null,
-                "images": null,
-                "admin": null
+                "descriptions": []
             },
             "endDescriptions": {
                 "titles": [
@@ -1104,7 +954,7 @@
             "technologies": [
                 "HTML",
                 "CSS",
-                "JS"
+                "JavaScript"
             ],
             "links": {
                 "link": [
@@ -1119,9 +969,7 @@
             "coauthors": null,
             "fields": {
                 "sectionTitle": null,
-                "descriptions": null,
-                "images": null,
-                "admin": null
+                "descriptions": []
             },
             "endDescriptions": {
                 "titles": [
